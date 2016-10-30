@@ -1,0 +1,1 @@
+sh ../../tarql/target/appassembler/bin/tarql -d ";" -H ./triplifier/triplifier-countries.sparql  ./input/countries.csv 

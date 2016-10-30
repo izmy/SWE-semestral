@@ -1,0 +1,19 @@
+Name: The World's Largest Companies 2014
+Link: www.macrofocus.com/treemap/Forbes%20Global%202000%20-%202014.xls
+Format: XLSX
+Tool: exported XLS to CSV, Tarql
+
+--------------
+
+Name: Countries
+Link: https://www.worlddata.info/download/countries.csv
+Format: CSV
+Tool: Tarql
+
+--------------
+
+Name: Economy & Growth (GDP, inflation, unemployment)
+Link: http://databank.worldbank.org/data/SWE/id/ef60e168
+Format: CSV
+Tool: Tarql
+
