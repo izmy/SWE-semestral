@@ -6,7 +6,7 @@ Tool: exported XLS to CSV, Tarql
 --------------
 
 Name: Countries
-Link: https://www.worlddata.info/download/countries.csv
+Link: https://raw.githubusercontent.com/lorey/list-of-countries/master/csv/countries.csv
 Format: CSV
 Tool: Tarql
 

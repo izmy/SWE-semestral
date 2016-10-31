@@ -1,0 +1,23 @@
+PREFIX company: <http://hrachjar.cz/company/#>
+PREFIX country: <http://hrachjar.cz/country/#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dbo: <http://dbpedia.org/ontology/#>
+
+CONSTRUCT {
+    ?aUri a company:Company;
+          foaf:name ?name;
+          company:sector ?sector;
+          country:country ?cUri;
+          dbo:rank ?rank;
+}
+WHERE {
+  BIND(IRI(CONCAT('http://hrachjar.cz/company/', LCASE(REPLACE(?a, " ", "-")))) AS ?aUri)
+  BIND(xsd:string(?a) AS ?name)
+  BIND(xsd:string(?c) AS ?sector)
+  BIND(IRI(CONCAT('http://hrachjar.cz/country/', LCASE(REPLACE(?d, " ", "-")) , "/", LCASE(REPLACE(?e, " ", "-")))) AS ?cUri)
+  BIND(xsd:integer(?j) AS ?rank)
+}
+OFFSET 1

@@ -1,0 +1,2058 @@
+@prefix dbo:  <http://dbpedia.org/ontology/#> .
+@prefix country:  <http://hrachjar.cz/country/#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix economy:  <http://hrachjar.cz/economy/#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/#> .
+
+<http://hrachjar.cz/economy/afg>
+        rdf:type                    economy:Economy ;
+        country:name                "Afghanistan"@en ;
+        economy:gdb                 "20050189881.6659"^^xsd:double ;
+        economy:gdbGrowth           "1.31253090764642"^^xsd:double ;
+        economy:gdpPerCapita        "633.947864294639"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-1.71461102327001"^^xsd:double ;
+        economy:inflationGDP        "0.243080560140356"^^xsd:double ;
+        economy:inflationPPI        "4.60433400900534"^^xsd:double .
+
+<http://hrachjar.cz/economy/alb>
+        rdf:type                    economy:Economy ;
+        country:name                "Albania"@en ;
+        economy:gdb                 "13277963807.0823"^^xsd:double ;
+        economy:gdbGrowth           "2"^^xsd:double ;
+        economy:gdpPerCapita        "4588.64944014811"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.1056781494954"^^xsd:double ;
+        economy:inflationGDP        "1.66838606009784"^^xsd:double ;
+        economy:inflationPPI        "1.63177798824094"^^xsd:double ;
+        economy:unemployment        "17.5"^^xsd:double .
+
+<http://hrachjar.cz/economy/dza>
+        rdf:type                    economy:Economy ;
+        country:name                "Algeria"@en ;
+        economy:gdb                 "213518488688.12"^^xsd:double ;
+        economy:gdbGrowth           "3.79999999999987"^^xsd:double ;
+        economy:gdpPerCapita        "5484.0668056148"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.8052809892676"^^xsd:double ;
+        economy:inflationGDP        "-0.412084646482015"^^xsd:double ;
+        economy:inflationPPI        "2.91640641265896"^^xsd:double ;
+        economy:unemployment        "10.6000003814697"^^xsd:double .
+
+<http://hrachjar.cz/economy/asm>
+        rdf:type      economy:Economy ;
+        country:name  "American Samoa"@en .
+
+<http://hrachjar.cz/economy/ado>
+        rdf:type      economy:Economy ;
+        country:name  "Andorra"@en .
+
+<http://hrachjar.cz/economy/ago>
+        rdf:type                    economy:Economy ;
+        country:name                "Angola"@en ;
+        economy:gdb                 "126775134686.437"^^xsd:double ;
+        economy:gdbGrowth           "4.80447270408375"^^xsd:double ;
+        economy:gdpPerCapita        "5232.69050054132"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.43324784112657"^^xsd:double ;
+        economy:inflationGDP        "-1.37106621561887"^^xsd:double ;
+        economy:inflationPPI        "7.27956154105362"^^xsd:double .
+
+<http://hrachjar.cz/economy/atg>
+        rdf:type                    economy:Economy ;
+        country:name                "Antigua and Barbuda"@en ;
+        economy:gdb                 "1220976000"^^xsd:double ;
+        economy:gdbGrowth           "4.8219802933227"^^xsd:double ;
+        economy:gdpPerCapita        "13432.0792079208"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.76684154779585"^^xsd:double ;
+        economy:inflationGDP        "-2.9800730743677"^^xsd:double ;
+        economy:inflationPPI        "1.08944157435359"^^xsd:double .
+
+<http://hrachjar.cz/economy/arg>
+        rdf:type                    economy:Economy ;
+        country:name                "Argentina"@en ;
+        economy:gdb                 "529726189460.922"^^xsd:double ;
+        economy:gdbGrowth           "-2.55847744625616"^^xsd:double ;
+        economy:gdpPerCapita        "12324.9387857728"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-3.55992086617138"^^xsd:double ;
+        economy:inflationGDP        "40.714601573484"^^xsd:double ;
+        economy:unemployment        "7.30000019073486"^^xsd:double .
+
+<http://hrachjar.cz/economy/arm>
+        rdf:type                    economy:Economy ;
+        country:name                "Armenia"@en ;
+        economy:gdb                 "11644438422.9844"^^xsd:double ;
+        economy:gdbGrowth           "3.49999999884847"^^xsd:double ;
+        economy:gdpPerCapita        "3873.53356580682"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.01929708077309"^^xsd:double ;
+        economy:inflationGDP        "2.71611112988137"^^xsd:double ;
+        economy:inflationPPI        "2.98098807302369"^^xsd:double .
+
+<http://hrachjar.cz/economy/abw>
+        rdf:type              economy:Economy ;
+        country:name          "Aruba"@en ;
+        economy:inflationPPI  "0.420998172168936"^^xsd:double .
+
+<http://hrachjar.cz/economy/aus>
+        rdf:type                    economy:Economy ;
+        country:name                "Australia"@en ;
+        economy:gdb                 "1454675479665.84"^^xsd:double ;
+        economy:gdbGrowth           "2.4998512224341"^^xsd:double ;
+        economy:gdpPerCapita        "61995.8296976"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.98519256861276"^^xsd:double ;
+        economy:inflationGDP        "1.41362111752757"^^xsd:double ;
+        economy:inflationPPI        "2.48792270531402"^^xsd:double ;
+        economy:unemployment        "6.09999990463257"^^xsd:double .
+
+<http://hrachjar.cz/economy/aut>
+        rdf:type                    economy:Economy ;
+        country:name                "Austria"@en ;
+        economy:gdb                 "436887543466.95"^^xsd:double ;
+        economy:gdbGrowth           "0.353471065680438"^^xsd:double ;
+        economy:gdpPerCapita        "51148.3588760796"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-0.37730585781263"^^xsd:double ;
+        economy:inflationGDP        "1.62830258780191"^^xsd:double ;
+        economy:inflationPPI        "1.60580560487981"^^xsd:double ;
+        economy:unemployment        "5.59999990463257"^^xsd:double .
+
+<http://hrachjar.cz/economy/aze>
+        rdf:type                    economy:Economy ;
+        country:name                "Azerbaijan"@en ;
+        economy:gdb                 "75198010965.1919"^^xsd:double ;
+        economy:gdbGrowth           "2"^^xsd:double ;
+        economy:gdpPerCapita        "7886.45914367274"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.734739796072986"^^xsd:double ;
+        economy:inflationGDP        "0.1961117293896"^^xsd:double ;
+        economy:inflationPPI        "1.38502893070292"^^xsd:double ;
+        economy:unemployment        "4.90000009536743"^^xsd:double .
+
+<http://hrachjar.cz/economy/bhs>
+        rdf:type                    economy:Economy ;
+        country:name                "Bahamas, The"@en ;
+        economy:gdb                 "8510500000"^^xsd:double ;
+        economy:gdbGrowth           "1.02278610479254"^^xsd:double ;
+        economy:gdpPerCapita        "22217.4941392075"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-0.352037768510655"^^xsd:double ;
+        economy:inflationGDP        "-0.0879170845999937"^^xsd:double ;
+        economy:inflationPPI        "1.50446439884784"^^xsd:double .
+
+<http://hrachjar.cz/economy/bhr>
+        rdf:type                    economy:Economy ;
+        country:name                "Bahrain"@en ;
+        economy:gdb                 "33851063829.7872"^^xsd:double ;
+        economy:gdbGrowth           "4.48093515168384"^^xsd:double ;
+        economy:gdpPerCapita        "24855.2156350086"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.52176314416397"^^xsd:double ;
+        economy:inflationGDP        "-1.51480012868713"^^xsd:double ;
+        economy:inflationPPI        "2.65119549929705"^^xsd:double .
+
+<http://hrachjar.cz/economy/bgd>
+        rdf:type                    economy:Economy ;
+        country:name                "Bangladesh"@en ;
+        economy:gdb                 "172885454931.453"^^xsd:double ;
+        economy:gdbGrowth           "6.06109305375394"^^xsd:double ;
+        economy:gdpPerCapita        "1086.80008676935"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "4.78090004537268"^^xsd:double ;
+        economy:inflationGDP        "5.66875495751124"^^xsd:double ;
+        economy:inflationPPI        "6.99116532700683"^^xsd:double .
+
+<http://hrachjar.cz/economy/brb>
+        rdf:type                    economy:Economy ;
+        country:name                "Barbados"@en ;
+        economy:gdb                 "4354500000"^^xsd:double ;
+        economy:gdbGrowth           "0.180342651036966"^^xsd:double ;
+        economy:gdpPerCapita        "15366.2926106288"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-0.129693909429392"^^xsd:double ;
+        economy:inflationGDP        "1.53377986712478"^^xsd:double ;
+        economy:inflationPPI        "1.88717024578285"^^xsd:double .
+
+<http://hrachjar.cz/economy/blr>
+        rdf:type                    economy:Economy ;
+        country:name                "Belarus"@en ;
+        economy:gdb                 "76103961203.4406"^^xsd:double ;
+        economy:gdbGrowth           "1.72308600283803"^^xsd:double ;
+        economy:gdpPerCapita        "8025.30435552468"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.54072889411209"^^xsd:double ;
+        economy:inflationGDP        "17.840387504076"^^xsd:double ;
+        economy:inflationPPI        "18.1195543526734"^^xsd:double ;
+        economy:unemployment        "0.5"^^xsd:double .
+
+<http://hrachjar.cz/economy/bel>
+        rdf:type                    economy:Economy ;
+        country:name                "Belgium"@en ;
+        economy:gdb                 "531234803749.453"^^xsd:double ;
+        economy:gdbGrowth           "1.29547335319668"^^xsd:double ;
+        economy:gdpPerCapita        "47299.8601085612"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.858984816437442"^^xsd:double ;
+        economy:inflationGDP        "0.665221919239073"^^xsd:double ;
+        economy:inflationPPI        "0.340000000000007"^^xsd:double ;
+        economy:unemployment        "8.5"^^xsd:double .
+
+<http://hrachjar.cz/economy/blz>
+        rdf:type                    economy:Economy ;
+        country:name                "Belize"@en ;
+        economy:gdb                 "1717861750"^^xsd:double ;
+        economy:gdbGrowth           "4.08191649179518"^^xsd:double ;
+        economy:gdpPerCapita        "4884.3686203818"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.85856107959619"^^xsd:double ;
+        economy:inflationGDP        "1.51688985653939"^^xsd:double ;
+        economy:inflationPPI        "1.20139964480964"^^xsd:double .
+
+<http://hrachjar.cz/economy/ben>
+        rdf:type                    economy:Economy ;
+        country:name                "Benin"@en ;
+        economy:gdb                 "9575356734.7269"^^xsd:double ;
+        economy:gdbGrowth           "6.54148665115765"^^xsd:double ;
+        economy:gdpPerCapita        "903.464924007693"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.76447710513187"^^xsd:double ;
+        economy:inflationGDP        "-1.2790816110878"^^xsd:double ;
+        economy:inflationPPI        "-1.08574446857182"^^xsd:double .
+
+<http://hrachjar.cz/economy/bmu>
+        rdf:type      economy:Economy ;
+        country:name  "Bermuda"@en .
+
+<http://hrachjar.cz/economy/btn>
+        rdf:type                    economy:Economy ;
+        country:name                "Bhutan"@en ;
+        economy:gdb                 "1958819914.95916"^^xsd:double ;
+        economy:gdbGrowth           "5.45881731232578"^^xsd:double ;
+        economy:gdpPerCapita        "2560.52213174131"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "4.02914155161984"^^xsd:double ;
+        economy:inflationGDP        "7.57214433019631"^^xsd:double ;
+        economy:inflationPPI        "8.2065451461993"^^xsd:double ;
+        economy:unemployment        "2.59999990463257"^^xsd:double .
+
+<http://hrachjar.cz/economy/bol>
+        rdf:type                    economy:Economy ;
+        country:name                "Bolivia"@en ;
+        economy:gdb                 "32996187988.4226"^^xsd:double ;
+        economy:gdbGrowth           "5.460569751994"^^xsd:double ;
+        economy:gdpPerCapita        "3124.08076212353"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.84343712836777"^^xsd:double ;
+        economy:inflationGDP        "2.04949725388374"^^xsd:double ;
+        economy:inflationPPI        "5.78356372228235"^^xsd:double .
+
+<http://hrachjar.cz/economy/bih>
+        rdf:type                    economy:Economy ;
+        country:name                "Bosnia and Herzegovina"@en ;
+        economy:gdb                 "18521476054.8094"^^xsd:double ;
+        economy:gdbGrowth           "1.08187593166609"^^xsd:double ;
+        economy:gdpPerCapita        "4851.66052786926"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.24018896042624"^^xsd:double ;
+        economy:inflationGDP        "1.00600715910959"^^xsd:double .
+
+<http://hrachjar.cz/economy/bwa>
+        rdf:type                    economy:Economy ;
+        country:name                "Botswana"@en ;
+        economy:gdb                 "15880195735.2892"^^xsd:double ;
+        economy:gdbGrowth           "3.20391509263389"^^xsd:double ;
+        economy:gdpPerCapita        "7153.44432535212"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.18501256489199"^^xsd:double ;
+        economy:inflationGDP        "11.0466593260104"^^xsd:double ;
+        economy:inflationPPI        "4.40313594004261"^^xsd:double .
+
+<http://hrachjar.cz/economy/bra>
+        rdf:type                    economy:Economy ;
+        country:name                "Brazil"@en ;
+        economy:gdb                 "2417046323841.9"^^xsd:double ;
+        economy:gdbGrowth           "0.103371359100009"^^xsd:double ;
+        economy:gdpPerCapita        "11728.7993875108"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-0.779984327046009"^^xsd:double ;
+        economy:inflationGDP        "6.86513891934824"^^xsd:double ;
+        economy:inflationPPI        "6.33209234205231"^^xsd:double ;
+        economy:unemployment        "4.80000019073486"^^xsd:double .
+
+<http://hrachjar.cz/economy/vgb>
+        rdf:type      economy:Economy ;
+        country:name  "British Virgin Islands"@en .
+
+<http://hrachjar.cz/economy/brn>
+        rdf:type                    economy:Economy ;
+        country:name                "Brunei Darussalam"@en ;
+        economy:gdb                 "17104656669.2976"^^xsd:double ;
+        economy:gdbGrowth           "-2.33999983542209"^^xsd:double ;
+        economy:gdpPerCapita        "40979.6419433378"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-3.71928583610773"^^xsd:double ;
+        economy:inflationGDP        "10.0863006857869"^^xsd:double ;
+        economy:inflationPPI        "-0.194426291746023"^^xsd:double .
+
+<http://hrachjar.cz/economy/bgr>
+        rdf:type                    economy:Economy ;
+        country:name                "Bulgaria"@en ;
+        economy:gdb                 "56717054673.7214"^^xsd:double ;
+        economy:gdbGrowth           "1.55000000000003"^^xsd:double ;
+        economy:gdpPerCapita        "7851.26542804234"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.12884277938157"^^xsd:double ;
+        economy:inflationGDP        "0.44536464987155"^^xsd:double ;
+        economy:inflationPPI        "-1.41812266154145"^^xsd:double ;
+        economy:unemployment        "11.3999996185303"^^xsd:double .
+
+<http://hrachjar.cz/economy/bfa>
+        rdf:type                    economy:Economy ;
+        country:name                "Burkina Faso"@en ;
+        economy:gdb                 "12549126616.147"^^xsd:double ;
+        economy:gdbGrowth           "4.04779603140109"^^xsd:double ;
+        economy:gdpPerCapita        "713.456441626675"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.06260614494518"^^xsd:double ;
+        economy:inflationGDP        "-0.363922929265073"^^xsd:double ;
+        economy:inflationPPI        "-0.25808951753505"^^xsd:double .
+
+<http://hrachjar.cz/economy/bdi>
+        rdf:type                    economy:Economy ;
+        country:name                "Burundi"@en ;
+        economy:gdb                 "3093647226.8107"^^xsd:double ;
+        economy:gdbGrowth           "4.66091818447367"^^xsd:double ;
+        economy:gdpPerCapita        "286.002335872952"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.26569805110317"^^xsd:double ;
+        economy:inflationGDP        "8.30340229746645"^^xsd:double ;
+        economy:inflationPPI        "4.37984004062461"^^xsd:double .
+
+<http://hrachjar.cz/economy/cpv>
+        rdf:type                    economy:Economy ;
+        country:name                "Cabo Verde"@en ;
+        economy:gdb                 "1871187070.99534"^^xsd:double ;
+        economy:gdbGrowth           "2.79984680285727"^^xsd:double ;
+        economy:gdpPerCapita        "3641.10765586575"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.47000558375223"^^xsd:double ;
+        economy:inflationGDP        "-0.887105927118085"^^xsd:double ;
+        economy:inflationPPI        "-0.243630794932763"^^xsd:double .
+
+<http://hrachjar.cz/economy/khm>
+        rdf:type                    economy:Economy ;
+        country:name                "Cambodia"@en ;
+        economy:gdb                 "16777820332.7059"^^xsd:double ;
+        economy:gdbGrowth           "7.07152535164744"^^xsd:double ;
+        economy:gdpPerCapita        "1094.57668777899"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "5.32819173788897"^^xsd:double ;
+        economy:inflationGDP        "1.68277735698037"^^xsd:double ;
+        economy:inflationPPI        "3.85523855347905"^^xsd:double .
+
+<http://hrachjar.cz/economy/cmr>
+        rdf:type                    economy:Economy ;
+        country:name                "Cameroon"@en ;
+        economy:gdb                 "32050817632.9602"^^xsd:double ;
+        economy:gdbGrowth           "5.92696495921939"^^xsd:double ;
+        economy:gdpPerCapita        "1407.40341322234"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.31357116740915"^^xsd:double ;
+        economy:inflationGDP        "2.41119539844958"^^xsd:double ;
+        economy:inflationPPI        "1.94794826760403"^^xsd:double .
+
+<http://hrachjar.cz/economy/can>
+        rdf:type                    economy:Economy ;
+        country:name                "Canada"@en ;
+        economy:gdb                 "1783775590895.93"^^xsd:double ;
+        economy:gdbGrowth           "2.47289263838321"^^xsd:double ;
+        economy:gdpPerCapita        "50185.4814970346"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.35382449031522"^^xsd:double ;
+        economy:inflationGDP        "1.75649117094147"^^xsd:double ;
+        economy:inflationPPI        "1.90663590717818"^^xsd:double ;
+        economy:unemployment        "6.90000009536743"^^xsd:double .
+
+<http://hrachjar.cz/economy/cym>
+        rdf:type      economy:Economy ;
+        country:name  "Cayman Islands"@en .
+
+<http://hrachjar.cz/economy/caf>
+        rdf:type                    economy:Economy ;
+        country:name                "Central African Republic"@en ;
+        economy:gdb                 "1691091491.96525"^^xsd:double ;
+        economy:gdbGrowth           "-1.25710848937553"^^xsd:double ;
+        economy:gdpPerCapita        "351.994226017866"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-3.18164610831479"^^xsd:double ;
+        economy:inflationGDP        "14.7146458473098"^^xsd:double .
+
+<http://hrachjar.cz/economy/tcd>
+        rdf:type                    economy:Economy ;
+        country:name                "Chad"@en ;
+        economy:gdb                 "13922223233.5184"^^xsd:double ;
+        economy:gdbGrowth           "6.89998504532167"^^xsd:double ;
+        economy:gdpPerCapita        "1024.66835402191"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.42820776580244"^^xsd:double ;
+        economy:inflationGDP        "0.645785332472741"^^xsd:double ;
+        economy:inflationPPI        "1.68083587513844"^^xsd:double .
+
+<http://hrachjar.cz/economy/chi>
+        rdf:type      economy:Economy ;
+        country:name  "Channel Islands"@en .
+
+<http://hrachjar.cz/economy/chl>
+        rdf:type                    economy:Economy ;
+        country:name                "Chile"@en ;
+        economy:gdb                 "258733363811.898"^^xsd:double ;
+        economy:gdbGrowth           "1.87639539704263"^^xsd:double ;
+        economy:gdpPerCapita        "14566.1490549183"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.80493701982536"^^xsd:double ;
+        economy:inflationGDP        "5.55315499309812"^^xsd:double ;
+        economy:inflationPPI        "4.39500000000005"^^xsd:double .
+
+<http://hrachjar.cz/economy/chn>
+        rdf:type                    economy:Economy ;
+        country:name                "China"@en ;
+        economy:gdb                 "10351111762216.4"^^xsd:double ;
+        economy:gdbGrowth           "7.26851324138448"^^xsd:double ;
+        economy:gdpPerCapita        "7587.28973166335"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "6.72677292881212"^^xsd:double ;
+        economy:inflationGDP        "0.816670575154248"^^xsd:double ;
+        economy:inflationPPI        "1.99684708355259"^^xsd:double ;
+        economy:unemployment        "4.09999990463257"^^xsd:double .
+
+<http://hrachjar.cz/economy/col>
+        rdf:type                    economy:Economy ;
+        country:name                "Colombia"@en ;
+        economy:gdb                 "378416020533.715"^^xsd:double ;
+        economy:gdbGrowth           "4.38571090109774"^^xsd:double ;
+        economy:gdpPerCapita        "7918.07890039352"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.40494192108662"^^xsd:double ;
+        economy:inflationGDP        "2.13692424663516"^^xsd:double ;
+        economy:inflationPPI        "2.87781025113821"^^xsd:double ;
+        economy:unemployment        "9.10000038146973"^^xsd:double .
+
+<http://hrachjar.cz/economy/com>
+        rdf:type                    economy:Economy ;
+        country:name                "Comoros"@en ;
+        economy:gdb                 "623751044.541731"^^xsd:double ;
+        economy:gdbGrowth           "2.06163946899514"^^xsd:double ;
+        economy:gdpPerCapita        "810.075760030612"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-0.363214370135196"^^xsd:double ;
+        economy:inflationGDP        "2.11872476578709"^^xsd:double ;
+        economy:inflationPPI        "0.578747501881133"^^xsd:double .
+
+<http://hrachjar.cz/economy/zar>
+        rdf:type                    economy:Economy ;
+        country:name                "Congo, Dem. Rep."@en ;
+        economy:gdb                 "32782281736.2834"^^xsd:double ;
+        economy:gdbGrowth           "8.96947948377047"^^xsd:double ;
+        economy:gdpPerCapita        "437.814931178272"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "5.58708723126907"^^xsd:double ;
+        economy:inflationGDP        "0.798133196717615"^^xsd:double .
+
+<http://hrachjar.cz/economy/cog>
+        rdf:type                    economy:Economy ;
+        country:name                "Congo, Rep."@en ;
+        economy:gdb                 "14177437627.2969"^^xsd:double ;
+        economy:gdbGrowth           "6.77994095325852"^^xsd:double ;
+        economy:gdpPerCapita        "3147.07152408764"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "4.15775428269902"^^xsd:double ;
+        economy:inflationGDP        "-5.66899324031776"^^xsd:double ;
+        economy:inflationPPI        "0.0771604938269337"^^xsd:double .
+
+<http://hrachjar.cz/economy/cri>
+        rdf:type                    economy:Economy ;
+        country:name                "Costa Rica"@en ;
+        economy:gdb                 "49552639049.2446"^^xsd:double ;
+        economy:gdbGrowth           "3.50235223124649"^^xsd:double ;
+        economy:gdpPerCapita        "10415.4566496773"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.38907680013058"^^xsd:double ;
+        economy:inflationGDP        "4.73657450269911"^^xsd:double ;
+        economy:inflationPPI        "4.51531267697624"^^xsd:double ;
+        economy:unemployment        "9.60000038146973"^^xsd:double .
+
+<http://hrachjar.cz/economy/civ>
+        rdf:type                    economy:Economy ;
+        country:name                "Cote d'Ivoire"@en ;
+        economy:gdb                 "34253607832.4889"^^xsd:double ;
+        economy:gdbGrowth           "8.54646785204747"^^xsd:double ;
+        economy:gdpPerCapita        "1545.94224925162"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "5.92740810730473"^^xsd:double ;
+        economy:inflationGDP        "0.920418645043483"^^xsd:double ;
+        economy:inflationPPI        "0.45303045973481"^^xsd:double .
+
+<http://hrachjar.cz/economy/hrv>
+        rdf:type                    economy:Economy ;
+        country:name                "Croatia"@en ;
+        economy:gdb                 "57136241867.0192"^^xsd:double ;
+        economy:gdbGrowth           "-0.360434269363935"^^xsd:double ;
+        economy:gdpPerCapita        "13480.6507536281"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.0462684865982936"^^xsd:double ;
+        economy:inflationGDP        "0.0143400534220461"^^xsd:double ;
+        economy:inflationPPI        "-0.215196159575624"^^xsd:double ;
+        economy:unemployment        "17.2999992370605"^^xsd:double .
+
+<http://hrachjar.cz/economy/cub>
+        rdf:type      economy:Economy ;
+        country:name  "Cuba"@en .
+
+<http://hrachjar.cz/economy/cuw>
+        rdf:type      economy:Economy ;
+        country:name  "Curacao"@en .
+
+<http://hrachjar.cz/economy/cyp>
+        rdf:type                    economy:Economy ;
+        country:name                "Cyprus"@en ;
+        economy:gdb                 "23227106275.7065"^^xsd:double ;
+        economy:gdbGrowth           "-2.49705660802132"^^xsd:double ;
+        economy:gdpPerCapita        "27245.7446249009"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-1.41795284909082"^^xsd:double ;
+        economy:inflationGDP        "-0.906969762753704"^^xsd:double ;
+        economy:inflationPPI        "-1.35498885446367"^^xsd:double ;
+        economy:unemployment        "16.1000003814697"^^xsd:double .
+
+<http://hrachjar.cz/economy/cze>
+        rdf:type                    economy:Economy ;
+        country:name                "Czech Republic"@en ;
+        economy:gdb                 "205269709743.466"^^xsd:double ;
+        economy:gdbGrowth           "1.97815404498431"^^xsd:double ;
+        economy:gdpPerCapita        "19502.4173306083"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.87085040396913"^^xsd:double ;
+        economy:inflationGDP        "2.48031370451388"^^xsd:double ;
+        economy:inflationPPI        "0.337186897880699"^^xsd:double ;
+        economy:unemployment        "6.09999990463257"^^xsd:double .
+
+<http://hrachjar.cz/economy/dnk>
+        rdf:type                    economy:Economy ;
+        country:name                "Denmark"@en ;
+        economy:gdb                 "346119472127.525"^^xsd:double ;
+        economy:gdbGrowth           "1.26190583842356"^^xsd:double ;
+        economy:gdpPerCapita        "61330.9126252044"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.74975356020029"^^xsd:double ;
+        economy:inflationGDP        "0.780443729703293"^^xsd:double ;
+        economy:inflationPPI        "0.564020540449505"^^xsd:double ;
+        economy:unemployment        "6.59999990463257"^^xsd:double .
+
+<http://hrachjar.cz/economy/dji>
+        rdf:type                    economy:Economy ;
+        country:name                "Djibouti"@en ;
+        economy:gdb                 "1589025859.84573"^^xsd:double ;
+        economy:gdbGrowth           "6.00019432397339"^^xsd:double ;
+        economy:gdpPerCapita        "1813.59622614428"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "4.59439792046842"^^xsd:double ;
+        economy:inflationGDP        "2.99988251662839"^^xsd:double ;
+        economy:inflationPPI        "2.88727614472951"^^xsd:double .
+
+<http://hrachjar.cz/economy/dma>
+        rdf:type                    economy:Economy ;
+        country:name                "Dominica"@en ;
+        economy:gdb                 "524605000"^^xsd:double ;
+        economy:gdbGrowth           "3.87858347386172"^^xsd:double ;
+        economy:gdpPerCapita        "7251.83505895688"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.396101837622"^^xsd:double ;
+        economy:inflationGDP        "-0.325498227101846"^^xsd:double ;
+        economy:inflationPPI        "0.79913976392383"^^xsd:double .
+
+<http://hrachjar.cz/economy/dom>
+        rdf:type                    economy:Economy ;
+        country:name                "Dominican Republic"@en ;
+        economy:gdb                 "63968906782.0737"^^xsd:double ;
+        economy:gdbGrowth           "7.34087836494631"^^xsd:double ;
+        economy:gdpPerCapita        "6147.3435691579"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "6.05625703969221"^^xsd:double ;
+        economy:inflationGDP        "1.44994595362719"^^xsd:double ;
+        economy:inflationPPI        "2.99864226125157"^^xsd:double ;
+        economy:unemployment        "14.5"^^xsd:double .
+
+<http://hrachjar.cz/economy/ecu>
+        rdf:type                    economy:Economy ;
+        country:name                "Ecuador"@en ;
+        economy:gdb                 "100917372000"^^xsd:double ;
+        economy:gdbGrowth           "3.67498213973248"^^xsd:double ;
+        economy:gdpPerCapita        "6345.84072505948"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.09990682745089"^^xsd:double ;
+        economy:inflationGDP        "2.70528896360955"^^xsd:double ;
+        economy:inflationPPI        "3.57312785043645"^^xsd:double .
+
+<http://hrachjar.cz/economy/egy>
+        rdf:type                    economy:Economy ;
+        country:name                "Egypt, Arab Rep."@en ;
+        economy:gdb                 "301498960051.639"^^xsd:double ;
+        economy:gdbGrowth           "2.22879101389299"^^xsd:double ;
+        economy:gdpPerCapita        "3365.70742057477"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-0.01454578844465"^^xsd:double ;
+        economy:inflationGDP        "11.5128755052506"^^xsd:double ;
+        economy:inflationPPI        "10.1458005507475"^^xsd:double .
+
+<http://hrachjar.cz/economy/slv>
+        rdf:type                    economy:Economy ;
+        country:name                "El Salvador"@en ;
+        economy:gdb                 "25054200000"^^xsd:double ;
+        economy:gdbGrowth           "1.42526204252935"^^xsd:double ;
+        economy:gdpPerCapita        "4102.0638517964"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.12532241167413"^^xsd:double ;
+        economy:inflationGDP        "1.44236935215649"^^xsd:double ;
+        economy:inflationPPI        "1.10577511317753"^^xsd:double .
+
+<http://hrachjar.cz/economy/gnq>
+        rdf:type                    economy:Economy ;
+        country:name                "Equatorial Guinea"@en ;
+        economy:gdb                 "15529729676.6886"^^xsd:double ;
+        economy:gdbGrowth           "-0.284307682288414"^^xsd:double ;
+        economy:gdpPerCapita        "18918.2768313328"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-3.17573903288989"^^xsd:double ;
+        economy:inflationGDP        "-9.04407709919258"^^xsd:double ;
+        economy:inflationPPI        "4.82508957925455"^^xsd:double .
+
+<http://hrachjar.cz/economy/eri>
+        rdf:type      economy:Economy ;
+        country:name  "Eritrea"@en .
+
+<http://hrachjar.cz/economy/est>
+        rdf:type                    economy:Economy ;
+        country:name                "Estonia"@en ;
+        economy:gdb                 "26485161115.9446"^^xsd:double ;
+        economy:gdbGrowth           "2.90653716670559"^^xsd:double ;
+        economy:gdpPerCapita        "20147.7782167553"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.17677011141228"^^xsd:double ;
+        economy:inflationGDP        "2.01944979839853"^^xsd:double ;
+        economy:inflationPPI        "-0.144815519467461"^^xsd:double ;
+        economy:unemployment        "7.40000009536743"^^xsd:double .
+
+<http://hrachjar.cz/economy/eth>
+        rdf:type                    economy:Economy ;
+        country:name                "Ethiopia"@en ;
+        economy:gdb                 "55612228233.5179"^^xsd:double ;
+        economy:gdbGrowth           "10.2791870240632"^^xsd:double ;
+        economy:gdpPerCapita        "573.565960346077"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "7.5490612958647"^^xsd:double ;
+        economy:inflationGDP        "10.9599560124627"^^xsd:double ;
+        economy:inflationPPI        "7.39181447995028"^^xsd:double .
+
+<http://hrachjar.cz/economy/fro>
+        rdf:type      economy:Economy ;
+        country:name  "Faroe Islands"@en .
+
+<http://hrachjar.cz/economy/fji>
+        rdf:type                    economy:Economy ;
+        country:name                "Fiji"@en ;
+        economy:gdb                 "4531870926.72071"^^xsd:double ;
+        economy:gdbGrowth           "6.94167454212253"^^xsd:double ;
+        economy:gdpPerCapita        "5112.38189037251"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "6.22229589099199"^^xsd:double ;
+        economy:inflationGDP        "3.50482122643352"^^xsd:double ;
+        economy:inflationPPI        "0.540328895849644"^^xsd:double .
+
+<http://hrachjar.cz/economy/fin>
+        rdf:type                    economy:Economy ;
+        country:name                "Finland"@en ;
+        economy:gdb                 "272335981538.937"^^xsd:double ;
+        economy:gdbGrowth           "-0.6983098876632"^^xsd:double ;
+        economy:gdpPerCapita        "49864.5762453579"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-1.10813414423026"^^xsd:double ;
+        economy:inflationGDP        "1.65905376806954"^^xsd:double ;
+        economy:inflationPPI        "1.04120000617985"^^xsd:double ;
+        economy:unemployment        "8.69999980926514"^^xsd:double .
+
+<http://hrachjar.cz/economy/fra>
+        rdf:type                    economy:Economy ;
+        country:name                "France"@en ;
+        economy:gdb                 "2829192039171.84"^^xsd:double ;
+        economy:gdbGrowth           "0.259494108111838"^^xsd:double ;
+        economy:gdpPerCapita        "42546.8387870273"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-0.530332070329663"^^xsd:double ;
+        economy:inflationGDP        "0.551883206296822"^^xsd:double ;
+        economy:inflationPPI        "0.507700672785821"^^xsd:double ;
+        economy:unemployment        "9.89999961853027"^^xsd:double .
+
+<http://hrachjar.cz/economy/pyf>
+        rdf:type      economy:Economy ;
+        country:name  "French Polynesia"@en .
+
+<http://hrachjar.cz/economy/gab>
+        rdf:type                    economy:Economy ;
+        country:name                "Gabon"@en ;
+        economy:gdb                 "18179717776.1597"^^xsd:double ;
+        economy:gdbGrowth           "4.31487712529"^^xsd:double ;
+        economy:gdpPerCapita        "10772.0617537637"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.0080085292586"^^xsd:double ;
+        economy:inflationGDP        "-0.851330985640075"^^xsd:double ;
+        economy:inflationPPI        "4.65560789132336"^^xsd:double .
+
+<http://hrachjar.cz/economy/gmb>
+        rdf:type                    economy:Economy ;
+        country:name                "Gambia, The"@en ;
+        economy:gdb                 "850903179.260948"^^xsd:double ;
+        economy:gdbGrowth           "0.877460550688397"^^xsd:double ;
+        economy:gdpPerCapita        "441.293817014382"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-2.3307674884786"^^xsd:double ;
+        economy:inflationGDP        "8.3208631509162"^^xsd:double ;
+        economy:inflationPPI        "5.9473749217505"^^xsd:double .
+
+<http://hrachjar.cz/economy/geo>
+        rdf:type                    economy:Economy ;
+        country:name                "Georgia"@en ;
+        economy:gdb                 "16509305827.7171"^^xsd:double ;
+        economy:gdbGrowth           "4.62333190661252"^^xsd:double ;
+        economy:gdpPerCapita        "4429.65007451491"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "5.99884660031363"^^xsd:double ;
+        economy:inflationGDP        "3.78048329642724"^^xsd:double ;
+        economy:inflationPPI        "3.06881210379542"^^xsd:double ;
+        economy:unemployment        "12.3999996185303"^^xsd:double .
+
+<http://hrachjar.cz/economy/deu>
+        rdf:type                    economy:Economy ;
+        country:name                "Germany"@en ;
+        economy:gdb                 "3868291231823.77"^^xsd:double ;
+        economy:gdbGrowth           "1.59977039232734"^^xsd:double ;
+        economy:gdpPerCapita        "47767.0019056435"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.04286539054408"^^xsd:double ;
+        economy:inflationGDP        "1.73427362778766"^^xsd:double ;
+        economy:inflationPPI        "0.906797035167657"^^xsd:double ;
+        economy:unemployment        "5"^^xsd:double .
+
+<http://hrachjar.cz/economy/gha>
+        rdf:type                    economy:Economy ;
+        country:name                "Ghana"@en ;
+        economy:gdb                 "38616536131.648"^^xsd:double ;
+        economy:gdbGrowth           "3.98586562415207"^^xsd:double ;
+        economy:gdpPerCapita        "1441.63645311166"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.5706104255667"^^xsd:double ;
+        economy:inflationGDP        "16.681275444563"^^xsd:double ;
+        economy:inflationPPI        "15.4931680728743"^^xsd:double .
+
+<http://hrachjar.cz/economy/gib>
+        rdf:type      economy:Economy ;
+        country:name  "Gibraltar"@en .
+
+<http://hrachjar.cz/economy/grc>
+        rdf:type                    economy:Economy ;
+        country:name                "Greece"@en ;
+        economy:gdb                 "235574074998.314"^^xsd:double ;
+        economy:gdbGrowth           "0.653982658187189"^^xsd:double ;
+        economy:gdpPerCapita        "21627.3542876417"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.32669022349441"^^xsd:double ;
+        economy:inflationGDP        "-2.20816353207248"^^xsd:double ;
+        economy:inflationPPI        "-1.31224241067529"^^xsd:double ;
+        economy:unemployment        "26.5"^^xsd:double .
+
+<http://hrachjar.cz/economy/grl>
+        rdf:type              economy:Economy ;
+        country:name          "Greenland"@en ;
+        economy:gdb           "2441226080.03611"^^xsd:double ;
+        economy:gdpPerCapita  "43364.8828499176"^^xsd:double .
+
+<http://hrachjar.cz/economy/grd>
+        rdf:type                    economy:Economy ;
+        country:name                "Grenada"@en ;
+        economy:gdb                 "911803777.777778"^^xsd:double ;
+        economy:gdbGrowth           "5.68482047884461"^^xsd:double ;
+        economy:gdpPerCapita        "8573.69394895841"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "5.24061212000679"^^xsd:double ;
+        economy:inflationGDP        "2.39578837168368"^^xsd:double ;
+        economy:inflationPPI        "-0.946757299033727"^^xsd:double .
+
+<http://hrachjar.cz/economy/gum>
+        rdf:type      economy:Economy ;
+        country:name  "Guam"@en .
+
+<http://hrachjar.cz/economy/gtm>
+        rdf:type                    economy:Economy ;
+        country:name                "Guatemala"@en ;
+        economy:gdb                 "58722323918.1604"^^xsd:double ;
+        economy:gdbGrowth           "4.17416913658175"^^xsd:double ;
+        economy:gdpPerCapita        "3666.59460633312"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.0621233331356"^^xsd:double ;
+        economy:inflationGDP        "3.01622740922794"^^xsd:double ;
+        economy:inflationPPI        "3.41836169663025"^^xsd:double .
+
+<http://hrachjar.cz/economy/gin>
+        rdf:type                    economy:Economy ;
+        country:name                "Guinea"@en ;
+        economy:gdb                 "6624068015.50039"^^xsd:double ;
+        economy:gdbGrowth           "0.39999860108793"^^xsd:double ;
+        economy:gdpPerCapita        "539.615774988756"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-2.27286586679472"^^xsd:double ;
+        economy:inflationGDP        "7.50068080996273"^^xsd:double ;
+        economy:inflationPPI        "9.71397733405289"^^xsd:double .
+
+<http://hrachjar.cz/economy/gnb>
+        rdf:type                    economy:Economy ;
+        country:name                "Guinea-Bissau"@en ;
+        economy:gdb                 "1109009637.65258"^^xsd:double ;
+        economy:gdbGrowth           "2.54107510152161"^^xsd:double ;
+        economy:gdpPerCapita        "615.940922199717"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.0708240494444965"^^xsd:double ;
+        economy:inflationGDP        "5.42381206181719"^^xsd:double ;
+        economy:inflationPPI        "-1.50924460570441"^^xsd:double .
+
+<http://hrachjar.cz/economy/guy>
+        rdf:type                    economy:Economy ;
+        country:name                "Guyana"@en ;
+        economy:gdb                 "3077086275.94585"^^xsd:double ;
+        economy:gdbGrowth           "3.8409152819396"^^xsd:double ;
+        economy:gdpPerCapita        "4028.1639914829"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.45213698745812"^^xsd:double ;
+        economy:inflationGDP        "-0.385156479903614"^^xsd:double ;
+        economy:inflationPPI        "0.920769724351735"^^xsd:double .
+
+<http://hrachjar.cz/economy/hti>
+        rdf:type                    economy:Economy ;
+        country:name                "Haiti"@en ;
+        economy:gdb                 "8776370457.02069"^^xsd:double ;
+        economy:gdbGrowth           "2.79645782009456"^^xsd:double ;
+        economy:gdpPerCapita        "830.150055114368"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.42759236088017"^^xsd:double ;
+        economy:inflationGDP        "4.51408851413615"^^xsd:double ;
+        economy:inflationPPI        "4.56617353058744"^^xsd:double .
+
+<http://hrachjar.cz/economy/hnd>
+        rdf:type                    economy:Economy ;
+        country:name                "Honduras"@en ;
+        economy:gdb                 "19380958759.0497"^^xsd:double ;
+        economy:gdbGrowth           "3.08521496129973"^^xsd:double ;
+        economy:gdpPerCapita        "2434.280046303"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.62703528136325"^^xsd:double ;
+        economy:inflationGDP        "5.5274748368393"^^xsd:double ;
+        economy:inflationPPI        "6.12924930313006"^^xsd:double .
+
+<http://hrachjar.cz/economy/hkg>
+        rdf:type                    economy:Economy ;
+        country:name                "Hong Kong SAR, China"@en ;
+        economy:gdb                 "291229801008.499"^^xsd:double ;
+        economy:gdbGrowth           "2.61439405983185"^^xsd:double ;
+        economy:gdpPerCapita        "40215.6677311265"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.84638376417713"^^xsd:double ;
+        economy:inflationGDP        "2.9004275546997"^^xsd:double ;
+        economy:inflationPPI        "4.43092962641183"^^xsd:double ;
+        economy:unemployment        "3.20000004768372"^^xsd:double .
+
+<http://hrachjar.cz/economy/hun>
+        rdf:type                    economy:Economy ;
+        country:name                "Hungary"@en ;
+        economy:gdb                 "138346650088.972"^^xsd:double ;
+        economy:gdbGrowth           "3.67222001972594"^^xsd:double ;
+        economy:gdpPerCapita        "14021.902274347"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.95186745420857"^^xsd:double ;
+        economy:inflationGDP        "3.24234329815467"^^xsd:double ;
+        economy:inflationPPI        "-0.222315060726337"^^xsd:double ;
+        economy:unemployment        "7.69999980926514"^^xsd:double .
+
+<http://hrachjar.cz/economy/isl>
+        rdf:type                    economy:Economy ;
+        country:name                "Iceland"@en ;
+        economy:gdb                 "17036097481.8066"^^xsd:double ;
+        economy:gdbGrowth           "1.82666045354701"^^xsd:double ;
+        economy:gdpPerCapita        "52036.7318144531"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.700112085068369"^^xsd:double ;
+        economy:inflationGDP        "3.9854591637144"^^xsd:double ;
+        economy:inflationPPI        "2.03499971498602"^^xsd:double ;
+        economy:unemployment        "4.90000009536743"^^xsd:double .
+
+<http://hrachjar.cz/economy/ind>
+        rdf:type                    economy:Economy ;
+        country:name                "India"@en ;
+        economy:gdb                 "2042438591343.98"^^xsd:double ;
+        economy:gdbGrowth           "7.24347174583309"^^xsd:double ;
+        economy:gdpPerCapita        "1576.81766887286"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "5.93592005150938"^^xsd:double ;
+        economy:inflationGDP        "3.29961779958288"^^xsd:double ;
+        economy:inflationPPI        "6.35319454414932"^^xsd:double ;
+        economy:unemployment        "4.90000009536743"^^xsd:double .
+
+<http://hrachjar.cz/economy/idn>
+        rdf:type                    economy:Economy ;
+        country:name                "Indonesia"@en ;
+        economy:gdb                 "890487074595.966"^^xsd:double ;
+        economy:gdbGrowth           "5.02388905199018"^^xsd:double ;
+        economy:gdpPerCapita        "3499.58873476515"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.70868941163624"^^xsd:double ;
+        economy:inflationGDP        "5.38710492082946"^^xsd:double ;
+        economy:inflationPPI        "6.39492540819923"^^xsd:double ;
+        economy:unemployment        "5.90000009536743"^^xsd:double .
+
+<http://hrachjar.cz/economy/irn>
+        rdf:type                    economy:Economy ;
+        country:name                "Iran, Islamic Rep."@en ;
+        economy:gdb                 "425326068422.881"^^xsd:double ;
+        economy:gdbGrowth           "4.34334340221696"^^xsd:double ;
+        economy:gdpPerCapita        "5442.87477076039"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.01981902655648"^^xsd:double ;
+        economy:inflationGDP        "12.2401204079525"^^xsd:double ;
+        economy:inflationPPI        "17.2353586750476"^^xsd:double ;
+        economy:unemployment        "10.6000003814697"^^xsd:double .
+
+<http://hrachjar.cz/economy/irq>
+        rdf:type                    economy:Economy ;
+        country:name                "Iraq"@en ;
+        economy:gdb                 "223508094682.676"^^xsd:double ;
+        economy:gdbGrowth           "-2.11826806087713"^^xsd:double ;
+        economy:gdpPerCapita        "6336.46806615634"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-5.35366074379407"^^xsd:double ;
+        economy:inflationGDP        "-1.78590562705293"^^xsd:double ;
+        economy:inflationPPI        "2.23597407904676"^^xsd:double .
+
+<http://hrachjar.cz/economy/irl>
+        rdf:type                    economy:Economy ;
+        country:name                "Ireland"@en ;
+        economy:gdb                 "250813607686.108"^^xsd:double ;
+        economy:gdbGrowth           "5.19936889535026"^^xsd:double ;
+        economy:gdpPerCapita        "54321.2877185124"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "4.76804288187726"^^xsd:double ;
+        economy:inflationGDP        "0.14202132106405"^^xsd:double ;
+        economy:inflationPPI        "0.196785831420132"^^xsd:double ;
+        economy:unemployment        "11.3000001907349"^^xsd:double .
+
+<http://hrachjar.cz/economy/imy>
+        rdf:type      economy:Economy ;
+        country:name  "Isle of Man"@en .
+
+<http://hrachjar.cz/economy/isr>
+        rdf:type                    economy:Economy ;
+        country:name                "Israel"@en ;
+        economy:gdb                 "305674837195.003"^^xsd:double ;
+        economy:gdbGrowth           "2.59967942296133"^^xsd:double ;
+        economy:gdpPerCapita        "37206.1829418069"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.64901545934697"^^xsd:double ;
+        economy:inflationGDP        "0.959852832248771"^^xsd:double ;
+        economy:inflationPPI        "0.475956015098954"^^xsd:double ;
+        economy:unemployment        "5.90000009536743"^^xsd:double .
+
+<http://hrachjar.cz/economy/ita>
+        rdf:type                    economy:Economy ;
+        country:name                "Italy"@en ;
+        economy:gdb                 "2138540909211.12"^^xsd:double ;
+        economy:gdbGrowth           "-0.343160835971517"^^xsd:double ;
+        economy:gdpPerCapita        "35179.6539515302"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-1.25333459150013"^^xsd:double ;
+        economy:inflationGDP        "0.807523960364165"^^xsd:double ;
+        economy:inflationPPI        "0.241057542767966"^^xsd:double ;
+        economy:unemployment        "12.6999998092651"^^xsd:double .
+
+<http://hrachjar.cz/economy/jam>
+        rdf:type                    economy:Economy ;
+        country:name                "Jamaica"@en ;
+        economy:gdb                 "13927110141.57"^^xsd:double ;
+        economy:gdbGrowth           "0.687750717694243"^^xsd:double ;
+        economy:gdpPerCapita        "5119.2184171202"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.469946765641225"^^xsd:double ;
+        economy:inflationGDP        "7.32860902764108"^^xsd:double ;
+        economy:inflationPPI        "8.29000577700769"^^xsd:double .
+
+<http://hrachjar.cz/economy/jpn>
+        rdf:type                    economy:Economy ;
+        country:name                "Japan"@en ;
+        economy:gdb                 "4596156556721.9"^^xsd:double ;
+        economy:gdbGrowth           "-0.0314292658077306"^^xsd:double ;
+        economy:gdpPerCapita        "36152.6900171468"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.131201954451996"^^xsd:double ;
+        economy:inflationGDP        "1.67156373816285"^^xsd:double ;
+        economy:inflationPPI        "2.74885464389837"^^xsd:double ;
+        economy:unemployment        "3.5"^^xsd:double .
+
+<http://hrachjar.cz/economy/jor>
+        rdf:type                    economy:Economy ;
+        country:name                "Jordan"@en ;
+        economy:gdb                 "35826925774.6479"^^xsd:double ;
+        economy:gdbGrowth           "3.09633027522935"^^xsd:double ;
+        economy:gdpPerCapita        "4830.97691525943"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.298594656005548"^^xsd:double ;
+        economy:inflationGDP        "3.44431792866891"^^xsd:double ;
+        economy:inflationPPI        "2.89156626506024"^^xsd:double .
+
+<http://hrachjar.cz/economy/kaz>
+        rdf:type                    economy:Economy ;
+        country:name                "Kazakhstan"@en ;
+        economy:gdb                 "227437054841.268"^^xsd:double ;
+        economy:gdbGrowth           "4.09999999999975"^^xsd:double ;
+        economy:gdpPerCapita        "13154.8445922887"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.5709498297897"^^xsd:double ;
+        economy:inflationGDP        "5.56653324023371"^^xsd:double ;
+        economy:inflationPPI        "6.71830657978647"^^xsd:double ;
+        economy:unemployment        "5.09999990463257"^^xsd:double .
+
+<http://hrachjar.cz/economy/ken>
+        rdf:type                    economy:Economy ;
+        country:name                "Kenya"@en ;
+        economy:gdb                 "61395415492.333"^^xsd:double ;
+        economy:gdbGrowth           "5.33185940382775"^^xsd:double ;
+        economy:gdpPerCapita        "1368.49113215797"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.58325552018832"^^xsd:double ;
+        economy:inflationGDP        "7.99368072416327"^^xsd:double ;
+        economy:inflationPPI        "6.87749809668873"^^xsd:double .
+
+<http://hrachjar.cz/economy/kir>
+        rdf:type                    economy:Economy ;
+        country:name                "Kiribati"@en ;
+        economy:gdb                 "166756805.48044"^^xsd:double ;
+        economy:gdbGrowth           "3.69999999999999"^^xsd:double ;
+        economy:gdpPerCapita        "1509.52118657047"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.89203222594369"^^xsd:double ;
+        economy:inflationGDP        "1.94241631078663"^^xsd:double .
+
+<http://hrachjar.cz/economy/prk>
+        rdf:type      economy:Economy ;
+        country:name  "Korea, Dem. People’s Rep."@en .
+
+<http://hrachjar.cz/economy/kor>
+        rdf:type                    economy:Economy ;
+        country:name                "Korea, Rep."@en ;
+        economy:gdb                 "1411333926201.24"^^xsd:double ;
+        economy:gdbGrowth           "3.34144751931207"^^xsd:double ;
+        economy:gdpPerCapita        "27989.3539925863"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.9227732810868"^^xsd:double ;
+        economy:inflationGDP        "0.600438308468256"^^xsd:double ;
+        economy:inflationPPI        "1.27240642704561"^^xsd:double ;
+        economy:unemployment        "3.5"^^xsd:double .
+
+<http://hrachjar.cz/economy/ksv>
+        rdf:type                    economy:Economy ;
+        country:name                "Kosovo"@en ;
+        economy:gdb                 "7384901154.30543"^^xsd:double ;
+        economy:gdbGrowth           "1.2185338565946"^^xsd:double ;
+        economy:gdpPerCapita        "4073.81911686883"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.51703503627884"^^xsd:double ;
+        economy:inflationGDP        "3.22095036273771"^^xsd:double .
+
+<http://hrachjar.cz/economy/kwt>
+        rdf:type                    economy:Economy ;
+        country:name                "Kuwait"@en ;
+        economy:gdb                 "163612438510.19"^^xsd:double ;
+        economy:gdbGrowth           "-1.6220334736164"^^xsd:double ;
+        economy:gdpPerCapita        "43593.7020176514"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-5.8011142864211"^^xsd:double ;
+        economy:inflationGDP        "-4.17143139957447"^^xsd:double ;
+        economy:inflationPPI        "2.90890092879258"^^xsd:double .
+
+<http://hrachjar.cz/economy/kgz>
+        rdf:type                    economy:Economy ;
+        country:name                "Kyrgyz Republic"@en ;
+        economy:gdb                 "7468096566.71158"^^xsd:double ;
+        economy:gdbGrowth           "4.02403876051282"^^xsd:double ;
+        economy:gdpPerCapita        "1279.76978265986"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.95799710301247"^^xsd:double ;
+        economy:inflationGDP        "8.41522530105934"^^xsd:double ;
+        economy:inflationPPI        "7.53424729775827"^^xsd:double .
+
+<http://hrachjar.cz/economy/lao>
+        rdf:type                    economy:Economy ;
+        country:name                "Lao PDR"@en ;
+        economy:gdb                 "11715619755.8584"^^xsd:double ;
+        economy:gdbGrowth           "7.51527012266182"^^xsd:double ;
+        economy:gdpPerCapita        "1751.39697066336"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "5.75828033995529"^^xsd:double ;
+        economy:inflationGDP        "-0.303763397835581"^^xsd:double ;
+        economy:inflationPPI        "4.13522637013445"^^xsd:double .
+
+<http://hrachjar.cz/economy/lva>
+        rdf:type                    economy:Economy ;
+        country:name                "Latvia"@en ;
+        economy:gdb                 "31286809075.2289"^^xsd:double ;
+        economy:gdbGrowth           "2.35920521753729"^^xsd:double ;
+        economy:gdpPerCapita        "15692.1915611781"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.32771953175461"^^xsd:double ;
+        economy:inflationGDP        "1.20581869974545"^^xsd:double ;
+        economy:inflationPPI        "0.608519269776878"^^xsd:double ;
+        economy:unemployment        "10.8000001907349"^^xsd:double .
+
+<http://hrachjar.cz/economy/lbn>
+        rdf:type                    economy:Economy ;
+        country:name                "Lebanon"@en ;
+        economy:gdb                 "45730945273.6318"^^xsd:double ;
+        economy:gdbGrowth           "1.81000763465728"^^xsd:double ;
+        economy:gdpPerCapita        "8148.6391668339"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-4.08779674040559"^^xsd:double ;
+        economy:inflationGDP        "1.2750358664299"^^xsd:double ;
+        economy:inflationPPI        "0.749718611234401"^^xsd:double .
+
+<http://hrachjar.cz/economy/lso>
+        rdf:type                    economy:Economy ;
+        country:name                "Lesotho"@en ;
+        economy:gdb                 "2181300505.8649"^^xsd:double ;
+        economy:gdbGrowth           "3.63908275174477"^^xsd:double ;
+        economy:gdpPerCapita        "1034.18528751221"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.3548446901509"^^xsd:double ;
+        economy:inflationGDP        "6.6574949559634"^^xsd:double ;
+        economy:inflationPPI        "5.34036167711054"^^xsd:double .
+
+<http://hrachjar.cz/economy/lbr>
+        rdf:type                    economy:Economy ;
+        country:name                "Liberia"@en ;
+        economy:gdb                 "2013000000"^^xsd:double ;
+        economy:gdbGrowth           "0.701141635823376"^^xsd:double ;
+        economy:gdpPerCapita        "457.858586520261"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-1.65486737281022"^^xsd:double ;
+        economy:inflationGDP        "2.69634158013122"^^xsd:double ;
+        economy:inflationPPI        "9.82635804315248"^^xsd:double .
+
+<http://hrachjar.cz/economy/lby>
+        rdf:type                    economy:Economy ;
+        country:name                "Libya"@en ;
+        economy:gdb                 "41142722414.3351"^^xsd:double ;
+        economy:gdbGrowth           "-24"^^xsd:double ;
+        economy:gdpPerCapita        "6573.38673726201"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-23.91496575163"^^xsd:double ;
+        economy:inflationGDP        "-17.3110142044988"^^xsd:double .
+
+<http://hrachjar.cz/economy/lie>
+        rdf:type      economy:Economy ;
+        country:name  "Liechtenstein"@en .
+
+<http://hrachjar.cz/economy/ltu>
+        rdf:type                    economy:Economy ;
+        country:name                "Lithuania"@en ;
+        economy:gdb                 "48353937110.2561"^^xsd:double ;
+        economy:gdbGrowth           "3.03246998460926"^^xsd:double ;
+        economy:gdpPerCapita        "16489.7289835331"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.922190884125"^^xsd:double ;
+        economy:inflationGDP        "1.17124976930963"^^xsd:double ;
+        economy:inflationPPI        "0.106494137252986"^^xsd:double ;
+        economy:unemployment        "10.6999998092651"^^xsd:double .
+
+<http://hrachjar.cz/economy/lux>
+        rdf:type                    economy:Economy ;
+        country:name                "Luxembourg"@en ;
+        economy:gdb                 "64873963098.4868"^^xsd:double ;
+        economy:gdbGrowth           "4.06929338108021"^^xsd:double ;
+        economy:gdpPerCapita        "116612.884151875"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.64508357892461"^^xsd:double ;
+        economy:inflationGDP        "0.954900704965425"^^xsd:double ;
+        economy:inflationPPI        "0.629749069217611"^^xsd:double ;
+        economy:unemployment        "5.90000009536743"^^xsd:double .
+
+<http://hrachjar.cz/economy/mac>
+        rdf:type                    economy:Economy ;
+        country:name                "Macao SAR, China"@en ;
+        economy:gdb                 "55522993326.7394"^^xsd:double ;
+        economy:gdbGrowth           "-0.852103999763031"^^xsd:double ;
+        economy:gdpPerCapita        "96074.8369597196"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-2.54335902866065"^^xsd:double ;
+        economy:inflationGDP        "8.60519466970476"^^xsd:double ;
+        economy:inflationPPI        "6.04090194022025"^^xsd:double ;
+        economy:unemployment        "1.70000004768372"^^xsd:double .
+
+<http://hrachjar.cz/economy/mkd>
+        rdf:type                    economy:Economy ;
+        country:name                "Macedonia, FYR"@en ;
+        economy:gdb                 "11318966946.687"^^xsd:double ;
+        economy:gdbGrowth           "3.54083434502903"^^xsd:double ;
+        economy:gdpPerCapita        "5453.28127512774"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.38709132716627"^^xsd:double ;
+        economy:inflationGDP        "1.14648937569719"^^xsd:double ;
+        economy:inflationPPI        "-0.28101806971815"^^xsd:double ;
+        economy:unemployment        "28"^^xsd:double .
+
+<http://hrachjar.cz/economy/mdg>
+        rdf:type                    economy:Economy ;
+        country:name                "Madagascar"@en ;
+        economy:gdb                 "11011062173.0257"^^xsd:double ;
+        economy:gdbGrowth           "3.12616589452306"^^xsd:double ;
+        economy:gdpPerCapita        "467.130334270816"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.294860549186666"^^xsd:double ;
+        economy:inflationGDP        "10.0780207488816"^^xsd:double ;
+        economy:inflationPPI        "6.080595482546"^^xsd:double .
+
+<http://hrachjar.cz/economy/mwi>
+        rdf:type                    economy:Economy ;
+        country:name                "Malawi"@en ;
+        economy:gdb                 "6047813437.31804"^^xsd:double ;
+        economy:gdbGrowth           "5.70000000377209"^^xsd:double ;
+        economy:gdpPerCapita        "362.247486595025"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.501969767159"^^xsd:double ;
+        economy:inflationGDP        "20.8837033797922"^^xsd:double ;
+        economy:inflationPPI        "24.4336781458688"^^xsd:double .
+
+<http://hrachjar.cz/economy/mys>
+        rdf:type                    economy:Economy ;
+        country:name                "Malaysia"@en ;
+        economy:gdb                 "338103822298.268"^^xsd:double ;
+        economy:gdbGrowth           "5.99260934195927"^^xsd:double ;
+        economy:gdpPerCapita        "11307.064952828"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "4.44491929791528"^^xsd:double ;
+        economy:inflationGDP        "2.47297497445595"^^xsd:double ;
+        economy:inflationPPI        "3.1429905087904"^^xsd:double ;
+        economy:unemployment        "2.90000009536743"^^xsd:double .
+
+<http://hrachjar.cz/economy/mdv>
+        rdf:type                    economy:Economy ;
+        country:name                "Maldives"@en ;
+        economy:gdb                 "3063899508.46532"^^xsd:double ;
+        economy:gdbGrowth           "6.48058572401"^^xsd:double ;
+        economy:gdpPerCapita        "7640.6471532801"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "4.35628476193499"^^xsd:double ;
+        economy:inflationGDP        "3.03344330882278"^^xsd:double ;
+        economy:inflationPPI        "2.12011309580647"^^xsd:double .
+
+<http://hrachjar.cz/economy/mli>
+        rdf:type                    economy:Economy ;
+        country:name                "Mali"@en ;
+        economy:gdb                 "14388384092.5594"^^xsd:double ;
+        economy:gdbGrowth           "7.78872557131803"^^xsd:double ;
+        economy:gdpPerCapita        "842.114337237737"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "4.67275473399773"^^xsd:double ;
+        economy:inflationGDP        "0.853447780110045"^^xsd:double ;
+        economy:inflationPPI        "0.895009182454262"^^xsd:double ;
+        economy:unemployment        "8.19999980926514"^^xsd:double .
+
+<http://hrachjar.cz/economy/mlt>
+        rdf:type              economy:Economy ;
+        country:name          "Malta"@en ;
+        economy:inflationPPI  "0.311500057827359"^^xsd:double ;
+        economy:unemployment  "5.90000009536743"^^xsd:double .
+
+<http://hrachjar.cz/economy/mhl>
+        rdf:type                    economy:Economy ;
+        country:name                "Marshall Islands"@en ;
+        economy:gdb                 "186716625.753117"^^xsd:double ;
+        economy:gdbGrowth           "-0.971303396439424"^^xsd:double ;
+        economy:gdpPerCapita        "3529.74830339742"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-1.18097510462498"^^xsd:double ;
+        economy:inflationGDP        "-0.858264429647079"^^xsd:double .
+
+<http://hrachjar.cz/economy/mrt>
+        rdf:type                    economy:Economy ;
+        country:name                "Mauritania"@en ;
+        economy:gdb                 "5442297174.11121"^^xsd:double ;
+        economy:gdbGrowth           "4.20621405554968"^^xsd:double ;
+        economy:gdpPerCapita        "1370.98521248511"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.66142592146672"^^xsd:double ;
+        economy:inflationGDP        "-7.09151591107961"^^xsd:double ;
+        economy:inflationPPI        "3.53521885219096"^^xsd:double .
+
+<http://hrachjar.cz/economy/mus>
+        rdf:type                    economy:Economy ;
+        country:name                "Mauritius"@en ;
+        economy:gdb                 "12612959479.583"^^xsd:double ;
+        economy:gdbGrowth           "3.62402546249687"^^xsd:double ;
+        economy:gdpPerCapita        "10002.8704750471"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.4365720334673"^^xsd:double ;
+        economy:inflationGDP        "1.74612126047835"^^xsd:double ;
+        economy:inflationPPI        "3.21769191994718"^^xsd:double ;
+        economy:unemployment        "7.69999980926514"^^xsd:double .
+
+<http://hrachjar.cz/economy/mex>
+        rdf:type                    economy:Economy ;
+        country:name                "Mexico"@en ;
+        economy:gdb                 "1297845522512.7"^^xsd:double ;
+        economy:gdbGrowth           "2.25031646693301"^^xsd:double ;
+        economy:gdpPerCapita        "10350.814693018"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.90825256871554"^^xsd:double ;
+        economy:inflationGDP        "4.68977204722614"^^xsd:double ;
+        economy:inflationPPI        "4.01861720191058"^^xsd:double ;
+        economy:unemployment        "4.90000009536743"^^xsd:double .
+
+<http://hrachjar.cz/economy/fsm>
+        rdf:type                    economy:Economy ;
+        country:name                "Micronesia, Fed. Sts."@en ;
+        economy:gdb                 "318071978.575747"^^xsd:double ;
+        economy:gdbGrowth           "-3.40289805723162"^^xsd:double ;
+        economy:gdpPerCapita        "3057.09102471788"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-3.70556476779007"^^xsd:double ;
+        economy:inflationGDP        "4.2921192907303"^^xsd:double .
+
+<http://hrachjar.cz/economy/mda>
+        rdf:type                    economy:Economy ;
+        country:name                "Moldova"@en ;
+        economy:gdb                 "7983271110.60446"^^xsd:double ;
+        economy:gdbGrowth           "4.80000000000001"^^xsd:double ;
+        economy:gdpPerCapita        "2244.76376248334"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "4.8639161488439"^^xsd:double ;
+        economy:inflationGDP        "6.37542426753328"^^xsd:double ;
+        economy:inflationPPI        "5.08878583159154"^^xsd:double ;
+        economy:unemployment        "3.90000009536743"^^xsd:double .
+
+<http://hrachjar.cz/economy/mco>
+        rdf:type      economy:Economy ;
+        country:name  "Monaco"@en .
+
+<http://hrachjar.cz/economy/mng>
+        rdf:type                    economy:Economy ;
+        country:name                "Mongolia"@en ;
+        economy:gdb                 "12226514714.5347"^^xsd:double ;
+        economy:gdbGrowth           "7.88522582881501"^^xsd:double ;
+        economy:gdpPerCapita        "4201.73771089327"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "6.00560391641977"^^xsd:double ;
+        economy:inflationGDP        "7.44883618596286"^^xsd:double ;
+        economy:inflationPPI        "13.0246481115847"^^xsd:double .
+
+<http://hrachjar.cz/economy/mne>
+        rdf:type                    economy:Economy ;
+        country:name                "Montenegro"@en ;
+        economy:gdb                 "4587741791.10639"^^xsd:double ;
+        economy:gdbGrowth           "1.78371268120176"^^xsd:double ;
+        economy:gdpPerCapita        "7378.04440441034"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.6850079663423"^^xsd:double ;
+        economy:inflationGDP        "1.03621432315606"^^xsd:double ;
+        economy:inflationPPI        "-0.710514051710594"^^xsd:double ;
+        economy:unemployment        "18"^^xsd:double .
+
+<http://hrachjar.cz/economy/mar>
+        rdf:type                    economy:Economy ;
+        country:name                "Morocco"@en ;
+        economy:gdb                 "110009040838.419"^^xsd:double ;
+        economy:gdbGrowth           "2.41708118165246"^^xsd:double ;
+        economy:gdpPerCapita        "3190.31044414024"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.991375233710485"^^xsd:double ;
+        economy:inflationGDP        "0.175079588914315"^^xsd:double ;
+        economy:inflationPPI        "0.435456491254256"^^xsd:double ;
+        economy:unemployment        "9.89999961853027"^^xsd:double .
+
+<http://hrachjar.cz/economy/moz>
+        rdf:type                    economy:Economy ;
+        country:name                "Mozambique"@en ;
+        economy:gdb                 "16945889409.8435"^^xsd:double ;
+        economy:gdbGrowth           "7.4341409216393"^^xsd:double ;
+        economy:gdpPerCapita        "622.638064437746"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "4.47714249805496"^^xsd:double ;
+        economy:inflationGDP        "2.5510341016119"^^xsd:double ;
+        economy:inflationPPI        "2.55974875844327"^^xsd:double .
+
+<http://hrachjar.cz/economy/mmr>
+        rdf:type                    economy:Economy ;
+        country:name                "Myanmar"@en ;
+        economy:gdb                 "64330041772.9259"^^xsd:double ;
+        economy:gdbGrowth           "8.4963658604641"^^xsd:double ;
+        economy:gdpPerCapita        "1203.84472110364"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "7.57594534305741"^^xsd:double ;
+        economy:inflationGDP        "6.58878555786421"^^xsd:double ;
+        economy:inflationPPI        "5.47446471318948"^^xsd:double .
+
+<http://hrachjar.cz/economy/nam>
+        rdf:type                    economy:Economy ;
+        country:name                "Namibia"@en ;
+        economy:gdb                 "12838336840.2247"^^xsd:double ;
+        economy:gdbGrowth           "6.33023213857109"^^xsd:double ;
+        economy:gdpPerCapita        "5342.94446039872"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.84037346131724"^^xsd:double ;
+        economy:inflationGDP        "6.69181893083423"^^xsd:double ;
+        economy:inflationPPI        "5.35016966861296"^^xsd:double .
+
+<http://hrachjar.cz/economy/nru>
+        rdf:type      economy:Economy ;
+        country:name  "Nauru"@en .
+
+<http://hrachjar.cz/economy/npl>
+        rdf:type                    economy:Economy ;
+        country:name                "Nepal"@en ;
+        economy:gdb                 "19769642122.5833"^^xsd:double ;
+        economy:gdbGrowth           "5.38058382071026"^^xsd:double ;
+        economy:gdpPerCapita        "701.680063399496"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "4.10985919217441"^^xsd:double ;
+        economy:inflationGDP        "8.70061728105811"^^xsd:double ;
+        economy:inflationPPI        "8.36797877045517"^^xsd:double .
+
+<http://hrachjar.cz/economy/nld>
+        rdf:type                    economy:Economy ;
+        country:name                "Netherlands"@en ;
+        economy:gdb                 "879319321494.639"^^xsd:double ;
+        economy:gdbGrowth           "1.01112840751658"^^xsd:double ;
+        economy:gdpPerCapita        "52138.6839244096"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.648315053712437"^^xsd:double ;
+        economy:inflationGDP        "0.811027044456367"^^xsd:double ;
+        economy:inflationPPI        "0.976035079699608"^^xsd:double ;
+        economy:unemployment        "6.80000019073486"^^xsd:double .
+
+<http://hrachjar.cz/economy/ncl>
+        rdf:type      economy:Economy ;
+        country:name  "New Caledonia"@en .
+
+<http://hrachjar.cz/economy/nzl>
+        rdf:type                    economy:Economy ;
+        country:name                "New Zealand"@en ;
+        economy:gdb                 "200142409766.821"^^xsd:double ;
+        economy:gdbGrowth           "3.17283580676937"^^xsd:double ;
+        economy:gdpPerCapita        "44380.426584212"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.62628421785269"^^xsd:double ;
+        economy:inflationGDP        "0.563635249095256"^^xsd:double ;
+        economy:inflationPPI        "0.906599198819315"^^xsd:double ;
+        economy:unemployment        "5.80000019073486"^^xsd:double .
+
+<http://hrachjar.cz/economy/nic>
+        rdf:type                    economy:Economy ;
+        country:name                "Nicaragua"@en ;
+        economy:gdb                 "11790221756.2778"^^xsd:double ;
+        economy:gdbGrowth           "4.56521214601311"^^xsd:double ;
+        economy:gdpPerCapita        "1960.49090771313"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.37823898268803"^^xsd:double ;
+        economy:inflationGDP        "8.86911522503435"^^xsd:double ;
+        economy:inflationPPI        "6.03579186802344"^^xsd:double .
+
+<http://hrachjar.cz/economy/ner>
+        rdf:type                    economy:Economy ;
+        country:name                "Niger"@en ;
+        economy:gdb                 "8245312136.56543"^^xsd:double ;
+        economy:gdbGrowth           "7.04979794804296"^^xsd:double ;
+        economy:gdpPerCapita        "431.381682137856"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.8220436487221"^^xsd:double ;
+        economy:inflationGDP        "0.524376820166978"^^xsd:double ;
+        economy:inflationPPI        "-0.924544719995048"^^xsd:double .
+
+<http://hrachjar.cz/economy/nga>
+        rdf:type                    economy:Economy ;
+        country:name                "Nigeria"@en ;
+        economy:gdb                 "568498939784.021"^^xsd:double ;
+        economy:gdbGrowth           "6.30971825251392"^^xsd:double ;
+        economy:gdpPerCapita        "3203.24429573261"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.51865424571179"^^xsd:double ;
+        economy:inflationGDP        "4.66262373910699"^^xsd:double ;
+        economy:inflationPPI        "8.05738262644612"^^xsd:double ;
+        economy:unemployment        "4.80000019073486"^^xsd:double .
+
+<http://hrachjar.cz/economy/mnp>
+        rdf:type      economy:Economy ;
+        country:name  "Northern Mariana Islands"@en .
+
+<http://hrachjar.cz/economy/nor>
+        rdf:type                    economy:Economy ;
+        country:name                "Norway"@en ;
+        economy:gdb                 "500519016133.298"^^xsd:double ;
+        economy:gdbGrowth           "2.21476279313688"^^xsd:double ;
+        economy:gdpPerCapita        "97429.7084759454"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.0685248444225"^^xsd:double ;
+        economy:inflationGDP        "0.476296313583987"^^xsd:double ;
+        economy:inflationPPI        "2.02509628525307"^^xsd:double ;
+        economy:unemployment        "3.5"^^xsd:double .
+
+<http://hrachjar.cz/economy/omn>
+        rdf:type                    economy:Economy ;
+        country:name                "Oman"@en ;
+        economy:gdb                 "81796618985.6957"^^xsd:double ;
+        economy:gdbGrowth           "2.89420554420494"^^xsd:double ;
+        economy:gdpPerCapita        "19309.6124499023"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-5.10075611090201"^^xsd:double ;
+        economy:inflationGDP        "1.67974902370929"^^xsd:double ;
+        economy:inflationPPI        "1.01401483924155"^^xsd:double .
+
+<http://hrachjar.cz/economy/pak>
+        rdf:type                    economy:Economy ;
+        country:name                "Pakistan"@en ;
+        economy:gdb                 "243382758001.33"^^xsd:double ;
+        economy:gdbGrowth           "4.73835494419686"^^xsd:double ;
+        economy:gdpPerCapita        "1315.26762194284"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.55825824325215"^^xsd:double ;
+        economy:inflationGDP        "6.94841708465961"^^xsd:double ;
+        economy:inflationPPI        "7.19167116470147"^^xsd:double ;
+        economy:unemployment        "5.59999990463257"^^xsd:double .
+
+<http://hrachjar.cz/economy/plw>
+        rdf:type                    economy:Economy ;
+        country:name                "Palau"@en ;
+        economy:gdb                 "250900000"^^xsd:double ;
+        economy:gdbGrowth           "4.25652667423384"^^xsd:double ;
+        economy:gdpPerCapita        "11892.6861639096"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.37689157218077"^^xsd:double ;
+        economy:inflationGDP        "5.22798264027655"^^xsd:double .
+
+<http://hrachjar.cz/economy/pan>
+        rdf:type                    economy:Economy ;
+        country:name                "Panama"@en ;
+        economy:gdb                 "49165773100"^^xsd:double ;
+        economy:gdbGrowth           "6.05333405751874"^^xsd:double ;
+        economy:gdpPerCapita        "12712.431328999"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "4.35726386859329"^^xsd:double ;
+        economy:inflationGDP        "3.35135348620135"^^xsd:double ;
+        economy:inflationPPI        "2.63782935747804"^^xsd:double ;
+        economy:unemployment        "4.80000019073486"^^xsd:double .
+
+<http://hrachjar.cz/economy/png>
+        rdf:type                    economy:Economy ;
+        country:name                "Papua New Guinea"@en ;
+        economy:gdb                 "16928680397.4185"^^xsd:double ;
+        economy:gdbGrowth           "8.5339018016779"^^xsd:double ;
+        economy:gdpPerCapita        "2268.17253944302"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "6.28409510048851"^^xsd:double ;
+        economy:inflationGDP        "10.974680753184"^^xsd:double ;
+        economy:inflationPPI        "5.20793950850662"^^xsd:double .
+
+<http://hrachjar.cz/economy/pry>
+        rdf:type                    economy:Economy ;
+        country:name                "Paraguay"@en ;
+        economy:gdb                 "30881166852.3116"^^xsd:double ;
+        economy:gdbGrowth           "4.72233374488668"^^xsd:double ;
+        economy:gdpPerCapita        "4712.87020536405"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.33431314526227"^^xsd:double ;
+        economy:inflationGDP        "5.13903095376746"^^xsd:double ;
+        economy:inflationPPI        "5.02882767456785"^^xsd:double ;
+        economy:unemployment        "6"^^xsd:double .
+
+<http://hrachjar.cz/economy/per>
+        rdf:type                    economy:Economy ;
+        country:name                "Peru"@en ;
+        economy:gdb                 "202855201908.123"^^xsd:double ;
+        economy:gdbGrowth           "2.38417295969253"^^xsd:double ;
+        economy:gdpPerCapita        "6549.3892292809"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.03653156652778"^^xsd:double ;
+        economy:inflationGDP        "3.02732444485621"^^xsd:double ;
+        economy:inflationPPI        "3.22604678885383"^^xsd:double ;
+        economy:unemployment        "6"^^xsd:double .
+
+<http://hrachjar.cz/economy/phl>
+        rdf:type                    economy:Economy ;
+        country:name                "Philippines"@en ;
+        economy:gdb                 "284777093019.065"^^xsd:double ;
+        economy:gdbGrowth           "6.13234304368882"^^xsd:double ;
+        economy:gdpPerCapita        "2872.51216471657"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "4.45478539790732"^^xsd:double ;
+        economy:inflationGDP        "3.20517769770794"^^xsd:double ;
+        economy:inflationPPI        "4.1044776119403"^^xsd:double ;
+        economy:unemployment        "6.80000019073486"^^xsd:double .
+
+<http://hrachjar.cz/economy/pol>
+        rdf:type                    economy:Economy ;
+        country:name                "Poland"@en ;
+        economy:gdb                 "544982089079.093"^^xsd:double ;
+        economy:gdbGrowth           "3.28253807593806"^^xsd:double ;
+        economy:gdpPerCapita        "14337.2063674308"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.35987009764609"^^xsd:double ;
+        economy:inflationGDP        "0.493068431156843"^^xsd:double ;
+        economy:inflationPPI        "0.106951871658061"^^xsd:double ;
+        economy:unemployment        "9"^^xsd:double .
+
+<http://hrachjar.cz/economy/prt>
+        rdf:type                    economy:Economy ;
+        country:name                "Portugal"@en ;
+        economy:gdb                 "230116913840.321"^^xsd:double ;
+        economy:gdbGrowth           "0.905794224709112"^^xsd:double ;
+        economy:gdpPerCapita        "22124.3670925451"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.45133808615692"^^xsd:double ;
+        economy:inflationGDP        "0.951375873581185"^^xsd:double ;
+        economy:inflationPPI        "-0.278153367467859"^^xsd:double ;
+        economy:unemployment        "13.8999996185303"^^xsd:double .
+
+<http://hrachjar.cz/economy/pri>
+        rdf:type              economy:Economy ;
+        country:name          "Puerto Rico"@en ;
+        economy:unemployment  "13.8999996185303"^^xsd:double .
+
+<http://hrachjar.cz/economy/qat>
+        rdf:type                    economy:Economy ;
+        country:name                "Qatar"@en ;
+        economy:gdb                 "210109340659.341"^^xsd:double ;
+        economy:gdbGrowth           "4.18377302980284"^^xsd:double ;
+        economy:gdpPerCapita        "96732.5290262219"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.788932219914386"^^xsd:double ;
+        economy:inflationGDP        "-0.105798267520711"^^xsd:double ;
+        economy:inflationPPI        "3.08247431271406"^^xsd:double .
+
+<http://hrachjar.cz/economy/rom>
+        rdf:type                    economy:Economy ;
+        country:name                "Romania"@en ;
+        economy:gdb                 "199324435686.134"^^xsd:double ;
+        economy:gdbGrowth           "2.95904700688921"^^xsd:double ;
+        economy:gdpPerCapita        "10011.7859226299"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.34542956513455"^^xsd:double ;
+        economy:inflationGDP        "1.71544382904283"^^xsd:double ;
+        economy:inflationPPI        "1.06896102203103"^^xsd:double ;
+        economy:unemployment        "6.80000019073486"^^xsd:double .
+
+<http://hrachjar.cz/economy/rus>
+        rdf:type                    economy:Economy ;
+        country:name                "Russian Federation"@en ;
+        economy:gdb                 "2030972571014.27"^^xsd:double ;
+        economy:gdbGrowth           "0.706370560425242"^^xsd:double ;
+        economy:gdpPerCapita        "13902.1428503026"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-1.07468330529909"^^xsd:double ;
+        economy:inflationGDP        "8.98608509205128"^^xsd:double ;
+        economy:inflationPPI        "7.81289506953224"^^xsd:double ;
+        economy:unemployment        "5.19999980926514"^^xsd:double .
+
+<http://hrachjar.cz/economy/rwa>
+        rdf:type                    economy:Economy ;
+        country:name                "Rwanda"@en ;
+        economy:gdb                 "7912161659.7618"^^xsd:double ;
+        economy:gdbGrowth           "7.00913242009133"^^xsd:double ;
+        economy:gdpPerCapita        "697.626501273706"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "4.52345243446143"^^xsd:double ;
+        economy:inflationGDP        "3.65184567055572"^^xsd:double ;
+        economy:inflationPPI        "1.78410041196773"^^xsd:double .
+
+<http://hrachjar.cz/economy/wsm>
+        rdf:type                    economy:Economy ;
+        country:name                "Samoa"@en ;
+        economy:gdb                 "800418989.621751"^^xsd:double ;
+        economy:gdbGrowth           "1.19614733672142"^^xsd:double ;
+        economy:gdpPerCapita        "4172.21710037661"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.42865068903744"^^xsd:double ;
+        economy:inflationGDP        "0.296305760416928"^^xsd:double ;
+        economy:inflationPPI        "-0.406816088425253"^^xsd:double .
+
+<http://hrachjar.cz/economy/smr>
+        rdf:type              economy:Economy ;
+        country:name          "San Marino"@en ;
+        economy:unemployment  "6.59999990463257"^^xsd:double .
+
+<http://hrachjar.cz/economy/stp>
+        rdf:type                    economy:Economy ;
+        country:name                "Sao Tome and Principe"@en ;
+        economy:gdb                 "337413477.240837"^^xsd:double ;
+        economy:gdbGrowth           "4.47855413556681"^^xsd:double ;
+        economy:gdpPerCapita        "1810.72156164921"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.2604972285877"^^xsd:double ;
+        economy:inflationGDP        "5.76019182197309"^^xsd:double ;
+        economy:inflationPPI        "6.9877692759449"^^xsd:double .
+
+<http://hrachjar.cz/economy/sau>
+        rdf:type                    economy:Economy ;
+        country:name                "Saudi Arabia"@en ;
+        economy:gdb                 "753831466666.667"^^xsd:double ;
+        economy:gdbGrowth           "3.63874159548291"^^xsd:double ;
+        economy:gdpPerCapita        "24406.4678217219"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.33859000742885"^^xsd:double ;
+        economy:inflationGDP        "-2.28004411807076"^^xsd:double ;
+        economy:inflationPPI        "2.67052555416665"^^xsd:double ;
+        economy:unemployment        "5.90000009536743"^^xsd:double .
+
+<http://hrachjar.cz/economy/sen>
+        rdf:type                    economy:Economy ;
+        country:name                "Senegal"@en ;
+        economy:gdb                 "15657551477.2003"^^xsd:double ;
+        economy:gdbGrowth           "4.31105102226705"^^xsd:double ;
+        economy:gdpPerCapita        "1067.131753327"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.10110550879112"^^xsd:double ;
+        economy:inflationGDP        "0.469312523036209"^^xsd:double ;
+        economy:inflationPPI        "-1.07974481658661"^^xsd:double .
+
+<http://hrachjar.cz/economy/srb>
+        rdf:type                    economy:Economy ;
+        country:name                "Serbia"@en ;
+        economy:gdb                 "44210806365.6817"^^xsd:double ;
+        economy:gdbGrowth           "-1.8313011070928"^^xsd:double ;
+        economy:gdpPerCapita        "6200.17322102474"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-1.36932596510563"^^xsd:double ;
+        economy:inflationGDP        "2.70811000360125"^^xsd:double ;
+        economy:inflationPPI        "2.08244793880155"^^xsd:double .
+
+<http://hrachjar.cz/economy/syc>
+        rdf:type                    economy:Economy ;
+        country:name                "Seychelles"@en ;
+        economy:gdb                 "1422530791.5588"^^xsd:double ;
+        economy:gdbGrowth           "3.31698502839444"^^xsd:double ;
+        economy:gdpPerCapita        "15563.7942183676"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.62141087584966"^^xsd:double ;
+        economy:inflationGDP        "3.14922847037819"^^xsd:double ;
+        economy:inflationPPI        "1.38583454581259"^^xsd:double .
+
+<http://hrachjar.cz/economy/sle>
+        rdf:type                    economy:Economy ;
+        country:name                "Sierra Leone"@en ;
+        economy:gdb                 "5005662070.72105"^^xsd:double ;
+        economy:gdbGrowth           "4.59084130913934"^^xsd:double ;
+        economy:gdpPerCapita        "792.583550409334"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.3258753470633"^^xsd:double ;
+        economy:inflationGDP        "0.78468403399927"^^xsd:double ;
+        economy:inflationPPI        "7.32944438834534"^^xsd:double .
+
+<http://hrachjar.cz/economy/sgp>
+        rdf:type                    economy:Economy ;
+        country:name                "Singapore"@en ;
+        economy:gdb                 "306344408491.832"^^xsd:double ;
+        economy:gdbGrowth           "3.26001528805058"^^xsd:double ;
+        economy:gdpPerCapita        "56007.288209027"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.92791275440254"^^xsd:double ;
+        economy:inflationGDP        "0.0434174537431176"^^xsd:double ;
+        economy:inflationPPI        "1.010101010101"^^xsd:double ;
+        economy:unemployment        "1.70000004768372"^^xsd:double .
+
+<http://hrachjar.cz/economy/sxm>
+        rdf:type      economy:Economy ;
+        country:name  "Sint Maarten (Dutch part)"@en .
+
+<http://hrachjar.cz/economy/svk>
+        rdf:type                    economy:Economy ;
+        country:name                "Slovak Republic"@en ;
+        economy:gdb                 "100252753084.782"^^xsd:double ;
+        economy:gdbGrowth           "2.52190923536976"^^xsd:double ;
+        economy:gdpPerCapita        "18501.4296155336"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.42246467733673"^^xsd:double ;
+        economy:inflationGDP        "-0.180527534064083"^^xsd:double ;
+        economy:inflationPPI        "-0.0761653295420083"^^xsd:double ;
+        economy:unemployment        "13.1999998092651"^^xsd:double .
+
+<http://hrachjar.cz/economy/svn>
+        rdf:type                    economy:Economy ;
+        country:name                "Slovenia"@en ;
+        economy:gdb                 "49491396798.0619"^^xsd:double ;
+        economy:gdbGrowth           "3.04836206773822"^^xsd:double ;
+        economy:gdpPerCapita        "24001.880133688"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.94706184663455"^^xsd:double ;
+        economy:inflationGDP        "0.813763183558592"^^xsd:double ;
+        economy:inflationPPI        "0.200074857940044"^^xsd:double ;
+        economy:unemployment        "9.69999980926514"^^xsd:double .
+
+<http://hrachjar.cz/economy/slb>
+        rdf:type                    economy:Economy ;
+        country:name                "Solomon Islands"@en ;
+        economy:gdb                 "1158190175.3149"^^xsd:double ;
+        economy:gdbGrowth           "1.50742629128797"^^xsd:double ;
+        economy:gdpPerCapita        "2024.20286123362"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-0.530276245858673"^^xsd:double ;
+        economy:inflationGDP        "8.75094144320627"^^xsd:double ;
+        economy:inflationPPI        "5.16590237925214"^^xsd:double .
+
+<http://hrachjar.cz/economy/som>
+        rdf:type              economy:Economy ;
+        country:name          "Somalia"@en ;
+        economy:gdb           "5707000000"^^xsd:double ;
+        economy:gdpPerCapita  "542.615883955694"^^xsd:double .
+
+<http://hrachjar.cz/economy/zaf>
+        rdf:type                    economy:Economy ;
+        country:name                "South Africa"@en ;
+        economy:gdb                 "349873026988.676"^^xsd:double ;
+        economy:gdbGrowth           "1.54870063532459"^^xsd:double ;
+        economy:gdpPerCapita        "6472.10102734624"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-0.0788828633512395"^^xsd:double ;
+        economy:inflationGDP        "5.79552879780148"^^xsd:double ;
+        economy:inflationPPI        "6.37525900888742"^^xsd:double ;
+        economy:unemployment        "24.8999996185303"^^xsd:double .
+
+<http://hrachjar.cz/economy/ssd>
+        rdf:type                    economy:Economy ;
+        country:name                "South Sudan"@en ;
+        economy:gdb                 "13282084033.8983"^^xsd:double ;
+        economy:gdbGrowth           "3.37364847715736"^^xsd:double ;
+        economy:gdpPerCapita        "1115.09351496025"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-0.595765402990182"^^xsd:double ;
+        economy:inflationGDP        "-3.08515664245502"^^xsd:double ;
+        economy:inflationPPI        "3.25907352717468"^^xsd:double .
+
+<http://hrachjar.cz/economy/esp>
+        rdf:type                    economy:Economy ;
+        country:name                "Spain"@en ;
+        economy:gdb                 "1381342101735.68"^^xsd:double ;
+        economy:gdbGrowth           "1.36067301686447"^^xsd:double ;
+        economy:gdpPerCapita        "29718.5002155441"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.66414521300406"^^xsd:double ;
+        economy:inflationGDP        "-0.396462549040706"^^xsd:double ;
+        economy:inflationPPI        "-0.147031810368282"^^xsd:double ;
+        economy:unemployment        "24.3999996185303"^^xsd:double .
+
+<http://hrachjar.cz/economy/lka>
+        rdf:type                    economy:Economy ;
+        country:name                "Sri Lanka"@en ;
+        economy:gdb                 "80028186274.5098"^^xsd:double ;
+        economy:gdbGrowth           "4.87860303349355"^^xsd:double ;
+        economy:gdpPerCapita        "3852.88076041162"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.90914119812544"^^xsd:double ;
+        economy:inflationGDP        "3.86073510406382"^^xsd:double ;
+        economy:inflationPPI        "3.27782562924662"^^xsd:double ;
+        economy:unemployment        "4.30000019073486"^^xsd:double .
+
+<http://hrachjar.cz/economy/kna>
+        rdf:type                    economy:Economy ;
+        country:name                "St. Kitts and Nevis"@en ;
+        economy:gdb                 "864766185.185185"^^xsd:double ;
+        economy:gdbGrowth           "6.90307093764655"^^xsd:double ;
+        economy:gdpPerCapita        "15739.0467600682"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "5.65200303918803"^^xsd:double ;
+        economy:inflationGDP        "2.74804767832319"^^xsd:double ;
+        economy:inflationPPI        "0.247865392364811"^^xsd:double .
+
+<http://hrachjar.cz/economy/lca>
+        rdf:type                    economy:Economy ;
+        country:name                "St. Lucia"@en ;
+        economy:gdb                 "1404430555.55556"^^xsd:double ;
+        economy:gdbGrowth           "0.45608895444613"^^xsd:double ;
+        economy:gdpPerCapita        "7647.52950287542"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-0.276907637886666"^^xsd:double ;
+        economy:inflationGDP        "4.77136433285243"^^xsd:double ;
+        economy:inflationPPI        "3.51847818194992"^^xsd:double .
+
+<http://hrachjar.cz/economy/maf>
+        rdf:type      economy:Economy ;
+        country:name  "St. Martin (French part)"@en .
+
+<http://hrachjar.cz/economy/vct>
+        rdf:type                    economy:Economy ;
+        country:name                "St. Vincent and the Grenadines"@en ;
+        economy:gdb                 "729738560.37037"^^xsd:double ;
+        economy:gdbGrowth           "0.656613575403341"^^xsd:double ;
+        economy:gdpPerCapita        "6672.8105374028"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.626239871599509"^^xsd:double ;
+        economy:inflationGDP        "0.602532822409231"^^xsd:double ;
+        economy:inflationPPI        "0.193858560793735"^^xsd:double .
+
+<http://hrachjar.cz/economy/sdn>
+        rdf:type                    economy:Economy ;
+        country:name                "Sudan"@en ;
+        economy:gdb                 "73814947340.8984"^^xsd:double ;
+        economy:gdbGrowth           "3.10000026189263"^^xsd:double ;
+        economy:gdpPerCapita        "1875.84328741646"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.911782840109751"^^xsd:double ;
+        economy:inflationGDP        "29.8841338815857"^^xsd:double ;
+        economy:inflationPPI        "36.9077637690777"^^xsd:double .
+
+<http://hrachjar.cz/economy/sur>
+        rdf:type                    economy:Economy ;
+        country:name                "Suriname"@en ;
+        economy:gdb                 "5210303030.30303"^^xsd:double ;
+        economy:gdbGrowth           "1.84290923425642"^^xsd:double ;
+        economy:gdpPerCapita        "9680.11591367368"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.935070694204327"^^xsd:double ;
+        economy:inflationGDP        "-0.290195264602147"^^xsd:double ;
+        economy:inflationPPI        "3.38974572646988"^^xsd:double .
+
+<http://hrachjar.cz/economy/swz>
+        rdf:type                    economy:Economy ;
+        country:name                "Swaziland"@en ;
+        economy:gdb                 "4412891833.36865"^^xsd:double ;
+        economy:gdbGrowth           "2.45037236456535"^^xsd:double ;
+        economy:gdpPerCapita        "3477.14924558956"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.959281879292291"^^xsd:double ;
+        economy:inflationGDP        "6.11929458189731"^^xsd:double ;
+        economy:inflationPPI        "5.68526686359439"^^xsd:double .
+
+<http://hrachjar.cz/economy/swe>
+        rdf:type                    economy:Economy ;
+        country:name                "Sweden"@en ;
+        economy:gdb                 "571100683085.099"^^xsd:double ;
+        economy:gdbGrowth           "2.26697842199903"^^xsd:double ;
+        economy:gdpPerCapita        "58899.9797944845"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.25728276968935"^^xsd:double ;
+        economy:inflationGDP        "1.62959569289511"^^xsd:double ;
+        economy:inflationPPI        "-0.179638494114759"^^xsd:double ;
+        economy:unemployment        "8"^^xsd:double .
+
+<http://hrachjar.cz/economy/che>
+        rdf:type                    economy:Economy ;
+        country:name                "Switzerland"@en ;
+        economy:gdb                 "701037135966.049"^^xsd:double ;
+        economy:gdbGrowth           "1.88947694383224"^^xsd:double ;
+        economy:gdpPerCapita        "85610.8420285261"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.653872544504168"^^xsd:double ;
+        economy:inflationGDP        "-0.710143057429448"^^xsd:double ;
+        economy:inflationPPI        "-0.0131860440706863"^^xsd:double ;
+        economy:unemployment        "4.5"^^xsd:double .
+
+<http://hrachjar.cz/economy/syr>
+        rdf:type      economy:Economy ;
+        country:name  "Syrian Arab Republic"@en .
+
+<http://hrachjar.cz/economy/tjk>
+        rdf:type                    economy:Economy ;
+        country:name                "Tajikistan"@en ;
+        economy:gdb                 "9236309138.04277"^^xsd:double ;
+        economy:gdbGrowth           "6.69925065988284"^^xsd:double ;
+        economy:gdpPerCapita        "1113.36635446715"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "4.33337808255698"^^xsd:double ;
+        economy:inflationGDP        "5.46374300346335"^^xsd:double ;
+        economy:inflationPPI        "6.10442765129668"^^xsd:double .
+
+<http://hrachjar.cz/economy/tza>
+        rdf:type                    economy:Economy ;
+        country:name                "Tanzania"@en ;
+        economy:gdb                 "48030400964.2053"^^xsd:double ;
+        economy:gdbGrowth           "6.96513296158979"^^xsd:double ;
+        economy:gdpPerCapita        "954.618987954616"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.64923360487626"^^xsd:double ;
+        economy:inflationGDP        "4.67392497441898"^^xsd:double ;
+        economy:inflationPPI        "6.13161432988024"^^xsd:double .
+
+<http://hrachjar.cz/economy/tha>
+        rdf:type                    economy:Economy ;
+        country:name                "Thailand"@en ;
+        economy:gdb                 "404320038916.496"^^xsd:double ;
+        economy:gdbGrowth           "0.817633101784082"^^xsd:double ;
+        economy:gdpPerCapita        "5969.94011583791"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.408924548578412"^^xsd:double ;
+        economy:inflationGDP        "0.962937087364651"^^xsd:double ;
+        economy:inflationPPI        "1.89037712548685"^^xsd:double ;
+        economy:unemployment        "0.800000011920929"^^xsd:double .
+
+<http://hrachjar.cz/economy/tmp>
+        rdf:type                    economy:Economy ;
+        country:name                "Timor-Leste"@en ;
+        economy:gdb                 "1371172832.77153"^^xsd:double ;
+        economy:gdbGrowth           "5.5"^^xsd:double ;
+        economy:gdpPerCapita        "1131.23085071824"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.71145987936707"^^xsd:double ;
+        economy:inflationGDP        "-1.46399629393731"^^xsd:double ;
+        economy:inflationPPI        "0.443548387097418"^^xsd:double .
+
+<http://hrachjar.cz/economy/tgo>
+        rdf:type                    economy:Economy ;
+        country:name                "Togo"@en ;
+        economy:gdb                 "4482535926.29673"^^xsd:double ;
+        economy:gdbGrowth           "5.93749137193187"^^xsd:double ;
+        economy:gdpPerCapita        "629.9976439467"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "3.16153112459132"^^xsd:double ;
+        economy:inflationGDP        "3.7588176275634"^^xsd:double ;
+        economy:inflationPPI        "0.186716067100334"^^xsd:double .
+
+<http://hrachjar.cz/economy/ton>
+        rdf:type                    economy:Economy ;
+        country:name                "Tonga"@en ;
+        economy:gdb                 "434386306.626299"^^xsd:double ;
+        economy:gdbGrowth           "2.14395546502062"^^xsd:double ;
+        economy:gdpPerCapita        "4114.05211511279"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.71152741496792"^^xsd:double ;
+        economy:inflationGDP        "2.28601078721088"^^xsd:double ;
+        economy:inflationPPI        "2.5108763325111"^^xsd:double .
+
+<http://hrachjar.cz/economy/tto>
+        rdf:type                    economy:Economy ;
+        country:name                "Trinidad and Tobago"@en ;
+        economy:gdb                 "28874122633.5743"^^xsd:double ;
+        economy:gdbGrowth           "0.816480106475595"^^xsd:double ;
+        economy:gdpPerCapita        "21317.449265568"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.351802967445636"^^xsd:double ;
+        economy:inflationGDP        "4.52701142002205"^^xsd:double ;
+        economy:inflationPPI        "5.68441814595646"^^xsd:double .
+
+<http://hrachjar.cz/economy/tun>
+        rdf:type                    economy:Economy ;
+        country:name                "Tunisia"@en ;
+        economy:gdb                 "47603227896.5659"^^xsd:double ;
+        economy:gdbGrowth           "2.29999997197415"^^xsd:double ;
+        economy:gdpPerCapita        "4328.90419734881"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.27575338694655"^^xsd:double ;
+        economy:inflationGDP        "5.11982811303031"^^xsd:double ;
+        economy:inflationPPI        "4.93773530263511"^^xsd:double .
+
+<http://hrachjar.cz/economy/tur>
+        rdf:type                    economy:Economy ;
+        country:name                "Turkey"@en ;
+        economy:gdb                 "798797266164.039"^^xsd:double ;
+        economy:gdbGrowth           "3.02011821310668"^^xsd:double ;
+        economy:gdpPerCapita        "10303.8988002501"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.29237106439082"^^xsd:double ;
+        economy:inflationGDP        "8.2709445239656"^^xsd:double ;
+        economy:inflationPPI        "8.85457271364333"^^xsd:double ;
+        economy:unemployment        "9.89999961853027"^^xsd:double .
+
+<http://hrachjar.cz/economy/tkm>
+        rdf:type                    economy:Economy ;
+        country:name                "Turkmenistan"@en ;
+        economy:gdb                 "43485614035.0877"^^xsd:double ;
+        economy:gdbGrowth           "10.2999999705459"^^xsd:double ;
+        economy:gdpPerCapita        "8193.72029690445"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "8.90545167151757"^^xsd:double ;
+        economy:inflationGDP        "0.579909338083311"^^xsd:double .
+
+<http://hrachjar.cz/economy/tca>
+        rdf:type      economy:Economy ;
+        country:name  "Turks and Caicos Islands"@en .
+
+<http://hrachjar.cz/economy/tuv>
+        rdf:type                    economy:Economy ;
+        country:name                "Tuvalu"@en ;
+        economy:gdb                 "37859554.4597051"^^xsd:double ;
+        economy:gdbGrowth           "1.98788966658702"^^xsd:double ;
+        economy:gdpPerCapita        "3826.90331140252"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.81263502953739"^^xsd:double ;
+        economy:inflationGDP        "3.74628095217702"^^xsd:double .
+
+<http://hrachjar.cz/economy/uga>
+        rdf:type                    economy:Economy ;
+        country:name                "Uganda"@en ;
+        economy:gdb                 "26998477707.0964"^^xsd:double ;
+        economy:gdbGrowth           "4.81527310758976"^^xsd:double ;
+        economy:gdpPerCapita        "714.567356471156"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.45971704751788"^^xsd:double ;
+        economy:inflationGDP        "2.30088476950033"^^xsd:double ;
+        economy:inflationPPI        "4.28820926320336"^^xsd:double .
+
+<http://hrachjar.cz/economy/ukr>
+        rdf:type                    economy:Economy ;
+        country:name                "Ukraine"@en ;
+        economy:gdb                 "131805126738.287"^^xsd:double ;
+        economy:gdbGrowth           "-6.60000295953766"^^xsd:double ;
+        economy:gdpPerCapita        "3065.16422265266"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-1.19465813883825"^^xsd:double ;
+        economy:inflationGDP        "15.7328605866987"^^xsd:double ;
+        economy:inflationPPI        "12.1883656509695"^^xsd:double ;
+        economy:unemployment        "9.30000019073486"^^xsd:double .
+
+<http://hrachjar.cz/economy/are>
+        rdf:type                    economy:Economy ;
+        country:name                "United Arab Emirates"@en ;
+        economy:gdb                 "399451327433.628"^^xsd:double ;
+        economy:gdbGrowth           "4.57028972121714"^^xsd:double ;
+        economy:gdpPerCapita        "43962.7136932011"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "4.03903335987144"^^xsd:double ;
+        economy:inflationGDP        "-1.34273631927969"^^xsd:double .
+
+<http://hrachjar.cz/economy/gbr>
+        rdf:type                    economy:Economy ;
+        country:name                "United Kingdom"@en ;
+        economy:gdb                 "2990201431078.23"^^xsd:double ;
+        economy:gdbGrowth           "2.85284331716611"^^xsd:double ;
+        economy:gdpPerCapita        "46278.5202128829"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.08091325336537"^^xsd:double ;
+        economy:inflationGDP        "1.83752566497395"^^xsd:double ;
+        economy:inflationPPI        "1.46019160885392"^^xsd:double ;
+        economy:unemployment        "6.09999990463257"^^xsd:double .
+
+<http://hrachjar.cz/economy/usa>
+        rdf:type                    economy:Economy ;
+        country:name                "United States"@en ;
+        economy:gdb                 "17348071500000"^^xsd:double ;
+        economy:gdbGrowth           "2.4277956361022"^^xsd:double ;
+        economy:gdpPerCapita        "54398.4600093994"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.631258625836"^^xsd:double ;
+        economy:inflationGDP        "1.64265780365899"^^xsd:double ;
+        economy:inflationPPI        "1.62222297740851"^^xsd:double ;
+        economy:unemployment        "6.19999980926514"^^xsd:double .
+
+<http://hrachjar.cz/economy/ury>
+        rdf:type                    economy:Economy ;
+        country:name                "Uruguay"@en ;
+        economy:gdb                 "57235766827.0376"^^xsd:double ;
+        economy:gdbGrowth           "3.23879122851962"^^xsd:double ;
+        economy:gdpPerCapita        "16737.973101175"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "2.89017513129541"^^xsd:double ;
+        economy:inflationGDP        "9.37224628844116"^^xsd:double ;
+        economy:inflationPPI        "8.87735333229858"^^xsd:double ;
+        economy:unemployment        "6.59999990463257"^^xsd:double .
+
+<http://hrachjar.cz/economy/uzb>
+        rdf:type                    economy:Economy ;
+        country:name                "Uzbekistan"@en ;
+        economy:gdb                 "63132848445.0133"^^xsd:double ;
+        economy:gdbGrowth           "8.10000000000002"^^xsd:double ;
+        economy:gdpPerCapita        "2052.58678135925"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "6.29175523527444"^^xsd:double ;
+        economy:inflationGDP        "13.5072364316096"^^xsd:double .
+
+<http://hrachjar.cz/economy/vut>
+        rdf:type                    economy:Economy ;
+        country:name                "Vanuatu"@en ;
+        economy:gdb                 "814954586.8173"^^xsd:double ;
+        economy:gdbGrowth           "2.30434710165453"^^xsd:double ;
+        economy:gdpPerCapita        "3147.96485986836"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "0.0447307625080384"^^xsd:double ;
+        economy:inflationGDP        "2.01062605662948"^^xsd:double ;
+        economy:inflationPPI        "0.798863838096955"^^xsd:double .
+
+<http://hrachjar.cz/economy/ven>
+        rdf:type                    economy:Economy ;
+        country:name                "Venezuela, RB"@en ;
+        economy:gdbGrowth           "-3.89438647450662"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-5.20250603320184"^^xsd:double ;
+        economy:inflationPPI        "62.1686499794828"^^xsd:double ;
+        economy:unemployment        "7"^^xsd:double .
+
+<http://hrachjar.cz/economy/vnm>
+        rdf:type                    economy:Economy ;
+        country:name                "Vietnam"@en ;
+        economy:gdb                 "186204652922.262"^^xsd:double ;
+        economy:gdbGrowth           "5.98365463697851"^^xsd:double ;
+        economy:gdpPerCapita        "2052.31908380089"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "4.85126402268597"^^xsd:double ;
+        economy:inflationGDP        "3.66238381086517"^^xsd:double ;
+        economy:inflationPPI        "4.08589994072795"^^xsd:double ;
+        economy:unemployment        "1.79999995231628"^^xsd:double .
+
+<http://hrachjar.cz/economy/vir>
+        rdf:type      economy:Economy ;
+        country:name  "Virgin Islands (U.S.)"@en .
+
+<http://hrachjar.cz/economy/wbg>
+        rdf:type                    economy:Economy ;
+        country:name                "West Bank and Gaza"@en ;
+        economy:gdb                 "12715600000"^^xsd:double ;
+        economy:gdbGrowth           "-1.09138924450848"^^xsd:double ;
+        economy:gdpPerCapita        "2960.77800405245"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "-3.97425327493714"^^xsd:double ;
+        economy:inflationGDP        "2.10620947676841"^^xsd:double ;
+        economy:unemployment        "26.8999996185303"^^xsd:double .
+
+<http://hrachjar.cz/economy/yem>
+        rdf:type      economy:Economy ;
+        country:name  "Yemen, Rep."@en .
+
+<http://hrachjar.cz/economy/zmb>
+        rdf:type                    economy:Economy ;
+        country:name                "Zambia"@en ;
+        economy:gdb                 "27134637888.441"^^xsd:double ;
+        economy:gdbGrowth           "5.02489023219053"^^xsd:double ;
+        economy:gdpPerCapita        "1725.97454864009"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.84998244873462"^^xsd:double ;
+        economy:inflationGDP        "5.04544734192538"^^xsd:double ;
+        economy:inflationPPI        "7.81195441703916"^^xsd:double .
+
+<http://hrachjar.cz/economy/zwe>
+        rdf:type                    economy:Economy ;
+        country:name                "Zimbabwe"@en ;
+        economy:gdb                 "14196912500"^^xsd:double ;
+        economy:gdbGrowth           "3.84829030719978"^^xsd:double ;
+        economy:gdpPerCapita        "931.19818468692"^^xsd:double ;
+        economy:gdbPerCapitaGrowth  "1.4794764242065"^^xsd:double ;
+        economy:inflationGDP        "1.33869185686815"^^xsd:double ;
+        economy:inflationPPI        "-0.217286170986706"^^xsd:double ;
+        economy:unemployment        "11.3000001907349"^^xsd:double .

@@ -1,0 +1,31 @@
+PREFIX economy: <http://hrachjar.cz/economy/#>
+PREFIX country: <http://hrachjar.cz/country/#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dbo: <http://dbpedia.org/ontology/#>
+
+CONSTRUCT {
+    ?aUri a economy:Economy;
+          country:name ?countryName;
+          economy:gdb ?gdb;
+          economy:gdbGrowth ?gdbGrowth;
+          economy:gdpPerCapita ?gdbPC;
+          economy:gdbPerCapitaGrowth ?gdbPCGrowth;
+          economy:inflationGDP ?inflationGDP;
+          economy:inflationPPI ?inflationPPI;
+          economy:unemployment ?unemployment;
+}
+WHERE {
+  BIND(IRI(CONCAT('http://hrachjar.cz/economy/', LCASE(?d))) AS ?aUri)
+  BIND(STRLANG(xsd:string(?c), "en") AS ?countryName)
+  BIND(xsd:double(?e) AS ?gdb)
+  BIND(xsd:double(?f) AS ?gdbGrowth)
+  BIND(xsd:double(?g) AS ?gdbPC)
+  BIND(xsd:double(?h) AS ?gdbPCGrowth)
+  BIND(xsd:double(?i) AS ?inflationGDP)
+  BIND(xsd:double(?j) AS ?inflationPPI)
+  BIND(xsd:double(?k) AS ?unemployment)
+}
+OFFSET 1

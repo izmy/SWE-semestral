@@ -1,0 +1,2009 @@
+@prefix dbo:  <http://dbpedia.org/ontology/#> .
+@prefix country:  <http://hrachjar.cz/country/#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/#> .
+
+<http://hrachjar.cz/country/europe/andorra>
+        rdf:type        country:Country ;
+        foaf:names      "Andorra"@en ;
+        dbo:capital     "Andorra la Vella"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        468 ;
+        dbo:population  84000 .
+
+<http://hrachjar.cz/country/asia/united-arab-emirates>
+        rdf:type        country:Country ;
+        foaf:names      "United Arab Emirates"@en ;
+        dbo:capital     "Abu Dhabi"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        82880 ;
+        dbo:population  4975593 .
+
+<http://hrachjar.cz/country/asia/afghanistan>
+        rdf:type        country:Country ;
+        foaf:names      "Afghanistan"@en ;
+        dbo:capital     "Kabul"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        647500 ;
+        dbo:population  29121286 .
+
+<http://hrachjar.cz/country/north-america/antigua-and-barbuda>
+        rdf:type        country:Country ;
+        foaf:names      "Antigua and Barbuda"@en ;
+        dbo:capital     "St. John's"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        443 ;
+        dbo:population  86754 .
+
+<http://hrachjar.cz/country/north-america/anguilla>
+        rdf:type        country:Country ;
+        foaf:names      "Anguilla"@en ;
+        dbo:capital     "The Valley"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        102 ;
+        dbo:population  13254 .
+
+<http://hrachjar.cz/country/europe/albania>
+        rdf:type        country:Country ;
+        foaf:names      "Albania"@en ;
+        dbo:capital     "Tirana"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        28748 ;
+        dbo:population  2986952 .
+
+<http://hrachjar.cz/country/asia/armenia>
+        rdf:type        country:Country ;
+        foaf:names      "Armenia"@en ;
+        dbo:capital     "Yerevan"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        29800 ;
+        dbo:population  2968000 .
+
+<http://hrachjar.cz/country/africa/angola>
+        rdf:type        country:Country ;
+        foaf:names      "Angola"@en ;
+        dbo:capital     "Luanda"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        1246700 ;
+        dbo:population  13068161 .
+
+<http://hrachjar.cz/country/antarctica/antarctica>
+        rdf:type        country:Country ;
+        foaf:names      "Antarctica"@en ;
+        dbo:currency    "AN"^^xsd:string ;
+        dbo:area        14000000 ;
+        dbo:population  0 .
+
+<http://hrachjar.cz/country/south-america/argentina>
+        rdf:type        country:Country ;
+        foaf:names      "Argentina"@en ;
+        dbo:capital     "Buenos Aires"@en ;
+        dbo:currency    "SA"^^xsd:string ;
+        dbo:area        2766890 ;
+        dbo:population  41343201 .
+
+<http://hrachjar.cz/country/antarctica/american-samoa>
+        rdf:type        country:Country ;
+        foaf:names      "American Samoa"@en ;
+        dbo:capital     "Pago Pago"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        199 ;
+        dbo:population  57881 .
+
+<http://hrachjar.cz/country/europe/austria>
+        rdf:type        country:Country ;
+        foaf:names      "Austria"@en ;
+        dbo:capital     "Vienna"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        83858 ;
+        dbo:population  8205000 .
+
+<http://hrachjar.cz/country/antarctica/australia>
+        rdf:type        country:Country ;
+        foaf:names      "Australia"@en ;
+        dbo:capital     "Canberra"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        7686850 ;
+        dbo:population  21515754 .
+
+<http://hrachjar.cz/country/north-america/aruba>
+        rdf:type        country:Country ;
+        foaf:names      "Aruba"@en ;
+        dbo:capital     "Oranjestad"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        193 ;
+        dbo:population  71566 .
+
+<http://hrachjar.cz/country/europe/aland-islands>
+        rdf:type        country:Country ;
+        foaf:names      "Aland Islands"@en ;
+        dbo:capital     "Mariehamn"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        1580 ;
+        dbo:population  26711 .
+
+<http://hrachjar.cz/country/asia/azerbaijan>
+        rdf:type        country:Country ;
+        foaf:names      "Azerbaijan"@en ;
+        dbo:capital     "Baku"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        86600 ;
+        dbo:population  8303512 .
+
+<http://hrachjar.cz/country/europe/bosnia-and-herzegovina>
+        rdf:type        country:Country ;
+        foaf:names      "Bosnia and Herzegovina"@en ;
+        dbo:capital     "Sarajevo"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        51129 ;
+        dbo:population  4590000 .
+
+<http://hrachjar.cz/country/north-america/barbados>
+        rdf:type        country:Country ;
+        foaf:names      "Barbados"@en ;
+        dbo:capital     "Bridgetown"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        431 ;
+        dbo:population  285653 .
+
+<http://hrachjar.cz/country/asia/bangladesh>
+        rdf:type        country:Country ;
+        foaf:names      "Bangladesh"@en ;
+        dbo:capital     "Dhaka"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        144000 ;
+        dbo:population  156118464 .
+
+<http://hrachjar.cz/country/europe/belgium>
+        rdf:type        country:Country ;
+        foaf:names      "Belgium"@en ;
+        dbo:capital     "Brussels"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        30510 ;
+        dbo:population  10403000 .
+
+<http://hrachjar.cz/country/africa/burkina-faso>
+        rdf:type        country:Country ;
+        foaf:names      "Burkina Faso"@en ;
+        dbo:capital     "Ouagadougou"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        274200 ;
+        dbo:population  16241811 .
+
+<http://hrachjar.cz/country/europe/bulgaria>
+        rdf:type        country:Country ;
+        foaf:names      "Bulgaria"@en ;
+        dbo:capital     "Sofia"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        110910 ;
+        dbo:population  7148785 .
+
+<http://hrachjar.cz/country/asia/bahrain>
+        rdf:type        country:Country ;
+        foaf:names      "Bahrain"@en ;
+        dbo:capital     "Manama"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        665 ;
+        dbo:population  738004 .
+
+<http://hrachjar.cz/country/africa/burundi>
+        rdf:type        country:Country ;
+        foaf:names      "Burundi"@en ;
+        dbo:capital     "Bujumbura"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        27830 ;
+        dbo:population  9863117 .
+
+<http://hrachjar.cz/country/africa/benin>
+        rdf:type        country:Country ;
+        foaf:names      "Benin"@en ;
+        dbo:capital     "Porto-Novo"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        112620 ;
+        dbo:population  9056010 .
+
+<http://hrachjar.cz/country/north-america/saint-barthelemy>
+        rdf:type        country:Country ;
+        foaf:names      "Saint Barthelemy"@en ;
+        dbo:capital     "Gustavia"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        21 ;
+        dbo:population  8450 .
+
+<http://hrachjar.cz/country/north-america/bermuda>
+        rdf:type        country:Country ;
+        foaf:names      "Bermuda"@en ;
+        dbo:capital     "Hamilton"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        53 ;
+        dbo:population  65365 .
+
+<http://hrachjar.cz/country/asia/brunei>
+        rdf:type        country:Country ;
+        foaf:names      "Brunei"@en ;
+        dbo:capital     "Bandar Seri Begawan"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        5770 ;
+        dbo:population  395027 .
+
+<http://hrachjar.cz/country/south-america/bolivia>
+        rdf:type        country:Country ;
+        foaf:names      "Bolivia"@en ;
+        dbo:capital     "Sucre"@en ;
+        dbo:currency    "SA"^^xsd:string ;
+        dbo:area        1098580 ;
+        dbo:population  9947418 .
+
+<http://hrachjar.cz/country/north-america/bonaire,-saint-eustatius-and-saba->
+        rdf:type        country:Country ;
+        foaf:names      "Bonaire, Saint Eustatius and Saba "@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        328 ;
+        dbo:population  18012 .
+
+<http://hrachjar.cz/country/south-america/brazil>
+        rdf:type        country:Country ;
+        foaf:names      "Brazil"@en ;
+        dbo:capital     "Brasilia"@en ;
+        dbo:currency    "SA"^^xsd:string ;
+        dbo:area        8511965 ;
+        dbo:population  201103330 .
+
+<http://hrachjar.cz/country/north-america/bahamas>
+        rdf:type        country:Country ;
+        foaf:names      "Bahamas"@en ;
+        dbo:capital     "Nassau"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        13940 ;
+        dbo:population  301790 .
+
+<http://hrachjar.cz/country/asia/bhutan>
+        rdf:type        country:Country ;
+        foaf:names      "Bhutan"@en ;
+        dbo:capital     "Thimphu"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        47000 ;
+        dbo:population  699847 .
+
+<http://hrachjar.cz/country/antarctica/bouvet-island>
+        rdf:type        country:Country ;
+        foaf:names      "Bouvet Island"@en ;
+        dbo:currency    "AN"^^xsd:string ;
+        dbo:area        49 ;
+        dbo:population  0 .
+
+<http://hrachjar.cz/country/africa/botswana>
+        rdf:type        country:Country ;
+        foaf:names      "Botswana"@en ;
+        dbo:capital     "Gaborone"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        600370 ;
+        dbo:population  2029307 .
+
+<http://hrachjar.cz/country/europe/belarus>
+        rdf:type        country:Country ;
+        foaf:names      "Belarus"@en ;
+        dbo:capital     "Minsk"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        207600 ;
+        dbo:population  9685000 .
+
+<http://hrachjar.cz/country/north-america/belize>
+        rdf:type        country:Country ;
+        foaf:names      "Belize"@en ;
+        dbo:capital     "Belmopan"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        22966 ;
+        dbo:population  314522 .
+
+<http://hrachjar.cz/country/north-america/canada>
+        rdf:type        country:Country ;
+        foaf:names      "Canada"@en ;
+        dbo:capital     "Ottawa"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        9984670 ;
+        dbo:population  33679000 .
+
+<http://hrachjar.cz/country/asia/cocos-islands>
+        rdf:type        country:Country ;
+        foaf:names      "Cocos Islands"@en ;
+        dbo:capital     "West Island"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        14 ;
+        dbo:population  628 .
+
+<http://hrachjar.cz/country/africa/democratic-republic-of-the-congo>
+        rdf:type        country:Country ;
+        foaf:names      "Democratic Republic of the Congo"@en ;
+        dbo:capital     "Kinshasa"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        2345410 ;
+        dbo:population  70916439 .
+
+<http://hrachjar.cz/country/africa/central-african-republic>
+        rdf:type        country:Country ;
+        foaf:names      "Central African Republic"@en ;
+        dbo:capital     "Bangui"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        622984 ;
+        dbo:population  4844927 .
+
+<http://hrachjar.cz/country/africa/republic-of-the-congo>
+        rdf:type        country:Country ;
+        foaf:names      "Republic of the Congo"@en ;
+        dbo:capital     "Brazzaville"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        342000 ;
+        dbo:population  3039126 .
+
+<http://hrachjar.cz/country/europe/switzerland>
+        rdf:type        country:Country ;
+        foaf:names      "Switzerland"@en ;
+        dbo:capital     "Bern"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        41290 ;
+        dbo:population  7581000 .
+
+<http://hrachjar.cz/country/africa/ivory-coast>
+        rdf:type        country:Country ;
+        foaf:names      "Ivory Coast"@en ;
+        dbo:capital     "Yamoussoukro"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        322460 ;
+        dbo:population  21058798 .
+
+<http://hrachjar.cz/country/antarctica/cook-islands>
+        rdf:type        country:Country ;
+        foaf:names      "Cook Islands"@en ;
+        dbo:capital     "Avarua"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        240 ;
+        dbo:population  21388 .
+
+<http://hrachjar.cz/country/south-america/chile>
+        rdf:type        country:Country ;
+        foaf:names      "Chile"@en ;
+        dbo:capital     "Santiago"@en ;
+        dbo:currency    "SA"^^xsd:string ;
+        dbo:area        756950 ;
+        dbo:population  16746491 .
+
+<http://hrachjar.cz/country/africa/cameroon>
+        rdf:type        country:Country ;
+        foaf:names      "Cameroon"@en ;
+        dbo:capital     "Yaounde"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        475440 ;
+        dbo:population  19294149 .
+
+<http://hrachjar.cz/country/asia/china>
+        rdf:type        country:Country ;
+        foaf:names      "China"@en ;
+        dbo:capital     "Beijing"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        9596960 ;
+        dbo:population  1330044000 .
+
+<http://hrachjar.cz/country/south-america/colombia>
+        rdf:type        country:Country ;
+        foaf:names      "Colombia"@en ;
+        dbo:capital     "Bogota"@en ;
+        dbo:currency    "SA"^^xsd:string ;
+        dbo:area        1138910 ;
+        dbo:population  47790000 .
+
+<http://hrachjar.cz/country/north-america/costa-rica>
+        rdf:type        country:Country ;
+        foaf:names      "Costa Rica"@en ;
+        dbo:capital     "San Jose"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        51100 ;
+        dbo:population  4516220 .
+
+<http://hrachjar.cz/country/north-america/cuba>
+        rdf:type        country:Country ;
+        foaf:names      "Cuba"@en ;
+        dbo:capital     "Havana"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        110860 ;
+        dbo:population  11423000 .
+
+<http://hrachjar.cz/country/africa/cape-verde>
+        rdf:type        country:Country ;
+        foaf:names      "Cape Verde"@en ;
+        dbo:capital     "Praia"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        4033 ;
+        dbo:population  508659 .
+
+<http://hrachjar.cz/country/north-america/curacao>
+        rdf:type        country:Country ;
+        foaf:names      "Curacao"@en ;
+        dbo:capital     " Willemstad"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        444 ;
+        dbo:population  141766 .
+
+<http://hrachjar.cz/country/asia/christmas-island>
+        rdf:type        country:Country ;
+        foaf:names      "Christmas Island"@en ;
+        dbo:capital     "Flying Fish Cove"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        135 ;
+        dbo:population  1500 .
+
+<http://hrachjar.cz/country/europe/cyprus>
+        rdf:type        country:Country ;
+        foaf:names      "Cyprus"@en ;
+        dbo:capital     "Nicosia"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        9250 ;
+        dbo:population  1102677 .
+
+<http://hrachjar.cz/country/europe/czechia>
+        rdf:type        country:Country ;
+        foaf:names      "Czechia"@en ;
+        dbo:capital     "Prague"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        78866 ;
+        dbo:population  10476000 .
+
+<http://hrachjar.cz/country/europe/germany>
+        rdf:type        country:Country ;
+        foaf:names      "Germany"@en ;
+        dbo:capital     "Berlin"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        357021 ;
+        dbo:population  81802257 .
+
+<http://hrachjar.cz/country/africa/djibouti>
+        rdf:type        country:Country ;
+        foaf:names      "Djibouti"@en ;
+        dbo:capital     "Djibouti"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        23000 ;
+        dbo:population  740528 .
+
+<http://hrachjar.cz/country/europe/denmark>
+        rdf:type        country:Country ;
+        foaf:names      "Denmark"@en ;
+        dbo:capital     "Copenhagen"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        43094 ;
+        dbo:population  5484000 .
+
+<http://hrachjar.cz/country/north-america/dominica>
+        rdf:type        country:Country ;
+        foaf:names      "Dominica"@en ;
+        dbo:capital     "Roseau"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        754 ;
+        dbo:population  72813 .
+
+<http://hrachjar.cz/country/north-america/dominican-republic>
+        rdf:type        country:Country ;
+        foaf:names      "Dominican Republic"@en ;
+        dbo:capital     "Santo Domingo"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        48730 ;
+        dbo:population  9823821 .
+
+<http://hrachjar.cz/country/africa/algeria>
+        rdf:type        country:Country ;
+        foaf:names      "Algeria"@en ;
+        dbo:capital     "Algiers"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        2381740 ;
+        dbo:population  34586184 .
+
+<http://hrachjar.cz/country/south-america/ecuador>
+        rdf:type        country:Country ;
+        foaf:names      "Ecuador"@en ;
+        dbo:capital     "Quito"@en ;
+        dbo:currency    "SA"^^xsd:string ;
+        dbo:area        283560 ;
+        dbo:population  14790608 .
+
+<http://hrachjar.cz/country/europe/estonia>
+        rdf:type        country:Country ;
+        foaf:names      "Estonia"@en ;
+        dbo:capital     "Tallinn"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        45226 ;
+        dbo:population  1291170 .
+
+<http://hrachjar.cz/country/africa/egypt>
+        rdf:type        country:Country ;
+        foaf:names      "Egypt"@en ;
+        dbo:capital     "Cairo"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        1001450 ;
+        dbo:population  80471869 .
+
+<http://hrachjar.cz/country/africa/western-sahara>
+        rdf:type        country:Country ;
+        foaf:names      "Western Sahara"@en ;
+        dbo:capital     "El-Aaiun"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        266000 ;
+        dbo:population  273008 .
+
+<http://hrachjar.cz/country/africa/eritrea>
+        rdf:type        country:Country ;
+        foaf:names      "Eritrea"@en ;
+        dbo:capital     "Asmara"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        121320 ;
+        dbo:population  5792984 .
+
+<http://hrachjar.cz/country/europe/spain>
+        rdf:type        country:Country ;
+        foaf:names      "Spain"@en ;
+        dbo:capital     "Madrid"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        504782 ;
+        dbo:population  46505963 .
+
+<http://hrachjar.cz/country/africa/ethiopia>
+        rdf:type        country:Country ;
+        foaf:names      "Ethiopia"@en ;
+        dbo:capital     "Addis Ababa"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        1127127 ;
+        dbo:population  88013491 .
+
+<http://hrachjar.cz/country/europe/finland>
+        rdf:type        country:Country ;
+        foaf:names      "Finland"@en ;
+        dbo:capital     "Helsinki"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        337030 ;
+        dbo:population  5244000 .
+
+<http://hrachjar.cz/country/antarctica/fiji>
+        rdf:type        country:Country ;
+        foaf:names      "Fiji"@en ;
+        dbo:capital     "Suva"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        18270 ;
+        dbo:population  875983 .
+
+<http://hrachjar.cz/country/south-america/falkland-islands>
+        rdf:type        country:Country ;
+        foaf:names      "Falkland Islands"@en ;
+        dbo:capital     "Stanley"@en ;
+        dbo:currency    "SA"^^xsd:string ;
+        dbo:area        12173 ;
+        dbo:population  2638 .
+
+<http://hrachjar.cz/country/antarctica/micronesia>
+        rdf:type        country:Country ;
+        foaf:names      "Micronesia"@en ;
+        dbo:capital     "Palikir"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        702 ;
+        dbo:population  107708 .
+
+<http://hrachjar.cz/country/europe/faroe-islands>
+        rdf:type        country:Country ;
+        foaf:names      "Faroe Islands"@en ;
+        dbo:capital     "Torshavn"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        1399 ;
+        dbo:population  48228 .
+
+<http://hrachjar.cz/country/europe/france>
+        rdf:type        country:Country ;
+        foaf:names      "France"@en ;
+        dbo:capital     "Paris"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        547030 ;
+        dbo:population  64768389 .
+
+<http://hrachjar.cz/country/africa/gabon>
+        rdf:type        country:Country ;
+        foaf:names      "Gabon"@en ;
+        dbo:capital     "Libreville"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        267667 ;
+        dbo:population  1545255 .
+
+<http://hrachjar.cz/country/europe/united-kingdom>
+        rdf:type        country:Country ;
+        foaf:names      "United Kingdom"@en ;
+        dbo:capital     "London"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        244820 ;
+        dbo:population  62348447 .
+
+<http://hrachjar.cz/country/north-america/grenada>
+        rdf:type        country:Country ;
+        foaf:names      "Grenada"@en ;
+        dbo:capital     "St. George's"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        344 ;
+        dbo:population  107818 .
+
+<http://hrachjar.cz/country/asia/georgia>
+        rdf:type        country:Country ;
+        foaf:names      "Georgia"@en ;
+        dbo:capital     "Tbilisi"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        69700 ;
+        dbo:population  4630000 .
+
+<http://hrachjar.cz/country/south-america/french-guiana>
+        rdf:type        country:Country ;
+        foaf:names      "French Guiana"@en ;
+        dbo:capital     "Cayenne"@en ;
+        dbo:currency    "SA"^^xsd:string ;
+        dbo:area        91000 ;
+        dbo:population  195506 .
+
+<http://hrachjar.cz/country/europe/guernsey>
+        rdf:type        country:Country ;
+        foaf:names      "Guernsey"@en ;
+        dbo:capital     "St Peter Port"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        78 ;
+        dbo:population  65228 .
+
+<http://hrachjar.cz/country/africa/ghana>
+        rdf:type        country:Country ;
+        foaf:names      "Ghana"@en ;
+        dbo:capital     "Accra"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        239460 ;
+        dbo:population  24339838 .
+
+<http://hrachjar.cz/country/europe/gibraltar>
+        rdf:type        country:Country ;
+        foaf:names      "Gibraltar"@en ;
+        dbo:capital     "Gibraltar"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:population  27884 .
+
+<http://hrachjar.cz/country/north-america/greenland>
+        rdf:type        country:Country ;
+        foaf:names      "Greenland"@en ;
+        dbo:capital     "Nuuk"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        2166086 ;
+        dbo:population  56375 .
+
+<http://hrachjar.cz/country/africa/gambia>
+        rdf:type        country:Country ;
+        foaf:names      "Gambia"@en ;
+        dbo:capital     "Banjul"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        11300 ;
+        dbo:population  1593256 .
+
+<http://hrachjar.cz/country/africa/guinea>
+        rdf:type        country:Country ;
+        foaf:names      "Guinea"@en ;
+        dbo:capital     "Conakry"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        245857 ;
+        dbo:population  10324025 .
+
+<http://hrachjar.cz/country/north-america/guadeloupe>
+        rdf:type        country:Country ;
+        foaf:names      "Guadeloupe"@en ;
+        dbo:capital     "Basse-Terre"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        1780 ;
+        dbo:population  443000 .
+
+<http://hrachjar.cz/country/africa/equatorial-guinea>
+        rdf:type        country:Country ;
+        foaf:names      "Equatorial Guinea"@en ;
+        dbo:capital     "Malabo"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        28051 ;
+        dbo:population  1014999 .
+
+<http://hrachjar.cz/country/europe/greece>
+        rdf:type        country:Country ;
+        foaf:names      "Greece"@en ;
+        dbo:capital     "Athens"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        131940 ;
+        dbo:population  11000000 .
+
+<http://hrachjar.cz/country/antarctica/south-georgia-and-the-south-sandwich-islands>
+        rdf:type        country:Country ;
+        foaf:names      "South Georgia and the South Sandwich Islands"@en ;
+        dbo:capital     "Grytviken"@en ;
+        dbo:currency    "AN"^^xsd:string ;
+        dbo:area        3903 ;
+        dbo:population  30 .
+
+<http://hrachjar.cz/country/north-america/guatemala>
+        rdf:type        country:Country ;
+        foaf:names      "Guatemala"@en ;
+        dbo:capital     "Guatemala City"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        108890 ;
+        dbo:population  13550440 .
+
+<http://hrachjar.cz/country/antarctica/guam>
+        rdf:type        country:Country ;
+        foaf:names      "Guam"@en ;
+        dbo:capital     "Hagatna"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        549 ;
+        dbo:population  159358 .
+
+<http://hrachjar.cz/country/africa/guinea-bissau>
+        rdf:type        country:Country ;
+        foaf:names      "Guinea-Bissau"@en ;
+        dbo:capital     "Bissau"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        36120 ;
+        dbo:population  1565126 .
+
+<http://hrachjar.cz/country/south-america/guyana>
+        rdf:type        country:Country ;
+        foaf:names      "Guyana"@en ;
+        dbo:capital     "Georgetown"@en ;
+        dbo:currency    "SA"^^xsd:string ;
+        dbo:area        214970 ;
+        dbo:population  748486 .
+
+<http://hrachjar.cz/country/asia/hong-kong>
+        rdf:type        country:Country ;
+        foaf:names      "Hong Kong"@en ;
+        dbo:capital     "Hong Kong"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        1092 ;
+        dbo:population  6898686 .
+
+<http://hrachjar.cz/country/antarctica/heard-island-and-mcdonald-islands>
+        rdf:type        country:Country ;
+        foaf:names      "Heard Island and McDonald Islands"@en ;
+        dbo:currency    "AN"^^xsd:string ;
+        dbo:area        412 ;
+        dbo:population  0 .
+
+<http://hrachjar.cz/country/north-america/honduras>
+        rdf:type        country:Country ;
+        foaf:names      "Honduras"@en ;
+        dbo:capital     "Tegucigalpa"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        112090 ;
+        dbo:population  7989415 .
+
+<http://hrachjar.cz/country/europe/croatia>
+        rdf:type        country:Country ;
+        foaf:names      "Croatia"@en ;
+        dbo:capital     "Zagreb"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        56542 ;
+        dbo:population  4284889 .
+
+<http://hrachjar.cz/country/north-america/haiti>
+        rdf:type        country:Country ;
+        foaf:names      "Haiti"@en ;
+        dbo:capital     "Port-au-Prince"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        27750 ;
+        dbo:population  9648924 .
+
+<http://hrachjar.cz/country/europe/hungary>
+        rdf:type        country:Country ;
+        foaf:names      "Hungary"@en ;
+        dbo:capital     "Budapest"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        93030 ;
+        dbo:population  9982000 .
+
+<http://hrachjar.cz/country/asia/indonesia>
+        rdf:type        country:Country ;
+        foaf:names      "Indonesia"@en ;
+        dbo:capital     "Jakarta"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        1919440 ;
+        dbo:population  242968342 .
+
+<http://hrachjar.cz/country/europe/ireland>
+        rdf:type        country:Country ;
+        foaf:names      "Ireland"@en ;
+        dbo:capital     "Dublin"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        70280 ;
+        dbo:population  4622917 .
+
+<http://hrachjar.cz/country/asia/israel>
+        rdf:type        country:Country ;
+        foaf:names      "Israel"@en ;
+        dbo:capital     "Jerusalem"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        20770 ;
+        dbo:population  7353985 .
+
+<http://hrachjar.cz/country/europe/isle-of-man>
+        rdf:type        country:Country ;
+        foaf:names      "Isle of Man"@en ;
+        dbo:capital     "Douglas"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        572 ;
+        dbo:population  75049 .
+
+<http://hrachjar.cz/country/asia/india>
+        rdf:type        country:Country ;
+        foaf:names      "India"@en ;
+        dbo:capital     "New Delhi"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        3287590 ;
+        dbo:population  1173108018 .
+
+<http://hrachjar.cz/country/asia/british-indian-ocean-territory>
+        rdf:type        country:Country ;
+        foaf:names      "British Indian Ocean Territory"@en ;
+        dbo:capital     "Diego Garcia"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        60 ;
+        dbo:population  4000 .
+
+<http://hrachjar.cz/country/asia/iraq>
+        rdf:type        country:Country ;
+        foaf:names      "Iraq"@en ;
+        dbo:capital     "Baghdad"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        437072 ;
+        dbo:population  29671605 .
+
+<http://hrachjar.cz/country/asia/iran>
+        rdf:type        country:Country ;
+        foaf:names      "Iran"@en ;
+        dbo:capital     "Tehran"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        1648000 ;
+        dbo:population  76923300 .
+
+<http://hrachjar.cz/country/europe/iceland>
+        rdf:type        country:Country ;
+        foaf:names      "Iceland"@en ;
+        dbo:capital     "Reykjavik"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        103000 ;
+        dbo:population  308910 .
+
+<http://hrachjar.cz/country/europe/italy>
+        rdf:type        country:Country ;
+        foaf:names      "Italy"@en ;
+        dbo:capital     "Rome"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        301230 ;
+        dbo:population  60340328 .
+
+<http://hrachjar.cz/country/europe/jersey>
+        rdf:type        country:Country ;
+        foaf:names      "Jersey"@en ;
+        dbo:capital     "Saint Helier"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        116 ;
+        dbo:population  90812 .
+
+<http://hrachjar.cz/country/north-america/jamaica>
+        rdf:type        country:Country ;
+        foaf:names      "Jamaica"@en ;
+        dbo:capital     "Kingston"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        10991 ;
+        dbo:population  2847232 .
+
+<http://hrachjar.cz/country/asia/jordan>
+        rdf:type        country:Country ;
+        foaf:names      "Jordan"@en ;
+        dbo:capital     "Amman"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        92300 ;
+        dbo:population  6407085 .
+
+<http://hrachjar.cz/country/asia/japan>
+        rdf:type        country:Country ;
+        foaf:names      "Japan"@en ;
+        dbo:capital     "Tokyo"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        377835 ;
+        dbo:population  127288000 .
+
+<http://hrachjar.cz/country/africa/kenya>
+        rdf:type        country:Country ;
+        foaf:names      "Kenya"@en ;
+        dbo:capital     "Nairobi"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        582650 ;
+        dbo:population  40046566 .
+
+<http://hrachjar.cz/country/asia/kyrgyzstan>
+        rdf:type        country:Country ;
+        foaf:names      "Kyrgyzstan"@en ;
+        dbo:capital     "Bishkek"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        198500 ;
+        dbo:population  5776500 .
+
+<http://hrachjar.cz/country/asia/cambodia>
+        rdf:type        country:Country ;
+        foaf:names      "Cambodia"@en ;
+        dbo:capital     "Phnom Penh"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        181040 ;
+        dbo:population  14453680 .
+
+<http://hrachjar.cz/country/antarctica/kiribati>
+        rdf:type        country:Country ;
+        foaf:names      "Kiribati"@en ;
+        dbo:capital     "Tarawa"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        811 ;
+        dbo:population  92533 .
+
+<http://hrachjar.cz/country/africa/comoros>
+        rdf:type        country:Country ;
+        foaf:names      "Comoros"@en ;
+        dbo:capital     "Moroni"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        2170 ;
+        dbo:population  773407 .
+
+<http://hrachjar.cz/country/north-america/saint-kitts-and-nevis>
+        rdf:type        country:Country ;
+        foaf:names      "Saint Kitts and Nevis"@en ;
+        dbo:capital     "Basseterre"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        261 ;
+        dbo:population  51134 .
+
+<http://hrachjar.cz/country/asia/north-korea>
+        rdf:type        country:Country ;
+        foaf:names      "North Korea"@en ;
+        dbo:capital     "Pyongyang"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        120540 ;
+        dbo:population  22912177 .
+
+<http://hrachjar.cz/country/asia/south-korea>
+        rdf:type        country:Country ;
+        foaf:names      "South Korea"@en ;
+        dbo:capital     "Seoul"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        98480 ;
+        dbo:population  48422644 .
+
+<http://hrachjar.cz/country/europe/kosovo>
+        rdf:type        country:Country ;
+        foaf:names      "Kosovo"@en ;
+        dbo:capital     "Pristina"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        10908 ;
+        dbo:population  1800000 .
+
+<http://hrachjar.cz/country/asia/kuwait>
+        rdf:type        country:Country ;
+        foaf:names      "Kuwait"@en ;
+        dbo:capital     "Kuwait City"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        17820 ;
+        dbo:population  2789132 .
+
+<http://hrachjar.cz/country/north-america/cayman-islands>
+        rdf:type        country:Country ;
+        foaf:names      "Cayman Islands"@en ;
+        dbo:capital     "George Town"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        262 ;
+        dbo:population  44270 .
+
+<http://hrachjar.cz/country/asia/kazakhstan>
+        rdf:type        country:Country ;
+        foaf:names      "Kazakhstan"@en ;
+        dbo:capital     "Astana"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        2717300 ;
+        dbo:population  15340000 .
+
+<http://hrachjar.cz/country/asia/laos>
+        rdf:type        country:Country ;
+        foaf:names      "Laos"@en ;
+        dbo:capital     "Vientiane"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        236800 ;
+        dbo:population  6368162 .
+
+<http://hrachjar.cz/country/asia/lebanon>
+        rdf:type        country:Country ;
+        foaf:names      "Lebanon"@en ;
+        dbo:capital     "Beirut"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        10400 ;
+        dbo:population  4125247 .
+
+<http://hrachjar.cz/country/north-america/saint-lucia>
+        rdf:type        country:Country ;
+        foaf:names      "Saint Lucia"@en ;
+        dbo:capital     "Castries"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        616 ;
+        dbo:population  160922 .
+
+<http://hrachjar.cz/country/europe/liechtenstein>
+        rdf:type        country:Country ;
+        foaf:names      "Liechtenstein"@en ;
+        dbo:capital     "Vaduz"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        160 ;
+        dbo:population  35000 .
+
+<http://hrachjar.cz/country/asia/sri-lanka>
+        rdf:type        country:Country ;
+        foaf:names      "Sri Lanka"@en ;
+        dbo:capital     "Colombo"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        65610 ;
+        dbo:population  21513990 .
+
+<http://hrachjar.cz/country/africa/liberia>
+        rdf:type        country:Country ;
+        foaf:names      "Liberia"@en ;
+        dbo:capital     "Monrovia"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        111370 ;
+        dbo:population  3685076 .
+
+<http://hrachjar.cz/country/africa/lesotho>
+        rdf:type        country:Country ;
+        foaf:names      "Lesotho"@en ;
+        dbo:capital     "Maseru"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        30355 ;
+        dbo:population  1919552 .
+
+<http://hrachjar.cz/country/europe/lithuania>
+        rdf:type        country:Country ;
+        foaf:names      "Lithuania"@en ;
+        dbo:capital     "Vilnius"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        65200 ;
+        dbo:population  2944459 .
+
+<http://hrachjar.cz/country/europe/luxembourg>
+        rdf:type        country:Country ;
+        foaf:names      "Luxembourg"@en ;
+        dbo:capital     "Luxembourg"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        2586 ;
+        dbo:population  497538 .
+
+<http://hrachjar.cz/country/europe/latvia>
+        rdf:type        country:Country ;
+        foaf:names      "Latvia"@en ;
+        dbo:capital     "Riga"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        64589 ;
+        dbo:population  2217969 .
+
+<http://hrachjar.cz/country/africa/libya>
+        rdf:type        country:Country ;
+        foaf:names      "Libya"@en ;
+        dbo:capital     "Tripoli"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        1759540 ;
+        dbo:population  6461454 .
+
+<http://hrachjar.cz/country/africa/morocco>
+        rdf:type        country:Country ;
+        foaf:names      "Morocco"@en ;
+        dbo:capital     "Rabat"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        446550 ;
+        dbo:population  31627428 .
+
+<http://hrachjar.cz/country/europe/monaco>
+        rdf:type        country:Country ;
+        foaf:names      "Monaco"@en ;
+        dbo:capital     "Monaco"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:population  32965 .
+
+<http://hrachjar.cz/country/europe/moldova>
+        rdf:type        country:Country ;
+        foaf:names      "Moldova"@en ;
+        dbo:capital     "Chisinau"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        33843 ;
+        dbo:population  4324000 .
+
+<http://hrachjar.cz/country/europe/montenegro>
+        rdf:type        country:Country ;
+        foaf:names      "Montenegro"@en ;
+        dbo:capital     "Podgorica"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        14026 ;
+        dbo:population  666730 .
+
+<http://hrachjar.cz/country/north-america/saint-martin>
+        rdf:type        country:Country ;
+        foaf:names      "Saint Martin"@en ;
+        dbo:capital     "Marigot"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        53 ;
+        dbo:population  35925 .
+
+<http://hrachjar.cz/country/africa/madagascar>
+        rdf:type        country:Country ;
+        foaf:names      "Madagascar"@en ;
+        dbo:capital     "Antananarivo"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        587040 ;
+        dbo:population  21281844 .
+
+<http://hrachjar.cz/country/antarctica/marshall-islands>
+        rdf:type        country:Country ;
+        foaf:names      "Marshall Islands"@en ;
+        dbo:capital     "Majuro"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:population  65859 .
+
+<http://hrachjar.cz/country/europe/macedonia>
+        rdf:type        country:Country ;
+        foaf:names      "Macedonia"@en ;
+        dbo:capital     "Skopje"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        25333 ;
+        dbo:population  2062294 .
+
+<http://hrachjar.cz/country/africa/mali>
+        rdf:type        country:Country ;
+        foaf:names      "Mali"@en ;
+        dbo:capital     "Bamako"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        1240000 ;
+        dbo:population  13796354 .
+
+<http://hrachjar.cz/country/asia/myanmar>
+        rdf:type        country:Country ;
+        foaf:names      "Myanmar"@en ;
+        dbo:capital     "Nay Pyi Taw"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        678500 ;
+        dbo:population  53414374 .
+
+<http://hrachjar.cz/country/asia/mongolia>
+        rdf:type        country:Country ;
+        foaf:names      "Mongolia"@en ;
+        dbo:capital     "Ulan Bator"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        1565000 ;
+        dbo:population  3086918 .
+
+<http://hrachjar.cz/country/asia/macao>
+        rdf:type        country:Country ;
+        foaf:names      "Macao"@en ;
+        dbo:capital     "Macao"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        254 ;
+        dbo:population  449198 .
+
+<http://hrachjar.cz/country/antarctica/northern-mariana-islands>
+        rdf:type        country:Country ;
+        foaf:names      "Northern Mariana Islands"@en ;
+        dbo:capital     "Saipan"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        477 ;
+        dbo:population  53883 .
+
+<http://hrachjar.cz/country/north-america/martinique>
+        rdf:type        country:Country ;
+        foaf:names      "Martinique"@en ;
+        dbo:capital     "Fort-de-France"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        1100 ;
+        dbo:population  432900 .
+
+<http://hrachjar.cz/country/africa/mauritania>
+        rdf:type        country:Country ;
+        foaf:names      "Mauritania"@en ;
+        dbo:capital     "Nouakchott"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        1030700 ;
+        dbo:population  3205060 .
+
+<http://hrachjar.cz/country/north-america/montserrat>
+        rdf:type        country:Country ;
+        foaf:names      "Montserrat"@en ;
+        dbo:capital     "Plymouth"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        102 ;
+        dbo:population  9341 .
+
+<http://hrachjar.cz/country/europe/malta>
+        rdf:type        country:Country ;
+        foaf:names      "Malta"@en ;
+        dbo:capital     "Valletta"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        316 ;
+        dbo:population  403000 .
+
+<http://hrachjar.cz/country/africa/mauritius>
+        rdf:type        country:Country ;
+        foaf:names      "Mauritius"@en ;
+        dbo:capital     "Port Louis"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        2040 ;
+        dbo:population  1294104 .
+
+<http://hrachjar.cz/country/asia/maldives>
+        rdf:type        country:Country ;
+        foaf:names      "Maldives"@en ;
+        dbo:capital     "Male"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        300 ;
+        dbo:population  395650 .
+
+<http://hrachjar.cz/country/africa/malawi>
+        rdf:type        country:Country ;
+        foaf:names      "Malawi"@en ;
+        dbo:capital     "Lilongwe"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        118480 ;
+        dbo:population  15447500 .
+
+<http://hrachjar.cz/country/north-america/mexico>
+        rdf:type        country:Country ;
+        foaf:names      "Mexico"@en ;
+        dbo:capital     "Mexico City"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        1972550 ;
+        dbo:population  112468855 .
+
+<http://hrachjar.cz/country/asia/malaysia>
+        rdf:type        country:Country ;
+        foaf:names      "Malaysia"@en ;
+        dbo:capital     "Kuala Lumpur"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        329750 ;
+        dbo:population  28274729 .
+
+<http://hrachjar.cz/country/africa/mozambique>
+        rdf:type        country:Country ;
+        foaf:names      "Mozambique"@en ;
+        dbo:capital     "Maputo"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        801590 ;
+        dbo:population  22061451 .
+
+<http://hrachjar.cz/country/africa/namibia>
+        rdf:type        country:Country ;
+        foaf:names      "Namibia"@en ;
+        dbo:capital     "Windhoek"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        825418 ;
+        dbo:population  2128471 .
+
+<http://hrachjar.cz/country/antarctica/new-caledonia>
+        rdf:type        country:Country ;
+        foaf:names      "New Caledonia"@en ;
+        dbo:capital     "Noumea"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        19060 ;
+        dbo:population  216494 .
+
+<http://hrachjar.cz/country/africa/niger>
+        rdf:type        country:Country ;
+        foaf:names      "Niger"@en ;
+        dbo:capital     "Niamey"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        1267000 ;
+        dbo:population  15878271 .
+
+<http://hrachjar.cz/country/antarctica/norfolk-island>
+        rdf:type        country:Country ;
+        foaf:names      "Norfolk Island"@en ;
+        dbo:capital     "Kingston"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:population  1828 .
+
+<http://hrachjar.cz/country/africa/nigeria>
+        rdf:type        country:Country ;
+        foaf:names      "Nigeria"@en ;
+        dbo:capital     "Abuja"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        923768 ;
+        dbo:population  154000000 .
+
+<http://hrachjar.cz/country/north-america/nicaragua>
+        rdf:type        country:Country ;
+        foaf:names      "Nicaragua"@en ;
+        dbo:capital     "Managua"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        129494 ;
+        dbo:population  5995928 .
+
+<http://hrachjar.cz/country/europe/netherlands>
+        rdf:type        country:Country ;
+        foaf:names      "Netherlands"@en ;
+        dbo:capital     "Amsterdam"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        41526 ;
+        dbo:population  16645000 .
+
+<http://hrachjar.cz/country/europe/norway>
+        rdf:type        country:Country ;
+        foaf:names      "Norway"@en ;
+        dbo:capital     "Oslo"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        324220 ;
+        dbo:population  5009150 .
+
+<http://hrachjar.cz/country/asia/nepal>
+        rdf:type        country:Country ;
+        foaf:names      "Nepal"@en ;
+        dbo:capital     "Kathmandu"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        140800 ;
+        dbo:population  28951852 .
+
+<http://hrachjar.cz/country/antarctica/nauru>
+        rdf:type        country:Country ;
+        foaf:names      "Nauru"@en ;
+        dbo:capital     "Yaren"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        21 ;
+        dbo:population  10065 .
+
+<http://hrachjar.cz/country/antarctica/niue>
+        rdf:type        country:Country ;
+        foaf:names      "Niue"@en ;
+        dbo:capital     "Alofi"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        260 ;
+        dbo:population  2166 .
+
+<http://hrachjar.cz/country/antarctica/new-zealand>
+        rdf:type        country:Country ;
+        foaf:names      "New Zealand"@en ;
+        dbo:capital     "Wellington"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        268680 ;
+        dbo:population  4252277 .
+
+<http://hrachjar.cz/country/asia/oman>
+        rdf:type        country:Country ;
+        foaf:names      "Oman"@en ;
+        dbo:capital     "Muscat"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        212460 ;
+        dbo:population  2967717 .
+
+<http://hrachjar.cz/country/north-america/panama>
+        rdf:type        country:Country ;
+        foaf:names      "Panama"@en ;
+        dbo:capital     "Panama City"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        78200 ;
+        dbo:population  3410676 .
+
+<http://hrachjar.cz/country/south-america/peru>
+        rdf:type        country:Country ;
+        foaf:names      "Peru"@en ;
+        dbo:capital     "Lima"@en ;
+        dbo:currency    "SA"^^xsd:string ;
+        dbo:area        1285220 ;
+        dbo:population  29907003 .
+
+<http://hrachjar.cz/country/antarctica/french-polynesia>
+        rdf:type        country:Country ;
+        foaf:names      "French Polynesia"@en ;
+        dbo:capital     "Papeete"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        4167 ;
+        dbo:population  270485 .
+
+<http://hrachjar.cz/country/antarctica/papua-new-guinea>
+        rdf:type        country:Country ;
+        foaf:names      "Papua New Guinea"@en ;
+        dbo:capital     "Port Moresby"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        462840 ;
+        dbo:population  6064515 .
+
+<http://hrachjar.cz/country/asia/philippines>
+        rdf:type        country:Country ;
+        foaf:names      "Philippines"@en ;
+        dbo:capital     "Manila"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        300000 ;
+        dbo:population  99900177 .
+
+<http://hrachjar.cz/country/asia/pakistan>
+        rdf:type        country:Country ;
+        foaf:names      "Pakistan"@en ;
+        dbo:capital     "Islamabad"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        803940 ;
+        dbo:population  184404791 .
+
+<http://hrachjar.cz/country/europe/poland>
+        rdf:type        country:Country ;
+        foaf:names      "Poland"@en ;
+        dbo:capital     "Warsaw"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        312685 ;
+        dbo:population  38500000 .
+
+<http://hrachjar.cz/country/north-america/saint-pierre-and-miquelon>
+        rdf:type        country:Country ;
+        foaf:names      "Saint Pierre and Miquelon"@en ;
+        dbo:capital     "Saint-Pierre"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        242 ;
+        dbo:population  7012 .
+
+<http://hrachjar.cz/country/antarctica/pitcairn>
+        rdf:type        country:Country ;
+        foaf:names      "Pitcairn"@en ;
+        dbo:capital     "Adamstown"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        47 ;
+        dbo:population  46 .
+
+<http://hrachjar.cz/country/north-america/puerto-rico>
+        rdf:type        country:Country ;
+        foaf:names      "Puerto Rico"@en ;
+        dbo:capital     "San Juan"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        9104 ;
+        dbo:population  3916632 .
+
+<http://hrachjar.cz/country/asia/palestinian-territory>
+        rdf:type        country:Country ;
+        foaf:names      "Palestinian Territory"@en ;
+        dbo:capital     "East Jerusalem"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        5970 ;
+        dbo:population  3800000 .
+
+<http://hrachjar.cz/country/europe/portugal>
+        rdf:type        country:Country ;
+        foaf:names      "Portugal"@en ;
+        dbo:capital     "Lisbon"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        92391 ;
+        dbo:population  10676000 .
+
+<http://hrachjar.cz/country/antarctica/palau>
+        rdf:type        country:Country ;
+        foaf:names      "Palau"@en ;
+        dbo:capital     "Melekeok"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        458 ;
+        dbo:population  19907 .
+
+<http://hrachjar.cz/country/south-america/paraguay>
+        rdf:type        country:Country ;
+        foaf:names      "Paraguay"@en ;
+        dbo:capital     "Asuncion"@en ;
+        dbo:currency    "SA"^^xsd:string ;
+        dbo:area        406750 ;
+        dbo:population  6375830 .
+
+<http://hrachjar.cz/country/asia/qatar>
+        rdf:type        country:Country ;
+        foaf:names      "Qatar"@en ;
+        dbo:capital     "Doha"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        11437 ;
+        dbo:population  840926 .
+
+<http://hrachjar.cz/country/africa/reunion>
+        rdf:type        country:Country ;
+        foaf:names      "Reunion"@en ;
+        dbo:capital     "Saint-Denis"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        2517 ;
+        dbo:population  776948 .
+
+<http://hrachjar.cz/country/europe/romania>
+        rdf:type        country:Country ;
+        foaf:names      "Romania"@en ;
+        dbo:capital     "Bucharest"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        237500 ;
+        dbo:population  21959278 .
+
+<http://hrachjar.cz/country/europe/serbia>
+        rdf:type        country:Country ;
+        foaf:names      "Serbia"@en ;
+        dbo:capital     "Belgrade"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        88361 ;
+        dbo:population  7344847 .
+
+<http://hrachjar.cz/country/europe/russia>
+        rdf:type        country:Country ;
+        foaf:names      "Russia"@en ;
+        dbo:capital     "Moscow"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        17100000 ;
+        dbo:population  140702000 .
+
+<http://hrachjar.cz/country/africa/rwanda>
+        rdf:type        country:Country ;
+        foaf:names      "Rwanda"@en ;
+        dbo:capital     "Kigali"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        26338 ;
+        dbo:population  11055976 .
+
+<http://hrachjar.cz/country/asia/saudi-arabia>
+        rdf:type        country:Country ;
+        foaf:names      "Saudi Arabia"@en ;
+        dbo:capital     "Riyadh"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        1960582 ;
+        dbo:population  25731776 .
+
+<http://hrachjar.cz/country/antarctica/solomon-islands>
+        rdf:type        country:Country ;
+        foaf:names      "Solomon Islands"@en ;
+        dbo:capital     "Honiara"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        28450 ;
+        dbo:population  559198 .
+
+<http://hrachjar.cz/country/africa/seychelles>
+        rdf:type        country:Country ;
+        foaf:names      "Seychelles"@en ;
+        dbo:capital     "Victoria"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        455 ;
+        dbo:population  88340 .
+
+<http://hrachjar.cz/country/africa/sudan>
+        rdf:type        country:Country ;
+        foaf:names      "Sudan"@en ;
+        dbo:capital     "Khartoum"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        1861484 ;
+        dbo:population  35000000 .
+
+<http://hrachjar.cz/country/africa/south-sudan>
+        rdf:type        country:Country ;
+        foaf:names      "South Sudan"@en ;
+        dbo:capital     "Juba"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        644329 ;
+        dbo:population  8260490 .
+
+<http://hrachjar.cz/country/europe/sweden>
+        rdf:type        country:Country ;
+        foaf:names      "Sweden"@en ;
+        dbo:capital     "Stockholm"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        449964 ;
+        dbo:population  9828655 .
+
+<http://hrachjar.cz/country/asia/singapore>
+        rdf:type        country:Country ;
+        foaf:names      "Singapore"@en ;
+        dbo:capital     "Singapore"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:population  4701069 .
+
+<http://hrachjar.cz/country/africa/saint-helena>
+        rdf:type        country:Country ;
+        foaf:names      "Saint Helena"@en ;
+        dbo:capital     "Jamestown"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        410 ;
+        dbo:population  7460 .
+
+<http://hrachjar.cz/country/europe/slovenia>
+        rdf:type        country:Country ;
+        foaf:names      "Slovenia"@en ;
+        dbo:capital     "Ljubljana"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        20273 ;
+        dbo:population  2007000 .
+
+<http://hrachjar.cz/country/europe/svalbard-and-jan-mayen>
+        rdf:type        country:Country ;
+        foaf:names      "Svalbard and Jan Mayen"@en ;
+        dbo:capital     "Longyearbyen"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        62049 ;
+        dbo:population  2550 .
+
+<http://hrachjar.cz/country/europe/slovakia>
+        rdf:type        country:Country ;
+        foaf:names      "Slovakia"@en ;
+        dbo:capital     "Bratislava"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        48845 ;
+        dbo:population  5455000 .
+
+<http://hrachjar.cz/country/africa/sierra-leone>
+        rdf:type        country:Country ;
+        foaf:names      "Sierra Leone"@en ;
+        dbo:capital     "Freetown"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        71740 ;
+        dbo:population  5245695 .
+
+<http://hrachjar.cz/country/europe/san-marino>
+        rdf:type        country:Country ;
+        foaf:names      "San Marino"@en ;
+        dbo:capital     "San Marino"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:population  31477 .
+
+<http://hrachjar.cz/country/africa/senegal>
+        rdf:type        country:Country ;
+        foaf:names      "Senegal"@en ;
+        dbo:capital     "Dakar"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        196190 ;
+        dbo:population  12323252 .
+
+<http://hrachjar.cz/country/africa/somalia>
+        rdf:type        country:Country ;
+        foaf:names      "Somalia"@en ;
+        dbo:capital     "Mogadishu"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        637657 ;
+        dbo:population  10112453 .
+
+<http://hrachjar.cz/country/south-america/suriname>
+        rdf:type        country:Country ;
+        foaf:names      "Suriname"@en ;
+        dbo:capital     "Paramaribo"@en ;
+        dbo:currency    "SA"^^xsd:string ;
+        dbo:area        163270 ;
+        dbo:population  492829 .
+
+<http://hrachjar.cz/country/africa/sao-tome-and-principe>
+        rdf:type        country:Country ;
+        foaf:names      "Sao Tome and Principe"@en ;
+        dbo:capital     "Sao Tome"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        1001 ;
+        dbo:population  175808 .
+
+<http://hrachjar.cz/country/north-america/el-salvador>
+        rdf:type        country:Country ;
+        foaf:names      "El Salvador"@en ;
+        dbo:capital     "San Salvador"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        21040 ;
+        dbo:population  6052064 .
+
+<http://hrachjar.cz/country/north-america/sint-maarten>
+        rdf:type        country:Country ;
+        foaf:names      "Sint Maarten"@en ;
+        dbo:capital     "Philipsburg"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        21 ;
+        dbo:population  37429 .
+
+<http://hrachjar.cz/country/asia/syria>
+        rdf:type        country:Country ;
+        foaf:names      "Syria"@en ;
+        dbo:capital     "Damascus"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        185180 ;
+        dbo:population  22198110 .
+
+<http://hrachjar.cz/country/africa/swaziland>
+        rdf:type        country:Country ;
+        foaf:names      "Swaziland"@en ;
+        dbo:capital     "Mbabane"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        17363 ;
+        dbo:population  1354051 .
+
+<http://hrachjar.cz/country/north-america/turks-and-caicos-islands>
+        rdf:type        country:Country ;
+        foaf:names      "Turks and Caicos Islands"@en ;
+        dbo:capital     "Cockburn Town"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        430 ;
+        dbo:population  20556 .
+
+<http://hrachjar.cz/country/africa/chad>
+        rdf:type        country:Country ;
+        foaf:names      "Chad"@en ;
+        dbo:capital     "N'Djamena"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        1284000 ;
+        dbo:population  10543464 .
+
+<http://hrachjar.cz/country/antarctica/french-southern-territories>
+        rdf:type        country:Country ;
+        foaf:names      "French Southern Territories"@en ;
+        dbo:capital     "Port-aux-Francais"@en ;
+        dbo:currency    "AN"^^xsd:string ;
+        dbo:area        7829 ;
+        dbo:population  140 .
+
+<http://hrachjar.cz/country/africa/togo>
+        rdf:type        country:Country ;
+        foaf:names      "Togo"@en ;
+        dbo:capital     "Lome"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        56785 ;
+        dbo:population  6587239 .
+
+<http://hrachjar.cz/country/asia/thailand>
+        rdf:type        country:Country ;
+        foaf:names      "Thailand"@en ;
+        dbo:capital     "Bangkok"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        514000 ;
+        dbo:population  67089500 .
+
+<http://hrachjar.cz/country/asia/tajikistan>
+        rdf:type        country:Country ;
+        foaf:names      "Tajikistan"@en ;
+        dbo:capital     "Dushanbe"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        143100 ;
+        dbo:population  7487489 .
+
+<http://hrachjar.cz/country/antarctica/tokelau>
+        rdf:type        country:Country ;
+        foaf:names      "Tokelau"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        10 ;
+        dbo:population  1466 .
+
+<http://hrachjar.cz/country/antarctica/east-timor>
+        rdf:type        country:Country ;
+        foaf:names      "East Timor"@en ;
+        dbo:capital     "Dili"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        15007 ;
+        dbo:population  1154625 .
+
+<http://hrachjar.cz/country/asia/turkmenistan>
+        rdf:type        country:Country ;
+        foaf:names      "Turkmenistan"@en ;
+        dbo:capital     "Ashgabat"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        488100 ;
+        dbo:population  4940916 .
+
+<http://hrachjar.cz/country/africa/tunisia>
+        rdf:type        country:Country ;
+        foaf:names      "Tunisia"@en ;
+        dbo:capital     "Tunis"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        163610 ;
+        dbo:population  10589025 .
+
+<http://hrachjar.cz/country/antarctica/tonga>
+        rdf:type        country:Country ;
+        foaf:names      "Tonga"@en ;
+        dbo:capital     "Nuku'alofa"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        748 ;
+        dbo:population  122580 .
+
+<http://hrachjar.cz/country/asia/turkey>
+        rdf:type        country:Country ;
+        foaf:names      "Turkey"@en ;
+        dbo:capital     "Ankara"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        780580 ;
+        dbo:population  77804122 .
+
+<http://hrachjar.cz/country/north-america/trinidad-and-tobago>
+        rdf:type        country:Country ;
+        foaf:names      "Trinidad and Tobago"@en ;
+        dbo:capital     "Port of Spain"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        5128 ;
+        dbo:population  1228691 .
+
+<http://hrachjar.cz/country/antarctica/tuvalu>
+        rdf:type        country:Country ;
+        foaf:names      "Tuvalu"@en ;
+        dbo:capital     "Funafuti"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        26 ;
+        dbo:population  10472 .
+
+<http://hrachjar.cz/country/asia/taiwan>
+        rdf:type        country:Country ;
+        foaf:names      "Taiwan"@en ;
+        dbo:capital     "Taipei"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        35980 ;
+        dbo:population  22894384 .
+
+<http://hrachjar.cz/country/africa/tanzania>
+        rdf:type        country:Country ;
+        foaf:names      "Tanzania"@en ;
+        dbo:capital     "Dodoma"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        945087 ;
+        dbo:population  41892895 .
+
+<http://hrachjar.cz/country/europe/ukraine>
+        rdf:type        country:Country ;
+        foaf:names      "Ukraine"@en ;
+        dbo:capital     "Kiev"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        603700 ;
+        dbo:population  45415596 .
+
+<http://hrachjar.cz/country/africa/uganda>
+        rdf:type        country:Country ;
+        foaf:names      "Uganda"@en ;
+        dbo:capital     "Kampala"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        236040 ;
+        dbo:population  33398682 .
+
+<http://hrachjar.cz/country/antarctica/united-states-minor-outlying-islands>
+        rdf:type        country:Country ;
+        foaf:names      "United States Minor Outlying Islands"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        0 ;
+        dbo:population  0 .
+
+<http://hrachjar.cz/country/north-america/united-states>
+        rdf:type        country:Country ;
+        foaf:names      "United States"@en ;
+        dbo:capital     "Washington"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        9629091 ;
+        dbo:population  310232863 .
+
+<http://hrachjar.cz/country/south-america/uruguay>
+        rdf:type        country:Country ;
+        foaf:names      "Uruguay"@en ;
+        dbo:capital     "Montevideo"@en ;
+        dbo:currency    "SA"^^xsd:string ;
+        dbo:area        176220 ;
+        dbo:population  3477000 .
+
+<http://hrachjar.cz/country/asia/uzbekistan>
+        rdf:type        country:Country ;
+        foaf:names      "Uzbekistan"@en ;
+        dbo:capital     "Tashkent"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        447400 ;
+        dbo:population  27865738 .
+
+<http://hrachjar.cz/country/europe/vatican>
+        rdf:type        country:Country ;
+        foaf:names      "Vatican"@en ;
+        dbo:capital     "Vatican City"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:population  921 .
+
+<http://hrachjar.cz/country/north-america/saint-vincent-and-the-grenadines>
+        rdf:type        country:Country ;
+        foaf:names      "Saint Vincent and the Grenadines"@en ;
+        dbo:capital     "Kingstown"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        389 ;
+        dbo:population  104217 .
+
+<http://hrachjar.cz/country/south-america/venezuela>
+        rdf:type        country:Country ;
+        foaf:names      "Venezuela"@en ;
+        dbo:capital     "Caracas"@en ;
+        dbo:currency    "SA"^^xsd:string ;
+        dbo:area        912050 ;
+        dbo:population  27223228 .
+
+<http://hrachjar.cz/country/north-america/british-virgin-islands>
+        rdf:type        country:Country ;
+        foaf:names      "British Virgin Islands"@en ;
+        dbo:capital     "Road Town"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        153 ;
+        dbo:population  21730 .
+
+<http://hrachjar.cz/country/north-america/u.s.-virgin-islands>
+        rdf:type        country:Country ;
+        foaf:names      "U.S. Virgin Islands"@en ;
+        dbo:capital     "Charlotte Amalie"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        352 ;
+        dbo:population  108708 .
+
+<http://hrachjar.cz/country/asia/vietnam>
+        rdf:type        country:Country ;
+        foaf:names      "Vietnam"@en ;
+        dbo:capital     "Hanoi"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        329560 ;
+        dbo:population  89571130 .
+
+<http://hrachjar.cz/country/antarctica/vanuatu>
+        rdf:type        country:Country ;
+        foaf:names      "Vanuatu"@en ;
+        dbo:capital     "Port Vila"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        12200 ;
+        dbo:population  221552 .
+
+<http://hrachjar.cz/country/antarctica/wallis-and-futuna>
+        rdf:type        country:Country ;
+        foaf:names      "Wallis and Futuna"@en ;
+        dbo:capital     "Mata Utu"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        274 ;
+        dbo:population  16025 .
+
+<http://hrachjar.cz/country/antarctica/samoa>
+        rdf:type        country:Country ;
+        foaf:names      "Samoa"@en ;
+        dbo:capital     "Apia"@en ;
+        dbo:currency    "OC"^^xsd:string ;
+        dbo:area        2944 ;
+        dbo:population  192001 .
+
+<http://hrachjar.cz/country/asia/yemen>
+        rdf:type        country:Country ;
+        foaf:names      "Yemen"@en ;
+        dbo:capital     "Sanaa"@en ;
+        dbo:currency    "AS"^^xsd:string ;
+        dbo:area        527970 ;
+        dbo:population  23495361 .
+
+<http://hrachjar.cz/country/africa/mayotte>
+        rdf:type        country:Country ;
+        foaf:names      "Mayotte"@en ;
+        dbo:capital     "Mamoudzou"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        374 ;
+        dbo:population  159042 .
+
+<http://hrachjar.cz/country/africa/south-africa>
+        rdf:type        country:Country ;
+        foaf:names      "South Africa"@en ;
+        dbo:capital     "Pretoria"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        1219912 ;
+        dbo:population  49000000 .
+
+<http://hrachjar.cz/country/africa/zambia>
+        rdf:type        country:Country ;
+        foaf:names      "Zambia"@en ;
+        dbo:capital     "Lusaka"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        752614 ;
+        dbo:population  13460305 .
+
+<http://hrachjar.cz/country/africa/zimbabwe>
+        rdf:type        country:Country ;
+        foaf:names      "Zimbabwe"@en ;
+        dbo:capital     "Harare"@en ;
+        dbo:currency    "AF"^^xsd:string ;
+        dbo:area        390580 ;
+        dbo:population  13061000 .
+
+<http://hrachjar.cz/country/europe/serbia-and-montenegro>
+        rdf:type        country:Country ;
+        foaf:names      "Serbia and Montenegro"@en ;
+        dbo:capital     "Belgrade"@en ;
+        dbo:currency    "EU"^^xsd:string ;
+        dbo:area        102350 ;
+        dbo:population  10829175 .
+
+<http://hrachjar.cz/country/north-america/netherlands-antilles>
+        rdf:type        country:Country ;
+        foaf:names      "Netherlands Antilles"@en ;
+        dbo:capital     "Willemstad"@en ;
+        dbo:currency    "NA"^^xsd:string ;
+        dbo:area        960 ;
+        dbo:population  300000 .
