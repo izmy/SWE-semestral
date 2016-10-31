@@ -14,6 +14,7 @@ CONSTRUCT {
           dbo:rank ?rank;
 }
 WHERE {
+  FILTER (IF(STRSTARTS(?a, "String"), false, true))
   BIND(IRI(CONCAT('http://hrachjar.cz/company/', LCASE(REPLACE(?a, " ", "-")))) AS ?aUri)
   BIND(xsd:string(?a) AS ?name)
   BIND(xsd:string(?c) AS ?sector)

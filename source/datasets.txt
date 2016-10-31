@@ -12,7 +12,7 @@ Tool: Tarql
 
 --------------
 
-Name: Economy & Growth (GDP, inflation, unemployment)
+Name: Economy & Growth 2014 (GDP, inflation, unemployment)
 Link: http://databank.worldbank.org/data/SWE/id/ef60e168
 Format: CSV
 Tool: Tarql

@@ -8,7 +8,7 @@ PREFIX dbo: <http://dbpedia.org/ontology/#>
 
 CONSTRUCT {
     ?aUri a economy:Economy;
-          country:name ?countryName;
+          foaf:name ?countryName;
           economy:gdb ?gdb;
           economy:gdbGrowth ?gdbGrowth;
           economy:gdpPerCapita ?gdbPC;

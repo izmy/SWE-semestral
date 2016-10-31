@@ -8,7 +8,7 @@
 
 <http://hrachjar.cz/economy/afg>
         rdf:type                    economy:Economy ;
-        country:name                "Afghanistan"@en ;
+        foaf:name                   "Afghanistan"@en ;
         economy:gdb                 "20050189881.6659"^^xsd:double ;
         economy:gdbGrowth           "1.31253090764642"^^xsd:double ;
         economy:gdpPerCapita        "633.947864294639"^^xsd:double ;
@@ -18,7 +18,7 @@
 
 <http://hrachjar.cz/economy/alb>
         rdf:type                    economy:Economy ;
-        country:name                "Albania"@en ;
+        foaf:name                   "Albania"@en ;
         economy:gdb                 "13277963807.0823"^^xsd:double ;
         economy:gdbGrowth           "2"^^xsd:double ;
         economy:gdpPerCapita        "4588.64944014811"^^xsd:double ;
@@ -29,7 +29,7 @@
 
 <http://hrachjar.cz/economy/dza>
         rdf:type                    economy:Economy ;
-        country:name                "Algeria"@en ;
+        foaf:name                   "Algeria"@en ;
         economy:gdb                 "213518488688.12"^^xsd:double ;
         economy:gdbGrowth           "3.79999999999987"^^xsd:double ;
         economy:gdpPerCapita        "5484.0668056148"^^xsd:double ;
@@ -39,16 +39,16 @@
         economy:unemployment        "10.6000003814697"^^xsd:double .
 
 <http://hrachjar.cz/economy/asm>
-        rdf:type      economy:Economy ;
-        country:name  "American Samoa"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "American Samoa"@en .
 
 <http://hrachjar.cz/economy/ado>
-        rdf:type      economy:Economy ;
-        country:name  "Andorra"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Andorra"@en .
 
 <http://hrachjar.cz/economy/ago>
         rdf:type                    economy:Economy ;
-        country:name                "Angola"@en ;
+        foaf:name                   "Angola"@en ;
         economy:gdb                 "126775134686.437"^^xsd:double ;
         economy:gdbGrowth           "4.80447270408375"^^xsd:double ;
         economy:gdpPerCapita        "5232.69050054132"^^xsd:double ;
@@ -58,7 +58,7 @@
 
 <http://hrachjar.cz/economy/atg>
         rdf:type                    economy:Economy ;
-        country:name                "Antigua and Barbuda"@en ;
+        foaf:name                   "Antigua and Barbuda"@en ;
         economy:gdb                 "1220976000"^^xsd:double ;
         economy:gdbGrowth           "4.8219802933227"^^xsd:double ;
         economy:gdpPerCapita        "13432.0792079208"^^xsd:double ;
@@ -68,7 +68,7 @@
 
 <http://hrachjar.cz/economy/arg>
         rdf:type                    economy:Economy ;
-        country:name                "Argentina"@en ;
+        foaf:name                   "Argentina"@en ;
         economy:gdb                 "529726189460.922"^^xsd:double ;
         economy:gdbGrowth           "-2.55847744625616"^^xsd:double ;
         economy:gdpPerCapita        "12324.9387857728"^^xsd:double ;
@@ -78,7 +78,7 @@
 
 <http://hrachjar.cz/economy/arm>
         rdf:type                    economy:Economy ;
-        country:name                "Armenia"@en ;
+        foaf:name                   "Armenia"@en ;
         economy:gdb                 "11644438422.9844"^^xsd:double ;
         economy:gdbGrowth           "3.49999999884847"^^xsd:double ;
         economy:gdpPerCapita        "3873.53356580682"^^xsd:double ;
@@ -88,12 +88,12 @@
 
 <http://hrachjar.cz/economy/abw>
         rdf:type              economy:Economy ;
-        country:name          "Aruba"@en ;
+        foaf:name             "Aruba"@en ;
         economy:inflationPPI  "0.420998172168936"^^xsd:double .
 
 <http://hrachjar.cz/economy/aus>
         rdf:type                    economy:Economy ;
-        country:name                "Australia"@en ;
+        foaf:name                   "Australia"@en ;
         economy:gdb                 "1454675479665.84"^^xsd:double ;
         economy:gdbGrowth           "2.4998512224341"^^xsd:double ;
         economy:gdpPerCapita        "61995.8296976"^^xsd:double ;
@@ -104,7 +104,7 @@
 
 <http://hrachjar.cz/economy/aut>
         rdf:type                    economy:Economy ;
-        country:name                "Austria"@en ;
+        foaf:name                   "Austria"@en ;
         economy:gdb                 "436887543466.95"^^xsd:double ;
         economy:gdbGrowth           "0.353471065680438"^^xsd:double ;
         economy:gdpPerCapita        "51148.3588760796"^^xsd:double ;
@@ -115,7 +115,7 @@
 
 <http://hrachjar.cz/economy/aze>
         rdf:type                    economy:Economy ;
-        country:name                "Azerbaijan"@en ;
+        foaf:name                   "Azerbaijan"@en ;
         economy:gdb                 "75198010965.1919"^^xsd:double ;
         economy:gdbGrowth           "2"^^xsd:double ;
         economy:gdpPerCapita        "7886.45914367274"^^xsd:double ;
@@ -126,7 +126,7 @@
 
 <http://hrachjar.cz/economy/bhs>
         rdf:type                    economy:Economy ;
-        country:name                "Bahamas, The"@en ;
+        foaf:name                   "Bahamas, The"@en ;
         economy:gdb                 "8510500000"^^xsd:double ;
         economy:gdbGrowth           "1.02278610479254"^^xsd:double ;
         economy:gdpPerCapita        "22217.4941392075"^^xsd:double ;
@@ -136,7 +136,7 @@
 
 <http://hrachjar.cz/economy/bhr>
         rdf:type                    economy:Economy ;
-        country:name                "Bahrain"@en ;
+        foaf:name                   "Bahrain"@en ;
         economy:gdb                 "33851063829.7872"^^xsd:double ;
         economy:gdbGrowth           "4.48093515168384"^^xsd:double ;
         economy:gdpPerCapita        "24855.2156350086"^^xsd:double ;
@@ -146,7 +146,7 @@
 
 <http://hrachjar.cz/economy/bgd>
         rdf:type                    economy:Economy ;
-        country:name                "Bangladesh"@en ;
+        foaf:name                   "Bangladesh"@en ;
         economy:gdb                 "172885454931.453"^^xsd:double ;
         economy:gdbGrowth           "6.06109305375394"^^xsd:double ;
         economy:gdpPerCapita        "1086.80008676935"^^xsd:double ;
@@ -156,7 +156,7 @@
 
 <http://hrachjar.cz/economy/brb>
         rdf:type                    economy:Economy ;
-        country:name                "Barbados"@en ;
+        foaf:name                   "Barbados"@en ;
         economy:gdb                 "4354500000"^^xsd:double ;
         economy:gdbGrowth           "0.180342651036966"^^xsd:double ;
         economy:gdpPerCapita        "15366.2926106288"^^xsd:double ;
@@ -166,7 +166,7 @@
 
 <http://hrachjar.cz/economy/blr>
         rdf:type                    economy:Economy ;
-        country:name                "Belarus"@en ;
+        foaf:name                   "Belarus"@en ;
         economy:gdb                 "76103961203.4406"^^xsd:double ;
         economy:gdbGrowth           "1.72308600283803"^^xsd:double ;
         economy:gdpPerCapita        "8025.30435552468"^^xsd:double ;
@@ -177,7 +177,7 @@
 
 <http://hrachjar.cz/economy/bel>
         rdf:type                    economy:Economy ;
-        country:name                "Belgium"@en ;
+        foaf:name                   "Belgium"@en ;
         economy:gdb                 "531234803749.453"^^xsd:double ;
         economy:gdbGrowth           "1.29547335319668"^^xsd:double ;
         economy:gdpPerCapita        "47299.8601085612"^^xsd:double ;
@@ -188,7 +188,7 @@
 
 <http://hrachjar.cz/economy/blz>
         rdf:type                    economy:Economy ;
-        country:name                "Belize"@en ;
+        foaf:name                   "Belize"@en ;
         economy:gdb                 "1717861750"^^xsd:double ;
         economy:gdbGrowth           "4.08191649179518"^^xsd:double ;
         economy:gdpPerCapita        "4884.3686203818"^^xsd:double ;
@@ -198,7 +198,7 @@
 
 <http://hrachjar.cz/economy/ben>
         rdf:type                    economy:Economy ;
-        country:name                "Benin"@en ;
+        foaf:name                   "Benin"@en ;
         economy:gdb                 "9575356734.7269"^^xsd:double ;
         economy:gdbGrowth           "6.54148665115765"^^xsd:double ;
         economy:gdpPerCapita        "903.464924007693"^^xsd:double ;
@@ -207,12 +207,12 @@
         economy:inflationPPI        "-1.08574446857182"^^xsd:double .
 
 <http://hrachjar.cz/economy/bmu>
-        rdf:type      economy:Economy ;
-        country:name  "Bermuda"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Bermuda"@en .
 
 <http://hrachjar.cz/economy/btn>
         rdf:type                    economy:Economy ;
-        country:name                "Bhutan"@en ;
+        foaf:name                   "Bhutan"@en ;
         economy:gdb                 "1958819914.95916"^^xsd:double ;
         economy:gdbGrowth           "5.45881731232578"^^xsd:double ;
         economy:gdpPerCapita        "2560.52213174131"^^xsd:double ;
@@ -223,7 +223,7 @@
 
 <http://hrachjar.cz/economy/bol>
         rdf:type                    economy:Economy ;
-        country:name                "Bolivia"@en ;
+        foaf:name                   "Bolivia"@en ;
         economy:gdb                 "32996187988.4226"^^xsd:double ;
         economy:gdbGrowth           "5.460569751994"^^xsd:double ;
         economy:gdpPerCapita        "3124.08076212353"^^xsd:double ;
@@ -233,7 +233,7 @@
 
 <http://hrachjar.cz/economy/bih>
         rdf:type                    economy:Economy ;
-        country:name                "Bosnia and Herzegovina"@en ;
+        foaf:name                   "Bosnia and Herzegovina"@en ;
         economy:gdb                 "18521476054.8094"^^xsd:double ;
         economy:gdbGrowth           "1.08187593166609"^^xsd:double ;
         economy:gdpPerCapita        "4851.66052786926"^^xsd:double ;
@@ -242,7 +242,7 @@
 
 <http://hrachjar.cz/economy/bwa>
         rdf:type                    economy:Economy ;
-        country:name                "Botswana"@en ;
+        foaf:name                   "Botswana"@en ;
         economy:gdb                 "15880195735.2892"^^xsd:double ;
         economy:gdbGrowth           "3.20391509263389"^^xsd:double ;
         economy:gdpPerCapita        "7153.44432535212"^^xsd:double ;
@@ -252,7 +252,7 @@
 
 <http://hrachjar.cz/economy/bra>
         rdf:type                    economy:Economy ;
-        country:name                "Brazil"@en ;
+        foaf:name                   "Brazil"@en ;
         economy:gdb                 "2417046323841.9"^^xsd:double ;
         economy:gdbGrowth           "0.103371359100009"^^xsd:double ;
         economy:gdpPerCapita        "11728.7993875108"^^xsd:double ;
@@ -262,12 +262,12 @@
         economy:unemployment        "4.80000019073486"^^xsd:double .
 
 <http://hrachjar.cz/economy/vgb>
-        rdf:type      economy:Economy ;
-        country:name  "British Virgin Islands"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "British Virgin Islands"@en .
 
 <http://hrachjar.cz/economy/brn>
         rdf:type                    economy:Economy ;
-        country:name                "Brunei Darussalam"@en ;
+        foaf:name                   "Brunei Darussalam"@en ;
         economy:gdb                 "17104656669.2976"^^xsd:double ;
         economy:gdbGrowth           "-2.33999983542209"^^xsd:double ;
         economy:gdpPerCapita        "40979.6419433378"^^xsd:double ;
@@ -277,7 +277,7 @@
 
 <http://hrachjar.cz/economy/bgr>
         rdf:type                    economy:Economy ;
-        country:name                "Bulgaria"@en ;
+        foaf:name                   "Bulgaria"@en ;
         economy:gdb                 "56717054673.7214"^^xsd:double ;
         economy:gdbGrowth           "1.55000000000003"^^xsd:double ;
         economy:gdpPerCapita        "7851.26542804234"^^xsd:double ;
@@ -288,7 +288,7 @@
 
 <http://hrachjar.cz/economy/bfa>
         rdf:type                    economy:Economy ;
-        country:name                "Burkina Faso"@en ;
+        foaf:name                   "Burkina Faso"@en ;
         economy:gdb                 "12549126616.147"^^xsd:double ;
         economy:gdbGrowth           "4.04779603140109"^^xsd:double ;
         economy:gdpPerCapita        "713.456441626675"^^xsd:double ;
@@ -298,7 +298,7 @@
 
 <http://hrachjar.cz/economy/bdi>
         rdf:type                    economy:Economy ;
-        country:name                "Burundi"@en ;
+        foaf:name                   "Burundi"@en ;
         economy:gdb                 "3093647226.8107"^^xsd:double ;
         economy:gdbGrowth           "4.66091818447367"^^xsd:double ;
         economy:gdpPerCapita        "286.002335872952"^^xsd:double ;
@@ -308,7 +308,7 @@
 
 <http://hrachjar.cz/economy/cpv>
         rdf:type                    economy:Economy ;
-        country:name                "Cabo Verde"@en ;
+        foaf:name                   "Cabo Verde"@en ;
         economy:gdb                 "1871187070.99534"^^xsd:double ;
         economy:gdbGrowth           "2.79984680285727"^^xsd:double ;
         economy:gdpPerCapita        "3641.10765586575"^^xsd:double ;
@@ -318,7 +318,7 @@
 
 <http://hrachjar.cz/economy/khm>
         rdf:type                    economy:Economy ;
-        country:name                "Cambodia"@en ;
+        foaf:name                   "Cambodia"@en ;
         economy:gdb                 "16777820332.7059"^^xsd:double ;
         economy:gdbGrowth           "7.07152535164744"^^xsd:double ;
         economy:gdpPerCapita        "1094.57668777899"^^xsd:double ;
@@ -328,7 +328,7 @@
 
 <http://hrachjar.cz/economy/cmr>
         rdf:type                    economy:Economy ;
-        country:name                "Cameroon"@en ;
+        foaf:name                   "Cameroon"@en ;
         economy:gdb                 "32050817632.9602"^^xsd:double ;
         economy:gdbGrowth           "5.92696495921939"^^xsd:double ;
         economy:gdpPerCapita        "1407.40341322234"^^xsd:double ;
@@ -338,7 +338,7 @@
 
 <http://hrachjar.cz/economy/can>
         rdf:type                    economy:Economy ;
-        country:name                "Canada"@en ;
+        foaf:name                   "Canada"@en ;
         economy:gdb                 "1783775590895.93"^^xsd:double ;
         economy:gdbGrowth           "2.47289263838321"^^xsd:double ;
         economy:gdpPerCapita        "50185.4814970346"^^xsd:double ;
@@ -348,12 +348,12 @@
         economy:unemployment        "6.90000009536743"^^xsd:double .
 
 <http://hrachjar.cz/economy/cym>
-        rdf:type      economy:Economy ;
-        country:name  "Cayman Islands"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Cayman Islands"@en .
 
 <http://hrachjar.cz/economy/caf>
         rdf:type                    economy:Economy ;
-        country:name                "Central African Republic"@en ;
+        foaf:name                   "Central African Republic"@en ;
         economy:gdb                 "1691091491.96525"^^xsd:double ;
         economy:gdbGrowth           "-1.25710848937553"^^xsd:double ;
         economy:gdpPerCapita        "351.994226017866"^^xsd:double ;
@@ -362,7 +362,7 @@
 
 <http://hrachjar.cz/economy/tcd>
         rdf:type                    economy:Economy ;
-        country:name                "Chad"@en ;
+        foaf:name                   "Chad"@en ;
         economy:gdb                 "13922223233.5184"^^xsd:double ;
         economy:gdbGrowth           "6.89998504532167"^^xsd:double ;
         economy:gdpPerCapita        "1024.66835402191"^^xsd:double ;
@@ -371,12 +371,12 @@
         economy:inflationPPI        "1.68083587513844"^^xsd:double .
 
 <http://hrachjar.cz/economy/chi>
-        rdf:type      economy:Economy ;
-        country:name  "Channel Islands"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Channel Islands"@en .
 
 <http://hrachjar.cz/economy/chl>
         rdf:type                    economy:Economy ;
-        country:name                "Chile"@en ;
+        foaf:name                   "Chile"@en ;
         economy:gdb                 "258733363811.898"^^xsd:double ;
         economy:gdbGrowth           "1.87639539704263"^^xsd:double ;
         economy:gdpPerCapita        "14566.1490549183"^^xsd:double ;
@@ -386,7 +386,7 @@
 
 <http://hrachjar.cz/economy/chn>
         rdf:type                    economy:Economy ;
-        country:name                "China"@en ;
+        foaf:name                   "China"@en ;
         economy:gdb                 "10351111762216.4"^^xsd:double ;
         economy:gdbGrowth           "7.26851324138448"^^xsd:double ;
         economy:gdpPerCapita        "7587.28973166335"^^xsd:double ;
@@ -397,7 +397,7 @@
 
 <http://hrachjar.cz/economy/col>
         rdf:type                    economy:Economy ;
-        country:name                "Colombia"@en ;
+        foaf:name                   "Colombia"@en ;
         economy:gdb                 "378416020533.715"^^xsd:double ;
         economy:gdbGrowth           "4.38571090109774"^^xsd:double ;
         economy:gdpPerCapita        "7918.07890039352"^^xsd:double ;
@@ -408,7 +408,7 @@
 
 <http://hrachjar.cz/economy/com>
         rdf:type                    economy:Economy ;
-        country:name                "Comoros"@en ;
+        foaf:name                   "Comoros"@en ;
         economy:gdb                 "623751044.541731"^^xsd:double ;
         economy:gdbGrowth           "2.06163946899514"^^xsd:double ;
         economy:gdpPerCapita        "810.075760030612"^^xsd:double ;
@@ -418,7 +418,7 @@
 
 <http://hrachjar.cz/economy/zar>
         rdf:type                    economy:Economy ;
-        country:name                "Congo, Dem. Rep."@en ;
+        foaf:name                   "Congo, Dem. Rep."@en ;
         economy:gdb                 "32782281736.2834"^^xsd:double ;
         economy:gdbGrowth           "8.96947948377047"^^xsd:double ;
         economy:gdpPerCapita        "437.814931178272"^^xsd:double ;
@@ -427,7 +427,7 @@
 
 <http://hrachjar.cz/economy/cog>
         rdf:type                    economy:Economy ;
-        country:name                "Congo, Rep."@en ;
+        foaf:name                   "Congo, Rep."@en ;
         economy:gdb                 "14177437627.2969"^^xsd:double ;
         economy:gdbGrowth           "6.77994095325852"^^xsd:double ;
         economy:gdpPerCapita        "3147.07152408764"^^xsd:double ;
@@ -437,7 +437,7 @@
 
 <http://hrachjar.cz/economy/cri>
         rdf:type                    economy:Economy ;
-        country:name                "Costa Rica"@en ;
+        foaf:name                   "Costa Rica"@en ;
         economy:gdb                 "49552639049.2446"^^xsd:double ;
         economy:gdbGrowth           "3.50235223124649"^^xsd:double ;
         economy:gdpPerCapita        "10415.4566496773"^^xsd:double ;
@@ -448,7 +448,7 @@
 
 <http://hrachjar.cz/economy/civ>
         rdf:type                    economy:Economy ;
-        country:name                "Cote d'Ivoire"@en ;
+        foaf:name                   "Cote d'Ivoire"@en ;
         economy:gdb                 "34253607832.4889"^^xsd:double ;
         economy:gdbGrowth           "8.54646785204747"^^xsd:double ;
         economy:gdpPerCapita        "1545.94224925162"^^xsd:double ;
@@ -458,7 +458,7 @@
 
 <http://hrachjar.cz/economy/hrv>
         rdf:type                    economy:Economy ;
-        country:name                "Croatia"@en ;
+        foaf:name                   "Croatia"@en ;
         economy:gdb                 "57136241867.0192"^^xsd:double ;
         economy:gdbGrowth           "-0.360434269363935"^^xsd:double ;
         economy:gdpPerCapita        "13480.6507536281"^^xsd:double ;
@@ -468,16 +468,16 @@
         economy:unemployment        "17.2999992370605"^^xsd:double .
 
 <http://hrachjar.cz/economy/cub>
-        rdf:type      economy:Economy ;
-        country:name  "Cuba"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Cuba"@en .
 
 <http://hrachjar.cz/economy/cuw>
-        rdf:type      economy:Economy ;
-        country:name  "Curacao"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Curacao"@en .
 
 <http://hrachjar.cz/economy/cyp>
         rdf:type                    economy:Economy ;
-        country:name                "Cyprus"@en ;
+        foaf:name                   "Cyprus"@en ;
         economy:gdb                 "23227106275.7065"^^xsd:double ;
         economy:gdbGrowth           "-2.49705660802132"^^xsd:double ;
         economy:gdpPerCapita        "27245.7446249009"^^xsd:double ;
@@ -488,7 +488,7 @@
 
 <http://hrachjar.cz/economy/cze>
         rdf:type                    economy:Economy ;
-        country:name                "Czech Republic"@en ;
+        foaf:name                   "Czech Republic"@en ;
         economy:gdb                 "205269709743.466"^^xsd:double ;
         economy:gdbGrowth           "1.97815404498431"^^xsd:double ;
         economy:gdpPerCapita        "19502.4173306083"^^xsd:double ;
@@ -499,7 +499,7 @@
 
 <http://hrachjar.cz/economy/dnk>
         rdf:type                    economy:Economy ;
-        country:name                "Denmark"@en ;
+        foaf:name                   "Denmark"@en ;
         economy:gdb                 "346119472127.525"^^xsd:double ;
         economy:gdbGrowth           "1.26190583842356"^^xsd:double ;
         economy:gdpPerCapita        "61330.9126252044"^^xsd:double ;
@@ -510,7 +510,7 @@
 
 <http://hrachjar.cz/economy/dji>
         rdf:type                    economy:Economy ;
-        country:name                "Djibouti"@en ;
+        foaf:name                   "Djibouti"@en ;
         economy:gdb                 "1589025859.84573"^^xsd:double ;
         economy:gdbGrowth           "6.00019432397339"^^xsd:double ;
         economy:gdpPerCapita        "1813.59622614428"^^xsd:double ;
@@ -520,7 +520,7 @@
 
 <http://hrachjar.cz/economy/dma>
         rdf:type                    economy:Economy ;
-        country:name                "Dominica"@en ;
+        foaf:name                   "Dominica"@en ;
         economy:gdb                 "524605000"^^xsd:double ;
         economy:gdbGrowth           "3.87858347386172"^^xsd:double ;
         economy:gdpPerCapita        "7251.83505895688"^^xsd:double ;
@@ -530,7 +530,7 @@
 
 <http://hrachjar.cz/economy/dom>
         rdf:type                    economy:Economy ;
-        country:name                "Dominican Republic"@en ;
+        foaf:name                   "Dominican Republic"@en ;
         economy:gdb                 "63968906782.0737"^^xsd:double ;
         economy:gdbGrowth           "7.34087836494631"^^xsd:double ;
         economy:gdpPerCapita        "6147.3435691579"^^xsd:double ;
@@ -541,7 +541,7 @@
 
 <http://hrachjar.cz/economy/ecu>
         rdf:type                    economy:Economy ;
-        country:name                "Ecuador"@en ;
+        foaf:name                   "Ecuador"@en ;
         economy:gdb                 "100917372000"^^xsd:double ;
         economy:gdbGrowth           "3.67498213973248"^^xsd:double ;
         economy:gdpPerCapita        "6345.84072505948"^^xsd:double ;
@@ -551,7 +551,7 @@
 
 <http://hrachjar.cz/economy/egy>
         rdf:type                    economy:Economy ;
-        country:name                "Egypt, Arab Rep."@en ;
+        foaf:name                   "Egypt, Arab Rep."@en ;
         economy:gdb                 "301498960051.639"^^xsd:double ;
         economy:gdbGrowth           "2.22879101389299"^^xsd:double ;
         economy:gdpPerCapita        "3365.70742057477"^^xsd:double ;
@@ -561,7 +561,7 @@
 
 <http://hrachjar.cz/economy/slv>
         rdf:type                    economy:Economy ;
-        country:name                "El Salvador"@en ;
+        foaf:name                   "El Salvador"@en ;
         economy:gdb                 "25054200000"^^xsd:double ;
         economy:gdbGrowth           "1.42526204252935"^^xsd:double ;
         economy:gdpPerCapita        "4102.0638517964"^^xsd:double ;
@@ -571,7 +571,7 @@
 
 <http://hrachjar.cz/economy/gnq>
         rdf:type                    economy:Economy ;
-        country:name                "Equatorial Guinea"@en ;
+        foaf:name                   "Equatorial Guinea"@en ;
         economy:gdb                 "15529729676.6886"^^xsd:double ;
         economy:gdbGrowth           "-0.284307682288414"^^xsd:double ;
         economy:gdpPerCapita        "18918.2768313328"^^xsd:double ;
@@ -580,12 +580,12 @@
         economy:inflationPPI        "4.82508957925455"^^xsd:double .
 
 <http://hrachjar.cz/economy/eri>
-        rdf:type      economy:Economy ;
-        country:name  "Eritrea"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Eritrea"@en .
 
 <http://hrachjar.cz/economy/est>
         rdf:type                    economy:Economy ;
-        country:name                "Estonia"@en ;
+        foaf:name                   "Estonia"@en ;
         economy:gdb                 "26485161115.9446"^^xsd:double ;
         economy:gdbGrowth           "2.90653716670559"^^xsd:double ;
         economy:gdpPerCapita        "20147.7782167553"^^xsd:double ;
@@ -596,7 +596,7 @@
 
 <http://hrachjar.cz/economy/eth>
         rdf:type                    economy:Economy ;
-        country:name                "Ethiopia"@en ;
+        foaf:name                   "Ethiopia"@en ;
         economy:gdb                 "55612228233.5179"^^xsd:double ;
         economy:gdbGrowth           "10.2791870240632"^^xsd:double ;
         economy:gdpPerCapita        "573.565960346077"^^xsd:double ;
@@ -605,12 +605,12 @@
         economy:inflationPPI        "7.39181447995028"^^xsd:double .
 
 <http://hrachjar.cz/economy/fro>
-        rdf:type      economy:Economy ;
-        country:name  "Faroe Islands"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Faroe Islands"@en .
 
 <http://hrachjar.cz/economy/fji>
         rdf:type                    economy:Economy ;
-        country:name                "Fiji"@en ;
+        foaf:name                   "Fiji"@en ;
         economy:gdb                 "4531870926.72071"^^xsd:double ;
         economy:gdbGrowth           "6.94167454212253"^^xsd:double ;
         economy:gdpPerCapita        "5112.38189037251"^^xsd:double ;
@@ -620,7 +620,7 @@
 
 <http://hrachjar.cz/economy/fin>
         rdf:type                    economy:Economy ;
-        country:name                "Finland"@en ;
+        foaf:name                   "Finland"@en ;
         economy:gdb                 "272335981538.937"^^xsd:double ;
         economy:gdbGrowth           "-0.6983098876632"^^xsd:double ;
         economy:gdpPerCapita        "49864.5762453579"^^xsd:double ;
@@ -631,7 +631,7 @@
 
 <http://hrachjar.cz/economy/fra>
         rdf:type                    economy:Economy ;
-        country:name                "France"@en ;
+        foaf:name                   "France"@en ;
         economy:gdb                 "2829192039171.84"^^xsd:double ;
         economy:gdbGrowth           "0.259494108111838"^^xsd:double ;
         economy:gdpPerCapita        "42546.8387870273"^^xsd:double ;
@@ -641,12 +641,12 @@
         economy:unemployment        "9.89999961853027"^^xsd:double .
 
 <http://hrachjar.cz/economy/pyf>
-        rdf:type      economy:Economy ;
-        country:name  "French Polynesia"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "French Polynesia"@en .
 
 <http://hrachjar.cz/economy/gab>
         rdf:type                    economy:Economy ;
-        country:name                "Gabon"@en ;
+        foaf:name                   "Gabon"@en ;
         economy:gdb                 "18179717776.1597"^^xsd:double ;
         economy:gdbGrowth           "4.31487712529"^^xsd:double ;
         economy:gdpPerCapita        "10772.0617537637"^^xsd:double ;
@@ -656,7 +656,7 @@
 
 <http://hrachjar.cz/economy/gmb>
         rdf:type                    economy:Economy ;
-        country:name                "Gambia, The"@en ;
+        foaf:name                   "Gambia, The"@en ;
         economy:gdb                 "850903179.260948"^^xsd:double ;
         economy:gdbGrowth           "0.877460550688397"^^xsd:double ;
         economy:gdpPerCapita        "441.293817014382"^^xsd:double ;
@@ -666,7 +666,7 @@
 
 <http://hrachjar.cz/economy/geo>
         rdf:type                    economy:Economy ;
-        country:name                "Georgia"@en ;
+        foaf:name                   "Georgia"@en ;
         economy:gdb                 "16509305827.7171"^^xsd:double ;
         economy:gdbGrowth           "4.62333190661252"^^xsd:double ;
         economy:gdpPerCapita        "4429.65007451491"^^xsd:double ;
@@ -677,7 +677,7 @@
 
 <http://hrachjar.cz/economy/deu>
         rdf:type                    economy:Economy ;
-        country:name                "Germany"@en ;
+        foaf:name                   "Germany"@en ;
         economy:gdb                 "3868291231823.77"^^xsd:double ;
         economy:gdbGrowth           "1.59977039232734"^^xsd:double ;
         economy:gdpPerCapita        "47767.0019056435"^^xsd:double ;
@@ -688,7 +688,7 @@
 
 <http://hrachjar.cz/economy/gha>
         rdf:type                    economy:Economy ;
-        country:name                "Ghana"@en ;
+        foaf:name                   "Ghana"@en ;
         economy:gdb                 "38616536131.648"^^xsd:double ;
         economy:gdbGrowth           "3.98586562415207"^^xsd:double ;
         economy:gdpPerCapita        "1441.63645311166"^^xsd:double ;
@@ -697,12 +697,12 @@
         economy:inflationPPI        "15.4931680728743"^^xsd:double .
 
 <http://hrachjar.cz/economy/gib>
-        rdf:type      economy:Economy ;
-        country:name  "Gibraltar"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Gibraltar"@en .
 
 <http://hrachjar.cz/economy/grc>
         rdf:type                    economy:Economy ;
-        country:name                "Greece"@en ;
+        foaf:name                   "Greece"@en ;
         economy:gdb                 "235574074998.314"^^xsd:double ;
         economy:gdbGrowth           "0.653982658187189"^^xsd:double ;
         economy:gdpPerCapita        "21627.3542876417"^^xsd:double ;
@@ -713,13 +713,13 @@
 
 <http://hrachjar.cz/economy/grl>
         rdf:type              economy:Economy ;
-        country:name          "Greenland"@en ;
+        foaf:name             "Greenland"@en ;
         economy:gdb           "2441226080.03611"^^xsd:double ;
         economy:gdpPerCapita  "43364.8828499176"^^xsd:double .
 
 <http://hrachjar.cz/economy/grd>
         rdf:type                    economy:Economy ;
-        country:name                "Grenada"@en ;
+        foaf:name                   "Grenada"@en ;
         economy:gdb                 "911803777.777778"^^xsd:double ;
         economy:gdbGrowth           "5.68482047884461"^^xsd:double ;
         economy:gdpPerCapita        "8573.69394895841"^^xsd:double ;
@@ -728,12 +728,12 @@
         economy:inflationPPI        "-0.946757299033727"^^xsd:double .
 
 <http://hrachjar.cz/economy/gum>
-        rdf:type      economy:Economy ;
-        country:name  "Guam"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Guam"@en .
 
 <http://hrachjar.cz/economy/gtm>
         rdf:type                    economy:Economy ;
-        country:name                "Guatemala"@en ;
+        foaf:name                   "Guatemala"@en ;
         economy:gdb                 "58722323918.1604"^^xsd:double ;
         economy:gdbGrowth           "4.17416913658175"^^xsd:double ;
         economy:gdpPerCapita        "3666.59460633312"^^xsd:double ;
@@ -743,7 +743,7 @@
 
 <http://hrachjar.cz/economy/gin>
         rdf:type                    economy:Economy ;
-        country:name                "Guinea"@en ;
+        foaf:name                   "Guinea"@en ;
         economy:gdb                 "6624068015.50039"^^xsd:double ;
         economy:gdbGrowth           "0.39999860108793"^^xsd:double ;
         economy:gdpPerCapita        "539.615774988756"^^xsd:double ;
@@ -753,7 +753,7 @@
 
 <http://hrachjar.cz/economy/gnb>
         rdf:type                    economy:Economy ;
-        country:name                "Guinea-Bissau"@en ;
+        foaf:name                   "Guinea-Bissau"@en ;
         economy:gdb                 "1109009637.65258"^^xsd:double ;
         economy:gdbGrowth           "2.54107510152161"^^xsd:double ;
         economy:gdpPerCapita        "615.940922199717"^^xsd:double ;
@@ -763,7 +763,7 @@
 
 <http://hrachjar.cz/economy/guy>
         rdf:type                    economy:Economy ;
-        country:name                "Guyana"@en ;
+        foaf:name                   "Guyana"@en ;
         economy:gdb                 "3077086275.94585"^^xsd:double ;
         economy:gdbGrowth           "3.8409152819396"^^xsd:double ;
         economy:gdpPerCapita        "4028.1639914829"^^xsd:double ;
@@ -773,7 +773,7 @@
 
 <http://hrachjar.cz/economy/hti>
         rdf:type                    economy:Economy ;
-        country:name                "Haiti"@en ;
+        foaf:name                   "Haiti"@en ;
         economy:gdb                 "8776370457.02069"^^xsd:double ;
         economy:gdbGrowth           "2.79645782009456"^^xsd:double ;
         economy:gdpPerCapita        "830.150055114368"^^xsd:double ;
@@ -783,7 +783,7 @@
 
 <http://hrachjar.cz/economy/hnd>
         rdf:type                    economy:Economy ;
-        country:name                "Honduras"@en ;
+        foaf:name                   "Honduras"@en ;
         economy:gdb                 "19380958759.0497"^^xsd:double ;
         economy:gdbGrowth           "3.08521496129973"^^xsd:double ;
         economy:gdpPerCapita        "2434.280046303"^^xsd:double ;
@@ -793,7 +793,7 @@
 
 <http://hrachjar.cz/economy/hkg>
         rdf:type                    economy:Economy ;
-        country:name                "Hong Kong SAR, China"@en ;
+        foaf:name                   "Hong Kong SAR, China"@en ;
         economy:gdb                 "291229801008.499"^^xsd:double ;
         economy:gdbGrowth           "2.61439405983185"^^xsd:double ;
         economy:gdpPerCapita        "40215.6677311265"^^xsd:double ;
@@ -804,7 +804,7 @@
 
 <http://hrachjar.cz/economy/hun>
         rdf:type                    economy:Economy ;
-        country:name                "Hungary"@en ;
+        foaf:name                   "Hungary"@en ;
         economy:gdb                 "138346650088.972"^^xsd:double ;
         economy:gdbGrowth           "3.67222001972594"^^xsd:double ;
         economy:gdpPerCapita        "14021.902274347"^^xsd:double ;
@@ -815,7 +815,7 @@
 
 <http://hrachjar.cz/economy/isl>
         rdf:type                    economy:Economy ;
-        country:name                "Iceland"@en ;
+        foaf:name                   "Iceland"@en ;
         economy:gdb                 "17036097481.8066"^^xsd:double ;
         economy:gdbGrowth           "1.82666045354701"^^xsd:double ;
         economy:gdpPerCapita        "52036.7318144531"^^xsd:double ;
@@ -826,7 +826,7 @@
 
 <http://hrachjar.cz/economy/ind>
         rdf:type                    economy:Economy ;
-        country:name                "India"@en ;
+        foaf:name                   "India"@en ;
         economy:gdb                 "2042438591343.98"^^xsd:double ;
         economy:gdbGrowth           "7.24347174583309"^^xsd:double ;
         economy:gdpPerCapita        "1576.81766887286"^^xsd:double ;
@@ -837,7 +837,7 @@
 
 <http://hrachjar.cz/economy/idn>
         rdf:type                    economy:Economy ;
-        country:name                "Indonesia"@en ;
+        foaf:name                   "Indonesia"@en ;
         economy:gdb                 "890487074595.966"^^xsd:double ;
         economy:gdbGrowth           "5.02388905199018"^^xsd:double ;
         economy:gdpPerCapita        "3499.58873476515"^^xsd:double ;
@@ -848,7 +848,7 @@
 
 <http://hrachjar.cz/economy/irn>
         rdf:type                    economy:Economy ;
-        country:name                "Iran, Islamic Rep."@en ;
+        foaf:name                   "Iran, Islamic Rep."@en ;
         economy:gdb                 "425326068422.881"^^xsd:double ;
         economy:gdbGrowth           "4.34334340221696"^^xsd:double ;
         economy:gdpPerCapita        "5442.87477076039"^^xsd:double ;
@@ -859,7 +859,7 @@
 
 <http://hrachjar.cz/economy/irq>
         rdf:type                    economy:Economy ;
-        country:name                "Iraq"@en ;
+        foaf:name                   "Iraq"@en ;
         economy:gdb                 "223508094682.676"^^xsd:double ;
         economy:gdbGrowth           "-2.11826806087713"^^xsd:double ;
         economy:gdpPerCapita        "6336.46806615634"^^xsd:double ;
@@ -869,7 +869,7 @@
 
 <http://hrachjar.cz/economy/irl>
         rdf:type                    economy:Economy ;
-        country:name                "Ireland"@en ;
+        foaf:name                   "Ireland"@en ;
         economy:gdb                 "250813607686.108"^^xsd:double ;
         economy:gdbGrowth           "5.19936889535026"^^xsd:double ;
         economy:gdpPerCapita        "54321.2877185124"^^xsd:double ;
@@ -879,12 +879,12 @@
         economy:unemployment        "11.3000001907349"^^xsd:double .
 
 <http://hrachjar.cz/economy/imy>
-        rdf:type      economy:Economy ;
-        country:name  "Isle of Man"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Isle of Man"@en .
 
 <http://hrachjar.cz/economy/isr>
         rdf:type                    economy:Economy ;
-        country:name                "Israel"@en ;
+        foaf:name                   "Israel"@en ;
         economy:gdb                 "305674837195.003"^^xsd:double ;
         economy:gdbGrowth           "2.59967942296133"^^xsd:double ;
         economy:gdpPerCapita        "37206.1829418069"^^xsd:double ;
@@ -895,7 +895,7 @@
 
 <http://hrachjar.cz/economy/ita>
         rdf:type                    economy:Economy ;
-        country:name                "Italy"@en ;
+        foaf:name                   "Italy"@en ;
         economy:gdb                 "2138540909211.12"^^xsd:double ;
         economy:gdbGrowth           "-0.343160835971517"^^xsd:double ;
         economy:gdpPerCapita        "35179.6539515302"^^xsd:double ;
@@ -906,7 +906,7 @@
 
 <http://hrachjar.cz/economy/jam>
         rdf:type                    economy:Economy ;
-        country:name                "Jamaica"@en ;
+        foaf:name                   "Jamaica"@en ;
         economy:gdb                 "13927110141.57"^^xsd:double ;
         economy:gdbGrowth           "0.687750717694243"^^xsd:double ;
         economy:gdpPerCapita        "5119.2184171202"^^xsd:double ;
@@ -916,7 +916,7 @@
 
 <http://hrachjar.cz/economy/jpn>
         rdf:type                    economy:Economy ;
-        country:name                "Japan"@en ;
+        foaf:name                   "Japan"@en ;
         economy:gdb                 "4596156556721.9"^^xsd:double ;
         economy:gdbGrowth           "-0.0314292658077306"^^xsd:double ;
         economy:gdpPerCapita        "36152.6900171468"^^xsd:double ;
@@ -927,7 +927,7 @@
 
 <http://hrachjar.cz/economy/jor>
         rdf:type                    economy:Economy ;
-        country:name                "Jordan"@en ;
+        foaf:name                   "Jordan"@en ;
         economy:gdb                 "35826925774.6479"^^xsd:double ;
         economy:gdbGrowth           "3.09633027522935"^^xsd:double ;
         economy:gdpPerCapita        "4830.97691525943"^^xsd:double ;
@@ -937,7 +937,7 @@
 
 <http://hrachjar.cz/economy/kaz>
         rdf:type                    economy:Economy ;
-        country:name                "Kazakhstan"@en ;
+        foaf:name                   "Kazakhstan"@en ;
         economy:gdb                 "227437054841.268"^^xsd:double ;
         economy:gdbGrowth           "4.09999999999975"^^xsd:double ;
         economy:gdpPerCapita        "13154.8445922887"^^xsd:double ;
@@ -948,7 +948,7 @@
 
 <http://hrachjar.cz/economy/ken>
         rdf:type                    economy:Economy ;
-        country:name                "Kenya"@en ;
+        foaf:name                   "Kenya"@en ;
         economy:gdb                 "61395415492.333"^^xsd:double ;
         economy:gdbGrowth           "5.33185940382775"^^xsd:double ;
         economy:gdpPerCapita        "1368.49113215797"^^xsd:double ;
@@ -958,7 +958,7 @@
 
 <http://hrachjar.cz/economy/kir>
         rdf:type                    economy:Economy ;
-        country:name                "Kiribati"@en ;
+        foaf:name                   "Kiribati"@en ;
         economy:gdb                 "166756805.48044"^^xsd:double ;
         economy:gdbGrowth           "3.69999999999999"^^xsd:double ;
         economy:gdpPerCapita        "1509.52118657047"^^xsd:double ;
@@ -966,12 +966,12 @@
         economy:inflationGDP        "1.94241631078663"^^xsd:double .
 
 <http://hrachjar.cz/economy/prk>
-        rdf:type      economy:Economy ;
-        country:name  "Korea, Dem. People’s Rep."@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Korea, Dem. People’s Rep."@en .
 
 <http://hrachjar.cz/economy/kor>
         rdf:type                    economy:Economy ;
-        country:name                "Korea, Rep."@en ;
+        foaf:name                   "Korea, Rep."@en ;
         economy:gdb                 "1411333926201.24"^^xsd:double ;
         economy:gdbGrowth           "3.34144751931207"^^xsd:double ;
         economy:gdpPerCapita        "27989.3539925863"^^xsd:double ;
@@ -982,7 +982,7 @@
 
 <http://hrachjar.cz/economy/ksv>
         rdf:type                    economy:Economy ;
-        country:name                "Kosovo"@en ;
+        foaf:name                   "Kosovo"@en ;
         economy:gdb                 "7384901154.30543"^^xsd:double ;
         economy:gdbGrowth           "1.2185338565946"^^xsd:double ;
         economy:gdpPerCapita        "4073.81911686883"^^xsd:double ;
@@ -991,7 +991,7 @@
 
 <http://hrachjar.cz/economy/kwt>
         rdf:type                    economy:Economy ;
-        country:name                "Kuwait"@en ;
+        foaf:name                   "Kuwait"@en ;
         economy:gdb                 "163612438510.19"^^xsd:double ;
         economy:gdbGrowth           "-1.6220334736164"^^xsd:double ;
         economy:gdpPerCapita        "43593.7020176514"^^xsd:double ;
@@ -1001,7 +1001,7 @@
 
 <http://hrachjar.cz/economy/kgz>
         rdf:type                    economy:Economy ;
-        country:name                "Kyrgyz Republic"@en ;
+        foaf:name                   "Kyrgyz Republic"@en ;
         economy:gdb                 "7468096566.71158"^^xsd:double ;
         economy:gdbGrowth           "4.02403876051282"^^xsd:double ;
         economy:gdpPerCapita        "1279.76978265986"^^xsd:double ;
@@ -1011,7 +1011,7 @@
 
 <http://hrachjar.cz/economy/lao>
         rdf:type                    economy:Economy ;
-        country:name                "Lao PDR"@en ;
+        foaf:name                   "Lao PDR"@en ;
         economy:gdb                 "11715619755.8584"^^xsd:double ;
         economy:gdbGrowth           "7.51527012266182"^^xsd:double ;
         economy:gdpPerCapita        "1751.39697066336"^^xsd:double ;
@@ -1021,7 +1021,7 @@
 
 <http://hrachjar.cz/economy/lva>
         rdf:type                    economy:Economy ;
-        country:name                "Latvia"@en ;
+        foaf:name                   "Latvia"@en ;
         economy:gdb                 "31286809075.2289"^^xsd:double ;
         economy:gdbGrowth           "2.35920521753729"^^xsd:double ;
         economy:gdpPerCapita        "15692.1915611781"^^xsd:double ;
@@ -1032,7 +1032,7 @@
 
 <http://hrachjar.cz/economy/lbn>
         rdf:type                    economy:Economy ;
-        country:name                "Lebanon"@en ;
+        foaf:name                   "Lebanon"@en ;
         economy:gdb                 "45730945273.6318"^^xsd:double ;
         economy:gdbGrowth           "1.81000763465728"^^xsd:double ;
         economy:gdpPerCapita        "8148.6391668339"^^xsd:double ;
@@ -1042,7 +1042,7 @@
 
 <http://hrachjar.cz/economy/lso>
         rdf:type                    economy:Economy ;
-        country:name                "Lesotho"@en ;
+        foaf:name                   "Lesotho"@en ;
         economy:gdb                 "2181300505.8649"^^xsd:double ;
         economy:gdbGrowth           "3.63908275174477"^^xsd:double ;
         economy:gdpPerCapita        "1034.18528751221"^^xsd:double ;
@@ -1052,7 +1052,7 @@
 
 <http://hrachjar.cz/economy/lbr>
         rdf:type                    economy:Economy ;
-        country:name                "Liberia"@en ;
+        foaf:name                   "Liberia"@en ;
         economy:gdb                 "2013000000"^^xsd:double ;
         economy:gdbGrowth           "0.701141635823376"^^xsd:double ;
         economy:gdpPerCapita        "457.858586520261"^^xsd:double ;
@@ -1062,7 +1062,7 @@
 
 <http://hrachjar.cz/economy/lby>
         rdf:type                    economy:Economy ;
-        country:name                "Libya"@en ;
+        foaf:name                   "Libya"@en ;
         economy:gdb                 "41142722414.3351"^^xsd:double ;
         economy:gdbGrowth           "-24"^^xsd:double ;
         economy:gdpPerCapita        "6573.38673726201"^^xsd:double ;
@@ -1070,12 +1070,12 @@
         economy:inflationGDP        "-17.3110142044988"^^xsd:double .
 
 <http://hrachjar.cz/economy/lie>
-        rdf:type      economy:Economy ;
-        country:name  "Liechtenstein"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Liechtenstein"@en .
 
 <http://hrachjar.cz/economy/ltu>
         rdf:type                    economy:Economy ;
-        country:name                "Lithuania"@en ;
+        foaf:name                   "Lithuania"@en ;
         economy:gdb                 "48353937110.2561"^^xsd:double ;
         economy:gdbGrowth           "3.03246998460926"^^xsd:double ;
         economy:gdpPerCapita        "16489.7289835331"^^xsd:double ;
@@ -1086,7 +1086,7 @@
 
 <http://hrachjar.cz/economy/lux>
         rdf:type                    economy:Economy ;
-        country:name                "Luxembourg"@en ;
+        foaf:name                   "Luxembourg"@en ;
         economy:gdb                 "64873963098.4868"^^xsd:double ;
         economy:gdbGrowth           "4.06929338108021"^^xsd:double ;
         economy:gdpPerCapita        "116612.884151875"^^xsd:double ;
@@ -1097,7 +1097,7 @@
 
 <http://hrachjar.cz/economy/mac>
         rdf:type                    economy:Economy ;
-        country:name                "Macao SAR, China"@en ;
+        foaf:name                   "Macao SAR, China"@en ;
         economy:gdb                 "55522993326.7394"^^xsd:double ;
         economy:gdbGrowth           "-0.852103999763031"^^xsd:double ;
         economy:gdpPerCapita        "96074.8369597196"^^xsd:double ;
@@ -1108,7 +1108,7 @@
 
 <http://hrachjar.cz/economy/mkd>
         rdf:type                    economy:Economy ;
-        country:name                "Macedonia, FYR"@en ;
+        foaf:name                   "Macedonia, FYR"@en ;
         economy:gdb                 "11318966946.687"^^xsd:double ;
         economy:gdbGrowth           "3.54083434502903"^^xsd:double ;
         economy:gdpPerCapita        "5453.28127512774"^^xsd:double ;
@@ -1119,7 +1119,7 @@
 
 <http://hrachjar.cz/economy/mdg>
         rdf:type                    economy:Economy ;
-        country:name                "Madagascar"@en ;
+        foaf:name                   "Madagascar"@en ;
         economy:gdb                 "11011062173.0257"^^xsd:double ;
         economy:gdbGrowth           "3.12616589452306"^^xsd:double ;
         economy:gdpPerCapita        "467.130334270816"^^xsd:double ;
@@ -1129,7 +1129,7 @@
 
 <http://hrachjar.cz/economy/mwi>
         rdf:type                    economy:Economy ;
-        country:name                "Malawi"@en ;
+        foaf:name                   "Malawi"@en ;
         economy:gdb                 "6047813437.31804"^^xsd:double ;
         economy:gdbGrowth           "5.70000000377209"^^xsd:double ;
         economy:gdpPerCapita        "362.247486595025"^^xsd:double ;
@@ -1139,7 +1139,7 @@
 
 <http://hrachjar.cz/economy/mys>
         rdf:type                    economy:Economy ;
-        country:name                "Malaysia"@en ;
+        foaf:name                   "Malaysia"@en ;
         economy:gdb                 "338103822298.268"^^xsd:double ;
         economy:gdbGrowth           "5.99260934195927"^^xsd:double ;
         economy:gdpPerCapita        "11307.064952828"^^xsd:double ;
@@ -1150,7 +1150,7 @@
 
 <http://hrachjar.cz/economy/mdv>
         rdf:type                    economy:Economy ;
-        country:name                "Maldives"@en ;
+        foaf:name                   "Maldives"@en ;
         economy:gdb                 "3063899508.46532"^^xsd:double ;
         economy:gdbGrowth           "6.48058572401"^^xsd:double ;
         economy:gdpPerCapita        "7640.6471532801"^^xsd:double ;
@@ -1160,7 +1160,7 @@
 
 <http://hrachjar.cz/economy/mli>
         rdf:type                    economy:Economy ;
-        country:name                "Mali"@en ;
+        foaf:name                   "Mali"@en ;
         economy:gdb                 "14388384092.5594"^^xsd:double ;
         economy:gdbGrowth           "7.78872557131803"^^xsd:double ;
         economy:gdpPerCapita        "842.114337237737"^^xsd:double ;
@@ -1171,13 +1171,13 @@
 
 <http://hrachjar.cz/economy/mlt>
         rdf:type              economy:Economy ;
-        country:name          "Malta"@en ;
+        foaf:name             "Malta"@en ;
         economy:inflationPPI  "0.311500057827359"^^xsd:double ;
         economy:unemployment  "5.90000009536743"^^xsd:double .
 
 <http://hrachjar.cz/economy/mhl>
         rdf:type                    economy:Economy ;
-        country:name                "Marshall Islands"@en ;
+        foaf:name                   "Marshall Islands"@en ;
         economy:gdb                 "186716625.753117"^^xsd:double ;
         economy:gdbGrowth           "-0.971303396439424"^^xsd:double ;
         economy:gdpPerCapita        "3529.74830339742"^^xsd:double ;
@@ -1186,7 +1186,7 @@
 
 <http://hrachjar.cz/economy/mrt>
         rdf:type                    economy:Economy ;
-        country:name                "Mauritania"@en ;
+        foaf:name                   "Mauritania"@en ;
         economy:gdb                 "5442297174.11121"^^xsd:double ;
         economy:gdbGrowth           "4.20621405554968"^^xsd:double ;
         economy:gdpPerCapita        "1370.98521248511"^^xsd:double ;
@@ -1196,7 +1196,7 @@
 
 <http://hrachjar.cz/economy/mus>
         rdf:type                    economy:Economy ;
-        country:name                "Mauritius"@en ;
+        foaf:name                   "Mauritius"@en ;
         economy:gdb                 "12612959479.583"^^xsd:double ;
         economy:gdbGrowth           "3.62402546249687"^^xsd:double ;
         economy:gdpPerCapita        "10002.8704750471"^^xsd:double ;
@@ -1207,7 +1207,7 @@
 
 <http://hrachjar.cz/economy/mex>
         rdf:type                    economy:Economy ;
-        country:name                "Mexico"@en ;
+        foaf:name                   "Mexico"@en ;
         economy:gdb                 "1297845522512.7"^^xsd:double ;
         economy:gdbGrowth           "2.25031646693301"^^xsd:double ;
         economy:gdpPerCapita        "10350.814693018"^^xsd:double ;
@@ -1218,7 +1218,7 @@
 
 <http://hrachjar.cz/economy/fsm>
         rdf:type                    economy:Economy ;
-        country:name                "Micronesia, Fed. Sts."@en ;
+        foaf:name                   "Micronesia, Fed. Sts."@en ;
         economy:gdb                 "318071978.575747"^^xsd:double ;
         economy:gdbGrowth           "-3.40289805723162"^^xsd:double ;
         economy:gdpPerCapita        "3057.09102471788"^^xsd:double ;
@@ -1227,7 +1227,7 @@
 
 <http://hrachjar.cz/economy/mda>
         rdf:type                    economy:Economy ;
-        country:name                "Moldova"@en ;
+        foaf:name                   "Moldova"@en ;
         economy:gdb                 "7983271110.60446"^^xsd:double ;
         economy:gdbGrowth           "4.80000000000001"^^xsd:double ;
         economy:gdpPerCapita        "2244.76376248334"^^xsd:double ;
@@ -1237,12 +1237,12 @@
         economy:unemployment        "3.90000009536743"^^xsd:double .
 
 <http://hrachjar.cz/economy/mco>
-        rdf:type      economy:Economy ;
-        country:name  "Monaco"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Monaco"@en .
 
 <http://hrachjar.cz/economy/mng>
         rdf:type                    economy:Economy ;
-        country:name                "Mongolia"@en ;
+        foaf:name                   "Mongolia"@en ;
         economy:gdb                 "12226514714.5347"^^xsd:double ;
         economy:gdbGrowth           "7.88522582881501"^^xsd:double ;
         economy:gdpPerCapita        "4201.73771089327"^^xsd:double ;
@@ -1252,7 +1252,7 @@
 
 <http://hrachjar.cz/economy/mne>
         rdf:type                    economy:Economy ;
-        country:name                "Montenegro"@en ;
+        foaf:name                   "Montenegro"@en ;
         economy:gdb                 "4587741791.10639"^^xsd:double ;
         economy:gdbGrowth           "1.78371268120176"^^xsd:double ;
         economy:gdpPerCapita        "7378.04440441034"^^xsd:double ;
@@ -1263,7 +1263,7 @@
 
 <http://hrachjar.cz/economy/mar>
         rdf:type                    economy:Economy ;
-        country:name                "Morocco"@en ;
+        foaf:name                   "Morocco"@en ;
         economy:gdb                 "110009040838.419"^^xsd:double ;
         economy:gdbGrowth           "2.41708118165246"^^xsd:double ;
         economy:gdpPerCapita        "3190.31044414024"^^xsd:double ;
@@ -1274,7 +1274,7 @@
 
 <http://hrachjar.cz/economy/moz>
         rdf:type                    economy:Economy ;
-        country:name                "Mozambique"@en ;
+        foaf:name                   "Mozambique"@en ;
         economy:gdb                 "16945889409.8435"^^xsd:double ;
         economy:gdbGrowth           "7.4341409216393"^^xsd:double ;
         economy:gdpPerCapita        "622.638064437746"^^xsd:double ;
@@ -1284,7 +1284,7 @@
 
 <http://hrachjar.cz/economy/mmr>
         rdf:type                    economy:Economy ;
-        country:name                "Myanmar"@en ;
+        foaf:name                   "Myanmar"@en ;
         economy:gdb                 "64330041772.9259"^^xsd:double ;
         economy:gdbGrowth           "8.4963658604641"^^xsd:double ;
         economy:gdpPerCapita        "1203.84472110364"^^xsd:double ;
@@ -1294,7 +1294,7 @@
 
 <http://hrachjar.cz/economy/nam>
         rdf:type                    economy:Economy ;
-        country:name                "Namibia"@en ;
+        foaf:name                   "Namibia"@en ;
         economy:gdb                 "12838336840.2247"^^xsd:double ;
         economy:gdbGrowth           "6.33023213857109"^^xsd:double ;
         economy:gdpPerCapita        "5342.94446039872"^^xsd:double ;
@@ -1303,12 +1303,12 @@
         economy:inflationPPI        "5.35016966861296"^^xsd:double .
 
 <http://hrachjar.cz/economy/nru>
-        rdf:type      economy:Economy ;
-        country:name  "Nauru"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Nauru"@en .
 
 <http://hrachjar.cz/economy/npl>
         rdf:type                    economy:Economy ;
-        country:name                "Nepal"@en ;
+        foaf:name                   "Nepal"@en ;
         economy:gdb                 "19769642122.5833"^^xsd:double ;
         economy:gdbGrowth           "5.38058382071026"^^xsd:double ;
         economy:gdpPerCapita        "701.680063399496"^^xsd:double ;
@@ -1318,7 +1318,7 @@
 
 <http://hrachjar.cz/economy/nld>
         rdf:type                    economy:Economy ;
-        country:name                "Netherlands"@en ;
+        foaf:name                   "Netherlands"@en ;
         economy:gdb                 "879319321494.639"^^xsd:double ;
         economy:gdbGrowth           "1.01112840751658"^^xsd:double ;
         economy:gdpPerCapita        "52138.6839244096"^^xsd:double ;
@@ -1328,12 +1328,12 @@
         economy:unemployment        "6.80000019073486"^^xsd:double .
 
 <http://hrachjar.cz/economy/ncl>
-        rdf:type      economy:Economy ;
-        country:name  "New Caledonia"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "New Caledonia"@en .
 
 <http://hrachjar.cz/economy/nzl>
         rdf:type                    economy:Economy ;
-        country:name                "New Zealand"@en ;
+        foaf:name                   "New Zealand"@en ;
         economy:gdb                 "200142409766.821"^^xsd:double ;
         economy:gdbGrowth           "3.17283580676937"^^xsd:double ;
         economy:gdpPerCapita        "44380.426584212"^^xsd:double ;
@@ -1344,7 +1344,7 @@
 
 <http://hrachjar.cz/economy/nic>
         rdf:type                    economy:Economy ;
-        country:name                "Nicaragua"@en ;
+        foaf:name                   "Nicaragua"@en ;
         economy:gdb                 "11790221756.2778"^^xsd:double ;
         economy:gdbGrowth           "4.56521214601311"^^xsd:double ;
         economy:gdpPerCapita        "1960.49090771313"^^xsd:double ;
@@ -1354,7 +1354,7 @@
 
 <http://hrachjar.cz/economy/ner>
         rdf:type                    economy:Economy ;
-        country:name                "Niger"@en ;
+        foaf:name                   "Niger"@en ;
         economy:gdb                 "8245312136.56543"^^xsd:double ;
         economy:gdbGrowth           "7.04979794804296"^^xsd:double ;
         economy:gdpPerCapita        "431.381682137856"^^xsd:double ;
@@ -1364,7 +1364,7 @@
 
 <http://hrachjar.cz/economy/nga>
         rdf:type                    economy:Economy ;
-        country:name                "Nigeria"@en ;
+        foaf:name                   "Nigeria"@en ;
         economy:gdb                 "568498939784.021"^^xsd:double ;
         economy:gdbGrowth           "6.30971825251392"^^xsd:double ;
         economy:gdpPerCapita        "3203.24429573261"^^xsd:double ;
@@ -1374,12 +1374,12 @@
         economy:unemployment        "4.80000019073486"^^xsd:double .
 
 <http://hrachjar.cz/economy/mnp>
-        rdf:type      economy:Economy ;
-        country:name  "Northern Mariana Islands"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Northern Mariana Islands"@en .
 
 <http://hrachjar.cz/economy/nor>
         rdf:type                    economy:Economy ;
-        country:name                "Norway"@en ;
+        foaf:name                   "Norway"@en ;
         economy:gdb                 "500519016133.298"^^xsd:double ;
         economy:gdbGrowth           "2.21476279313688"^^xsd:double ;
         economy:gdpPerCapita        "97429.7084759454"^^xsd:double ;
@@ -1390,7 +1390,7 @@
 
 <http://hrachjar.cz/economy/omn>
         rdf:type                    economy:Economy ;
-        country:name                "Oman"@en ;
+        foaf:name                   "Oman"@en ;
         economy:gdb                 "81796618985.6957"^^xsd:double ;
         economy:gdbGrowth           "2.89420554420494"^^xsd:double ;
         economy:gdpPerCapita        "19309.6124499023"^^xsd:double ;
@@ -1400,7 +1400,7 @@
 
 <http://hrachjar.cz/economy/pak>
         rdf:type                    economy:Economy ;
-        country:name                "Pakistan"@en ;
+        foaf:name                   "Pakistan"@en ;
         economy:gdb                 "243382758001.33"^^xsd:double ;
         economy:gdbGrowth           "4.73835494419686"^^xsd:double ;
         economy:gdpPerCapita        "1315.26762194284"^^xsd:double ;
@@ -1411,7 +1411,7 @@
 
 <http://hrachjar.cz/economy/plw>
         rdf:type                    economy:Economy ;
-        country:name                "Palau"@en ;
+        foaf:name                   "Palau"@en ;
         economy:gdb                 "250900000"^^xsd:double ;
         economy:gdbGrowth           "4.25652667423384"^^xsd:double ;
         economy:gdpPerCapita        "11892.6861639096"^^xsd:double ;
@@ -1420,7 +1420,7 @@
 
 <http://hrachjar.cz/economy/pan>
         rdf:type                    economy:Economy ;
-        country:name                "Panama"@en ;
+        foaf:name                   "Panama"@en ;
         economy:gdb                 "49165773100"^^xsd:double ;
         economy:gdbGrowth           "6.05333405751874"^^xsd:double ;
         economy:gdpPerCapita        "12712.431328999"^^xsd:double ;
@@ -1431,7 +1431,7 @@
 
 <http://hrachjar.cz/economy/png>
         rdf:type                    economy:Economy ;
-        country:name                "Papua New Guinea"@en ;
+        foaf:name                   "Papua New Guinea"@en ;
         economy:gdb                 "16928680397.4185"^^xsd:double ;
         economy:gdbGrowth           "8.5339018016779"^^xsd:double ;
         economy:gdpPerCapita        "2268.17253944302"^^xsd:double ;
@@ -1441,7 +1441,7 @@
 
 <http://hrachjar.cz/economy/pry>
         rdf:type                    economy:Economy ;
-        country:name                "Paraguay"@en ;
+        foaf:name                   "Paraguay"@en ;
         economy:gdb                 "30881166852.3116"^^xsd:double ;
         economy:gdbGrowth           "4.72233374488668"^^xsd:double ;
         economy:gdpPerCapita        "4712.87020536405"^^xsd:double ;
@@ -1452,7 +1452,7 @@
 
 <http://hrachjar.cz/economy/per>
         rdf:type                    economy:Economy ;
-        country:name                "Peru"@en ;
+        foaf:name                   "Peru"@en ;
         economy:gdb                 "202855201908.123"^^xsd:double ;
         economy:gdbGrowth           "2.38417295969253"^^xsd:double ;
         economy:gdpPerCapita        "6549.3892292809"^^xsd:double ;
@@ -1463,7 +1463,7 @@
 
 <http://hrachjar.cz/economy/phl>
         rdf:type                    economy:Economy ;
-        country:name                "Philippines"@en ;
+        foaf:name                   "Philippines"@en ;
         economy:gdb                 "284777093019.065"^^xsd:double ;
         economy:gdbGrowth           "6.13234304368882"^^xsd:double ;
         economy:gdpPerCapita        "2872.51216471657"^^xsd:double ;
@@ -1474,7 +1474,7 @@
 
 <http://hrachjar.cz/economy/pol>
         rdf:type                    economy:Economy ;
-        country:name                "Poland"@en ;
+        foaf:name                   "Poland"@en ;
         economy:gdb                 "544982089079.093"^^xsd:double ;
         economy:gdbGrowth           "3.28253807593806"^^xsd:double ;
         economy:gdpPerCapita        "14337.2063674308"^^xsd:double ;
@@ -1485,7 +1485,7 @@
 
 <http://hrachjar.cz/economy/prt>
         rdf:type                    economy:Economy ;
-        country:name                "Portugal"@en ;
+        foaf:name                   "Portugal"@en ;
         economy:gdb                 "230116913840.321"^^xsd:double ;
         economy:gdbGrowth           "0.905794224709112"^^xsd:double ;
         economy:gdpPerCapita        "22124.3670925451"^^xsd:double ;
@@ -1496,12 +1496,12 @@
 
 <http://hrachjar.cz/economy/pri>
         rdf:type              economy:Economy ;
-        country:name          "Puerto Rico"@en ;
+        foaf:name             "Puerto Rico"@en ;
         economy:unemployment  "13.8999996185303"^^xsd:double .
 
 <http://hrachjar.cz/economy/qat>
         rdf:type                    economy:Economy ;
-        country:name                "Qatar"@en ;
+        foaf:name                   "Qatar"@en ;
         economy:gdb                 "210109340659.341"^^xsd:double ;
         economy:gdbGrowth           "4.18377302980284"^^xsd:double ;
         economy:gdpPerCapita        "96732.5290262219"^^xsd:double ;
@@ -1511,7 +1511,7 @@
 
 <http://hrachjar.cz/economy/rom>
         rdf:type                    economy:Economy ;
-        country:name                "Romania"@en ;
+        foaf:name                   "Romania"@en ;
         economy:gdb                 "199324435686.134"^^xsd:double ;
         economy:gdbGrowth           "2.95904700688921"^^xsd:double ;
         economy:gdpPerCapita        "10011.7859226299"^^xsd:double ;
@@ -1522,7 +1522,7 @@
 
 <http://hrachjar.cz/economy/rus>
         rdf:type                    economy:Economy ;
-        country:name                "Russian Federation"@en ;
+        foaf:name                   "Russian Federation"@en ;
         economy:gdb                 "2030972571014.27"^^xsd:double ;
         economy:gdbGrowth           "0.706370560425242"^^xsd:double ;
         economy:gdpPerCapita        "13902.1428503026"^^xsd:double ;
@@ -1533,7 +1533,7 @@
 
 <http://hrachjar.cz/economy/rwa>
         rdf:type                    economy:Economy ;
-        country:name                "Rwanda"@en ;
+        foaf:name                   "Rwanda"@en ;
         economy:gdb                 "7912161659.7618"^^xsd:double ;
         economy:gdbGrowth           "7.00913242009133"^^xsd:double ;
         economy:gdpPerCapita        "697.626501273706"^^xsd:double ;
@@ -1543,7 +1543,7 @@
 
 <http://hrachjar.cz/economy/wsm>
         rdf:type                    economy:Economy ;
-        country:name                "Samoa"@en ;
+        foaf:name                   "Samoa"@en ;
         economy:gdb                 "800418989.621751"^^xsd:double ;
         economy:gdbGrowth           "1.19614733672142"^^xsd:double ;
         economy:gdpPerCapita        "4172.21710037661"^^xsd:double ;
@@ -1553,12 +1553,12 @@
 
 <http://hrachjar.cz/economy/smr>
         rdf:type              economy:Economy ;
-        country:name          "San Marino"@en ;
+        foaf:name             "San Marino"@en ;
         economy:unemployment  "6.59999990463257"^^xsd:double .
 
 <http://hrachjar.cz/economy/stp>
         rdf:type                    economy:Economy ;
-        country:name                "Sao Tome and Principe"@en ;
+        foaf:name                   "Sao Tome and Principe"@en ;
         economy:gdb                 "337413477.240837"^^xsd:double ;
         economy:gdbGrowth           "4.47855413556681"^^xsd:double ;
         economy:gdpPerCapita        "1810.72156164921"^^xsd:double ;
@@ -1568,7 +1568,7 @@
 
 <http://hrachjar.cz/economy/sau>
         rdf:type                    economy:Economy ;
-        country:name                "Saudi Arabia"@en ;
+        foaf:name                   "Saudi Arabia"@en ;
         economy:gdb                 "753831466666.667"^^xsd:double ;
         economy:gdbGrowth           "3.63874159548291"^^xsd:double ;
         economy:gdpPerCapita        "24406.4678217219"^^xsd:double ;
@@ -1579,7 +1579,7 @@
 
 <http://hrachjar.cz/economy/sen>
         rdf:type                    economy:Economy ;
-        country:name                "Senegal"@en ;
+        foaf:name                   "Senegal"@en ;
         economy:gdb                 "15657551477.2003"^^xsd:double ;
         economy:gdbGrowth           "4.31105102226705"^^xsd:double ;
         economy:gdpPerCapita        "1067.131753327"^^xsd:double ;
@@ -1589,7 +1589,7 @@
 
 <http://hrachjar.cz/economy/srb>
         rdf:type                    economy:Economy ;
-        country:name                "Serbia"@en ;
+        foaf:name                   "Serbia"@en ;
         economy:gdb                 "44210806365.6817"^^xsd:double ;
         economy:gdbGrowth           "-1.8313011070928"^^xsd:double ;
         economy:gdpPerCapita        "6200.17322102474"^^xsd:double ;
@@ -1599,7 +1599,7 @@
 
 <http://hrachjar.cz/economy/syc>
         rdf:type                    economy:Economy ;
-        country:name                "Seychelles"@en ;
+        foaf:name                   "Seychelles"@en ;
         economy:gdb                 "1422530791.5588"^^xsd:double ;
         economy:gdbGrowth           "3.31698502839444"^^xsd:double ;
         economy:gdpPerCapita        "15563.7942183676"^^xsd:double ;
@@ -1609,7 +1609,7 @@
 
 <http://hrachjar.cz/economy/sle>
         rdf:type                    economy:Economy ;
-        country:name                "Sierra Leone"@en ;
+        foaf:name                   "Sierra Leone"@en ;
         economy:gdb                 "5005662070.72105"^^xsd:double ;
         economy:gdbGrowth           "4.59084130913934"^^xsd:double ;
         economy:gdpPerCapita        "792.583550409334"^^xsd:double ;
@@ -1619,7 +1619,7 @@
 
 <http://hrachjar.cz/economy/sgp>
         rdf:type                    economy:Economy ;
-        country:name                "Singapore"@en ;
+        foaf:name                   "Singapore"@en ;
         economy:gdb                 "306344408491.832"^^xsd:double ;
         economy:gdbGrowth           "3.26001528805058"^^xsd:double ;
         economy:gdpPerCapita        "56007.288209027"^^xsd:double ;
@@ -1629,12 +1629,12 @@
         economy:unemployment        "1.70000004768372"^^xsd:double .
 
 <http://hrachjar.cz/economy/sxm>
-        rdf:type      economy:Economy ;
-        country:name  "Sint Maarten (Dutch part)"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Sint Maarten (Dutch part)"@en .
 
 <http://hrachjar.cz/economy/svk>
         rdf:type                    economy:Economy ;
-        country:name                "Slovak Republic"@en ;
+        foaf:name                   "Slovak Republic"@en ;
         economy:gdb                 "100252753084.782"^^xsd:double ;
         economy:gdbGrowth           "2.52190923536976"^^xsd:double ;
         economy:gdpPerCapita        "18501.4296155336"^^xsd:double ;
@@ -1645,7 +1645,7 @@
 
 <http://hrachjar.cz/economy/svn>
         rdf:type                    economy:Economy ;
-        country:name                "Slovenia"@en ;
+        foaf:name                   "Slovenia"@en ;
         economy:gdb                 "49491396798.0619"^^xsd:double ;
         economy:gdbGrowth           "3.04836206773822"^^xsd:double ;
         economy:gdpPerCapita        "24001.880133688"^^xsd:double ;
@@ -1656,7 +1656,7 @@
 
 <http://hrachjar.cz/economy/slb>
         rdf:type                    economy:Economy ;
-        country:name                "Solomon Islands"@en ;
+        foaf:name                   "Solomon Islands"@en ;
         economy:gdb                 "1158190175.3149"^^xsd:double ;
         economy:gdbGrowth           "1.50742629128797"^^xsd:double ;
         economy:gdpPerCapita        "2024.20286123362"^^xsd:double ;
@@ -1666,13 +1666,13 @@
 
 <http://hrachjar.cz/economy/som>
         rdf:type              economy:Economy ;
-        country:name          "Somalia"@en ;
+        foaf:name             "Somalia"@en ;
         economy:gdb           "5707000000"^^xsd:double ;
         economy:gdpPerCapita  "542.615883955694"^^xsd:double .
 
 <http://hrachjar.cz/economy/zaf>
         rdf:type                    economy:Economy ;
-        country:name                "South Africa"@en ;
+        foaf:name                   "South Africa"@en ;
         economy:gdb                 "349873026988.676"^^xsd:double ;
         economy:gdbGrowth           "1.54870063532459"^^xsd:double ;
         economy:gdpPerCapita        "6472.10102734624"^^xsd:double ;
@@ -1683,7 +1683,7 @@
 
 <http://hrachjar.cz/economy/ssd>
         rdf:type                    economy:Economy ;
-        country:name                "South Sudan"@en ;
+        foaf:name                   "South Sudan"@en ;
         economy:gdb                 "13282084033.8983"^^xsd:double ;
         economy:gdbGrowth           "3.37364847715736"^^xsd:double ;
         economy:gdpPerCapita        "1115.09351496025"^^xsd:double ;
@@ -1693,7 +1693,7 @@
 
 <http://hrachjar.cz/economy/esp>
         rdf:type                    economy:Economy ;
-        country:name                "Spain"@en ;
+        foaf:name                   "Spain"@en ;
         economy:gdb                 "1381342101735.68"^^xsd:double ;
         economy:gdbGrowth           "1.36067301686447"^^xsd:double ;
         economy:gdpPerCapita        "29718.5002155441"^^xsd:double ;
@@ -1704,7 +1704,7 @@
 
 <http://hrachjar.cz/economy/lka>
         rdf:type                    economy:Economy ;
-        country:name                "Sri Lanka"@en ;
+        foaf:name                   "Sri Lanka"@en ;
         economy:gdb                 "80028186274.5098"^^xsd:double ;
         economy:gdbGrowth           "4.87860303349355"^^xsd:double ;
         economy:gdpPerCapita        "3852.88076041162"^^xsd:double ;
@@ -1715,7 +1715,7 @@
 
 <http://hrachjar.cz/economy/kna>
         rdf:type                    economy:Economy ;
-        country:name                "St. Kitts and Nevis"@en ;
+        foaf:name                   "St. Kitts and Nevis"@en ;
         economy:gdb                 "864766185.185185"^^xsd:double ;
         economy:gdbGrowth           "6.90307093764655"^^xsd:double ;
         economy:gdpPerCapita        "15739.0467600682"^^xsd:double ;
@@ -1725,7 +1725,7 @@
 
 <http://hrachjar.cz/economy/lca>
         rdf:type                    economy:Economy ;
-        country:name                "St. Lucia"@en ;
+        foaf:name                   "St. Lucia"@en ;
         economy:gdb                 "1404430555.55556"^^xsd:double ;
         economy:gdbGrowth           "0.45608895444613"^^xsd:double ;
         economy:gdpPerCapita        "7647.52950287542"^^xsd:double ;
@@ -1734,12 +1734,12 @@
         economy:inflationPPI        "3.51847818194992"^^xsd:double .
 
 <http://hrachjar.cz/economy/maf>
-        rdf:type      economy:Economy ;
-        country:name  "St. Martin (French part)"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "St. Martin (French part)"@en .
 
 <http://hrachjar.cz/economy/vct>
         rdf:type                    economy:Economy ;
-        country:name                "St. Vincent and the Grenadines"@en ;
+        foaf:name                   "St. Vincent and the Grenadines"@en ;
         economy:gdb                 "729738560.37037"^^xsd:double ;
         economy:gdbGrowth           "0.656613575403341"^^xsd:double ;
         economy:gdpPerCapita        "6672.8105374028"^^xsd:double ;
@@ -1749,7 +1749,7 @@
 
 <http://hrachjar.cz/economy/sdn>
         rdf:type                    economy:Economy ;
-        country:name                "Sudan"@en ;
+        foaf:name                   "Sudan"@en ;
         economy:gdb                 "73814947340.8984"^^xsd:double ;
         economy:gdbGrowth           "3.10000026189263"^^xsd:double ;
         economy:gdpPerCapita        "1875.84328741646"^^xsd:double ;
@@ -1759,7 +1759,7 @@
 
 <http://hrachjar.cz/economy/sur>
         rdf:type                    economy:Economy ;
-        country:name                "Suriname"@en ;
+        foaf:name                   "Suriname"@en ;
         economy:gdb                 "5210303030.30303"^^xsd:double ;
         economy:gdbGrowth           "1.84290923425642"^^xsd:double ;
         economy:gdpPerCapita        "9680.11591367368"^^xsd:double ;
@@ -1769,7 +1769,7 @@
 
 <http://hrachjar.cz/economy/swz>
         rdf:type                    economy:Economy ;
-        country:name                "Swaziland"@en ;
+        foaf:name                   "Swaziland"@en ;
         economy:gdb                 "4412891833.36865"^^xsd:double ;
         economy:gdbGrowth           "2.45037236456535"^^xsd:double ;
         economy:gdpPerCapita        "3477.14924558956"^^xsd:double ;
@@ -1779,7 +1779,7 @@
 
 <http://hrachjar.cz/economy/swe>
         rdf:type                    economy:Economy ;
-        country:name                "Sweden"@en ;
+        foaf:name                   "Sweden"@en ;
         economy:gdb                 "571100683085.099"^^xsd:double ;
         economy:gdbGrowth           "2.26697842199903"^^xsd:double ;
         economy:gdpPerCapita        "58899.9797944845"^^xsd:double ;
@@ -1790,7 +1790,7 @@
 
 <http://hrachjar.cz/economy/che>
         rdf:type                    economy:Economy ;
-        country:name                "Switzerland"@en ;
+        foaf:name                   "Switzerland"@en ;
         economy:gdb                 "701037135966.049"^^xsd:double ;
         economy:gdbGrowth           "1.88947694383224"^^xsd:double ;
         economy:gdpPerCapita        "85610.8420285261"^^xsd:double ;
@@ -1800,12 +1800,12 @@
         economy:unemployment        "4.5"^^xsd:double .
 
 <http://hrachjar.cz/economy/syr>
-        rdf:type      economy:Economy ;
-        country:name  "Syrian Arab Republic"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Syrian Arab Republic"@en .
 
 <http://hrachjar.cz/economy/tjk>
         rdf:type                    economy:Economy ;
-        country:name                "Tajikistan"@en ;
+        foaf:name                   "Tajikistan"@en ;
         economy:gdb                 "9236309138.04277"^^xsd:double ;
         economy:gdbGrowth           "6.69925065988284"^^xsd:double ;
         economy:gdpPerCapita        "1113.36635446715"^^xsd:double ;
@@ -1815,7 +1815,7 @@
 
 <http://hrachjar.cz/economy/tza>
         rdf:type                    economy:Economy ;
-        country:name                "Tanzania"@en ;
+        foaf:name                   "Tanzania"@en ;
         economy:gdb                 "48030400964.2053"^^xsd:double ;
         economy:gdbGrowth           "6.96513296158979"^^xsd:double ;
         economy:gdpPerCapita        "954.618987954616"^^xsd:double ;
@@ -1825,7 +1825,7 @@
 
 <http://hrachjar.cz/economy/tha>
         rdf:type                    economy:Economy ;
-        country:name                "Thailand"@en ;
+        foaf:name                   "Thailand"@en ;
         economy:gdb                 "404320038916.496"^^xsd:double ;
         economy:gdbGrowth           "0.817633101784082"^^xsd:double ;
         economy:gdpPerCapita        "5969.94011583791"^^xsd:double ;
@@ -1836,7 +1836,7 @@
 
 <http://hrachjar.cz/economy/tmp>
         rdf:type                    economy:Economy ;
-        country:name                "Timor-Leste"@en ;
+        foaf:name                   "Timor-Leste"@en ;
         economy:gdb                 "1371172832.77153"^^xsd:double ;
         economy:gdbGrowth           "5.5"^^xsd:double ;
         economy:gdpPerCapita        "1131.23085071824"^^xsd:double ;
@@ -1846,7 +1846,7 @@
 
 <http://hrachjar.cz/economy/tgo>
         rdf:type                    economy:Economy ;
-        country:name                "Togo"@en ;
+        foaf:name                   "Togo"@en ;
         economy:gdb                 "4482535926.29673"^^xsd:double ;
         economy:gdbGrowth           "5.93749137193187"^^xsd:double ;
         economy:gdpPerCapita        "629.9976439467"^^xsd:double ;
@@ -1856,7 +1856,7 @@
 
 <http://hrachjar.cz/economy/ton>
         rdf:type                    economy:Economy ;
-        country:name                "Tonga"@en ;
+        foaf:name                   "Tonga"@en ;
         economy:gdb                 "434386306.626299"^^xsd:double ;
         economy:gdbGrowth           "2.14395546502062"^^xsd:double ;
         economy:gdpPerCapita        "4114.05211511279"^^xsd:double ;
@@ -1866,7 +1866,7 @@
 
 <http://hrachjar.cz/economy/tto>
         rdf:type                    economy:Economy ;
-        country:name                "Trinidad and Tobago"@en ;
+        foaf:name                   "Trinidad and Tobago"@en ;
         economy:gdb                 "28874122633.5743"^^xsd:double ;
         economy:gdbGrowth           "0.816480106475595"^^xsd:double ;
         economy:gdpPerCapita        "21317.449265568"^^xsd:double ;
@@ -1876,7 +1876,7 @@
 
 <http://hrachjar.cz/economy/tun>
         rdf:type                    economy:Economy ;
-        country:name                "Tunisia"@en ;
+        foaf:name                   "Tunisia"@en ;
         economy:gdb                 "47603227896.5659"^^xsd:double ;
         economy:gdbGrowth           "2.29999997197415"^^xsd:double ;
         economy:gdpPerCapita        "4328.90419734881"^^xsd:double ;
@@ -1886,7 +1886,7 @@
 
 <http://hrachjar.cz/economy/tur>
         rdf:type                    economy:Economy ;
-        country:name                "Turkey"@en ;
+        foaf:name                   "Turkey"@en ;
         economy:gdb                 "798797266164.039"^^xsd:double ;
         economy:gdbGrowth           "3.02011821310668"^^xsd:double ;
         economy:gdpPerCapita        "10303.8988002501"^^xsd:double ;
@@ -1897,7 +1897,7 @@
 
 <http://hrachjar.cz/economy/tkm>
         rdf:type                    economy:Economy ;
-        country:name                "Turkmenistan"@en ;
+        foaf:name                   "Turkmenistan"@en ;
         economy:gdb                 "43485614035.0877"^^xsd:double ;
         economy:gdbGrowth           "10.2999999705459"^^xsd:double ;
         economy:gdpPerCapita        "8193.72029690445"^^xsd:double ;
@@ -1905,12 +1905,12 @@
         economy:inflationGDP        "0.579909338083311"^^xsd:double .
 
 <http://hrachjar.cz/economy/tca>
-        rdf:type      economy:Economy ;
-        country:name  "Turks and Caicos Islands"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Turks and Caicos Islands"@en .
 
 <http://hrachjar.cz/economy/tuv>
         rdf:type                    economy:Economy ;
-        country:name                "Tuvalu"@en ;
+        foaf:name                   "Tuvalu"@en ;
         economy:gdb                 "37859554.4597051"^^xsd:double ;
         economy:gdbGrowth           "1.98788966658702"^^xsd:double ;
         economy:gdpPerCapita        "3826.90331140252"^^xsd:double ;
@@ -1919,7 +1919,7 @@
 
 <http://hrachjar.cz/economy/uga>
         rdf:type                    economy:Economy ;
-        country:name                "Uganda"@en ;
+        foaf:name                   "Uganda"@en ;
         economy:gdb                 "26998477707.0964"^^xsd:double ;
         economy:gdbGrowth           "4.81527310758976"^^xsd:double ;
         economy:gdpPerCapita        "714.567356471156"^^xsd:double ;
@@ -1929,7 +1929,7 @@
 
 <http://hrachjar.cz/economy/ukr>
         rdf:type                    economy:Economy ;
-        country:name                "Ukraine"@en ;
+        foaf:name                   "Ukraine"@en ;
         economy:gdb                 "131805126738.287"^^xsd:double ;
         economy:gdbGrowth           "-6.60000295953766"^^xsd:double ;
         economy:gdpPerCapita        "3065.16422265266"^^xsd:double ;
@@ -1940,7 +1940,7 @@
 
 <http://hrachjar.cz/economy/are>
         rdf:type                    economy:Economy ;
-        country:name                "United Arab Emirates"@en ;
+        foaf:name                   "United Arab Emirates"@en ;
         economy:gdb                 "399451327433.628"^^xsd:double ;
         economy:gdbGrowth           "4.57028972121714"^^xsd:double ;
         economy:gdpPerCapita        "43962.7136932011"^^xsd:double ;
@@ -1949,7 +1949,7 @@
 
 <http://hrachjar.cz/economy/gbr>
         rdf:type                    economy:Economy ;
-        country:name                "United Kingdom"@en ;
+        foaf:name                   "United Kingdom"@en ;
         economy:gdb                 "2990201431078.23"^^xsd:double ;
         economy:gdbGrowth           "2.85284331716611"^^xsd:double ;
         economy:gdpPerCapita        "46278.5202128829"^^xsd:double ;
@@ -1960,7 +1960,7 @@
 
 <http://hrachjar.cz/economy/usa>
         rdf:type                    economy:Economy ;
-        country:name                "United States"@en ;
+        foaf:name                   "United States"@en ;
         economy:gdb                 "17348071500000"^^xsd:double ;
         economy:gdbGrowth           "2.4277956361022"^^xsd:double ;
         economy:gdpPerCapita        "54398.4600093994"^^xsd:double ;
@@ -1971,7 +1971,7 @@
 
 <http://hrachjar.cz/economy/ury>
         rdf:type                    economy:Economy ;
-        country:name                "Uruguay"@en ;
+        foaf:name                   "Uruguay"@en ;
         economy:gdb                 "57235766827.0376"^^xsd:double ;
         economy:gdbGrowth           "3.23879122851962"^^xsd:double ;
         economy:gdpPerCapita        "16737.973101175"^^xsd:double ;
@@ -1982,7 +1982,7 @@
 
 <http://hrachjar.cz/economy/uzb>
         rdf:type                    economy:Economy ;
-        country:name                "Uzbekistan"@en ;
+        foaf:name                   "Uzbekistan"@en ;
         economy:gdb                 "63132848445.0133"^^xsd:double ;
         economy:gdbGrowth           "8.10000000000002"^^xsd:double ;
         economy:gdpPerCapita        "2052.58678135925"^^xsd:double ;
@@ -1991,7 +1991,7 @@
 
 <http://hrachjar.cz/economy/vut>
         rdf:type                    economy:Economy ;
-        country:name                "Vanuatu"@en ;
+        foaf:name                   "Vanuatu"@en ;
         economy:gdb                 "814954586.8173"^^xsd:double ;
         economy:gdbGrowth           "2.30434710165453"^^xsd:double ;
         economy:gdpPerCapita        "3147.96485986836"^^xsd:double ;
@@ -2001,7 +2001,7 @@
 
 <http://hrachjar.cz/economy/ven>
         rdf:type                    economy:Economy ;
-        country:name                "Venezuela, RB"@en ;
+        foaf:name                   "Venezuela, RB"@en ;
         economy:gdbGrowth           "-3.89438647450662"^^xsd:double ;
         economy:gdbPerCapitaGrowth  "-5.20250603320184"^^xsd:double ;
         economy:inflationPPI        "62.1686499794828"^^xsd:double ;
@@ -2009,7 +2009,7 @@
 
 <http://hrachjar.cz/economy/vnm>
         rdf:type                    economy:Economy ;
-        country:name                "Vietnam"@en ;
+        foaf:name                   "Vietnam"@en ;
         economy:gdb                 "186204652922.262"^^xsd:double ;
         economy:gdbGrowth           "5.98365463697851"^^xsd:double ;
         economy:gdpPerCapita        "2052.31908380089"^^xsd:double ;
@@ -2019,12 +2019,12 @@
         economy:unemployment        "1.79999995231628"^^xsd:double .
 
 <http://hrachjar.cz/economy/vir>
-        rdf:type      economy:Economy ;
-        country:name  "Virgin Islands (U.S.)"@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Virgin Islands (U.S.)"@en .
 
 <http://hrachjar.cz/economy/wbg>
         rdf:type                    economy:Economy ;
-        country:name                "West Bank and Gaza"@en ;
+        foaf:name                   "West Bank and Gaza"@en ;
         economy:gdb                 "12715600000"^^xsd:double ;
         economy:gdbGrowth           "-1.09138924450848"^^xsd:double ;
         economy:gdpPerCapita        "2960.77800405245"^^xsd:double ;
@@ -2033,12 +2033,12 @@
         economy:unemployment        "26.8999996185303"^^xsd:double .
 
 <http://hrachjar.cz/economy/yem>
-        rdf:type      economy:Economy ;
-        country:name  "Yemen, Rep."@en .
+        rdf:type   economy:Economy ;
+        foaf:name  "Yemen, Rep."@en .
 
 <http://hrachjar.cz/economy/zmb>
         rdf:type                    economy:Economy ;
-        country:name                "Zambia"@en ;
+        foaf:name                   "Zambia"@en ;
         economy:gdb                 "27134637888.441"^^xsd:double ;
         economy:gdbGrowth           "5.02489023219053"^^xsd:double ;
         economy:gdpPerCapita        "1725.97454864009"^^xsd:double ;
@@ -2048,7 +2048,7 @@
 
 <http://hrachjar.cz/economy/zwe>
         rdf:type                    economy:Economy ;
-        country:name                "Zimbabwe"@en ;
+        foaf:name                   "Zimbabwe"@en ;
         economy:gdb                 "14196912500"^^xsd:double ;
         economy:gdbGrowth           "3.84829030719978"^^xsd:double ;
         economy:gdpPerCapita        "931.19818468692"^^xsd:double ;

@@ -1,2 +1,3 @@
 sh ../../tarql/target/appassembler/bin/tarql -d ";" -H ./triplifier/triplifier-countries.sparql  ./input/countries.csv > output/countries.ttl;
-sh ../../tarql/target/appassembler/bin/tarql -H ./triplifier/triplifier-companies.sparql  ./input/companies.csv > output/companies.ttl
+sh ../../tarql/target/appassembler/bin/tarql -H ./triplifier/triplifier-companies.sparql  ./input/companies.csv > output/companies.ttl;
+sh ../../tarql/target/appassembler/bin/tarql -H ./triplifier/triplifier-economy.sparql  ./input/economy.csv > output/economy.ttl;

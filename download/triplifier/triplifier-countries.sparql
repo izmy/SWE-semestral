@@ -1,17 +1,22 @@
 PREFIX country: <http://hrachjar.cz/country/#>
+PREFIX economy: <http://hrachjar.cz/economy/#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX dbo: <http://dbpedia.org/ontology/#>
+PREFIX txn: <http://lod.taxonconcept.org/ontology/txn.owl#>
+
 
 CONSTRUCT {
     ?aUri a country:Country;
-          foaf:names ?names;
+          foaf:name ?name;
+          txn:countryCode ?code;
           dbo:capital ?capital;
           dbo:currency ?currency;
           dbo:area ?area;
           dbo:population ?population;
+          economy:economy ?eUri;
 }
 WHERE {
   BIND(IRI(CONCAT('http://hrachjar.cz/country/', 
@@ -20,10 +25,12 @@ WHERE {
         IF(STRSTARTS(?e, "SA"), "south-america", 
           IF(STRSTARTS(?e, "EU"), "europe", 
             IF(STRSTARTS(?e, "AF"), "africa", "antarctica"))))), '/', LCASE(REPLACE(?l, " ", "-")))) AS ?aUri)
-  BIND(STRLANG(xsd:string(?l), "en") AS ?names)
+  BIND(xsd:string(?b) AS ?code)
+  BIND(STRLANG(xsd:string(?l), "en") AS ?name)
   BIND(STRLANG(xsd:string(?d), "en") AS ?capital)
   BIND(xsd:string(?e) AS ?currency)
   BIND(xsd:integer(?c) AS ?area)
   BIND(xsd:integer(?p) AS ?population)
+  BIND(IRI(CONCAT('http://hrachjar.cz/economy/', LCASE(REPLACE(?b, " ", "-")))) AS ?eUri)
 }
 OFFSET 1
