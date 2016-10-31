@@ -24,7 +24,8 @@ WHERE {
       IF(STRSTARTS(?e, "NA"), "north-america", 
         IF(STRSTARTS(?e, "SA"), "south-america", 
           IF(STRSTARTS(?e, "EU"), "europe", 
-            IF(STRSTARTS(?e, "AF"), "africa", "antarctica"))))), '/', LCASE(REPLACE(?l, " ", "-")))) AS ?aUri)
+            IF(STRSTARTS(?e, "AF"), "africa", 
+              IF(STRSTARTS(?e, "AS"), "australia", "antarctica")))))), '/', LCASE(REPLACE(?l, " ", "-")))) AS ?aUri)
   BIND(xsd:string(?b) AS ?code)
   BIND(STRLANG(xsd:string(?l), "en") AS ?name)
   BIND(STRLANG(xsd:string(?d), "en") AS ?capital)
