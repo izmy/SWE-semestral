@@ -1,5 +1,6 @@
 PREFIX country: <http://hrachjar.cz/country/#>
 PREFIX economy: <http://hrachjar.cz/economy/#>
+PREFIX gr:      <http://purl.org/goodrelations/v1#> 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
@@ -12,8 +13,8 @@ CONSTRUCT {
     ?aUri a country:Country;
           foaf:name ?name;
           txn:countryCode ?code;
-          dbo:capital ?capital;
-          dbo:currency ?currency;
+          dbo:capital ?capitalUri;
+          gr:hasCurrency ?currency;
           dbo:area ?area;
           dbo:population ?population;
           economy:economy ?eUri;
@@ -28,10 +29,16 @@ WHERE {
               IF(STRSTARTS(?e, "AS"), "australia", "antarctica")))))), '/', LCASE(REPLACE(?l, " ", "-")))) AS ?aUri)
   BIND(xsd:string(?b) AS ?code)
   BIND(STRLANG(xsd:string(?l), "en") AS ?name)
-  BIND(STRLANG(xsd:string(?d), "en") AS ?capital)
+  BIND(IRI(CONCAT('http://hrachjar.cz/country/', 
+    IF(STRSTARTS(?e, "AS"), "asia", 
+      IF(STRSTARTS(?e, "NA"), "north-america", 
+        IF(STRSTARTS(?e, "SA"), "south-america", 
+          IF(STRSTARTS(?e, "EU"), "europe", 
+            IF(STRSTARTS(?e, "AF"), "africa", 
+              IF(STRSTARTS(?e, "AS"), "australia", "antarctica")))))), '/', LCASE(REPLACE(?l, " ", "-")), '/', LCASE(REPLACE(REPLACE(REPLACE(?d, "\\'", ""), "\\.", ""), " ", "-") ) )) AS ?capitalUri)
   BIND(xsd:string(?e) AS ?currency)
   BIND(xsd:integer(?c) AS ?area)
   BIND(xsd:integer(?p) AS ?population)
-  BIND(IRI(CONCAT('http://hrachjar.cz/economy/', LCASE(REPLACE(?b, " ", "-")))) AS ?eUri)
+  BIND(IRI(CONCAT('http://hrachjar.cz/economy/', LCASE(REPLACE(?l, " ", "-")))) AS ?eUri)
 }
 OFFSET 1
