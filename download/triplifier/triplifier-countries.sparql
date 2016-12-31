@@ -1,18 +1,18 @@
 PREFIX country: <http://hrachjar.cz/country/#>
 PREFIX economy: <http://hrachjar.cz/economy/#>
 PREFIX gr:      <http://purl.org/goodrelations/v1#> 
+PREFIX frapo: <http://purl.org/cerif/frapo/#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX dbo: <http://dbpedia.org/ontology/#>
-PREFIX txn: <http://lod.taxonconcept.org/ontology/txn.owl#>
 
 
 CONSTRUCT {
     ?aUri a country:Country;
           foaf:name ?name;
-          txn:countryCode ?code;
+          frapo:hasCountryCode ?code;
           dbo:capital ?capitalUri;
           gr:hasCurrency ?currency;
           dbo:area ?area;
