@@ -150,7 +150,7 @@
         rdf:type         company:Company ;
         foaf:name        "Gazprom"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/oil-&-gas-operations> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         21 .
 
 <http://hrachjar.cz/company/samsung-electronics>
@@ -241,7 +241,7 @@
         rdf:type         company:Company ;
         foaf:name        "Rosneft"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/oil-&-gas-operations> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         34 .
 
 <http://hrachjar.cz/company/ibm>
@@ -409,7 +409,7 @@
         rdf:type         company:Company ;
         foaf:name        "Sberbank"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/regional-banks> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         58 .
 
 <http://hrachjar.cz/company/goldman-sachs-group>
@@ -584,7 +584,7 @@
         rdf:type         company:Company ;
         foaf:name        "LukOil"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/oil-&-gas-operations> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         83 .
 
 <http://hrachjar.cz/company/boeing>
@@ -1395,7 +1395,7 @@
         rdf:type         company:Company ;
         foaf:name        "Surgutneftegas"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/oil-&-gas-operations> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         198 .
 
 <http://hrachjar.cz/company/target>
@@ -1843,7 +1843,7 @@
         rdf:type         company:Company ;
         foaf:name        "VTB Bank"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/regional-banks> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         263 .
 
 <http://hrachjar.cz/company/sumitomo-corp>
@@ -1955,7 +1955,7 @@
         rdf:type         company:Company ;
         foaf:name        "Transneft"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/oil-services-&-equipment> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         279 .
 
 <http://hrachjar.cz/company/visa>
@@ -2690,7 +2690,7 @@
         rdf:type         company:Company ;
         foaf:name        "Sistema"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/telecommunications-services> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         384 .
 
 <http://hrachjar.cz/company/baker-hughes>
@@ -3369,7 +3369,7 @@
         rdf:type         company:Company ;
         foaf:name        "Novatek"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/oil-&-gas-operations> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         481 .
 
 <http://hrachjar.cz/company/corning>
@@ -3397,7 +3397,7 @@
         rdf:type         company:Company ;
         foaf:name        "CEZ Group"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/electric-utilities> ;
-        country:country  <http://hrachjar.cz/country/europe/czech-republic> ;
+        country:country  <http://hrachjar.cz/country/europe/czechia> ;
         dbo:rank         485 .
 
 <http://hrachjar.cz/company/consolidated-edison>
@@ -3607,7 +3607,7 @@
         rdf:type         company:Company ;
         foaf:name        "Norilsk Nickel"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/diversified-metals-&-mining> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         515 .
 
 <http://hrachjar.cz/company/cheung-kong-holdings>
@@ -3635,7 +3635,7 @@
         rdf:type         company:Company ;
         foaf:name        "Tatneft"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/oil-&-gas-operations> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         519 .
 
 <http://hrachjar.cz/company/dish-network>
@@ -4649,7 +4649,7 @@
         rdf:type         company:Company ;
         foaf:name        "MegaFon"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/telecommunications-services> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         664 .
 
 <http://hrachjar.cz/company/centurylink>
@@ -4698,7 +4698,7 @@
         rdf:type         company:Company ;
         foaf:name        "Magnit"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/food-retail> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         670 .
 
 <http://hrachjar.cz/company/steinhoff-international>
@@ -5333,7 +5333,7 @@
         rdf:type         company:Company ;
         foaf:name        "IDGC Holding"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/electric-utilities> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         762 .
 
 <http://hrachjar.cz/company/kering>
@@ -6173,7 +6173,7 @@
         rdf:type         company:Company ;
         foaf:name        "RusHydro"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/electric-utilities> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         882 .
 
 <http://hrachjar.cz/company/agilent-technologies>
@@ -6348,7 +6348,7 @@
         rdf:type         company:Company ;
         foaf:name        "Rostelecom"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/telecommunications-services> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         907 .
 
 <http://hrachjar.cz/company/dsm>
@@ -7160,7 +7160,7 @@
         rdf:type         company:Company ;
         foaf:name        "Uralkali"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/specialized-chemicals> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         1022 .
 
 <http://hrachjar.cz/company/kyushu-electric-power>
@@ -8272,7 +8272,7 @@
         rdf:type         company:Company ;
         foaf:name        "Alrosa"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/diversified-metals-&-mining> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         1182 .
 
 <http://hrachjar.cz/company/ameren>
@@ -8733,7 +8733,7 @@
         rdf:type         company:Company ;
         foaf:name        "Novolipetsk Steel"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/iron-&-steel> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         1248 .
 
 <http://hrachjar.cz/company/harbin-bank>
@@ -9160,7 +9160,7 @@
         rdf:type         company:Company ;
         foaf:name        "Severstal"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/iron-&-steel> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         1309 .
 
 <http://hrachjar.cz/company/regeneron-pharmaceuticals>
@@ -9270,7 +9270,7 @@
         rdf:type         company:Company ;
         foaf:name        "Inter Rao"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/electric-utilities> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         1324 .
 
 <http://hrachjar.cz/company/cno-financial-group>
@@ -9598,7 +9598,7 @@
         rdf:type         company:Company ;
         foaf:name        "UC Rusal"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/aluminum> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         1372 .
 
 <http://hrachjar.cz/company/cr-bard>
@@ -9738,7 +9738,7 @@
         rdf:type         company:Company ;
         foaf:name        "Mail.ru Group Ltd. Sponsored GDR RegS"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/computer-services> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         1392 .
 
 <http://hrachjar.cz/company/yamaguchi-financial>
@@ -10100,7 +10100,7 @@
         rdf:type         company:Company ;
         foaf:name        "Nomos Bank"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/regional-banks> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         1443 .
 
 <http://hrachjar.cz/company/guangdong-electric-power>
@@ -10427,7 +10427,7 @@
         rdf:type         company:Company ;
         foaf:name        "X5 Retail Group"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/food-retail> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         1491 .
 
 <http://hrachjar.cz/company/compal-electronics>
@@ -10762,7 +10762,7 @@
         rdf:type         company:Company ;
         foaf:name        "Mechel"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/iron-&-steel> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         1539 .
 
 <http://hrachjar.cz/company/permanent-tsb-group>
@@ -11417,7 +11417,7 @@
         rdf:type         company:Company ;
         foaf:name        "Federal Grid of UES"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/electric-utilities> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         1633 .
 
 <http://hrachjar.cz/company/sk-networks>
@@ -11816,7 +11816,7 @@
         rdf:type         company:Company ;
         foaf:name        "Magnitogorsk Iron & Steel"^^xsd:string ;
         sector:sector    <http://hrachjar.cz/sector/iron-&-steel> ;
-        country:country  <http://hrachjar.cz/country/asia/russia> ;
+        country:country  <http://hrachjar.cz/country/europe/russia> ;
         dbo:rank         1691 .
 
 <http://hrachjar.cz/company/nanto-bank>

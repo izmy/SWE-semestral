@@ -15,8 +15,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/andorra/andorra-la-vella> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              468 ;
-        dbo:population        84000 ;
-        economy:economy       <http://hrachjar.cz/economy/andorra> .
+        dbo:population        84000 .
 
 <http://hrachjar.cz/country/asia/united-arab-emirates>
         rdf:type              country:Country ;
@@ -25,8 +24,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/united-arab-emirates/abu-dhabi> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              82880 ;
-        dbo:population        4975593 ;
-        economy:economy       <http://hrachjar.cz/economy/united-arab-emirates> .
+        dbo:population        4975593 .
 
 <http://hrachjar.cz/country/asia/afghanistan>
         rdf:type              country:Country ;
@@ -35,8 +33,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/afghanistan/kabul> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              647500 ;
-        dbo:population        29121286 ;
-        economy:economy       <http://hrachjar.cz/economy/afghanistan> .
+        dbo:population        29121286 .
 
 <http://hrachjar.cz/country/north-america/antigua-and-barbuda>
         rdf:type              country:Country ;
@@ -45,8 +42,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/antigua-and-barbuda/st-johns> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              443 ;
-        dbo:population        86754 ;
-        economy:economy       <http://hrachjar.cz/economy/antigua-and-barbuda> .
+        dbo:population        86754 .
 
 <http://hrachjar.cz/country/north-america/anguilla>
         rdf:type              country:Country ;
@@ -55,8 +51,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/anguilla/the-valley> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              102 ;
-        dbo:population        13254 ;
-        economy:economy       <http://hrachjar.cz/economy/anguilla> .
+        dbo:population        13254 .
 
 <http://hrachjar.cz/country/europe/albania>
         rdf:type              country:Country ;
@@ -65,8 +60,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/albania/tirana> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              28748 ;
-        dbo:population        2986952 ;
-        economy:economy       <http://hrachjar.cz/economy/albania> .
+        dbo:population        2986952 .
 
 <http://hrachjar.cz/country/asia/armenia>
         rdf:type              country:Country ;
@@ -75,8 +69,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/armenia/yerevan> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              29800 ;
-        dbo:population        2968000 ;
-        economy:economy       <http://hrachjar.cz/economy/armenia> .
+        dbo:population        2968000 .
 
 <http://hrachjar.cz/country/africa/angola>
         rdf:type              country:Country ;
@@ -85,8 +78,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/angola/luanda> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              1246700 ;
-        dbo:population        13068161 ;
-        economy:economy       <http://hrachjar.cz/economy/angola> .
+        dbo:population        13068161 .
 
 <http://hrachjar.cz/country/antarctica/antarctica>
         rdf:type              country:Country ;
@@ -94,8 +86,7 @@
         frapo:hasCountryCode  "ATA"^^xsd:string ;
         gr:hasCurrency        "AN"^^xsd:string ;
         dbo:area              14000000 ;
-        dbo:population        0 ;
-        economy:economy       <http://hrachjar.cz/economy/antarctica> .
+        dbo:population        0 .
 
 <http://hrachjar.cz/country/south-america/argentina>
         rdf:type              country:Country ;
@@ -104,8 +95,7 @@
         dbo:capital           <http://hrachjar.cz/country/south-america/argentina/buenos-aires> ;
         gr:hasCurrency        "SA"^^xsd:string ;
         dbo:area              2766890 ;
-        dbo:population        41343201 ;
-        economy:economy       <http://hrachjar.cz/economy/argentina> .
+        dbo:population        41343201 .
 
 <http://hrachjar.cz/country/antarctica/american-samoa>
         rdf:type              country:Country ;
@@ -114,8 +104,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/american-samoa/pago-pago> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              199 ;
-        dbo:population        57881 ;
-        economy:economy       <http://hrachjar.cz/economy/american-samoa> .
+        dbo:population        57881 .
 
 <http://hrachjar.cz/country/europe/austria>
         rdf:type              country:Country ;
@@ -124,18 +113,16 @@
         dbo:capital           <http://hrachjar.cz/country/europe/austria/vienna> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              83858 ;
-        dbo:population        8205000 ;
-        economy:economy       <http://hrachjar.cz/economy/austria> .
+        dbo:population        8205000 .
 
-<http://hrachjar.cz/country/antarctica/australia>
+<http://hrachjar.cz/country/australia/australia>
         rdf:type              country:Country ;
         foaf:name             "Australia"@en ;
         frapo:hasCountryCode  "AUS"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/antarctica/australia/canberra> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              7686850 ;
-        dbo:population        21515754 ;
-        economy:economy       <http://hrachjar.cz/economy/australia> .
+        dbo:population        21515754 .
 
 <http://hrachjar.cz/country/north-america/aruba>
         rdf:type              country:Country ;
@@ -144,8 +131,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/aruba/oranjestad> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              193 ;
-        dbo:population        71566 ;
-        economy:economy       <http://hrachjar.cz/economy/aruba> .
+        dbo:population        71566 .
 
 <http://hrachjar.cz/country/europe/aland-islands>
         rdf:type              country:Country ;
@@ -154,8 +140,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/aland-islands/mariehamn> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              1580 ;
-        dbo:population        26711 ;
-        economy:economy       <http://hrachjar.cz/economy/aland-islands> .
+        dbo:population        26711 .
 
 <http://hrachjar.cz/country/asia/azerbaijan>
         rdf:type              country:Country ;
@@ -164,8 +149,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/azerbaijan/baku> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              86600 ;
-        dbo:population        8303512 ;
-        economy:economy       <http://hrachjar.cz/economy/azerbaijan> .
+        dbo:population        8303512 .
 
 <http://hrachjar.cz/country/europe/bosnia-and-herzegovina>
         rdf:type              country:Country ;
@@ -174,8 +158,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/bosnia-and-herzegovina/sarajevo> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              51129 ;
-        dbo:population        4590000 ;
-        economy:economy       <http://hrachjar.cz/economy/bosnia-and-herzegovina> .
+        dbo:population        4590000 .
 
 <http://hrachjar.cz/country/north-america/barbados>
         rdf:type              country:Country ;
@@ -184,8 +167,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/barbados/bridgetown> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              431 ;
-        dbo:population        285653 ;
-        economy:economy       <http://hrachjar.cz/economy/barbados> .
+        dbo:population        285653 .
 
 <http://hrachjar.cz/country/asia/bangladesh>
         rdf:type              country:Country ;
@@ -194,8 +176,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/bangladesh/dhaka> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              144000 ;
-        dbo:population        156118464 ;
-        economy:economy       <http://hrachjar.cz/economy/bangladesh> .
+        dbo:population        156118464 .
 
 <http://hrachjar.cz/country/europe/belgium>
         rdf:type              country:Country ;
@@ -204,8 +185,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/belgium/brussels> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              30510 ;
-        dbo:population        10403000 ;
-        economy:economy       <http://hrachjar.cz/economy/belgium> .
+        dbo:population        10403000 .
 
 <http://hrachjar.cz/country/africa/burkina-faso>
         rdf:type              country:Country ;
@@ -214,8 +194,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/burkina-faso/ouagadougou> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              274200 ;
-        dbo:population        16241811 ;
-        economy:economy       <http://hrachjar.cz/economy/burkina-faso> .
+        dbo:population        16241811 .
 
 <http://hrachjar.cz/country/europe/bulgaria>
         rdf:type              country:Country ;
@@ -224,8 +203,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/bulgaria/sofia> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              110910 ;
-        dbo:population        7148785 ;
-        economy:economy       <http://hrachjar.cz/economy/bulgaria> .
+        dbo:population        7148785 .
 
 <http://hrachjar.cz/country/asia/bahrain>
         rdf:type              country:Country ;
@@ -234,8 +212,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/bahrain/manama> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              665 ;
-        dbo:population        738004 ;
-        economy:economy       <http://hrachjar.cz/economy/bahrain> .
+        dbo:population        738004 .
 
 <http://hrachjar.cz/country/africa/burundi>
         rdf:type              country:Country ;
@@ -244,8 +221,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/burundi/bujumbura> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              27830 ;
-        dbo:population        9863117 ;
-        economy:economy       <http://hrachjar.cz/economy/burundi> .
+        dbo:population        9863117 .
 
 <http://hrachjar.cz/country/africa/benin>
         rdf:type              country:Country ;
@@ -254,8 +230,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/benin/porto-novo> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              112620 ;
-        dbo:population        9056010 ;
-        economy:economy       <http://hrachjar.cz/economy/benin> .
+        dbo:population        9056010 .
 
 <http://hrachjar.cz/country/north-america/saint-barthelemy>
         rdf:type              country:Country ;
@@ -264,8 +239,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/saint-barthelemy/gustavia> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              21 ;
-        dbo:population        8450 ;
-        economy:economy       <http://hrachjar.cz/economy/saint-barthelemy> .
+        dbo:population        8450 .
 
 <http://hrachjar.cz/country/north-america/bermuda>
         rdf:type              country:Country ;
@@ -274,8 +248,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/bermuda/hamilton> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              53 ;
-        dbo:population        65365 ;
-        economy:economy       <http://hrachjar.cz/economy/bermuda> .
+        dbo:population        65365 .
 
 <http://hrachjar.cz/country/asia/brunei>
         rdf:type              country:Country ;
@@ -284,8 +257,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/brunei/bandar-seri-begawan> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              5770 ;
-        dbo:population        395027 ;
-        economy:economy       <http://hrachjar.cz/economy/brunei> .
+        dbo:population        395027 .
 
 <http://hrachjar.cz/country/south-america/bolivia>
         rdf:type              country:Country ;
@@ -294,8 +266,7 @@
         dbo:capital           <http://hrachjar.cz/country/south-america/bolivia/sucre> ;
         gr:hasCurrency        "SA"^^xsd:string ;
         dbo:area              1098580 ;
-        dbo:population        9947418 ;
-        economy:economy       <http://hrachjar.cz/economy/bolivia> .
+        dbo:population        9947418 .
 
 <http://hrachjar.cz/country/north-america/bonaire,-saint-eustatius-and-saba->
         rdf:type              country:Country ;
@@ -303,8 +274,7 @@
         frapo:hasCountryCode  "BES"^^xsd:string ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              328 ;
-        dbo:population        18012 ;
-        economy:economy       <http://hrachjar.cz/economy/bonaire,-saint-eustatius-and-saba-> .
+        dbo:population        18012 .
 
 <http://hrachjar.cz/country/south-america/brazil>
         rdf:type              country:Country ;
@@ -313,8 +283,7 @@
         dbo:capital           <http://hrachjar.cz/country/south-america/brazil/brasilia> ;
         gr:hasCurrency        "SA"^^xsd:string ;
         dbo:area              8511965 ;
-        dbo:population        201103330 ;
-        economy:economy       <http://hrachjar.cz/economy/brazil> .
+        dbo:population        201103330 .
 
 <http://hrachjar.cz/country/north-america/bahamas>
         rdf:type              country:Country ;
@@ -323,8 +292,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/bahamas/nassau> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              13940 ;
-        dbo:population        301790 ;
-        economy:economy       <http://hrachjar.cz/economy/bahamas> .
+        dbo:population        301790 .
 
 <http://hrachjar.cz/country/asia/bhutan>
         rdf:type              country:Country ;
@@ -333,8 +301,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/bhutan/thimphu> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              47000 ;
-        dbo:population        699847 ;
-        economy:economy       <http://hrachjar.cz/economy/bhutan> .
+        dbo:population        699847 .
 
 <http://hrachjar.cz/country/antarctica/bouvet-island>
         rdf:type              country:Country ;
@@ -342,8 +309,7 @@
         frapo:hasCountryCode  "BVT"^^xsd:string ;
         gr:hasCurrency        "AN"^^xsd:string ;
         dbo:area              49 ;
-        dbo:population        0 ;
-        economy:economy       <http://hrachjar.cz/economy/bouvet-island> .
+        dbo:population        0 .
 
 <http://hrachjar.cz/country/africa/botswana>
         rdf:type              country:Country ;
@@ -352,8 +318,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/botswana/gaborone> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              600370 ;
-        dbo:population        2029307 ;
-        economy:economy       <http://hrachjar.cz/economy/botswana> .
+        dbo:population        2029307 .
 
 <http://hrachjar.cz/country/europe/belarus>
         rdf:type              country:Country ;
@@ -362,8 +327,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/belarus/minsk> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              207600 ;
-        dbo:population        9685000 ;
-        economy:economy       <http://hrachjar.cz/economy/belarus> .
+        dbo:population        9685000 .
 
 <http://hrachjar.cz/country/north-america/belize>
         rdf:type              country:Country ;
@@ -372,8 +336,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/belize/belmopan> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              22966 ;
-        dbo:population        314522 ;
-        economy:economy       <http://hrachjar.cz/economy/belize> .
+        dbo:population        314522 .
 
 <http://hrachjar.cz/country/north-america/canada>
         rdf:type              country:Country ;
@@ -382,8 +345,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/canada/ottawa> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              9984670 ;
-        dbo:population        33679000 ;
-        economy:economy       <http://hrachjar.cz/economy/canada> .
+        dbo:population        33679000 .
 
 <http://hrachjar.cz/country/asia/cocos-islands>
         rdf:type              country:Country ;
@@ -392,8 +354,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/cocos-islands/west-island> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              14 ;
-        dbo:population        628 ;
-        economy:economy       <http://hrachjar.cz/economy/cocos-islands> .
+        dbo:population        628 .
 
 <http://hrachjar.cz/country/africa/democratic-republic-of-the-congo>
         rdf:type              country:Country ;
@@ -402,8 +363,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/democratic-republic-of-the-congo/kinshasa> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              2345410 ;
-        dbo:population        70916439 ;
-        economy:economy       <http://hrachjar.cz/economy/democratic-republic-of-the-congo> .
+        dbo:population        70916439 .
 
 <http://hrachjar.cz/country/africa/central-african-republic>
         rdf:type              country:Country ;
@@ -412,8 +372,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/central-african-republic/bangui> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              622984 ;
-        dbo:population        4844927 ;
-        economy:economy       <http://hrachjar.cz/economy/central-african-republic> .
+        dbo:population        4844927 .
 
 <http://hrachjar.cz/country/africa/republic-of-the-congo>
         rdf:type              country:Country ;
@@ -422,8 +381,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/republic-of-the-congo/brazzaville> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              342000 ;
-        dbo:population        3039126 ;
-        economy:economy       <http://hrachjar.cz/economy/republic-of-the-congo> .
+        dbo:population        3039126 .
 
 <http://hrachjar.cz/country/europe/switzerland>
         rdf:type              country:Country ;
@@ -432,8 +390,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/switzerland/bern> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              41290 ;
-        dbo:population        7581000 ;
-        economy:economy       <http://hrachjar.cz/economy/switzerland> .
+        dbo:population        7581000 .
 
 <http://hrachjar.cz/country/africa/ivory-coast>
         rdf:type              country:Country ;
@@ -442,8 +399,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/ivory-coast/yamoussoukro> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              322460 ;
-        dbo:population        21058798 ;
-        economy:economy       <http://hrachjar.cz/economy/ivory-coast> .
+        dbo:population        21058798 .
 
 <http://hrachjar.cz/country/antarctica/cook-islands>
         rdf:type              country:Country ;
@@ -452,8 +408,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/cook-islands/avarua> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              240 ;
-        dbo:population        21388 ;
-        economy:economy       <http://hrachjar.cz/economy/cook-islands> .
+        dbo:population        21388 .
 
 <http://hrachjar.cz/country/south-america/chile>
         rdf:type              country:Country ;
@@ -462,8 +417,7 @@
         dbo:capital           <http://hrachjar.cz/country/south-america/chile/santiago> ;
         gr:hasCurrency        "SA"^^xsd:string ;
         dbo:area              756950 ;
-        dbo:population        16746491 ;
-        economy:economy       <http://hrachjar.cz/economy/chile> .
+        dbo:population        16746491 .
 
 <http://hrachjar.cz/country/africa/cameroon>
         rdf:type              country:Country ;
@@ -472,8 +426,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/cameroon/yaounde> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              475440 ;
-        dbo:population        19294149 ;
-        economy:economy       <http://hrachjar.cz/economy/cameroon> .
+        dbo:population        19294149 .
 
 <http://hrachjar.cz/country/asia/china>
         rdf:type              country:Country ;
@@ -482,8 +435,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/china/beijing> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              9596960 ;
-        dbo:population        1330044000 ;
-        economy:economy       <http://hrachjar.cz/economy/china> .
+        dbo:population        1330044000 .
 
 <http://hrachjar.cz/country/south-america/colombia>
         rdf:type              country:Country ;
@@ -492,8 +444,7 @@
         dbo:capital           <http://hrachjar.cz/country/south-america/colombia/bogota> ;
         gr:hasCurrency        "SA"^^xsd:string ;
         dbo:area              1138910 ;
-        dbo:population        47790000 ;
-        economy:economy       <http://hrachjar.cz/economy/colombia> .
+        dbo:population        47790000 .
 
 <http://hrachjar.cz/country/north-america/costa-rica>
         rdf:type              country:Country ;
@@ -502,8 +453,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/costa-rica/san-jose> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              51100 ;
-        dbo:population        4516220 ;
-        economy:economy       <http://hrachjar.cz/economy/costa-rica> .
+        dbo:population        4516220 .
 
 <http://hrachjar.cz/country/north-america/cuba>
         rdf:type              country:Country ;
@@ -512,8 +462,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/cuba/havana> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              110860 ;
-        dbo:population        11423000 ;
-        economy:economy       <http://hrachjar.cz/economy/cuba> .
+        dbo:population        11423000 .
 
 <http://hrachjar.cz/country/africa/cape-verde>
         rdf:type              country:Country ;
@@ -522,8 +471,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/cape-verde/praia> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              4033 ;
-        dbo:population        508659 ;
-        economy:economy       <http://hrachjar.cz/economy/cape-verde> .
+        dbo:population        508659 .
 
 <http://hrachjar.cz/country/north-america/curacao>
         rdf:type              country:Country ;
@@ -532,8 +480,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/curacao/-willemstad> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              444 ;
-        dbo:population        141766 ;
-        economy:economy       <http://hrachjar.cz/economy/curacao> .
+        dbo:population        141766 .
 
 <http://hrachjar.cz/country/asia/christmas-island>
         rdf:type              country:Country ;
@@ -542,8 +489,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/christmas-island/flying-fish-cove> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              135 ;
-        dbo:population        1500 ;
-        economy:economy       <http://hrachjar.cz/economy/christmas-island> .
+        dbo:population        1500 .
 
 <http://hrachjar.cz/country/europe/cyprus>
         rdf:type              country:Country ;
@@ -552,8 +498,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/cyprus/nicosia> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              9250 ;
-        dbo:population        1102677 ;
-        economy:economy       <http://hrachjar.cz/economy/cyprus> .
+        dbo:population        1102677 .
 
 <http://hrachjar.cz/country/europe/czechia>
         rdf:type              country:Country ;
@@ -562,8 +507,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/czechia/prague> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              78866 ;
-        dbo:population        10476000 ;
-        economy:economy       <http://hrachjar.cz/economy/czechia> .
+        dbo:population        10476000 .
 
 <http://hrachjar.cz/country/europe/germany>
         rdf:type              country:Country ;
@@ -572,8 +516,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/germany/berlin> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              357021 ;
-        dbo:population        81802257 ;
-        economy:economy       <http://hrachjar.cz/economy/germany> .
+        dbo:population        81802257 .
 
 <http://hrachjar.cz/country/africa/djibouti>
         rdf:type              country:Country ;
@@ -582,8 +525,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/djibouti/djibouti> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              23000 ;
-        dbo:population        740528 ;
-        economy:economy       <http://hrachjar.cz/economy/djibouti> .
+        dbo:population        740528 .
 
 <http://hrachjar.cz/country/europe/denmark>
         rdf:type              country:Country ;
@@ -592,8 +534,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/denmark/copenhagen> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              43094 ;
-        dbo:population        5484000 ;
-        economy:economy       <http://hrachjar.cz/economy/denmark> .
+        dbo:population        5484000 .
 
 <http://hrachjar.cz/country/north-america/dominica>
         rdf:type              country:Country ;
@@ -602,8 +543,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/dominica/roseau> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              754 ;
-        dbo:population        72813 ;
-        economy:economy       <http://hrachjar.cz/economy/dominica> .
+        dbo:population        72813 .
 
 <http://hrachjar.cz/country/north-america/dominican-republic>
         rdf:type              country:Country ;
@@ -612,8 +552,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/dominican-republic/santo-domingo> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              48730 ;
-        dbo:population        9823821 ;
-        economy:economy       <http://hrachjar.cz/economy/dominican-republic> .
+        dbo:population        9823821 .
 
 <http://hrachjar.cz/country/africa/algeria>
         rdf:type              country:Country ;
@@ -622,8 +561,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/algeria/algiers> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              2381740 ;
-        dbo:population        34586184 ;
-        economy:economy       <http://hrachjar.cz/economy/algeria> .
+        dbo:population        34586184 .
 
 <http://hrachjar.cz/country/south-america/ecuador>
         rdf:type              country:Country ;
@@ -632,8 +570,7 @@
         dbo:capital           <http://hrachjar.cz/country/south-america/ecuador/quito> ;
         gr:hasCurrency        "SA"^^xsd:string ;
         dbo:area              283560 ;
-        dbo:population        14790608 ;
-        economy:economy       <http://hrachjar.cz/economy/ecuador> .
+        dbo:population        14790608 .
 
 <http://hrachjar.cz/country/europe/estonia>
         rdf:type              country:Country ;
@@ -642,8 +579,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/estonia/tallinn> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              45226 ;
-        dbo:population        1291170 ;
-        economy:economy       <http://hrachjar.cz/economy/estonia> .
+        dbo:population        1291170 .
 
 <http://hrachjar.cz/country/africa/egypt>
         rdf:type              country:Country ;
@@ -652,8 +588,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/egypt/cairo> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              1001450 ;
-        dbo:population        80471869 ;
-        economy:economy       <http://hrachjar.cz/economy/egypt> .
+        dbo:population        80471869 .
 
 <http://hrachjar.cz/country/africa/western-sahara>
         rdf:type              country:Country ;
@@ -662,8 +597,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/western-sahara/el-aaiun> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              266000 ;
-        dbo:population        273008 ;
-        economy:economy       <http://hrachjar.cz/economy/western-sahara> .
+        dbo:population        273008 .
 
 <http://hrachjar.cz/country/africa/eritrea>
         rdf:type              country:Country ;
@@ -672,8 +606,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/eritrea/asmara> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              121320 ;
-        dbo:population        5792984 ;
-        economy:economy       <http://hrachjar.cz/economy/eritrea> .
+        dbo:population        5792984 .
 
 <http://hrachjar.cz/country/europe/spain>
         rdf:type              country:Country ;
@@ -682,8 +615,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/spain/madrid> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              504782 ;
-        dbo:population        46505963 ;
-        economy:economy       <http://hrachjar.cz/economy/spain> .
+        dbo:population        46505963 .
 
 <http://hrachjar.cz/country/africa/ethiopia>
         rdf:type              country:Country ;
@@ -692,8 +624,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/ethiopia/addis-ababa> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              1127127 ;
-        dbo:population        88013491 ;
-        economy:economy       <http://hrachjar.cz/economy/ethiopia> .
+        dbo:population        88013491 .
 
 <http://hrachjar.cz/country/europe/finland>
         rdf:type              country:Country ;
@@ -702,8 +633,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/finland/helsinki> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              337030 ;
-        dbo:population        5244000 ;
-        economy:economy       <http://hrachjar.cz/economy/finland> .
+        dbo:population        5244000 .
 
 <http://hrachjar.cz/country/antarctica/fiji>
         rdf:type              country:Country ;
@@ -712,8 +642,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/fiji/suva> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              18270 ;
-        dbo:population        875983 ;
-        economy:economy       <http://hrachjar.cz/economy/fiji> .
+        dbo:population        875983 .
 
 <http://hrachjar.cz/country/south-america/falkland-islands>
         rdf:type              country:Country ;
@@ -722,8 +651,7 @@
         dbo:capital           <http://hrachjar.cz/country/south-america/falkland-islands/stanley> ;
         gr:hasCurrency        "SA"^^xsd:string ;
         dbo:area              12173 ;
-        dbo:population        2638 ;
-        economy:economy       <http://hrachjar.cz/economy/falkland-islands> .
+        dbo:population        2638 .
 
 <http://hrachjar.cz/country/antarctica/micronesia>
         rdf:type              country:Country ;
@@ -732,8 +660,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/micronesia/palikir> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              702 ;
-        dbo:population        107708 ;
-        economy:economy       <http://hrachjar.cz/economy/micronesia> .
+        dbo:population        107708 .
 
 <http://hrachjar.cz/country/europe/faroe-islands>
         rdf:type              country:Country ;
@@ -742,8 +669,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/faroe-islands/torshavn> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              1399 ;
-        dbo:population        48228 ;
-        economy:economy       <http://hrachjar.cz/economy/faroe-islands> .
+        dbo:population        48228 .
 
 <http://hrachjar.cz/country/europe/france>
         rdf:type              country:Country ;
@@ -752,8 +678,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/france/paris> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              547030 ;
-        dbo:population        64768389 ;
-        economy:economy       <http://hrachjar.cz/economy/france> .
+        dbo:population        64768389 .
 
 <http://hrachjar.cz/country/africa/gabon>
         rdf:type              country:Country ;
@@ -762,8 +687,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/gabon/libreville> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              267667 ;
-        dbo:population        1545255 ;
-        economy:economy       <http://hrachjar.cz/economy/gabon> .
+        dbo:population        1545255 .
 
 <http://hrachjar.cz/country/europe/united-kingdom>
         rdf:type              country:Country ;
@@ -772,8 +696,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/united-kingdom/london> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              244820 ;
-        dbo:population        62348447 ;
-        economy:economy       <http://hrachjar.cz/economy/united-kingdom> .
+        dbo:population        62348447 .
 
 <http://hrachjar.cz/country/north-america/grenada>
         rdf:type              country:Country ;
@@ -782,8 +705,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/grenada/st-georges> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              344 ;
-        dbo:population        107818 ;
-        economy:economy       <http://hrachjar.cz/economy/grenada> .
+        dbo:population        107818 .
 
 <http://hrachjar.cz/country/asia/georgia>
         rdf:type              country:Country ;
@@ -792,8 +714,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/georgia/tbilisi> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              69700 ;
-        dbo:population        4630000 ;
-        economy:economy       <http://hrachjar.cz/economy/georgia> .
+        dbo:population        4630000 .
 
 <http://hrachjar.cz/country/south-america/french-guiana>
         rdf:type              country:Country ;
@@ -802,8 +723,7 @@
         dbo:capital           <http://hrachjar.cz/country/south-america/french-guiana/cayenne> ;
         gr:hasCurrency        "SA"^^xsd:string ;
         dbo:area              91000 ;
-        dbo:population        195506 ;
-        economy:economy       <http://hrachjar.cz/economy/french-guiana> .
+        dbo:population        195506 .
 
 <http://hrachjar.cz/country/europe/guernsey>
         rdf:type              country:Country ;
@@ -812,8 +732,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/guernsey/st-peter-port> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              78 ;
-        dbo:population        65228 ;
-        economy:economy       <http://hrachjar.cz/economy/guernsey> .
+        dbo:population        65228 .
 
 <http://hrachjar.cz/country/africa/ghana>
         rdf:type              country:Country ;
@@ -822,8 +741,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/ghana/accra> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              239460 ;
-        dbo:population        24339838 ;
-        economy:economy       <http://hrachjar.cz/economy/ghana> .
+        dbo:population        24339838 .
 
 <http://hrachjar.cz/country/europe/gibraltar>
         rdf:type              country:Country ;
@@ -831,8 +749,7 @@
         frapo:hasCountryCode  "GIB"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/gibraltar/gibraltar> ;
         gr:hasCurrency        "EU"^^xsd:string ;
-        dbo:population        27884 ;
-        economy:economy       <http://hrachjar.cz/economy/gibraltar> .
+        dbo:population        27884 .
 
 <http://hrachjar.cz/country/north-america/greenland>
         rdf:type              country:Country ;
@@ -841,8 +758,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/greenland/nuuk> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              2166086 ;
-        dbo:population        56375 ;
-        economy:economy       <http://hrachjar.cz/economy/greenland> .
+        dbo:population        56375 .
 
 <http://hrachjar.cz/country/africa/gambia>
         rdf:type              country:Country ;
@@ -851,8 +767,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/gambia/banjul> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              11300 ;
-        dbo:population        1593256 ;
-        economy:economy       <http://hrachjar.cz/economy/gambia> .
+        dbo:population        1593256 .
 
 <http://hrachjar.cz/country/africa/guinea>
         rdf:type              country:Country ;
@@ -861,8 +776,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/guinea/conakry> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              245857 ;
-        dbo:population        10324025 ;
-        economy:economy       <http://hrachjar.cz/economy/guinea> .
+        dbo:population        10324025 .
 
 <http://hrachjar.cz/country/north-america/guadeloupe>
         rdf:type              country:Country ;
@@ -871,8 +785,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/guadeloupe/basse-terre> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              1780 ;
-        dbo:population        443000 ;
-        economy:economy       <http://hrachjar.cz/economy/guadeloupe> .
+        dbo:population        443000 .
 
 <http://hrachjar.cz/country/africa/equatorial-guinea>
         rdf:type              country:Country ;
@@ -881,8 +794,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/equatorial-guinea/malabo> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              28051 ;
-        dbo:population        1014999 ;
-        economy:economy       <http://hrachjar.cz/economy/equatorial-guinea> .
+        dbo:population        1014999 .
 
 <http://hrachjar.cz/country/europe/greece>
         rdf:type              country:Country ;
@@ -891,8 +803,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/greece/athens> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              131940 ;
-        dbo:population        11000000 ;
-        economy:economy       <http://hrachjar.cz/economy/greece> .
+        dbo:population        11000000 .
 
 <http://hrachjar.cz/country/antarctica/south-georgia-and-the-south-sandwich-islands>
         rdf:type              country:Country ;
@@ -901,8 +812,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/south-georgia-and-the-south-sandwich-islands/grytviken> ;
         gr:hasCurrency        "AN"^^xsd:string ;
         dbo:area              3903 ;
-        dbo:population        30 ;
-        economy:economy       <http://hrachjar.cz/economy/south-georgia-and-the-south-sandwich-islands> .
+        dbo:population        30 .
 
 <http://hrachjar.cz/country/north-america/guatemala>
         rdf:type              country:Country ;
@@ -911,8 +821,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/guatemala/guatemala-city> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              108890 ;
-        dbo:population        13550440 ;
-        economy:economy       <http://hrachjar.cz/economy/guatemala> .
+        dbo:population        13550440 .
 
 <http://hrachjar.cz/country/antarctica/guam>
         rdf:type              country:Country ;
@@ -921,8 +830,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/guam/hagatna> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              549 ;
-        dbo:population        159358 ;
-        economy:economy       <http://hrachjar.cz/economy/guam> .
+        dbo:population        159358 .
 
 <http://hrachjar.cz/country/africa/guinea-bissau>
         rdf:type              country:Country ;
@@ -931,8 +839,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/guinea-bissau/bissau> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              36120 ;
-        dbo:population        1565126 ;
-        economy:economy       <http://hrachjar.cz/economy/guinea-bissau> .
+        dbo:population        1565126 .
 
 <http://hrachjar.cz/country/south-america/guyana>
         rdf:type              country:Country ;
@@ -941,8 +848,7 @@
         dbo:capital           <http://hrachjar.cz/country/south-america/guyana/georgetown> ;
         gr:hasCurrency        "SA"^^xsd:string ;
         dbo:area              214970 ;
-        dbo:population        748486 ;
-        economy:economy       <http://hrachjar.cz/economy/guyana> .
+        dbo:population        748486 .
 
 <http://hrachjar.cz/country/asia/hong-kong>
         rdf:type              country:Country ;
@@ -951,8 +857,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/hong-kong/hong-kong> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              1092 ;
-        dbo:population        6898686 ;
-        economy:economy       <http://hrachjar.cz/economy/hong-kong> .
+        dbo:population        6898686 .
 
 <http://hrachjar.cz/country/antarctica/heard-island-and-mcdonald-islands>
         rdf:type              country:Country ;
@@ -960,8 +865,7 @@
         frapo:hasCountryCode  "HMD"^^xsd:string ;
         gr:hasCurrency        "AN"^^xsd:string ;
         dbo:area              412 ;
-        dbo:population        0 ;
-        economy:economy       <http://hrachjar.cz/economy/heard-island-and-mcdonald-islands> .
+        dbo:population        0 .
 
 <http://hrachjar.cz/country/north-america/honduras>
         rdf:type              country:Country ;
@@ -970,8 +874,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/honduras/tegucigalpa> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              112090 ;
-        dbo:population        7989415 ;
-        economy:economy       <http://hrachjar.cz/economy/honduras> .
+        dbo:population        7989415 .
 
 <http://hrachjar.cz/country/europe/croatia>
         rdf:type              country:Country ;
@@ -980,8 +883,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/croatia/zagreb> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              56542 ;
-        dbo:population        4284889 ;
-        economy:economy       <http://hrachjar.cz/economy/croatia> .
+        dbo:population        4284889 .
 
 <http://hrachjar.cz/country/north-america/haiti>
         rdf:type              country:Country ;
@@ -990,8 +892,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/haiti/port-au-prince> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              27750 ;
-        dbo:population        9648924 ;
-        economy:economy       <http://hrachjar.cz/economy/haiti> .
+        dbo:population        9648924 .
 
 <http://hrachjar.cz/country/europe/hungary>
         rdf:type              country:Country ;
@@ -1000,8 +901,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/hungary/budapest> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              93030 ;
-        dbo:population        9982000 ;
-        economy:economy       <http://hrachjar.cz/economy/hungary> .
+        dbo:population        9982000 .
 
 <http://hrachjar.cz/country/asia/indonesia>
         rdf:type              country:Country ;
@@ -1010,8 +910,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/indonesia/jakarta> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              1919440 ;
-        dbo:population        242968342 ;
-        economy:economy       <http://hrachjar.cz/economy/indonesia> .
+        dbo:population        242968342 .
 
 <http://hrachjar.cz/country/europe/ireland>
         rdf:type              country:Country ;
@@ -1020,8 +919,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/ireland/dublin> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              70280 ;
-        dbo:population        4622917 ;
-        economy:economy       <http://hrachjar.cz/economy/ireland> .
+        dbo:population        4622917 .
 
 <http://hrachjar.cz/country/asia/israel>
         rdf:type              country:Country ;
@@ -1030,8 +928,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/israel/jerusalem> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              20770 ;
-        dbo:population        7353985 ;
-        economy:economy       <http://hrachjar.cz/economy/israel> .
+        dbo:population        7353985 .
 
 <http://hrachjar.cz/country/europe/isle-of-man>
         rdf:type              country:Country ;
@@ -1040,8 +937,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/isle-of-man/douglas> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              572 ;
-        dbo:population        75049 ;
-        economy:economy       <http://hrachjar.cz/economy/isle-of-man> .
+        dbo:population        75049 .
 
 <http://hrachjar.cz/country/asia/india>
         rdf:type              country:Country ;
@@ -1050,8 +946,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/india/new-delhi> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              3287590 ;
-        dbo:population        1173108018 ;
-        economy:economy       <http://hrachjar.cz/economy/india> .
+        dbo:population        1173108018 .
 
 <http://hrachjar.cz/country/asia/british-indian-ocean-territory>
         rdf:type              country:Country ;
@@ -1060,8 +955,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/british-indian-ocean-territory/diego-garcia> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              60 ;
-        dbo:population        4000 ;
-        economy:economy       <http://hrachjar.cz/economy/british-indian-ocean-territory> .
+        dbo:population        4000 .
 
 <http://hrachjar.cz/country/asia/iraq>
         rdf:type              country:Country ;
@@ -1070,8 +964,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/iraq/baghdad> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              437072 ;
-        dbo:population        29671605 ;
-        economy:economy       <http://hrachjar.cz/economy/iraq> .
+        dbo:population        29671605 .
 
 <http://hrachjar.cz/country/asia/iran>
         rdf:type              country:Country ;
@@ -1080,8 +973,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/iran/tehran> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              1648000 ;
-        dbo:population        76923300 ;
-        economy:economy       <http://hrachjar.cz/economy/iran> .
+        dbo:population        76923300 .
 
 <http://hrachjar.cz/country/europe/iceland>
         rdf:type              country:Country ;
@@ -1090,8 +982,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/iceland/reykjavik> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              103000 ;
-        dbo:population        308910 ;
-        economy:economy       <http://hrachjar.cz/economy/iceland> .
+        dbo:population        308910 .
 
 <http://hrachjar.cz/country/europe/italy>
         rdf:type              country:Country ;
@@ -1100,8 +991,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/italy/rome> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              301230 ;
-        dbo:population        60340328 ;
-        economy:economy       <http://hrachjar.cz/economy/italy> .
+        dbo:population        60340328 .
 
 <http://hrachjar.cz/country/europe/jersey>
         rdf:type              country:Country ;
@@ -1110,8 +1000,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/jersey/saint-helier> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              116 ;
-        dbo:population        90812 ;
-        economy:economy       <http://hrachjar.cz/economy/jersey> .
+        dbo:population        90812 .
 
 <http://hrachjar.cz/country/north-america/jamaica>
         rdf:type              country:Country ;
@@ -1120,8 +1009,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/jamaica/kingston> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              10991 ;
-        dbo:population        2847232 ;
-        economy:economy       <http://hrachjar.cz/economy/jamaica> .
+        dbo:population        2847232 .
 
 <http://hrachjar.cz/country/asia/jordan>
         rdf:type              country:Country ;
@@ -1130,8 +1018,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/jordan/amman> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              92300 ;
-        dbo:population        6407085 ;
-        economy:economy       <http://hrachjar.cz/economy/jordan> .
+        dbo:population        6407085 .
 
 <http://hrachjar.cz/country/asia/japan>
         rdf:type              country:Country ;
@@ -1140,8 +1027,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/japan/tokyo> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              377835 ;
-        dbo:population        127288000 ;
-        economy:economy       <http://hrachjar.cz/economy/japan> .
+        dbo:population        127288000 .
 
 <http://hrachjar.cz/country/africa/kenya>
         rdf:type              country:Country ;
@@ -1150,8 +1036,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/kenya/nairobi> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              582650 ;
-        dbo:population        40046566 ;
-        economy:economy       <http://hrachjar.cz/economy/kenya> .
+        dbo:population        40046566 .
 
 <http://hrachjar.cz/country/asia/kyrgyzstan>
         rdf:type              country:Country ;
@@ -1160,8 +1045,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/kyrgyzstan/bishkek> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              198500 ;
-        dbo:population        5776500 ;
-        economy:economy       <http://hrachjar.cz/economy/kyrgyzstan> .
+        dbo:population        5776500 .
 
 <http://hrachjar.cz/country/asia/cambodia>
         rdf:type              country:Country ;
@@ -1170,8 +1054,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/cambodia/phnom-penh> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              181040 ;
-        dbo:population        14453680 ;
-        economy:economy       <http://hrachjar.cz/economy/cambodia> .
+        dbo:population        14453680 .
 
 <http://hrachjar.cz/country/antarctica/kiribati>
         rdf:type              country:Country ;
@@ -1180,8 +1063,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/kiribati/tarawa> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              811 ;
-        dbo:population        92533 ;
-        economy:economy       <http://hrachjar.cz/economy/kiribati> .
+        dbo:population        92533 .
 
 <http://hrachjar.cz/country/africa/comoros>
         rdf:type              country:Country ;
@@ -1190,8 +1072,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/comoros/moroni> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              2170 ;
-        dbo:population        773407 ;
-        economy:economy       <http://hrachjar.cz/economy/comoros> .
+        dbo:population        773407 .
 
 <http://hrachjar.cz/country/north-america/saint-kitts-and-nevis>
         rdf:type              country:Country ;
@@ -1200,8 +1081,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/saint-kitts-and-nevis/basseterre> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              261 ;
-        dbo:population        51134 ;
-        economy:economy       <http://hrachjar.cz/economy/saint-kitts-and-nevis> .
+        dbo:population        51134 .
 
 <http://hrachjar.cz/country/asia/north-korea>
         rdf:type              country:Country ;
@@ -1210,8 +1090,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/north-korea/pyongyang> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              120540 ;
-        dbo:population        22912177 ;
-        economy:economy       <http://hrachjar.cz/economy/north-korea> .
+        dbo:population        22912177 .
 
 <http://hrachjar.cz/country/asia/south-korea>
         rdf:type              country:Country ;
@@ -1220,8 +1099,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/south-korea/seoul> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              98480 ;
-        dbo:population        48422644 ;
-        economy:economy       <http://hrachjar.cz/economy/south-korea> .
+        dbo:population        48422644 .
 
 <http://hrachjar.cz/country/europe/kosovo>
         rdf:type              country:Country ;
@@ -1230,8 +1108,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/kosovo/pristina> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              10908 ;
-        dbo:population        1800000 ;
-        economy:economy       <http://hrachjar.cz/economy/kosovo> .
+        dbo:population        1800000 .
 
 <http://hrachjar.cz/country/asia/kuwait>
         rdf:type              country:Country ;
@@ -1240,8 +1117,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/kuwait/kuwait-city> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              17820 ;
-        dbo:population        2789132 ;
-        economy:economy       <http://hrachjar.cz/economy/kuwait> .
+        dbo:population        2789132 .
 
 <http://hrachjar.cz/country/north-america/cayman-islands>
         rdf:type              country:Country ;
@@ -1250,8 +1126,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/cayman-islands/george-town> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              262 ;
-        dbo:population        44270 ;
-        economy:economy       <http://hrachjar.cz/economy/cayman-islands> .
+        dbo:population        44270 .
 
 <http://hrachjar.cz/country/asia/kazakhstan>
         rdf:type              country:Country ;
@@ -1260,8 +1135,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/kazakhstan/astana> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              2717300 ;
-        dbo:population        15340000 ;
-        economy:economy       <http://hrachjar.cz/economy/kazakhstan> .
+        dbo:population        15340000 .
 
 <http://hrachjar.cz/country/asia/laos>
         rdf:type              country:Country ;
@@ -1270,8 +1144,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/laos/vientiane> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              236800 ;
-        dbo:population        6368162 ;
-        economy:economy       <http://hrachjar.cz/economy/laos> .
+        dbo:population        6368162 .
 
 <http://hrachjar.cz/country/asia/lebanon>
         rdf:type              country:Country ;
@@ -1280,8 +1153,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/lebanon/beirut> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              10400 ;
-        dbo:population        4125247 ;
-        economy:economy       <http://hrachjar.cz/economy/lebanon> .
+        dbo:population        4125247 .
 
 <http://hrachjar.cz/country/north-america/saint-lucia>
         rdf:type              country:Country ;
@@ -1290,8 +1162,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/saint-lucia/castries> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              616 ;
-        dbo:population        160922 ;
-        economy:economy       <http://hrachjar.cz/economy/saint-lucia> .
+        dbo:population        160922 .
 
 <http://hrachjar.cz/country/europe/liechtenstein>
         rdf:type              country:Country ;
@@ -1300,8 +1171,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/liechtenstein/vaduz> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              160 ;
-        dbo:population        35000 ;
-        economy:economy       <http://hrachjar.cz/economy/liechtenstein> .
+        dbo:population        35000 .
 
 <http://hrachjar.cz/country/asia/sri-lanka>
         rdf:type              country:Country ;
@@ -1310,8 +1180,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/sri-lanka/colombo> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              65610 ;
-        dbo:population        21513990 ;
-        economy:economy       <http://hrachjar.cz/economy/sri-lanka> .
+        dbo:population        21513990 .
 
 <http://hrachjar.cz/country/africa/liberia>
         rdf:type              country:Country ;
@@ -1320,8 +1189,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/liberia/monrovia> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              111370 ;
-        dbo:population        3685076 ;
-        economy:economy       <http://hrachjar.cz/economy/liberia> .
+        dbo:population        3685076 .
 
 <http://hrachjar.cz/country/africa/lesotho>
         rdf:type              country:Country ;
@@ -1330,8 +1198,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/lesotho/maseru> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              30355 ;
-        dbo:population        1919552 ;
-        economy:economy       <http://hrachjar.cz/economy/lesotho> .
+        dbo:population        1919552 .
 
 <http://hrachjar.cz/country/europe/lithuania>
         rdf:type              country:Country ;
@@ -1340,8 +1207,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/lithuania/vilnius> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              65200 ;
-        dbo:population        2944459 ;
-        economy:economy       <http://hrachjar.cz/economy/lithuania> .
+        dbo:population        2944459 .
 
 <http://hrachjar.cz/country/europe/luxembourg>
         rdf:type              country:Country ;
@@ -1350,8 +1216,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/luxembourg/luxembourg> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              2586 ;
-        dbo:population        497538 ;
-        economy:economy       <http://hrachjar.cz/economy/luxembourg> .
+        dbo:population        497538 .
 
 <http://hrachjar.cz/country/europe/latvia>
         rdf:type              country:Country ;
@@ -1360,8 +1225,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/latvia/riga> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              64589 ;
-        dbo:population        2217969 ;
-        economy:economy       <http://hrachjar.cz/economy/latvia> .
+        dbo:population        2217969 .
 
 <http://hrachjar.cz/country/africa/libya>
         rdf:type              country:Country ;
@@ -1370,8 +1234,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/libya/tripoli> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              1759540 ;
-        dbo:population        6461454 ;
-        economy:economy       <http://hrachjar.cz/economy/libya> .
+        dbo:population        6461454 .
 
 <http://hrachjar.cz/country/africa/morocco>
         rdf:type              country:Country ;
@@ -1380,8 +1243,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/morocco/rabat> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              446550 ;
-        dbo:population        31627428 ;
-        economy:economy       <http://hrachjar.cz/economy/morocco> .
+        dbo:population        31627428 .
 
 <http://hrachjar.cz/country/europe/monaco>
         rdf:type              country:Country ;
@@ -1389,8 +1251,7 @@
         frapo:hasCountryCode  "MCO"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/monaco/monaco> ;
         gr:hasCurrency        "EU"^^xsd:string ;
-        dbo:population        32965 ;
-        economy:economy       <http://hrachjar.cz/economy/monaco> .
+        dbo:population        32965 .
 
 <http://hrachjar.cz/country/europe/moldova>
         rdf:type              country:Country ;
@@ -1399,8 +1260,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/moldova/chisinau> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              33843 ;
-        dbo:population        4324000 ;
-        economy:economy       <http://hrachjar.cz/economy/moldova> .
+        dbo:population        4324000 .
 
 <http://hrachjar.cz/country/europe/montenegro>
         rdf:type              country:Country ;
@@ -1409,8 +1269,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/montenegro/podgorica> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              14026 ;
-        dbo:population        666730 ;
-        economy:economy       <http://hrachjar.cz/economy/montenegro> .
+        dbo:population        666730 .
 
 <http://hrachjar.cz/country/north-america/saint-martin>
         rdf:type              country:Country ;
@@ -1419,8 +1278,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/saint-martin/marigot> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              53 ;
-        dbo:population        35925 ;
-        economy:economy       <http://hrachjar.cz/economy/saint-martin> .
+        dbo:population        35925 .
 
 <http://hrachjar.cz/country/africa/madagascar>
         rdf:type              country:Country ;
@@ -1429,8 +1287,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/madagascar/antananarivo> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              587040 ;
-        dbo:population        21281844 ;
-        economy:economy       <http://hrachjar.cz/economy/madagascar> .
+        dbo:population        21281844 .
 
 <http://hrachjar.cz/country/antarctica/marshall-islands>
         rdf:type              country:Country ;
@@ -1438,8 +1295,7 @@
         frapo:hasCountryCode  "MHL"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/antarctica/marshall-islands/majuro> ;
         gr:hasCurrency        "OC"^^xsd:string ;
-        dbo:population        65859 ;
-        economy:economy       <http://hrachjar.cz/economy/marshall-islands> .
+        dbo:population        65859 .
 
 <http://hrachjar.cz/country/europe/macedonia>
         rdf:type              country:Country ;
@@ -1448,8 +1304,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/macedonia/skopje> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              25333 ;
-        dbo:population        2062294 ;
-        economy:economy       <http://hrachjar.cz/economy/macedonia> .
+        dbo:population        2062294 .
 
 <http://hrachjar.cz/country/africa/mali>
         rdf:type              country:Country ;
@@ -1458,8 +1313,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/mali/bamako> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              1240000 ;
-        dbo:population        13796354 ;
-        economy:economy       <http://hrachjar.cz/economy/mali> .
+        dbo:population        13796354 .
 
 <http://hrachjar.cz/country/asia/myanmar>
         rdf:type              country:Country ;
@@ -1468,8 +1322,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/myanmar/nay-pyi-taw> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              678500 ;
-        dbo:population        53414374 ;
-        economy:economy       <http://hrachjar.cz/economy/myanmar> .
+        dbo:population        53414374 .
 
 <http://hrachjar.cz/country/asia/mongolia>
         rdf:type              country:Country ;
@@ -1478,8 +1331,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/mongolia/ulan-bator> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              1565000 ;
-        dbo:population        3086918 ;
-        economy:economy       <http://hrachjar.cz/economy/mongolia> .
+        dbo:population        3086918 .
 
 <http://hrachjar.cz/country/asia/macao>
         rdf:type              country:Country ;
@@ -1488,8 +1340,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/macao/macao> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              254 ;
-        dbo:population        449198 ;
-        economy:economy       <http://hrachjar.cz/economy/macao> .
+        dbo:population        449198 .
 
 <http://hrachjar.cz/country/antarctica/northern-mariana-islands>
         rdf:type              country:Country ;
@@ -1498,8 +1349,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/northern-mariana-islands/saipan> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              477 ;
-        dbo:population        53883 ;
-        economy:economy       <http://hrachjar.cz/economy/northern-mariana-islands> .
+        dbo:population        53883 .
 
 <http://hrachjar.cz/country/north-america/martinique>
         rdf:type              country:Country ;
@@ -1508,8 +1358,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/martinique/fort-de-france> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              1100 ;
-        dbo:population        432900 ;
-        economy:economy       <http://hrachjar.cz/economy/martinique> .
+        dbo:population        432900 .
 
 <http://hrachjar.cz/country/africa/mauritania>
         rdf:type              country:Country ;
@@ -1518,8 +1367,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/mauritania/nouakchott> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              1030700 ;
-        dbo:population        3205060 ;
-        economy:economy       <http://hrachjar.cz/economy/mauritania> .
+        dbo:population        3205060 .
 
 <http://hrachjar.cz/country/north-america/montserrat>
         rdf:type              country:Country ;
@@ -1528,8 +1376,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/montserrat/plymouth> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              102 ;
-        dbo:population        9341 ;
-        economy:economy       <http://hrachjar.cz/economy/montserrat> .
+        dbo:population        9341 .
 
 <http://hrachjar.cz/country/europe/malta>
         rdf:type              country:Country ;
@@ -1538,8 +1385,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/malta/valletta> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              316 ;
-        dbo:population        403000 ;
-        economy:economy       <http://hrachjar.cz/economy/malta> .
+        dbo:population        403000 .
 
 <http://hrachjar.cz/country/africa/mauritius>
         rdf:type              country:Country ;
@@ -1548,8 +1394,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/mauritius/port-louis> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              2040 ;
-        dbo:population        1294104 ;
-        economy:economy       <http://hrachjar.cz/economy/mauritius> .
+        dbo:population        1294104 .
 
 <http://hrachjar.cz/country/asia/maldives>
         rdf:type              country:Country ;
@@ -1558,8 +1403,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/maldives/male> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              300 ;
-        dbo:population        395650 ;
-        economy:economy       <http://hrachjar.cz/economy/maldives> .
+        dbo:population        395650 .
 
 <http://hrachjar.cz/country/africa/malawi>
         rdf:type              country:Country ;
@@ -1568,8 +1412,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/malawi/lilongwe> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              118480 ;
-        dbo:population        15447500 ;
-        economy:economy       <http://hrachjar.cz/economy/malawi> .
+        dbo:population        15447500 .
 
 <http://hrachjar.cz/country/north-america/mexico>
         rdf:type              country:Country ;
@@ -1578,8 +1421,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/mexico/mexico-city> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              1972550 ;
-        dbo:population        112468855 ;
-        economy:economy       <http://hrachjar.cz/economy/mexico> .
+        dbo:population        112468855 .
 
 <http://hrachjar.cz/country/asia/malaysia>
         rdf:type              country:Country ;
@@ -1588,8 +1430,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/malaysia/kuala-lumpur> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              329750 ;
-        dbo:population        28274729 ;
-        economy:economy       <http://hrachjar.cz/economy/malaysia> .
+        dbo:population        28274729 .
 
 <http://hrachjar.cz/country/africa/mozambique>
         rdf:type              country:Country ;
@@ -1598,8 +1439,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/mozambique/maputo> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              801590 ;
-        dbo:population        22061451 ;
-        economy:economy       <http://hrachjar.cz/economy/mozambique> .
+        dbo:population        22061451 .
 
 <http://hrachjar.cz/country/africa/namibia>
         rdf:type              country:Country ;
@@ -1608,8 +1448,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/namibia/windhoek> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              825418 ;
-        dbo:population        2128471 ;
-        economy:economy       <http://hrachjar.cz/economy/namibia> .
+        dbo:population        2128471 .
 
 <http://hrachjar.cz/country/antarctica/new-caledonia>
         rdf:type              country:Country ;
@@ -1618,8 +1457,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/new-caledonia/noumea> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              19060 ;
-        dbo:population        216494 ;
-        economy:economy       <http://hrachjar.cz/economy/new-caledonia> .
+        dbo:population        216494 .
 
 <http://hrachjar.cz/country/africa/niger>
         rdf:type              country:Country ;
@@ -1628,8 +1466,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/niger/niamey> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              1267000 ;
-        dbo:population        15878271 ;
-        economy:economy       <http://hrachjar.cz/economy/niger> .
+        dbo:population        15878271 .
 
 <http://hrachjar.cz/country/antarctica/norfolk-island>
         rdf:type              country:Country ;
@@ -1637,8 +1474,7 @@
         frapo:hasCountryCode  "NFK"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/antarctica/norfolk-island/kingston> ;
         gr:hasCurrency        "OC"^^xsd:string ;
-        dbo:population        1828 ;
-        economy:economy       <http://hrachjar.cz/economy/norfolk-island> .
+        dbo:population        1828 .
 
 <http://hrachjar.cz/country/africa/nigeria>
         rdf:type              country:Country ;
@@ -1647,8 +1483,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/nigeria/abuja> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              923768 ;
-        dbo:population        154000000 ;
-        economy:economy       <http://hrachjar.cz/economy/nigeria> .
+        dbo:population        154000000 .
 
 <http://hrachjar.cz/country/north-america/nicaragua>
         rdf:type              country:Country ;
@@ -1657,8 +1492,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/nicaragua/managua> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              129494 ;
-        dbo:population        5995928 ;
-        economy:economy       <http://hrachjar.cz/economy/nicaragua> .
+        dbo:population        5995928 .
 
 <http://hrachjar.cz/country/europe/netherlands>
         rdf:type              country:Country ;
@@ -1667,8 +1501,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/netherlands/amsterdam> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              41526 ;
-        dbo:population        16645000 ;
-        economy:economy       <http://hrachjar.cz/economy/netherlands> .
+        dbo:population        16645000 .
 
 <http://hrachjar.cz/country/europe/norway>
         rdf:type              country:Country ;
@@ -1677,8 +1510,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/norway/oslo> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              324220 ;
-        dbo:population        5009150 ;
-        economy:economy       <http://hrachjar.cz/economy/norway> .
+        dbo:population        5009150 .
 
 <http://hrachjar.cz/country/asia/nepal>
         rdf:type              country:Country ;
@@ -1687,8 +1519,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/nepal/kathmandu> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              140800 ;
-        dbo:population        28951852 ;
-        economy:economy       <http://hrachjar.cz/economy/nepal> .
+        dbo:population        28951852 .
 
 <http://hrachjar.cz/country/antarctica/nauru>
         rdf:type              country:Country ;
@@ -1697,8 +1528,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/nauru/yaren> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              21 ;
-        dbo:population        10065 ;
-        economy:economy       <http://hrachjar.cz/economy/nauru> .
+        dbo:population        10065 .
 
 <http://hrachjar.cz/country/antarctica/niue>
         rdf:type              country:Country ;
@@ -1707,8 +1537,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/niue/alofi> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              260 ;
-        dbo:population        2166 ;
-        economy:economy       <http://hrachjar.cz/economy/niue> .
+        dbo:population        2166 .
 
 <http://hrachjar.cz/country/antarctica/new-zealand>
         rdf:type              country:Country ;
@@ -1717,8 +1546,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/new-zealand/wellington> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              268680 ;
-        dbo:population        4252277 ;
-        economy:economy       <http://hrachjar.cz/economy/new-zealand> .
+        dbo:population        4252277 .
 
 <http://hrachjar.cz/country/asia/oman>
         rdf:type              country:Country ;
@@ -1727,8 +1555,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/oman/muscat> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              212460 ;
-        dbo:population        2967717 ;
-        economy:economy       <http://hrachjar.cz/economy/oman> .
+        dbo:population        2967717 .
 
 <http://hrachjar.cz/country/north-america/panama>
         rdf:type              country:Country ;
@@ -1737,8 +1564,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/panama/panama-city> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              78200 ;
-        dbo:population        3410676 ;
-        economy:economy       <http://hrachjar.cz/economy/panama> .
+        dbo:population        3410676 .
 
 <http://hrachjar.cz/country/south-america/peru>
         rdf:type              country:Country ;
@@ -1747,8 +1573,7 @@
         dbo:capital           <http://hrachjar.cz/country/south-america/peru/lima> ;
         gr:hasCurrency        "SA"^^xsd:string ;
         dbo:area              1285220 ;
-        dbo:population        29907003 ;
-        economy:economy       <http://hrachjar.cz/economy/peru> .
+        dbo:population        29907003 .
 
 <http://hrachjar.cz/country/antarctica/french-polynesia>
         rdf:type              country:Country ;
@@ -1757,8 +1582,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/french-polynesia/papeete> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              4167 ;
-        dbo:population        270485 ;
-        economy:economy       <http://hrachjar.cz/economy/french-polynesia> .
+        dbo:population        270485 .
 
 <http://hrachjar.cz/country/antarctica/papua-new-guinea>
         rdf:type              country:Country ;
@@ -1767,8 +1591,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/papua-new-guinea/port-moresby> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              462840 ;
-        dbo:population        6064515 ;
-        economy:economy       <http://hrachjar.cz/economy/papua-new-guinea> .
+        dbo:population        6064515 .
 
 <http://hrachjar.cz/country/asia/philippines>
         rdf:type              country:Country ;
@@ -1777,8 +1600,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/philippines/manila> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              300000 ;
-        dbo:population        99900177 ;
-        economy:economy       <http://hrachjar.cz/economy/philippines> .
+        dbo:population        99900177 .
 
 <http://hrachjar.cz/country/asia/pakistan>
         rdf:type              country:Country ;
@@ -1787,8 +1609,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/pakistan/islamabad> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              803940 ;
-        dbo:population        184404791 ;
-        economy:economy       <http://hrachjar.cz/economy/pakistan> .
+        dbo:population        184404791 .
 
 <http://hrachjar.cz/country/europe/poland>
         rdf:type              country:Country ;
@@ -1797,8 +1618,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/poland/warsaw> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              312685 ;
-        dbo:population        38500000 ;
-        economy:economy       <http://hrachjar.cz/economy/poland> .
+        dbo:population        38500000 .
 
 <http://hrachjar.cz/country/north-america/saint-pierre-and-miquelon>
         rdf:type              country:Country ;
@@ -1807,8 +1627,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/saint-pierre-and-miquelon/saint-pierre> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              242 ;
-        dbo:population        7012 ;
-        economy:economy       <http://hrachjar.cz/economy/saint-pierre-and-miquelon> .
+        dbo:population        7012 .
 
 <http://hrachjar.cz/country/antarctica/pitcairn>
         rdf:type              country:Country ;
@@ -1817,8 +1636,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/pitcairn/adamstown> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              47 ;
-        dbo:population        46 ;
-        economy:economy       <http://hrachjar.cz/economy/pitcairn> .
+        dbo:population        46 .
 
 <http://hrachjar.cz/country/north-america/puerto-rico>
         rdf:type              country:Country ;
@@ -1827,8 +1645,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/puerto-rico/san-juan> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              9104 ;
-        dbo:population        3916632 ;
-        economy:economy       <http://hrachjar.cz/economy/puerto-rico> .
+        dbo:population        3916632 .
 
 <http://hrachjar.cz/country/asia/palestinian-territory>
         rdf:type              country:Country ;
@@ -1837,8 +1654,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/palestinian-territory/east-jerusalem> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              5970 ;
-        dbo:population        3800000 ;
-        economy:economy       <http://hrachjar.cz/economy/palestinian-territory> .
+        dbo:population        3800000 .
 
 <http://hrachjar.cz/country/europe/portugal>
         rdf:type              country:Country ;
@@ -1847,8 +1663,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/portugal/lisbon> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              92391 ;
-        dbo:population        10676000 ;
-        economy:economy       <http://hrachjar.cz/economy/portugal> .
+        dbo:population        10676000 .
 
 <http://hrachjar.cz/country/antarctica/palau>
         rdf:type              country:Country ;
@@ -1857,8 +1672,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/palau/melekeok> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              458 ;
-        dbo:population        19907 ;
-        economy:economy       <http://hrachjar.cz/economy/palau> .
+        dbo:population        19907 .
 
 <http://hrachjar.cz/country/south-america/paraguay>
         rdf:type              country:Country ;
@@ -1867,8 +1681,7 @@
         dbo:capital           <http://hrachjar.cz/country/south-america/paraguay/asuncion> ;
         gr:hasCurrency        "SA"^^xsd:string ;
         dbo:area              406750 ;
-        dbo:population        6375830 ;
-        economy:economy       <http://hrachjar.cz/economy/paraguay> .
+        dbo:population        6375830 .
 
 <http://hrachjar.cz/country/asia/qatar>
         rdf:type              country:Country ;
@@ -1877,8 +1690,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/qatar/doha> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              11437 ;
-        dbo:population        840926 ;
-        economy:economy       <http://hrachjar.cz/economy/qatar> .
+        dbo:population        840926 .
 
 <http://hrachjar.cz/country/africa/reunion>
         rdf:type              country:Country ;
@@ -1887,8 +1699,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/reunion/saint-denis> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              2517 ;
-        dbo:population        776948 ;
-        economy:economy       <http://hrachjar.cz/economy/reunion> .
+        dbo:population        776948 .
 
 <http://hrachjar.cz/country/europe/romania>
         rdf:type              country:Country ;
@@ -1897,8 +1708,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/romania/bucharest> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              237500 ;
-        dbo:population        21959278 ;
-        economy:economy       <http://hrachjar.cz/economy/romania> .
+        dbo:population        21959278 .
 
 <http://hrachjar.cz/country/europe/serbia>
         rdf:type              country:Country ;
@@ -1907,8 +1717,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/serbia/belgrade> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              88361 ;
-        dbo:population        7344847 ;
-        economy:economy       <http://hrachjar.cz/economy/serbia> .
+        dbo:population        7344847 .
 
 <http://hrachjar.cz/country/europe/russia>
         rdf:type              country:Country ;
@@ -1917,8 +1726,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/russia/moscow> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              17100000 ;
-        dbo:population        140702000 ;
-        economy:economy       <http://hrachjar.cz/economy/russia> .
+        dbo:population        140702000 .
 
 <http://hrachjar.cz/country/africa/rwanda>
         rdf:type              country:Country ;
@@ -1927,8 +1735,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/rwanda/kigali> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              26338 ;
-        dbo:population        11055976 ;
-        economy:economy       <http://hrachjar.cz/economy/rwanda> .
+        dbo:population        11055976 .
 
 <http://hrachjar.cz/country/asia/saudi-arabia>
         rdf:type              country:Country ;
@@ -1937,8 +1744,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/saudi-arabia/riyadh> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              1960582 ;
-        dbo:population        25731776 ;
-        economy:economy       <http://hrachjar.cz/economy/saudi-arabia> .
+        dbo:population        25731776 .
 
 <http://hrachjar.cz/country/antarctica/solomon-islands>
         rdf:type              country:Country ;
@@ -1947,8 +1753,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/solomon-islands/honiara> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              28450 ;
-        dbo:population        559198 ;
-        economy:economy       <http://hrachjar.cz/economy/solomon-islands> .
+        dbo:population        559198 .
 
 <http://hrachjar.cz/country/africa/seychelles>
         rdf:type              country:Country ;
@@ -1957,8 +1762,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/seychelles/victoria> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              455 ;
-        dbo:population        88340 ;
-        economy:economy       <http://hrachjar.cz/economy/seychelles> .
+        dbo:population        88340 .
 
 <http://hrachjar.cz/country/africa/sudan>
         rdf:type              country:Country ;
@@ -1967,8 +1771,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/sudan/khartoum> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              1861484 ;
-        dbo:population        35000000 ;
-        economy:economy       <http://hrachjar.cz/economy/sudan> .
+        dbo:population        35000000 .
 
 <http://hrachjar.cz/country/africa/south-sudan>
         rdf:type              country:Country ;
@@ -1977,8 +1780,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/south-sudan/juba> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              644329 ;
-        dbo:population        8260490 ;
-        economy:economy       <http://hrachjar.cz/economy/south-sudan> .
+        dbo:population        8260490 .
 
 <http://hrachjar.cz/country/europe/sweden>
         rdf:type              country:Country ;
@@ -1987,8 +1789,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/sweden/stockholm> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              449964 ;
-        dbo:population        9828655 ;
-        economy:economy       <http://hrachjar.cz/economy/sweden> .
+        dbo:population        9828655 .
 
 <http://hrachjar.cz/country/asia/singapore>
         rdf:type              country:Country ;
@@ -1996,8 +1797,7 @@
         frapo:hasCountryCode  "SGP"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/singapore/singapore> ;
         gr:hasCurrency        "AS"^^xsd:string ;
-        dbo:population        4701069 ;
-        economy:economy       <http://hrachjar.cz/economy/singapore> .
+        dbo:population        4701069 .
 
 <http://hrachjar.cz/country/africa/saint-helena>
         rdf:type              country:Country ;
@@ -2006,8 +1806,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/saint-helena/jamestown> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              410 ;
-        dbo:population        7460 ;
-        economy:economy       <http://hrachjar.cz/economy/saint-helena> .
+        dbo:population        7460 .
 
 <http://hrachjar.cz/country/europe/slovenia>
         rdf:type              country:Country ;
@@ -2016,8 +1815,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/slovenia/ljubljana> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              20273 ;
-        dbo:population        2007000 ;
-        economy:economy       <http://hrachjar.cz/economy/slovenia> .
+        dbo:population        2007000 .
 
 <http://hrachjar.cz/country/europe/svalbard-and-jan-mayen>
         rdf:type              country:Country ;
@@ -2026,8 +1824,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/svalbard-and-jan-mayen/longyearbyen> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              62049 ;
-        dbo:population        2550 ;
-        economy:economy       <http://hrachjar.cz/economy/svalbard-and-jan-mayen> .
+        dbo:population        2550 .
 
 <http://hrachjar.cz/country/europe/slovakia>
         rdf:type              country:Country ;
@@ -2036,8 +1833,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/slovakia/bratislava> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              48845 ;
-        dbo:population        5455000 ;
-        economy:economy       <http://hrachjar.cz/economy/slovakia> .
+        dbo:population        5455000 .
 
 <http://hrachjar.cz/country/africa/sierra-leone>
         rdf:type              country:Country ;
@@ -2046,8 +1842,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/sierra-leone/freetown> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              71740 ;
-        dbo:population        5245695 ;
-        economy:economy       <http://hrachjar.cz/economy/sierra-leone> .
+        dbo:population        5245695 .
 
 <http://hrachjar.cz/country/europe/san-marino>
         rdf:type              country:Country ;
@@ -2055,8 +1850,7 @@
         frapo:hasCountryCode  "SMR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/san-marino/san-marino> ;
         gr:hasCurrency        "EU"^^xsd:string ;
-        dbo:population        31477 ;
-        economy:economy       <http://hrachjar.cz/economy/san-marino> .
+        dbo:population        31477 .
 
 <http://hrachjar.cz/country/africa/senegal>
         rdf:type              country:Country ;
@@ -2065,8 +1859,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/senegal/dakar> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              196190 ;
-        dbo:population        12323252 ;
-        economy:economy       <http://hrachjar.cz/economy/senegal> .
+        dbo:population        12323252 .
 
 <http://hrachjar.cz/country/africa/somalia>
         rdf:type              country:Country ;
@@ -2075,8 +1868,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/somalia/mogadishu> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              637657 ;
-        dbo:population        10112453 ;
-        economy:economy       <http://hrachjar.cz/economy/somalia> .
+        dbo:population        10112453 .
 
 <http://hrachjar.cz/country/south-america/suriname>
         rdf:type              country:Country ;
@@ -2085,8 +1877,7 @@
         dbo:capital           <http://hrachjar.cz/country/south-america/suriname/paramaribo> ;
         gr:hasCurrency        "SA"^^xsd:string ;
         dbo:area              163270 ;
-        dbo:population        492829 ;
-        economy:economy       <http://hrachjar.cz/economy/suriname> .
+        dbo:population        492829 .
 
 <http://hrachjar.cz/country/africa/sao-tome-and-principe>
         rdf:type              country:Country ;
@@ -2095,8 +1886,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/sao-tome-and-principe/sao-tome> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              1001 ;
-        dbo:population        175808 ;
-        economy:economy       <http://hrachjar.cz/economy/sao-tome-and-principe> .
+        dbo:population        175808 .
 
 <http://hrachjar.cz/country/north-america/el-salvador>
         rdf:type              country:Country ;
@@ -2105,8 +1895,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/el-salvador/san-salvador> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              21040 ;
-        dbo:population        6052064 ;
-        economy:economy       <http://hrachjar.cz/economy/el-salvador> .
+        dbo:population        6052064 .
 
 <http://hrachjar.cz/country/north-america/sint-maarten>
         rdf:type              country:Country ;
@@ -2115,8 +1904,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/sint-maarten/philipsburg> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              21 ;
-        dbo:population        37429 ;
-        economy:economy       <http://hrachjar.cz/economy/sint-maarten> .
+        dbo:population        37429 .
 
 <http://hrachjar.cz/country/asia/syria>
         rdf:type              country:Country ;
@@ -2125,8 +1913,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/syria/damascus> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              185180 ;
-        dbo:population        22198110 ;
-        economy:economy       <http://hrachjar.cz/economy/syria> .
+        dbo:population        22198110 .
 
 <http://hrachjar.cz/country/africa/swaziland>
         rdf:type              country:Country ;
@@ -2135,8 +1922,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/swaziland/mbabane> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              17363 ;
-        dbo:population        1354051 ;
-        economy:economy       <http://hrachjar.cz/economy/swaziland> .
+        dbo:population        1354051 .
 
 <http://hrachjar.cz/country/north-america/turks-and-caicos-islands>
         rdf:type              country:Country ;
@@ -2145,8 +1931,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/turks-and-caicos-islands/cockburn-town> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              430 ;
-        dbo:population        20556 ;
-        economy:economy       <http://hrachjar.cz/economy/turks-and-caicos-islands> .
+        dbo:population        20556 .
 
 <http://hrachjar.cz/country/africa/chad>
         rdf:type              country:Country ;
@@ -2155,8 +1940,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/chad/ndjamena> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              1284000 ;
-        dbo:population        10543464 ;
-        economy:economy       <http://hrachjar.cz/economy/chad> .
+        dbo:population        10543464 .
 
 <http://hrachjar.cz/country/antarctica/french-southern-territories>
         rdf:type              country:Country ;
@@ -2165,8 +1949,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/french-southern-territories/port-aux-francais> ;
         gr:hasCurrency        "AN"^^xsd:string ;
         dbo:area              7829 ;
-        dbo:population        140 ;
-        economy:economy       <http://hrachjar.cz/economy/french-southern-territories> .
+        dbo:population        140 .
 
 <http://hrachjar.cz/country/africa/togo>
         rdf:type              country:Country ;
@@ -2175,8 +1958,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/togo/lome> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              56785 ;
-        dbo:population        6587239 ;
-        economy:economy       <http://hrachjar.cz/economy/togo> .
+        dbo:population        6587239 .
 
 <http://hrachjar.cz/country/asia/thailand>
         rdf:type              country:Country ;
@@ -2185,8 +1967,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/thailand/bangkok> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              514000 ;
-        dbo:population        67089500 ;
-        economy:economy       <http://hrachjar.cz/economy/thailand> .
+        dbo:population        67089500 .
 
 <http://hrachjar.cz/country/asia/tajikistan>
         rdf:type              country:Country ;
@@ -2195,8 +1976,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/tajikistan/dushanbe> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              143100 ;
-        dbo:population        7487489 ;
-        economy:economy       <http://hrachjar.cz/economy/tajikistan> .
+        dbo:population        7487489 .
 
 <http://hrachjar.cz/country/antarctica/tokelau>
         rdf:type              country:Country ;
@@ -2204,8 +1984,7 @@
         frapo:hasCountryCode  "TKL"^^xsd:string ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              10 ;
-        dbo:population        1466 ;
-        economy:economy       <http://hrachjar.cz/economy/tokelau> .
+        dbo:population        1466 .
 
 <http://hrachjar.cz/country/antarctica/east-timor>
         rdf:type              country:Country ;
@@ -2214,8 +1993,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/east-timor/dili> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              15007 ;
-        dbo:population        1154625 ;
-        economy:economy       <http://hrachjar.cz/economy/east-timor> .
+        dbo:population        1154625 .
 
 <http://hrachjar.cz/country/asia/turkmenistan>
         rdf:type              country:Country ;
@@ -2224,8 +2002,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/turkmenistan/ashgabat> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              488100 ;
-        dbo:population        4940916 ;
-        economy:economy       <http://hrachjar.cz/economy/turkmenistan> .
+        dbo:population        4940916 .
 
 <http://hrachjar.cz/country/africa/tunisia>
         rdf:type              country:Country ;
@@ -2234,8 +2011,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/tunisia/tunis> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              163610 ;
-        dbo:population        10589025 ;
-        economy:economy       <http://hrachjar.cz/economy/tunisia> .
+        dbo:population        10589025 .
 
 <http://hrachjar.cz/country/antarctica/tonga>
         rdf:type              country:Country ;
@@ -2244,18 +2020,16 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/tonga/nukualofa> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              748 ;
-        dbo:population        122580 ;
-        economy:economy       <http://hrachjar.cz/economy/tonga> .
+        dbo:population        122580 .
 
-<http://hrachjar.cz/country/asia/turkey>
+<http://hrachjar.cz/country/europe/turkey>
         rdf:type              country:Country ;
         foaf:name             "Turkey"@en ;
         frapo:hasCountryCode  "TUR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/turkey/ankara> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              780580 ;
-        dbo:population        77804122 ;
-        economy:economy       <http://hrachjar.cz/economy/turkey> .
+        dbo:population        77804122 .
 
 <http://hrachjar.cz/country/north-america/trinidad-and-tobago>
         rdf:type              country:Country ;
@@ -2264,8 +2038,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/trinidad-and-tobago/port-of-spain> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              5128 ;
-        dbo:population        1228691 ;
-        economy:economy       <http://hrachjar.cz/economy/trinidad-and-tobago> .
+        dbo:population        1228691 .
 
 <http://hrachjar.cz/country/antarctica/tuvalu>
         rdf:type              country:Country ;
@@ -2274,8 +2047,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/tuvalu/funafuti> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              26 ;
-        dbo:population        10472 ;
-        economy:economy       <http://hrachjar.cz/economy/tuvalu> .
+        dbo:population        10472 .
 
 <http://hrachjar.cz/country/asia/taiwan>
         rdf:type              country:Country ;
@@ -2284,8 +2056,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/taiwan/taipei> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              35980 ;
-        dbo:population        22894384 ;
-        economy:economy       <http://hrachjar.cz/economy/taiwan> .
+        dbo:population        22894384 .
 
 <http://hrachjar.cz/country/africa/tanzania>
         rdf:type              country:Country ;
@@ -2294,8 +2065,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/tanzania/dodoma> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              945087 ;
-        dbo:population        41892895 ;
-        economy:economy       <http://hrachjar.cz/economy/tanzania> .
+        dbo:population        41892895 .
 
 <http://hrachjar.cz/country/europe/ukraine>
         rdf:type              country:Country ;
@@ -2304,8 +2074,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/ukraine/kiev> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              603700 ;
-        dbo:population        45415596 ;
-        economy:economy       <http://hrachjar.cz/economy/ukraine> .
+        dbo:population        45415596 .
 
 <http://hrachjar.cz/country/africa/uganda>
         rdf:type              country:Country ;
@@ -2314,8 +2083,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/uganda/kampala> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              236040 ;
-        dbo:population        33398682 ;
-        economy:economy       <http://hrachjar.cz/economy/uganda> .
+        dbo:population        33398682 .
 
 <http://hrachjar.cz/country/antarctica/united-states-minor-outlying-islands>
         rdf:type              country:Country ;
@@ -2323,8 +2091,7 @@
         frapo:hasCountryCode  "UMI"^^xsd:string ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              0 ;
-        dbo:population        0 ;
-        economy:economy       <http://hrachjar.cz/economy/united-states-minor-outlying-islands> .
+        dbo:population        0 .
 
 <http://hrachjar.cz/country/north-america/united-states>
         rdf:type              country:Country ;
@@ -2333,8 +2100,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/united-states/washington> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              9629091 ;
-        dbo:population        310232863 ;
-        economy:economy       <http://hrachjar.cz/economy/united-states> .
+        dbo:population        310232863 .
 
 <http://hrachjar.cz/country/south-america/uruguay>
         rdf:type              country:Country ;
@@ -2343,8 +2109,7 @@
         dbo:capital           <http://hrachjar.cz/country/south-america/uruguay/montevideo> ;
         gr:hasCurrency        "SA"^^xsd:string ;
         dbo:area              176220 ;
-        dbo:population        3477000 ;
-        economy:economy       <http://hrachjar.cz/economy/uruguay> .
+        dbo:population        3477000 .
 
 <http://hrachjar.cz/country/asia/uzbekistan>
         rdf:type              country:Country ;
@@ -2353,8 +2118,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/uzbekistan/tashkent> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              447400 ;
-        dbo:population        27865738 ;
-        economy:economy       <http://hrachjar.cz/economy/uzbekistan> .
+        dbo:population        27865738 .
 
 <http://hrachjar.cz/country/europe/vatican>
         rdf:type              country:Country ;
@@ -2362,8 +2126,7 @@
         frapo:hasCountryCode  "VAT"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/vatican/vatican-city> ;
         gr:hasCurrency        "EU"^^xsd:string ;
-        dbo:population        921 ;
-        economy:economy       <http://hrachjar.cz/economy/vatican> .
+        dbo:population        921 .
 
 <http://hrachjar.cz/country/north-america/saint-vincent-and-the-grenadines>
         rdf:type              country:Country ;
@@ -2372,8 +2135,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/saint-vincent-and-the-grenadines/kingstown> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              389 ;
-        dbo:population        104217 ;
-        economy:economy       <http://hrachjar.cz/economy/saint-vincent-and-the-grenadines> .
+        dbo:population        104217 .
 
 <http://hrachjar.cz/country/south-america/venezuela>
         rdf:type              country:Country ;
@@ -2382,8 +2144,7 @@
         dbo:capital           <http://hrachjar.cz/country/south-america/venezuela/caracas> ;
         gr:hasCurrency        "SA"^^xsd:string ;
         dbo:area              912050 ;
-        dbo:population        27223228 ;
-        economy:economy       <http://hrachjar.cz/economy/venezuela> .
+        dbo:population        27223228 .
 
 <http://hrachjar.cz/country/north-america/british-virgin-islands>
         rdf:type              country:Country ;
@@ -2392,8 +2153,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/british-virgin-islands/road-town> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              153 ;
-        dbo:population        21730 ;
-        economy:economy       <http://hrachjar.cz/economy/british-virgin-islands> .
+        dbo:population        21730 .
 
 <http://hrachjar.cz/country/north-america/u.s.-virgin-islands>
         rdf:type              country:Country ;
@@ -2402,8 +2162,7 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/u.s.-virgin-islands/charlotte-amalie> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              352 ;
-        dbo:population        108708 ;
-        economy:economy       <http://hrachjar.cz/economy/u.s.-virgin-islands> .
+        dbo:population        108708 .
 
 <http://hrachjar.cz/country/asia/vietnam>
         rdf:type              country:Country ;
@@ -2412,8 +2171,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/vietnam/hanoi> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              329560 ;
-        dbo:population        89571130 ;
-        economy:economy       <http://hrachjar.cz/economy/vietnam> .
+        dbo:population        89571130 .
 
 <http://hrachjar.cz/country/antarctica/vanuatu>
         rdf:type              country:Country ;
@@ -2422,8 +2180,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/vanuatu/port-vila> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              12200 ;
-        dbo:population        221552 ;
-        economy:economy       <http://hrachjar.cz/economy/vanuatu> .
+        dbo:population        221552 .
 
 <http://hrachjar.cz/country/antarctica/wallis-and-futuna>
         rdf:type              country:Country ;
@@ -2432,8 +2189,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/wallis-and-futuna/mata-utu> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              274 ;
-        dbo:population        16025 ;
-        economy:economy       <http://hrachjar.cz/economy/wallis-and-futuna> .
+        dbo:population        16025 .
 
 <http://hrachjar.cz/country/antarctica/samoa>
         rdf:type              country:Country ;
@@ -2442,8 +2198,7 @@
         dbo:capital           <http://hrachjar.cz/country/antarctica/samoa/apia> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              2944 ;
-        dbo:population        192001 ;
-        economy:economy       <http://hrachjar.cz/economy/samoa> .
+        dbo:population        192001 .
 
 <http://hrachjar.cz/country/asia/yemen>
         rdf:type              country:Country ;
@@ -2452,8 +2207,7 @@
         dbo:capital           <http://hrachjar.cz/country/asia/yemen/sanaa> ;
         gr:hasCurrency        "AS"^^xsd:string ;
         dbo:area              527970 ;
-        dbo:population        23495361 ;
-        economy:economy       <http://hrachjar.cz/economy/yemen> .
+        dbo:population        23495361 .
 
 <http://hrachjar.cz/country/africa/mayotte>
         rdf:type              country:Country ;
@@ -2462,8 +2216,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/mayotte/mamoudzou> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              374 ;
-        dbo:population        159042 ;
-        economy:economy       <http://hrachjar.cz/economy/mayotte> .
+        dbo:population        159042 .
 
 <http://hrachjar.cz/country/africa/south-africa>
         rdf:type              country:Country ;
@@ -2472,8 +2225,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/south-africa/pretoria> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              1219912 ;
-        dbo:population        49000000 ;
-        economy:economy       <http://hrachjar.cz/economy/south-africa> .
+        dbo:population        49000000 .
 
 <http://hrachjar.cz/country/africa/zambia>
         rdf:type              country:Country ;
@@ -2482,8 +2234,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/zambia/lusaka> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              752614 ;
-        dbo:population        13460305 ;
-        economy:economy       <http://hrachjar.cz/economy/zambia> .
+        dbo:population        13460305 .
 
 <http://hrachjar.cz/country/africa/zimbabwe>
         rdf:type              country:Country ;
@@ -2492,8 +2243,7 @@
         dbo:capital           <http://hrachjar.cz/country/africa/zimbabwe/harare> ;
         gr:hasCurrency        "AF"^^xsd:string ;
         dbo:area              390580 ;
-        dbo:population        13061000 ;
-        economy:economy       <http://hrachjar.cz/economy/zimbabwe> .
+        dbo:population        13061000 .
 
 <http://hrachjar.cz/country/europe/serbia-and-montenegro>
         rdf:type              country:Country ;
@@ -2502,8 +2252,7 @@
         dbo:capital           <http://hrachjar.cz/country/europe/serbia-and-montenegro/belgrade> ;
         gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              102350 ;
-        dbo:population        10829175 ;
-        economy:economy       <http://hrachjar.cz/economy/serbia-and-montenegro> .
+        dbo:population        10829175 .
 
 <http://hrachjar.cz/country/north-america/netherlands-antilles>
         rdf:type              country:Country ;
@@ -2512,5 +2261,4 @@
         dbo:capital           <http://hrachjar.cz/country/north-america/netherlands-antilles/willemstad> ;
         gr:hasCurrency        "NA"^^xsd:string ;
         dbo:area              960 ;
-        dbo:population        300000 ;
-        economy:economy       <http://hrachjar.cz/economy/netherlands-antilles> .
+        dbo:population        300000 .

@@ -17,7 +17,6 @@ CONSTRUCT {
           gr:hasCurrency ?currency;
           dbo:area ?area;
           dbo:population ?population;
-          economy:economy ?eUri;
 }
 WHERE {
   BIND(IRI(CONCAT('http://hrachjar.cz/country/', 
@@ -39,6 +38,5 @@ WHERE {
   BIND(xsd:string(?e) AS ?currency)
   BIND(xsd:integer(?c) AS ?area)
   BIND(xsd:integer(?p) AS ?population)
-  BIND(IRI(CONCAT('http://hrachjar.cz/economy/', LCASE(REPLACE(?l, " ", "-")))) AS ?eUri)
 }
 OFFSET 1

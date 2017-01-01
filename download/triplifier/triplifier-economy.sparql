@@ -12,25 +12,19 @@ PREFIX sdmx-dimension:  <http://purl.org/linked-data/sdmx/2009/dimension#>
 
 CONSTRUCT {
     ?aUri a economy:Economy;
-          country:country ?countryUri;
-          .
-    ?year a qb:Observation ;
-          qb:dataSet eg:dataset ;
-          eg:refArea ?aUri ;
-          sdmx-dimension:refPerio  <http://reference.data.gov.uk/id/gregorian-interval/2014-01-01T00:00:00/P1Y> ;
-          eg:gdb ?gdb;
-          eg:gdbGrowth ?gdbGrowth;
-          eg:gdpPerCapita ?gdbPC;
-          eg:gdbPerCapitaGrowth ?gdbPCGrowth;
-          eg:inflationGDP ?inflationGDP;
-          eg:inflationPPI ?inflationPPI;
-          eg:unemployment ?unemployment;
+          foaf:name ?country;
+          economy:gdb ?gdb;
+          economy:gdbGrowth ?gdbGrowth;
+          economy:gdpPerCapita ?gdbPC;
+          economy:gdbPerCapitaGrowth ?gdbPCGrowth;
+          economy:inflationGDP ?inflationGDP;
+          economy:inflationPPI ?inflationPPI;
+          economy:unemployment ?unemployment;
           .
 }
 WHERE {
   BIND(IRI(CONCAT('http://hrachjar.cz/economy/', LCASE(REPLACE(?c, " ", "-")))) AS ?aUri)
-  BIND(IRI(CONCAT('http://hrachjar.cz/country/', LCASE(REPLACE(?c, " ", "-")))) AS ?countryUri)
-  BIND(IRI(CONCAT('http://example.org/ns#year', LCASE(REPLACE(?a, " ", "-")))) AS ?year)
+  BIND(STRLANG(xsd:string(?c), "en") AS ?country)
   BIND(xsd:double(?e) AS ?gdb)
   BIND(xsd:double(?f) AS ?gdbGrowth)
   BIND(xsd:double(?g) AS ?gdbPC)
