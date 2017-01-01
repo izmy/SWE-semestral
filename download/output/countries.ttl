@@ -97,11 +97,11 @@
         dbo:area              2766890 ;
         dbo:population        41343201 .
 
-<http://hrachjar.cz/country/antarctica/american-samoa>
+<http://hrachjar.cz/country/australia/american-samoa>
         rdf:type              country:Country ;
         foaf:name             "American Samoa"@en ;
         frapo:hasCountryCode  "ASM"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/american-samoa/pago-pago> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/american-samoa/pago-pago> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              199 ;
         dbo:population        57881 .
@@ -119,7 +119,7 @@
         rdf:type              country:Country ;
         foaf:name             "Australia"@en ;
         frapo:hasCountryCode  "AUS"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/australia/canberra> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/australia/canberra> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              7686850 ;
         dbo:population        21515754 .
@@ -401,11 +401,11 @@
         dbo:area              322460 ;
         dbo:population        21058798 .
 
-<http://hrachjar.cz/country/antarctica/cook-islands>
+<http://hrachjar.cz/country/australia/cook-islands>
         rdf:type              country:Country ;
         foaf:name             "Cook Islands"@en ;
         frapo:hasCountryCode  "COK"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/cook-islands/avarua> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/cook-islands/avarua> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              240 ;
         dbo:population        21388 .
@@ -635,11 +635,11 @@
         dbo:area              337030 ;
         dbo:population        5244000 .
 
-<http://hrachjar.cz/country/antarctica/fiji>
+<http://hrachjar.cz/country/australia/fiji>
         rdf:type              country:Country ;
         foaf:name             "Fiji"@en ;
         frapo:hasCountryCode  "FJI"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/fiji/suva> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/fiji/suva> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              18270 ;
         dbo:population        875983 .
@@ -653,11 +653,11 @@
         dbo:area              12173 ;
         dbo:population        2638 .
 
-<http://hrachjar.cz/country/antarctica/micronesia>
+<http://hrachjar.cz/country/australia/micronesia>
         rdf:type              country:Country ;
         foaf:name             "Micronesia"@en ;
         frapo:hasCountryCode  "FSM"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/micronesia/palikir> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/micronesia/palikir> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              702 ;
         dbo:population        107708 .
@@ -823,11 +823,11 @@
         dbo:area              108890 ;
         dbo:population        13550440 .
 
-<http://hrachjar.cz/country/antarctica/guam>
+<http://hrachjar.cz/country/australia/guam>
         rdf:type              country:Country ;
         foaf:name             "Guam"@en ;
         frapo:hasCountryCode  "GUM"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/guam/hagatna> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/guam/hagatna> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              549 ;
         dbo:population        159358 .
@@ -1056,11 +1056,11 @@
         dbo:area              181040 ;
         dbo:population        14453680 .
 
-<http://hrachjar.cz/country/antarctica/kiribati>
+<http://hrachjar.cz/country/australia/kiribati>
         rdf:type              country:Country ;
         foaf:name             "Kiribati"@en ;
         frapo:hasCountryCode  "KIR"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/kiribati/tarawa> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/kiribati/tarawa> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              811 ;
         dbo:population        92533 .
@@ -1289,11 +1289,11 @@
         dbo:area              587040 ;
         dbo:population        21281844 .
 
-<http://hrachjar.cz/country/antarctica/marshall-islands>
+<http://hrachjar.cz/country/australia/marshall-islands>
         rdf:type              country:Country ;
         foaf:name             "Marshall Islands"@en ;
         frapo:hasCountryCode  "MHL"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/marshall-islands/majuro> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/marshall-islands/majuro> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:population        65859 .
 
@@ -1342,11 +1342,11 @@
         dbo:area              254 ;
         dbo:population        449198 .
 
-<http://hrachjar.cz/country/antarctica/northern-mariana-islands>
+<http://hrachjar.cz/country/australia/northern-mariana-islands>
         rdf:type              country:Country ;
         foaf:name             "Northern Mariana Islands"@en ;
         frapo:hasCountryCode  "MNP"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/northern-mariana-islands/saipan> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/northern-mariana-islands/saipan> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              477 ;
         dbo:population        53883 .
@@ -1450,11 +1450,11 @@
         dbo:area              825418 ;
         dbo:population        2128471 .
 
-<http://hrachjar.cz/country/antarctica/new-caledonia>
+<http://hrachjar.cz/country/australia/new-caledonia>
         rdf:type              country:Country ;
         foaf:name             "New Caledonia"@en ;
         frapo:hasCountryCode  "NCL"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/new-caledonia/noumea> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/new-caledonia/noumea> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              19060 ;
         dbo:population        216494 .
@@ -1468,11 +1468,11 @@
         dbo:area              1267000 ;
         dbo:population        15878271 .
 
-<http://hrachjar.cz/country/antarctica/norfolk-island>
+<http://hrachjar.cz/country/australia/norfolk-island>
         rdf:type              country:Country ;
         foaf:name             "Norfolk Island"@en ;
         frapo:hasCountryCode  "NFK"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/norfolk-island/kingston> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/norfolk-island/kingston> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:population        1828 .
 
@@ -1521,29 +1521,29 @@
         dbo:area              140800 ;
         dbo:population        28951852 .
 
-<http://hrachjar.cz/country/antarctica/nauru>
+<http://hrachjar.cz/country/australia/nauru>
         rdf:type              country:Country ;
         foaf:name             "Nauru"@en ;
         frapo:hasCountryCode  "NRU"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/nauru/yaren> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/nauru/yaren> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              21 ;
         dbo:population        10065 .
 
-<http://hrachjar.cz/country/antarctica/niue>
+<http://hrachjar.cz/country/australia/niue>
         rdf:type              country:Country ;
         foaf:name             "Niue"@en ;
         frapo:hasCountryCode  "NIU"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/niue/alofi> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/niue/alofi> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              260 ;
         dbo:population        2166 .
 
-<http://hrachjar.cz/country/antarctica/new-zealand>
+<http://hrachjar.cz/country/australia/new-zealand>
         rdf:type              country:Country ;
         foaf:name             "New Zealand"@en ;
         frapo:hasCountryCode  "NZL"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/new-zealand/wellington> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/new-zealand/wellington> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              268680 ;
         dbo:population        4252277 .
@@ -1575,20 +1575,20 @@
         dbo:area              1285220 ;
         dbo:population        29907003 .
 
-<http://hrachjar.cz/country/antarctica/french-polynesia>
+<http://hrachjar.cz/country/australia/french-polynesia>
         rdf:type              country:Country ;
         foaf:name             "French Polynesia"@en ;
         frapo:hasCountryCode  "PYF"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/french-polynesia/papeete> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/french-polynesia/papeete> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              4167 ;
         dbo:population        270485 .
 
-<http://hrachjar.cz/country/antarctica/papua-new-guinea>
+<http://hrachjar.cz/country/australia/papua-new-guinea>
         rdf:type              country:Country ;
         foaf:name             "Papua New Guinea"@en ;
         frapo:hasCountryCode  "PNG"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/papua-new-guinea/port-moresby> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/papua-new-guinea/port-moresby> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              462840 ;
         dbo:population        6064515 .
@@ -1629,11 +1629,11 @@
         dbo:area              242 ;
         dbo:population        7012 .
 
-<http://hrachjar.cz/country/antarctica/pitcairn>
+<http://hrachjar.cz/country/australia/pitcairn>
         rdf:type              country:Country ;
         foaf:name             "Pitcairn"@en ;
         frapo:hasCountryCode  "PCN"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/pitcairn/adamstown> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/pitcairn/adamstown> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              47 ;
         dbo:population        46 .
@@ -1665,11 +1665,11 @@
         dbo:area              92391 ;
         dbo:population        10676000 .
 
-<http://hrachjar.cz/country/antarctica/palau>
+<http://hrachjar.cz/country/australia/palau>
         rdf:type              country:Country ;
         foaf:name             "Palau"@en ;
         frapo:hasCountryCode  "PLW"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/palau/melekeok> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/palau/melekeok> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              458 ;
         dbo:population        19907 .
@@ -1746,11 +1746,11 @@
         dbo:area              1960582 ;
         dbo:population        25731776 .
 
-<http://hrachjar.cz/country/antarctica/solomon-islands>
+<http://hrachjar.cz/country/australia/solomon-islands>
         rdf:type              country:Country ;
         foaf:name             "Solomon Islands"@en ;
         frapo:hasCountryCode  "SLB"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/solomon-islands/honiara> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/solomon-islands/honiara> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              28450 ;
         dbo:population        559198 .
@@ -1978,7 +1978,7 @@
         dbo:area              143100 ;
         dbo:population        7487489 .
 
-<http://hrachjar.cz/country/antarctica/tokelau>
+<http://hrachjar.cz/country/australia/tokelau>
         rdf:type              country:Country ;
         foaf:name             "Tokelau"@en ;
         frapo:hasCountryCode  "TKL"^^xsd:string ;
@@ -1986,11 +1986,11 @@
         dbo:area              10 ;
         dbo:population        1466 .
 
-<http://hrachjar.cz/country/antarctica/east-timor>
+<http://hrachjar.cz/country/australia/east-timor>
         rdf:type              country:Country ;
         foaf:name             "East Timor"@en ;
         frapo:hasCountryCode  "TLS"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/east-timor/dili> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/east-timor/dili> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              15007 ;
         dbo:population        1154625 .
@@ -2013,11 +2013,11 @@
         dbo:area              163610 ;
         dbo:population        10589025 .
 
-<http://hrachjar.cz/country/antarctica/tonga>
+<http://hrachjar.cz/country/australia/tonga>
         rdf:type              country:Country ;
         foaf:name             "Tonga"@en ;
         frapo:hasCountryCode  "TON"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/tonga/nukualofa> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/tonga/nukualofa> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              748 ;
         dbo:population        122580 .
@@ -2026,8 +2026,8 @@
         rdf:type              country:Country ;
         foaf:name             "Turkey"@en ;
         frapo:hasCountryCode  "TUR"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/asia/turkey/ankara> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        dbo:capital           <http://hrachjar.cz/country/europe/turkey/ankara> ;
+        gr:hasCurrency        "EU"^^xsd:string ;
         dbo:area              780580 ;
         dbo:population        77804122 .
 
@@ -2040,11 +2040,11 @@
         dbo:area              5128 ;
         dbo:population        1228691 .
 
-<http://hrachjar.cz/country/antarctica/tuvalu>
+<http://hrachjar.cz/country/australia/tuvalu>
         rdf:type              country:Country ;
         foaf:name             "Tuvalu"@en ;
         frapo:hasCountryCode  "TUV"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/tuvalu/funafuti> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/tuvalu/funafuti> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              26 ;
         dbo:population        10472 .
@@ -2085,7 +2085,7 @@
         dbo:area              236040 ;
         dbo:population        33398682 .
 
-<http://hrachjar.cz/country/antarctica/united-states-minor-outlying-islands>
+<http://hrachjar.cz/country/australia/united-states-minor-outlying-islands>
         rdf:type              country:Country ;
         foaf:name             "United States Minor Outlying Islands"@en ;
         frapo:hasCountryCode  "UMI"^^xsd:string ;
@@ -2173,29 +2173,29 @@
         dbo:area              329560 ;
         dbo:population        89571130 .
 
-<http://hrachjar.cz/country/antarctica/vanuatu>
+<http://hrachjar.cz/country/australia/vanuatu>
         rdf:type              country:Country ;
         foaf:name             "Vanuatu"@en ;
         frapo:hasCountryCode  "VUT"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/vanuatu/port-vila> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/vanuatu/port-vila> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              12200 ;
         dbo:population        221552 .
 
-<http://hrachjar.cz/country/antarctica/wallis-and-futuna>
+<http://hrachjar.cz/country/australia/wallis-and-futuna>
         rdf:type              country:Country ;
         foaf:name             "Wallis and Futuna"@en ;
         frapo:hasCountryCode  "WLF"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/wallis-and-futuna/mata-utu> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/wallis-and-futuna/mata-utu> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              274 ;
         dbo:population        16025 .
 
-<http://hrachjar.cz/country/antarctica/samoa>
+<http://hrachjar.cz/country/australia/samoa>
         rdf:type              country:Country ;
         foaf:name             "Samoa"@en ;
         frapo:hasCountryCode  "WSM"^^xsd:string ;
-        dbo:capital           <http://hrachjar.cz/country/antarctica/samoa/apia> ;
+        dbo:capital           <http://hrachjar.cz/country/australia/samoa/apia> ;
         gr:hasCurrency        "OC"^^xsd:string ;
         dbo:area              2944 ;
         dbo:population        192001 .

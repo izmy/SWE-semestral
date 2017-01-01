@@ -224,7 +224,7 @@ TL;TLS;15007;Dili;OC;USD;Dollar;;TT;1966436;tet,pt-TL,id,en;East Timor;ID;626;67
 TM;TKM;488100;Ashgabat;AS;TMT;Manat;;TX;1218197;tk,ru,uz;Turkmenistan;AF,IR,UZ,KZ;795;993;4940916;######;^(\d{6})$;.tm
 TN;TUN;163610;Tunis;AF;TND;Dinar;;TS;2464461;ar-TN,fr;Tunisia;DZ,LY;788;216;10589025;####;^(\d{4})$;.tn
 TO;TON;748;Nuku'alofa;OC;TOP;Pa'anga;;TN;4032283;to,en-TO;Tonga;;776;676;122580;;;.to
-TR;TUR;780580;Ankara;AS;TRY;Lira;;TU;298795;tr-TR,ku,diq,az,av;Turkey;SY,GE,IQ,IR,GR,AM,AZ,BG;792;90;77804122;#####;^(\d{5})$;.tr
+TR;TUR;780580;Ankara;EU;TRY;Lira;;TU;298795;tr-TR,ku,diq,az,av;Turkey;SY,GE,IQ,IR,GR,AM,AZ,BG;792;90;77804122;#####;^(\d{5})$;.tr
 TT;TTO;5128;Port of Spain;NA;TTD;Dollar;;TD;3573591;en-TT,hns,fr,es,zh;Trinidad and Tobago;;780;+1-868;1228691;;;.tt
 TV;TUV;26;Funafuti;OC;AUD;Dollar;;TV;2110297;tvl,en,sm,gil;Tuvalu;;798;688;10472;;;.tv
 TW;TWN;35980;Taipei;AS;TWD;Dollar;;TW;1668284;zh-TW,zh,nan,hak;Taiwan;;158;886;22894384;#####;^(\d{5})$;.tw
