@@ -35,7 +35,7 @@ WHERE {
           IF(STRSTARTS(?e, "EU"), "europe", 
             IF(STRSTARTS(?e, "AF"), "africa", 
               IF(STRSTARTS(?e, "OC"), "australia", "antarctica")))))), '/', LCASE(REPLACE(?l, " ", "-")), '/', LCASE(REPLACE(REPLACE(REPLACE(?d, "\\'", ""), "\\.", ""), " ", "-") ) )) AS ?capitalUri)
-  BIND(xsd:string(?e) AS ?currency)
+  BIND(xsd:string(?f) AS ?currency)
   BIND(xsd:integer(?c) AS ?area)
   BIND(xsd:integer(?p) AS ?population)
 }

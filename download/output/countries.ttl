@@ -13,7 +13,7 @@
         foaf:name             "Andorra"@en ;
         frapo:hasCountryCode  "AND"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/andorra/andorra-la-vella> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              468 ;
         dbo:population        84000 .
 
@@ -22,7 +22,7 @@
         foaf:name             "United Arab Emirates"@en ;
         frapo:hasCountryCode  "ARE"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/united-arab-emirates/abu-dhabi> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "AED"^^xsd:string ;
         dbo:area              82880 ;
         dbo:population        4975593 .
 
@@ -31,7 +31,7 @@
         foaf:name             "Afghanistan"@en ;
         frapo:hasCountryCode  "AFG"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/afghanistan/kabul> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "AFN"^^xsd:string ;
         dbo:area              647500 ;
         dbo:population        29121286 .
 
@@ -40,7 +40,7 @@
         foaf:name             "Antigua and Barbuda"@en ;
         frapo:hasCountryCode  "ATG"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/antigua-and-barbuda/st-johns> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "XCD"^^xsd:string ;
         dbo:area              443 ;
         dbo:population        86754 .
 
@@ -49,7 +49,7 @@
         foaf:name             "Anguilla"@en ;
         frapo:hasCountryCode  "AIA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/anguilla/the-valley> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "XCD"^^xsd:string ;
         dbo:area              102 ;
         dbo:population        13254 .
 
@@ -58,7 +58,7 @@
         foaf:name             "Albania"@en ;
         frapo:hasCountryCode  "ALB"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/albania/tirana> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "ALL"^^xsd:string ;
         dbo:area              28748 ;
         dbo:population        2986952 .
 
@@ -67,7 +67,7 @@
         foaf:name             "Armenia"@en ;
         frapo:hasCountryCode  "ARM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/armenia/yerevan> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "AMD"^^xsd:string ;
         dbo:area              29800 ;
         dbo:population        2968000 .
 
@@ -76,7 +76,7 @@
         foaf:name             "Angola"@en ;
         frapo:hasCountryCode  "AGO"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/angola/luanda> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "AOA"^^xsd:string ;
         dbo:area              1246700 ;
         dbo:population        13068161 .
 
@@ -84,7 +84,6 @@
         rdf:type              country:Country ;
         foaf:name             "Antarctica"@en ;
         frapo:hasCountryCode  "ATA"^^xsd:string ;
-        gr:hasCurrency        "AN"^^xsd:string ;
         dbo:area              14000000 ;
         dbo:population        0 .
 
@@ -93,7 +92,7 @@
         foaf:name             "Argentina"@en ;
         frapo:hasCountryCode  "ARG"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/south-america/argentina/buenos-aires> ;
-        gr:hasCurrency        "SA"^^xsd:string ;
+        gr:hasCurrency        "ARS"^^xsd:string ;
         dbo:area              2766890 ;
         dbo:population        41343201 .
 
@@ -102,7 +101,7 @@
         foaf:name             "American Samoa"@en ;
         frapo:hasCountryCode  "ASM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/american-samoa/pago-pago> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "USD"^^xsd:string ;
         dbo:area              199 ;
         dbo:population        57881 .
 
@@ -111,7 +110,7 @@
         foaf:name             "Austria"@en ;
         frapo:hasCountryCode  "AUT"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/austria/vienna> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              83858 ;
         dbo:population        8205000 .
 
@@ -120,7 +119,7 @@
         foaf:name             "Australia"@en ;
         frapo:hasCountryCode  "AUS"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/australia/canberra> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "AUD"^^xsd:string ;
         dbo:area              7686850 ;
         dbo:population        21515754 .
 
@@ -129,7 +128,7 @@
         foaf:name             "Aruba"@en ;
         frapo:hasCountryCode  "ABW"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/aruba/oranjestad> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "AWG"^^xsd:string ;
         dbo:area              193 ;
         dbo:population        71566 .
 
@@ -138,7 +137,7 @@
         foaf:name             "Aland Islands"@en ;
         frapo:hasCountryCode  "ALA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/aland-islands/mariehamn> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              1580 ;
         dbo:population        26711 .
 
@@ -147,7 +146,7 @@
         foaf:name             "Azerbaijan"@en ;
         frapo:hasCountryCode  "AZE"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/azerbaijan/baku> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "AZN"^^xsd:string ;
         dbo:area              86600 ;
         dbo:population        8303512 .
 
@@ -156,7 +155,7 @@
         foaf:name             "Bosnia and Herzegovina"@en ;
         frapo:hasCountryCode  "BIH"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/bosnia-and-herzegovina/sarajevo> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "BAM"^^xsd:string ;
         dbo:area              51129 ;
         dbo:population        4590000 .
 
@@ -165,7 +164,7 @@
         foaf:name             "Barbados"@en ;
         frapo:hasCountryCode  "BRB"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/barbados/bridgetown> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "BBD"^^xsd:string ;
         dbo:area              431 ;
         dbo:population        285653 .
 
@@ -174,7 +173,7 @@
         foaf:name             "Bangladesh"@en ;
         frapo:hasCountryCode  "BGD"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/bangladesh/dhaka> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "BDT"^^xsd:string ;
         dbo:area              144000 ;
         dbo:population        156118464 .
 
@@ -183,7 +182,7 @@
         foaf:name             "Belgium"@en ;
         frapo:hasCountryCode  "BEL"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/belgium/brussels> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              30510 ;
         dbo:population        10403000 .
 
@@ -192,7 +191,7 @@
         foaf:name             "Burkina Faso"@en ;
         frapo:hasCountryCode  "BFA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/burkina-faso/ouagadougou> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "XOF"^^xsd:string ;
         dbo:area              274200 ;
         dbo:population        16241811 .
 
@@ -201,7 +200,7 @@
         foaf:name             "Bulgaria"@en ;
         frapo:hasCountryCode  "BGR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/bulgaria/sofia> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "BGN"^^xsd:string ;
         dbo:area              110910 ;
         dbo:population        7148785 .
 
@@ -210,7 +209,7 @@
         foaf:name             "Bahrain"@en ;
         frapo:hasCountryCode  "BHR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/bahrain/manama> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "BHD"^^xsd:string ;
         dbo:area              665 ;
         dbo:population        738004 .
 
@@ -219,7 +218,7 @@
         foaf:name             "Burundi"@en ;
         frapo:hasCountryCode  "BDI"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/burundi/bujumbura> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "BIF"^^xsd:string ;
         dbo:area              27830 ;
         dbo:population        9863117 .
 
@@ -228,7 +227,7 @@
         foaf:name             "Benin"@en ;
         frapo:hasCountryCode  "BEN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/benin/porto-novo> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "XOF"^^xsd:string ;
         dbo:area              112620 ;
         dbo:population        9056010 .
 
@@ -237,7 +236,7 @@
         foaf:name             "Saint Barthelemy"@en ;
         frapo:hasCountryCode  "BLM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/saint-barthelemy/gustavia> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              21 ;
         dbo:population        8450 .
 
@@ -246,7 +245,7 @@
         foaf:name             "Bermuda"@en ;
         frapo:hasCountryCode  "BMU"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/bermuda/hamilton> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "BMD"^^xsd:string ;
         dbo:area              53 ;
         dbo:population        65365 .
 
@@ -255,7 +254,7 @@
         foaf:name             "Brunei"@en ;
         frapo:hasCountryCode  "BRN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/brunei/bandar-seri-begawan> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "BND"^^xsd:string ;
         dbo:area              5770 ;
         dbo:population        395027 .
 
@@ -264,7 +263,7 @@
         foaf:name             "Bolivia"@en ;
         frapo:hasCountryCode  "BOL"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/south-america/bolivia/sucre> ;
-        gr:hasCurrency        "SA"^^xsd:string ;
+        gr:hasCurrency        "BOB"^^xsd:string ;
         dbo:area              1098580 ;
         dbo:population        9947418 .
 
@@ -272,7 +271,7 @@
         rdf:type              country:Country ;
         foaf:name             "Bonaire, Saint Eustatius and Saba "@en ;
         frapo:hasCountryCode  "BES"^^xsd:string ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "USD"^^xsd:string ;
         dbo:area              328 ;
         dbo:population        18012 .
 
@@ -281,7 +280,7 @@
         foaf:name             "Brazil"@en ;
         frapo:hasCountryCode  "BRA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/south-america/brazil/brasilia> ;
-        gr:hasCurrency        "SA"^^xsd:string ;
+        gr:hasCurrency        "BRL"^^xsd:string ;
         dbo:area              8511965 ;
         dbo:population        201103330 .
 
@@ -290,7 +289,7 @@
         foaf:name             "Bahamas"@en ;
         frapo:hasCountryCode  "BHS"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/bahamas/nassau> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "BSD"^^xsd:string ;
         dbo:area              13940 ;
         dbo:population        301790 .
 
@@ -299,7 +298,7 @@
         foaf:name             "Bhutan"@en ;
         frapo:hasCountryCode  "BTN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/bhutan/thimphu> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "BTN"^^xsd:string ;
         dbo:area              47000 ;
         dbo:population        699847 .
 
@@ -307,7 +306,7 @@
         rdf:type              country:Country ;
         foaf:name             "Bouvet Island"@en ;
         frapo:hasCountryCode  "BVT"^^xsd:string ;
-        gr:hasCurrency        "AN"^^xsd:string ;
+        gr:hasCurrency        "NOK"^^xsd:string ;
         dbo:area              49 ;
         dbo:population        0 .
 
@@ -316,7 +315,7 @@
         foaf:name             "Botswana"@en ;
         frapo:hasCountryCode  "BWA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/botswana/gaborone> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "BWP"^^xsd:string ;
         dbo:area              600370 ;
         dbo:population        2029307 .
 
@@ -325,7 +324,7 @@
         foaf:name             "Belarus"@en ;
         frapo:hasCountryCode  "BLR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/belarus/minsk> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "BYR"^^xsd:string ;
         dbo:area              207600 ;
         dbo:population        9685000 .
 
@@ -334,7 +333,7 @@
         foaf:name             "Belize"@en ;
         frapo:hasCountryCode  "BLZ"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/belize/belmopan> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "BZD"^^xsd:string ;
         dbo:area              22966 ;
         dbo:population        314522 .
 
@@ -343,7 +342,7 @@
         foaf:name             "Canada"@en ;
         frapo:hasCountryCode  "CAN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/canada/ottawa> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "CAD"^^xsd:string ;
         dbo:area              9984670 ;
         dbo:population        33679000 .
 
@@ -352,7 +351,7 @@
         foaf:name             "Cocos Islands"@en ;
         frapo:hasCountryCode  "CCK"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/cocos-islands/west-island> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "AUD"^^xsd:string ;
         dbo:area              14 ;
         dbo:population        628 .
 
@@ -361,7 +360,7 @@
         foaf:name             "Democratic Republic of the Congo"@en ;
         frapo:hasCountryCode  "COD"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/democratic-republic-of-the-congo/kinshasa> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "CDF"^^xsd:string ;
         dbo:area              2345410 ;
         dbo:population        70916439 .
 
@@ -370,7 +369,7 @@
         foaf:name             "Central African Republic"@en ;
         frapo:hasCountryCode  "CAF"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/central-african-republic/bangui> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "XAF"^^xsd:string ;
         dbo:area              622984 ;
         dbo:population        4844927 .
 
@@ -379,7 +378,7 @@
         foaf:name             "Republic of the Congo"@en ;
         frapo:hasCountryCode  "COG"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/republic-of-the-congo/brazzaville> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "XAF"^^xsd:string ;
         dbo:area              342000 ;
         dbo:population        3039126 .
 
@@ -388,7 +387,7 @@
         foaf:name             "Switzerland"@en ;
         frapo:hasCountryCode  "CHE"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/switzerland/bern> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "CHF"^^xsd:string ;
         dbo:area              41290 ;
         dbo:population        7581000 .
 
@@ -397,7 +396,7 @@
         foaf:name             "Ivory Coast"@en ;
         frapo:hasCountryCode  "CIV"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/ivory-coast/yamoussoukro> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "XOF"^^xsd:string ;
         dbo:area              322460 ;
         dbo:population        21058798 .
 
@@ -406,7 +405,7 @@
         foaf:name             "Cook Islands"@en ;
         frapo:hasCountryCode  "COK"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/cook-islands/avarua> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "NZD"^^xsd:string ;
         dbo:area              240 ;
         dbo:population        21388 .
 
@@ -415,7 +414,7 @@
         foaf:name             "Chile"@en ;
         frapo:hasCountryCode  "CHL"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/south-america/chile/santiago> ;
-        gr:hasCurrency        "SA"^^xsd:string ;
+        gr:hasCurrency        "CLP"^^xsd:string ;
         dbo:area              756950 ;
         dbo:population        16746491 .
 
@@ -424,7 +423,7 @@
         foaf:name             "Cameroon"@en ;
         frapo:hasCountryCode  "CMR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/cameroon/yaounde> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "XAF"^^xsd:string ;
         dbo:area              475440 ;
         dbo:population        19294149 .
 
@@ -433,7 +432,7 @@
         foaf:name             "China"@en ;
         frapo:hasCountryCode  "CHN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/china/beijing> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "CNY"^^xsd:string ;
         dbo:area              9596960 ;
         dbo:population        1330044000 .
 
@@ -442,7 +441,7 @@
         foaf:name             "Colombia"@en ;
         frapo:hasCountryCode  "COL"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/south-america/colombia/bogota> ;
-        gr:hasCurrency        "SA"^^xsd:string ;
+        gr:hasCurrency        "COP"^^xsd:string ;
         dbo:area              1138910 ;
         dbo:population        47790000 .
 
@@ -451,7 +450,7 @@
         foaf:name             "Costa Rica"@en ;
         frapo:hasCountryCode  "CRI"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/costa-rica/san-jose> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "CRC"^^xsd:string ;
         dbo:area              51100 ;
         dbo:population        4516220 .
 
@@ -460,7 +459,7 @@
         foaf:name             "Cuba"@en ;
         frapo:hasCountryCode  "CUB"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/cuba/havana> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "CUP"^^xsd:string ;
         dbo:area              110860 ;
         dbo:population        11423000 .
 
@@ -469,7 +468,7 @@
         foaf:name             "Cape Verde"@en ;
         frapo:hasCountryCode  "CPV"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/cape-verde/praia> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "CVE"^^xsd:string ;
         dbo:area              4033 ;
         dbo:population        508659 .
 
@@ -478,7 +477,7 @@
         foaf:name             "Curacao"@en ;
         frapo:hasCountryCode  "CUW"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/curacao/-willemstad> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "ANG"^^xsd:string ;
         dbo:area              444 ;
         dbo:population        141766 .
 
@@ -487,7 +486,7 @@
         foaf:name             "Christmas Island"@en ;
         frapo:hasCountryCode  "CXR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/christmas-island/flying-fish-cove> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "AUD"^^xsd:string ;
         dbo:area              135 ;
         dbo:population        1500 .
 
@@ -496,7 +495,7 @@
         foaf:name             "Cyprus"@en ;
         frapo:hasCountryCode  "CYP"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/cyprus/nicosia> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              9250 ;
         dbo:population        1102677 .
 
@@ -505,7 +504,7 @@
         foaf:name             "Czechia"@en ;
         frapo:hasCountryCode  "CZE"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/czechia/prague> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "CZK"^^xsd:string ;
         dbo:area              78866 ;
         dbo:population        10476000 .
 
@@ -514,7 +513,7 @@
         foaf:name             "Germany"@en ;
         frapo:hasCountryCode  "DEU"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/germany/berlin> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              357021 ;
         dbo:population        81802257 .
 
@@ -523,7 +522,7 @@
         foaf:name             "Djibouti"@en ;
         frapo:hasCountryCode  "DJI"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/djibouti/djibouti> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "DJF"^^xsd:string ;
         dbo:area              23000 ;
         dbo:population        740528 .
 
@@ -532,7 +531,7 @@
         foaf:name             "Denmark"@en ;
         frapo:hasCountryCode  "DNK"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/denmark/copenhagen> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "DKK"^^xsd:string ;
         dbo:area              43094 ;
         dbo:population        5484000 .
 
@@ -541,7 +540,7 @@
         foaf:name             "Dominica"@en ;
         frapo:hasCountryCode  "DMA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/dominica/roseau> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "XCD"^^xsd:string ;
         dbo:area              754 ;
         dbo:population        72813 .
 
@@ -550,7 +549,7 @@
         foaf:name             "Dominican Republic"@en ;
         frapo:hasCountryCode  "DOM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/dominican-republic/santo-domingo> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "DOP"^^xsd:string ;
         dbo:area              48730 ;
         dbo:population        9823821 .
 
@@ -559,7 +558,7 @@
         foaf:name             "Algeria"@en ;
         frapo:hasCountryCode  "DZA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/algeria/algiers> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "DZD"^^xsd:string ;
         dbo:area              2381740 ;
         dbo:population        34586184 .
 
@@ -568,7 +567,7 @@
         foaf:name             "Ecuador"@en ;
         frapo:hasCountryCode  "ECU"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/south-america/ecuador/quito> ;
-        gr:hasCurrency        "SA"^^xsd:string ;
+        gr:hasCurrency        "USD"^^xsd:string ;
         dbo:area              283560 ;
         dbo:population        14790608 .
 
@@ -577,7 +576,7 @@
         foaf:name             "Estonia"@en ;
         frapo:hasCountryCode  "EST"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/estonia/tallinn> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              45226 ;
         dbo:population        1291170 .
 
@@ -586,7 +585,7 @@
         foaf:name             "Egypt"@en ;
         frapo:hasCountryCode  "EGY"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/egypt/cairo> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "EGP"^^xsd:string ;
         dbo:area              1001450 ;
         dbo:population        80471869 .
 
@@ -595,7 +594,7 @@
         foaf:name             "Western Sahara"@en ;
         frapo:hasCountryCode  "ESH"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/western-sahara/el-aaiun> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "MAD"^^xsd:string ;
         dbo:area              266000 ;
         dbo:population        273008 .
 
@@ -604,7 +603,7 @@
         foaf:name             "Eritrea"@en ;
         frapo:hasCountryCode  "ERI"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/eritrea/asmara> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "ERN"^^xsd:string ;
         dbo:area              121320 ;
         dbo:population        5792984 .
 
@@ -613,7 +612,7 @@
         foaf:name             "Spain"@en ;
         frapo:hasCountryCode  "ESP"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/spain/madrid> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              504782 ;
         dbo:population        46505963 .
 
@@ -622,7 +621,7 @@
         foaf:name             "Ethiopia"@en ;
         frapo:hasCountryCode  "ETH"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/ethiopia/addis-ababa> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "ETB"^^xsd:string ;
         dbo:area              1127127 ;
         dbo:population        88013491 .
 
@@ -631,7 +630,7 @@
         foaf:name             "Finland"@en ;
         frapo:hasCountryCode  "FIN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/finland/helsinki> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              337030 ;
         dbo:population        5244000 .
 
@@ -640,7 +639,7 @@
         foaf:name             "Fiji"@en ;
         frapo:hasCountryCode  "FJI"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/fiji/suva> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "FJD"^^xsd:string ;
         dbo:area              18270 ;
         dbo:population        875983 .
 
@@ -649,7 +648,7 @@
         foaf:name             "Falkland Islands"@en ;
         frapo:hasCountryCode  "FLK"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/south-america/falkland-islands/stanley> ;
-        gr:hasCurrency        "SA"^^xsd:string ;
+        gr:hasCurrency        "FKP"^^xsd:string ;
         dbo:area              12173 ;
         dbo:population        2638 .
 
@@ -658,7 +657,7 @@
         foaf:name             "Micronesia"@en ;
         frapo:hasCountryCode  "FSM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/micronesia/palikir> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "USD"^^xsd:string ;
         dbo:area              702 ;
         dbo:population        107708 .
 
@@ -667,7 +666,7 @@
         foaf:name             "Faroe Islands"@en ;
         frapo:hasCountryCode  "FRO"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/faroe-islands/torshavn> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "DKK"^^xsd:string ;
         dbo:area              1399 ;
         dbo:population        48228 .
 
@@ -676,7 +675,7 @@
         foaf:name             "France"@en ;
         frapo:hasCountryCode  "FRA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/france/paris> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              547030 ;
         dbo:population        64768389 .
 
@@ -685,7 +684,7 @@
         foaf:name             "Gabon"@en ;
         frapo:hasCountryCode  "GAB"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/gabon/libreville> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "XAF"^^xsd:string ;
         dbo:area              267667 ;
         dbo:population        1545255 .
 
@@ -694,7 +693,7 @@
         foaf:name             "United Kingdom"@en ;
         frapo:hasCountryCode  "GBR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/united-kingdom/london> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "GBP"^^xsd:string ;
         dbo:area              244820 ;
         dbo:population        62348447 .
 
@@ -703,7 +702,7 @@
         foaf:name             "Grenada"@en ;
         frapo:hasCountryCode  "GRD"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/grenada/st-georges> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "XCD"^^xsd:string ;
         dbo:area              344 ;
         dbo:population        107818 .
 
@@ -712,7 +711,7 @@
         foaf:name             "Georgia"@en ;
         frapo:hasCountryCode  "GEO"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/georgia/tbilisi> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "GEL"^^xsd:string ;
         dbo:area              69700 ;
         dbo:population        4630000 .
 
@@ -721,7 +720,7 @@
         foaf:name             "French Guiana"@en ;
         frapo:hasCountryCode  "GUF"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/south-america/french-guiana/cayenne> ;
-        gr:hasCurrency        "SA"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              91000 ;
         dbo:population        195506 .
 
@@ -730,7 +729,7 @@
         foaf:name             "Guernsey"@en ;
         frapo:hasCountryCode  "GGY"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/guernsey/st-peter-port> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "GBP"^^xsd:string ;
         dbo:area              78 ;
         dbo:population        65228 .
 
@@ -739,7 +738,7 @@
         foaf:name             "Ghana"@en ;
         frapo:hasCountryCode  "GHA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/ghana/accra> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "GHS"^^xsd:string ;
         dbo:area              239460 ;
         dbo:population        24339838 .
 
@@ -748,7 +747,7 @@
         foaf:name             "Gibraltar"@en ;
         frapo:hasCountryCode  "GIB"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/gibraltar/gibraltar> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "GIP"^^xsd:string ;
         dbo:population        27884 .
 
 <http://hrachjar.cz/country/north-america/greenland>
@@ -756,7 +755,7 @@
         foaf:name             "Greenland"@en ;
         frapo:hasCountryCode  "GRL"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/greenland/nuuk> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "DKK"^^xsd:string ;
         dbo:area              2166086 ;
         dbo:population        56375 .
 
@@ -765,7 +764,7 @@
         foaf:name             "Gambia"@en ;
         frapo:hasCountryCode  "GMB"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/gambia/banjul> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "GMD"^^xsd:string ;
         dbo:area              11300 ;
         dbo:population        1593256 .
 
@@ -774,7 +773,7 @@
         foaf:name             "Guinea"@en ;
         frapo:hasCountryCode  "GIN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/guinea/conakry> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "GNF"^^xsd:string ;
         dbo:area              245857 ;
         dbo:population        10324025 .
 
@@ -783,7 +782,7 @@
         foaf:name             "Guadeloupe"@en ;
         frapo:hasCountryCode  "GLP"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/guadeloupe/basse-terre> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              1780 ;
         dbo:population        443000 .
 
@@ -792,7 +791,7 @@
         foaf:name             "Equatorial Guinea"@en ;
         frapo:hasCountryCode  "GNQ"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/equatorial-guinea/malabo> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "XAF"^^xsd:string ;
         dbo:area              28051 ;
         dbo:population        1014999 .
 
@@ -801,7 +800,7 @@
         foaf:name             "Greece"@en ;
         frapo:hasCountryCode  "GRC"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/greece/athens> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              131940 ;
         dbo:population        11000000 .
 
@@ -810,7 +809,7 @@
         foaf:name             "South Georgia and the South Sandwich Islands"@en ;
         frapo:hasCountryCode  "SGS"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/antarctica/south-georgia-and-the-south-sandwich-islands/grytviken> ;
-        gr:hasCurrency        "AN"^^xsd:string ;
+        gr:hasCurrency        "GBP"^^xsd:string ;
         dbo:area              3903 ;
         dbo:population        30 .
 
@@ -819,7 +818,7 @@
         foaf:name             "Guatemala"@en ;
         frapo:hasCountryCode  "GTM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/guatemala/guatemala-city> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "GTQ"^^xsd:string ;
         dbo:area              108890 ;
         dbo:population        13550440 .
 
@@ -828,7 +827,7 @@
         foaf:name             "Guam"@en ;
         frapo:hasCountryCode  "GUM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/guam/hagatna> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "USD"^^xsd:string ;
         dbo:area              549 ;
         dbo:population        159358 .
 
@@ -837,7 +836,7 @@
         foaf:name             "Guinea-Bissau"@en ;
         frapo:hasCountryCode  "GNB"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/guinea-bissau/bissau> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "XOF"^^xsd:string ;
         dbo:area              36120 ;
         dbo:population        1565126 .
 
@@ -846,7 +845,7 @@
         foaf:name             "Guyana"@en ;
         frapo:hasCountryCode  "GUY"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/south-america/guyana/georgetown> ;
-        gr:hasCurrency        "SA"^^xsd:string ;
+        gr:hasCurrency        "GYD"^^xsd:string ;
         dbo:area              214970 ;
         dbo:population        748486 .
 
@@ -855,7 +854,7 @@
         foaf:name             "Hong Kong"@en ;
         frapo:hasCountryCode  "HKG"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/hong-kong/hong-kong> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "HKD"^^xsd:string ;
         dbo:area              1092 ;
         dbo:population        6898686 .
 
@@ -863,7 +862,7 @@
         rdf:type              country:Country ;
         foaf:name             "Heard Island and McDonald Islands"@en ;
         frapo:hasCountryCode  "HMD"^^xsd:string ;
-        gr:hasCurrency        "AN"^^xsd:string ;
+        gr:hasCurrency        "AUD"^^xsd:string ;
         dbo:area              412 ;
         dbo:population        0 .
 
@@ -872,7 +871,7 @@
         foaf:name             "Honduras"@en ;
         frapo:hasCountryCode  "HND"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/honduras/tegucigalpa> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "HNL"^^xsd:string ;
         dbo:area              112090 ;
         dbo:population        7989415 .
 
@@ -881,7 +880,7 @@
         foaf:name             "Croatia"@en ;
         frapo:hasCountryCode  "HRV"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/croatia/zagreb> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "HRK"^^xsd:string ;
         dbo:area              56542 ;
         dbo:population        4284889 .
 
@@ -890,7 +889,7 @@
         foaf:name             "Haiti"@en ;
         frapo:hasCountryCode  "HTI"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/haiti/port-au-prince> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "HTG"^^xsd:string ;
         dbo:area              27750 ;
         dbo:population        9648924 .
 
@@ -899,7 +898,7 @@
         foaf:name             "Hungary"@en ;
         frapo:hasCountryCode  "HUN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/hungary/budapest> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "HUF"^^xsd:string ;
         dbo:area              93030 ;
         dbo:population        9982000 .
 
@@ -908,7 +907,7 @@
         foaf:name             "Indonesia"@en ;
         frapo:hasCountryCode  "IDN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/indonesia/jakarta> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "IDR"^^xsd:string ;
         dbo:area              1919440 ;
         dbo:population        242968342 .
 
@@ -917,7 +916,7 @@
         foaf:name             "Ireland"@en ;
         frapo:hasCountryCode  "IRL"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/ireland/dublin> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              70280 ;
         dbo:population        4622917 .
 
@@ -926,7 +925,7 @@
         foaf:name             "Israel"@en ;
         frapo:hasCountryCode  "ISR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/israel/jerusalem> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "ILS"^^xsd:string ;
         dbo:area              20770 ;
         dbo:population        7353985 .
 
@@ -935,7 +934,7 @@
         foaf:name             "Isle of Man"@en ;
         frapo:hasCountryCode  "IMN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/isle-of-man/douglas> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "GBP"^^xsd:string ;
         dbo:area              572 ;
         dbo:population        75049 .
 
@@ -944,7 +943,7 @@
         foaf:name             "India"@en ;
         frapo:hasCountryCode  "IND"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/india/new-delhi> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "INR"^^xsd:string ;
         dbo:area              3287590 ;
         dbo:population        1173108018 .
 
@@ -953,7 +952,7 @@
         foaf:name             "British Indian Ocean Territory"@en ;
         frapo:hasCountryCode  "IOT"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/british-indian-ocean-territory/diego-garcia> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "USD"^^xsd:string ;
         dbo:area              60 ;
         dbo:population        4000 .
 
@@ -962,7 +961,7 @@
         foaf:name             "Iraq"@en ;
         frapo:hasCountryCode  "IRQ"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/iraq/baghdad> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "IQD"^^xsd:string ;
         dbo:area              437072 ;
         dbo:population        29671605 .
 
@@ -971,7 +970,7 @@
         foaf:name             "Iran"@en ;
         frapo:hasCountryCode  "IRN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/iran/tehran> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "IRR"^^xsd:string ;
         dbo:area              1648000 ;
         dbo:population        76923300 .
 
@@ -980,7 +979,7 @@
         foaf:name             "Iceland"@en ;
         frapo:hasCountryCode  "ISL"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/iceland/reykjavik> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "ISK"^^xsd:string ;
         dbo:area              103000 ;
         dbo:population        308910 .
 
@@ -989,7 +988,7 @@
         foaf:name             "Italy"@en ;
         frapo:hasCountryCode  "ITA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/italy/rome> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              301230 ;
         dbo:population        60340328 .
 
@@ -998,7 +997,7 @@
         foaf:name             "Jersey"@en ;
         frapo:hasCountryCode  "JEY"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/jersey/saint-helier> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "GBP"^^xsd:string ;
         dbo:area              116 ;
         dbo:population        90812 .
 
@@ -1007,7 +1006,7 @@
         foaf:name             "Jamaica"@en ;
         frapo:hasCountryCode  "JAM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/jamaica/kingston> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "JMD"^^xsd:string ;
         dbo:area              10991 ;
         dbo:population        2847232 .
 
@@ -1016,7 +1015,7 @@
         foaf:name             "Jordan"@en ;
         frapo:hasCountryCode  "JOR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/jordan/amman> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "JOD"^^xsd:string ;
         dbo:area              92300 ;
         dbo:population        6407085 .
 
@@ -1025,7 +1024,7 @@
         foaf:name             "Japan"@en ;
         frapo:hasCountryCode  "JPN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/japan/tokyo> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "JPY"^^xsd:string ;
         dbo:area              377835 ;
         dbo:population        127288000 .
 
@@ -1034,7 +1033,7 @@
         foaf:name             "Kenya"@en ;
         frapo:hasCountryCode  "KEN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/kenya/nairobi> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "KES"^^xsd:string ;
         dbo:area              582650 ;
         dbo:population        40046566 .
 
@@ -1043,7 +1042,7 @@
         foaf:name             "Kyrgyzstan"@en ;
         frapo:hasCountryCode  "KGZ"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/kyrgyzstan/bishkek> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "KGS"^^xsd:string ;
         dbo:area              198500 ;
         dbo:population        5776500 .
 
@@ -1052,7 +1051,7 @@
         foaf:name             "Cambodia"@en ;
         frapo:hasCountryCode  "KHM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/cambodia/phnom-penh> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "KHR"^^xsd:string ;
         dbo:area              181040 ;
         dbo:population        14453680 .
 
@@ -1061,7 +1060,7 @@
         foaf:name             "Kiribati"@en ;
         frapo:hasCountryCode  "KIR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/kiribati/tarawa> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "AUD"^^xsd:string ;
         dbo:area              811 ;
         dbo:population        92533 .
 
@@ -1070,7 +1069,7 @@
         foaf:name             "Comoros"@en ;
         frapo:hasCountryCode  "COM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/comoros/moroni> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "KMF"^^xsd:string ;
         dbo:area              2170 ;
         dbo:population        773407 .
 
@@ -1079,7 +1078,7 @@
         foaf:name             "Saint Kitts and Nevis"@en ;
         frapo:hasCountryCode  "KNA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/saint-kitts-and-nevis/basseterre> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "XCD"^^xsd:string ;
         dbo:area              261 ;
         dbo:population        51134 .
 
@@ -1088,7 +1087,7 @@
         foaf:name             "North Korea"@en ;
         frapo:hasCountryCode  "PRK"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/north-korea/pyongyang> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "KPW"^^xsd:string ;
         dbo:area              120540 ;
         dbo:population        22912177 .
 
@@ -1097,7 +1096,7 @@
         foaf:name             "South Korea"@en ;
         frapo:hasCountryCode  "KOR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/south-korea/seoul> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "KRW"^^xsd:string ;
         dbo:area              98480 ;
         dbo:population        48422644 .
 
@@ -1106,7 +1105,7 @@
         foaf:name             "Kosovo"@en ;
         frapo:hasCountryCode  "XKX"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/kosovo/pristina> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              10908 ;
         dbo:population        1800000 .
 
@@ -1115,7 +1114,7 @@
         foaf:name             "Kuwait"@en ;
         frapo:hasCountryCode  "KWT"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/kuwait/kuwait-city> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "KWD"^^xsd:string ;
         dbo:area              17820 ;
         dbo:population        2789132 .
 
@@ -1124,7 +1123,7 @@
         foaf:name             "Cayman Islands"@en ;
         frapo:hasCountryCode  "CYM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/cayman-islands/george-town> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "KYD"^^xsd:string ;
         dbo:area              262 ;
         dbo:population        44270 .
 
@@ -1133,7 +1132,7 @@
         foaf:name             "Kazakhstan"@en ;
         frapo:hasCountryCode  "KAZ"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/kazakhstan/astana> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "KZT"^^xsd:string ;
         dbo:area              2717300 ;
         dbo:population        15340000 .
 
@@ -1142,7 +1141,7 @@
         foaf:name             "Laos"@en ;
         frapo:hasCountryCode  "LAO"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/laos/vientiane> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "LAK"^^xsd:string ;
         dbo:area              236800 ;
         dbo:population        6368162 .
 
@@ -1151,7 +1150,7 @@
         foaf:name             "Lebanon"@en ;
         frapo:hasCountryCode  "LBN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/lebanon/beirut> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "LBP"^^xsd:string ;
         dbo:area              10400 ;
         dbo:population        4125247 .
 
@@ -1160,7 +1159,7 @@
         foaf:name             "Saint Lucia"@en ;
         frapo:hasCountryCode  "LCA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/saint-lucia/castries> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "XCD"^^xsd:string ;
         dbo:area              616 ;
         dbo:population        160922 .
 
@@ -1169,7 +1168,7 @@
         foaf:name             "Liechtenstein"@en ;
         frapo:hasCountryCode  "LIE"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/liechtenstein/vaduz> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "CHF"^^xsd:string ;
         dbo:area              160 ;
         dbo:population        35000 .
 
@@ -1178,7 +1177,7 @@
         foaf:name             "Sri Lanka"@en ;
         frapo:hasCountryCode  "LKA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/sri-lanka/colombo> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "LKR"^^xsd:string ;
         dbo:area              65610 ;
         dbo:population        21513990 .
 
@@ -1187,7 +1186,7 @@
         foaf:name             "Liberia"@en ;
         frapo:hasCountryCode  "LBR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/liberia/monrovia> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "LRD"^^xsd:string ;
         dbo:area              111370 ;
         dbo:population        3685076 .
 
@@ -1196,7 +1195,7 @@
         foaf:name             "Lesotho"@en ;
         frapo:hasCountryCode  "LSO"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/lesotho/maseru> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "LSL"^^xsd:string ;
         dbo:area              30355 ;
         dbo:population        1919552 .
 
@@ -1205,7 +1204,7 @@
         foaf:name             "Lithuania"@en ;
         frapo:hasCountryCode  "LTU"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/lithuania/vilnius> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              65200 ;
         dbo:population        2944459 .
 
@@ -1214,7 +1213,7 @@
         foaf:name             "Luxembourg"@en ;
         frapo:hasCountryCode  "LUX"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/luxembourg/luxembourg> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              2586 ;
         dbo:population        497538 .
 
@@ -1223,7 +1222,7 @@
         foaf:name             "Latvia"@en ;
         frapo:hasCountryCode  "LVA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/latvia/riga> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              64589 ;
         dbo:population        2217969 .
 
@@ -1232,7 +1231,7 @@
         foaf:name             "Libya"@en ;
         frapo:hasCountryCode  "LBY"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/libya/tripoli> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "LYD"^^xsd:string ;
         dbo:area              1759540 ;
         dbo:population        6461454 .
 
@@ -1241,7 +1240,7 @@
         foaf:name             "Morocco"@en ;
         frapo:hasCountryCode  "MAR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/morocco/rabat> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "MAD"^^xsd:string ;
         dbo:area              446550 ;
         dbo:population        31627428 .
 
@@ -1250,7 +1249,7 @@
         foaf:name             "Monaco"@en ;
         frapo:hasCountryCode  "MCO"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/monaco/monaco> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:population        32965 .
 
 <http://hrachjar.cz/country/europe/moldova>
@@ -1258,7 +1257,7 @@
         foaf:name             "Moldova"@en ;
         frapo:hasCountryCode  "MDA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/moldova/chisinau> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "MDL"^^xsd:string ;
         dbo:area              33843 ;
         dbo:population        4324000 .
 
@@ -1267,7 +1266,7 @@
         foaf:name             "Montenegro"@en ;
         frapo:hasCountryCode  "MNE"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/montenegro/podgorica> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              14026 ;
         dbo:population        666730 .
 
@@ -1276,7 +1275,7 @@
         foaf:name             "Saint Martin"@en ;
         frapo:hasCountryCode  "MAF"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/saint-martin/marigot> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              53 ;
         dbo:population        35925 .
 
@@ -1285,7 +1284,7 @@
         foaf:name             "Madagascar"@en ;
         frapo:hasCountryCode  "MDG"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/madagascar/antananarivo> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "MGA"^^xsd:string ;
         dbo:area              587040 ;
         dbo:population        21281844 .
 
@@ -1294,7 +1293,7 @@
         foaf:name             "Marshall Islands"@en ;
         frapo:hasCountryCode  "MHL"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/marshall-islands/majuro> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "USD"^^xsd:string ;
         dbo:population        65859 .
 
 <http://hrachjar.cz/country/europe/macedonia>
@@ -1302,7 +1301,7 @@
         foaf:name             "Macedonia"@en ;
         frapo:hasCountryCode  "MKD"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/macedonia/skopje> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "MKD"^^xsd:string ;
         dbo:area              25333 ;
         dbo:population        2062294 .
 
@@ -1311,7 +1310,7 @@
         foaf:name             "Mali"@en ;
         frapo:hasCountryCode  "MLI"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/mali/bamako> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "XOF"^^xsd:string ;
         dbo:area              1240000 ;
         dbo:population        13796354 .
 
@@ -1320,7 +1319,7 @@
         foaf:name             "Myanmar"@en ;
         frapo:hasCountryCode  "MMR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/myanmar/nay-pyi-taw> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "MMK"^^xsd:string ;
         dbo:area              678500 ;
         dbo:population        53414374 .
 
@@ -1329,7 +1328,7 @@
         foaf:name             "Mongolia"@en ;
         frapo:hasCountryCode  "MNG"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/mongolia/ulan-bator> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "MNT"^^xsd:string ;
         dbo:area              1565000 ;
         dbo:population        3086918 .
 
@@ -1338,7 +1337,7 @@
         foaf:name             "Macao"@en ;
         frapo:hasCountryCode  "MAC"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/macao/macao> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "MOP"^^xsd:string ;
         dbo:area              254 ;
         dbo:population        449198 .
 
@@ -1347,7 +1346,7 @@
         foaf:name             "Northern Mariana Islands"@en ;
         frapo:hasCountryCode  "MNP"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/northern-mariana-islands/saipan> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "USD"^^xsd:string ;
         dbo:area              477 ;
         dbo:population        53883 .
 
@@ -1356,7 +1355,7 @@
         foaf:name             "Martinique"@en ;
         frapo:hasCountryCode  "MTQ"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/martinique/fort-de-france> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              1100 ;
         dbo:population        432900 .
 
@@ -1365,7 +1364,7 @@
         foaf:name             "Mauritania"@en ;
         frapo:hasCountryCode  "MRT"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/mauritania/nouakchott> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "MRO"^^xsd:string ;
         dbo:area              1030700 ;
         dbo:population        3205060 .
 
@@ -1374,7 +1373,7 @@
         foaf:name             "Montserrat"@en ;
         frapo:hasCountryCode  "MSR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/montserrat/plymouth> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "XCD"^^xsd:string ;
         dbo:area              102 ;
         dbo:population        9341 .
 
@@ -1383,7 +1382,7 @@
         foaf:name             "Malta"@en ;
         frapo:hasCountryCode  "MLT"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/malta/valletta> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              316 ;
         dbo:population        403000 .
 
@@ -1392,7 +1391,7 @@
         foaf:name             "Mauritius"@en ;
         frapo:hasCountryCode  "MUS"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/mauritius/port-louis> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "MUR"^^xsd:string ;
         dbo:area              2040 ;
         dbo:population        1294104 .
 
@@ -1401,7 +1400,7 @@
         foaf:name             "Maldives"@en ;
         frapo:hasCountryCode  "MDV"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/maldives/male> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "MVR"^^xsd:string ;
         dbo:area              300 ;
         dbo:population        395650 .
 
@@ -1410,7 +1409,7 @@
         foaf:name             "Malawi"@en ;
         frapo:hasCountryCode  "MWI"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/malawi/lilongwe> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "MWK"^^xsd:string ;
         dbo:area              118480 ;
         dbo:population        15447500 .
 
@@ -1419,7 +1418,7 @@
         foaf:name             "Mexico"@en ;
         frapo:hasCountryCode  "MEX"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/mexico/mexico-city> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "MXN"^^xsd:string ;
         dbo:area              1972550 ;
         dbo:population        112468855 .
 
@@ -1428,7 +1427,7 @@
         foaf:name             "Malaysia"@en ;
         frapo:hasCountryCode  "MYS"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/malaysia/kuala-lumpur> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "MYR"^^xsd:string ;
         dbo:area              329750 ;
         dbo:population        28274729 .
 
@@ -1437,7 +1436,7 @@
         foaf:name             "Mozambique"@en ;
         frapo:hasCountryCode  "MOZ"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/mozambique/maputo> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "MZN"^^xsd:string ;
         dbo:area              801590 ;
         dbo:population        22061451 .
 
@@ -1446,7 +1445,7 @@
         foaf:name             "Namibia"@en ;
         frapo:hasCountryCode  "NAM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/namibia/windhoek> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "NAD"^^xsd:string ;
         dbo:area              825418 ;
         dbo:population        2128471 .
 
@@ -1455,7 +1454,7 @@
         foaf:name             "New Caledonia"@en ;
         frapo:hasCountryCode  "NCL"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/new-caledonia/noumea> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "XPF"^^xsd:string ;
         dbo:area              19060 ;
         dbo:population        216494 .
 
@@ -1464,7 +1463,7 @@
         foaf:name             "Niger"@en ;
         frapo:hasCountryCode  "NER"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/niger/niamey> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "XOF"^^xsd:string ;
         dbo:area              1267000 ;
         dbo:population        15878271 .
 
@@ -1473,7 +1472,7 @@
         foaf:name             "Norfolk Island"@en ;
         frapo:hasCountryCode  "NFK"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/norfolk-island/kingston> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "AUD"^^xsd:string ;
         dbo:population        1828 .
 
 <http://hrachjar.cz/country/africa/nigeria>
@@ -1481,7 +1480,7 @@
         foaf:name             "Nigeria"@en ;
         frapo:hasCountryCode  "NGA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/nigeria/abuja> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "NGN"^^xsd:string ;
         dbo:area              923768 ;
         dbo:population        154000000 .
 
@@ -1490,7 +1489,7 @@
         foaf:name             "Nicaragua"@en ;
         frapo:hasCountryCode  "NIC"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/nicaragua/managua> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "NIO"^^xsd:string ;
         dbo:area              129494 ;
         dbo:population        5995928 .
 
@@ -1499,7 +1498,7 @@
         foaf:name             "Netherlands"@en ;
         frapo:hasCountryCode  "NLD"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/netherlands/amsterdam> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              41526 ;
         dbo:population        16645000 .
 
@@ -1508,7 +1507,7 @@
         foaf:name             "Norway"@en ;
         frapo:hasCountryCode  "NOR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/norway/oslo> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "NOK"^^xsd:string ;
         dbo:area              324220 ;
         dbo:population        5009150 .
 
@@ -1517,7 +1516,7 @@
         foaf:name             "Nepal"@en ;
         frapo:hasCountryCode  "NPL"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/nepal/kathmandu> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "NPR"^^xsd:string ;
         dbo:area              140800 ;
         dbo:population        28951852 .
 
@@ -1526,7 +1525,7 @@
         foaf:name             "Nauru"@en ;
         frapo:hasCountryCode  "NRU"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/nauru/yaren> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "AUD"^^xsd:string ;
         dbo:area              21 ;
         dbo:population        10065 .
 
@@ -1535,7 +1534,7 @@
         foaf:name             "Niue"@en ;
         frapo:hasCountryCode  "NIU"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/niue/alofi> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "NZD"^^xsd:string ;
         dbo:area              260 ;
         dbo:population        2166 .
 
@@ -1544,7 +1543,7 @@
         foaf:name             "New Zealand"@en ;
         frapo:hasCountryCode  "NZL"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/new-zealand/wellington> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "NZD"^^xsd:string ;
         dbo:area              268680 ;
         dbo:population        4252277 .
 
@@ -1553,7 +1552,7 @@
         foaf:name             "Oman"@en ;
         frapo:hasCountryCode  "OMN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/oman/muscat> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "OMR"^^xsd:string ;
         dbo:area              212460 ;
         dbo:population        2967717 .
 
@@ -1562,7 +1561,7 @@
         foaf:name             "Panama"@en ;
         frapo:hasCountryCode  "PAN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/panama/panama-city> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "PAB"^^xsd:string ;
         dbo:area              78200 ;
         dbo:population        3410676 .
 
@@ -1571,7 +1570,7 @@
         foaf:name             "Peru"@en ;
         frapo:hasCountryCode  "PER"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/south-america/peru/lima> ;
-        gr:hasCurrency        "SA"^^xsd:string ;
+        gr:hasCurrency        "PEN"^^xsd:string ;
         dbo:area              1285220 ;
         dbo:population        29907003 .
 
@@ -1580,7 +1579,7 @@
         foaf:name             "French Polynesia"@en ;
         frapo:hasCountryCode  "PYF"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/french-polynesia/papeete> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "XPF"^^xsd:string ;
         dbo:area              4167 ;
         dbo:population        270485 .
 
@@ -1589,7 +1588,7 @@
         foaf:name             "Papua New Guinea"@en ;
         frapo:hasCountryCode  "PNG"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/papua-new-guinea/port-moresby> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "PGK"^^xsd:string ;
         dbo:area              462840 ;
         dbo:population        6064515 .
 
@@ -1598,7 +1597,7 @@
         foaf:name             "Philippines"@en ;
         frapo:hasCountryCode  "PHL"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/philippines/manila> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "PHP"^^xsd:string ;
         dbo:area              300000 ;
         dbo:population        99900177 .
 
@@ -1607,7 +1606,7 @@
         foaf:name             "Pakistan"@en ;
         frapo:hasCountryCode  "PAK"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/pakistan/islamabad> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "PKR"^^xsd:string ;
         dbo:area              803940 ;
         dbo:population        184404791 .
 
@@ -1616,7 +1615,7 @@
         foaf:name             "Poland"@en ;
         frapo:hasCountryCode  "POL"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/poland/warsaw> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "PLN"^^xsd:string ;
         dbo:area              312685 ;
         dbo:population        38500000 .
 
@@ -1625,7 +1624,7 @@
         foaf:name             "Saint Pierre and Miquelon"@en ;
         frapo:hasCountryCode  "SPM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/saint-pierre-and-miquelon/saint-pierre> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              242 ;
         dbo:population        7012 .
 
@@ -1634,7 +1633,7 @@
         foaf:name             "Pitcairn"@en ;
         frapo:hasCountryCode  "PCN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/pitcairn/adamstown> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "NZD"^^xsd:string ;
         dbo:area              47 ;
         dbo:population        46 .
 
@@ -1643,7 +1642,7 @@
         foaf:name             "Puerto Rico"@en ;
         frapo:hasCountryCode  "PRI"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/puerto-rico/san-juan> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "USD"^^xsd:string ;
         dbo:area              9104 ;
         dbo:population        3916632 .
 
@@ -1652,7 +1651,7 @@
         foaf:name             "Palestinian Territory"@en ;
         frapo:hasCountryCode  "PSE"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/palestinian-territory/east-jerusalem> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "ILS"^^xsd:string ;
         dbo:area              5970 ;
         dbo:population        3800000 .
 
@@ -1661,7 +1660,7 @@
         foaf:name             "Portugal"@en ;
         frapo:hasCountryCode  "PRT"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/portugal/lisbon> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              92391 ;
         dbo:population        10676000 .
 
@@ -1670,7 +1669,7 @@
         foaf:name             "Palau"@en ;
         frapo:hasCountryCode  "PLW"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/palau/melekeok> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "USD"^^xsd:string ;
         dbo:area              458 ;
         dbo:population        19907 .
 
@@ -1679,7 +1678,7 @@
         foaf:name             "Paraguay"@en ;
         frapo:hasCountryCode  "PRY"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/south-america/paraguay/asuncion> ;
-        gr:hasCurrency        "SA"^^xsd:string ;
+        gr:hasCurrency        "PYG"^^xsd:string ;
         dbo:area              406750 ;
         dbo:population        6375830 .
 
@@ -1688,7 +1687,7 @@
         foaf:name             "Qatar"@en ;
         frapo:hasCountryCode  "QAT"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/qatar/doha> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "QAR"^^xsd:string ;
         dbo:area              11437 ;
         dbo:population        840926 .
 
@@ -1697,7 +1696,7 @@
         foaf:name             "Reunion"@en ;
         frapo:hasCountryCode  "REU"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/reunion/saint-denis> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              2517 ;
         dbo:population        776948 .
 
@@ -1706,7 +1705,7 @@
         foaf:name             "Romania"@en ;
         frapo:hasCountryCode  "ROU"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/romania/bucharest> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "RON"^^xsd:string ;
         dbo:area              237500 ;
         dbo:population        21959278 .
 
@@ -1715,7 +1714,7 @@
         foaf:name             "Serbia"@en ;
         frapo:hasCountryCode  "SRB"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/serbia/belgrade> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "RSD"^^xsd:string ;
         dbo:area              88361 ;
         dbo:population        7344847 .
 
@@ -1724,7 +1723,7 @@
         foaf:name             "Russia"@en ;
         frapo:hasCountryCode  "RUS"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/russia/moscow> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "RUB"^^xsd:string ;
         dbo:area              17100000 ;
         dbo:population        140702000 .
 
@@ -1733,7 +1732,7 @@
         foaf:name             "Rwanda"@en ;
         frapo:hasCountryCode  "RWA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/rwanda/kigali> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "RWF"^^xsd:string ;
         dbo:area              26338 ;
         dbo:population        11055976 .
 
@@ -1742,7 +1741,7 @@
         foaf:name             "Saudi Arabia"@en ;
         frapo:hasCountryCode  "SAU"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/saudi-arabia/riyadh> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "SAR"^^xsd:string ;
         dbo:area              1960582 ;
         dbo:population        25731776 .
 
@@ -1751,7 +1750,7 @@
         foaf:name             "Solomon Islands"@en ;
         frapo:hasCountryCode  "SLB"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/solomon-islands/honiara> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "SBD"^^xsd:string ;
         dbo:area              28450 ;
         dbo:population        559198 .
 
@@ -1760,7 +1759,7 @@
         foaf:name             "Seychelles"@en ;
         frapo:hasCountryCode  "SYC"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/seychelles/victoria> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "SCR"^^xsd:string ;
         dbo:area              455 ;
         dbo:population        88340 .
 
@@ -1769,7 +1768,7 @@
         foaf:name             "Sudan"@en ;
         frapo:hasCountryCode  "SDN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/sudan/khartoum> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "SDG"^^xsd:string ;
         dbo:area              1861484 ;
         dbo:population        35000000 .
 
@@ -1778,7 +1777,7 @@
         foaf:name             "South Sudan"@en ;
         frapo:hasCountryCode  "SSD"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/south-sudan/juba> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "SSP"^^xsd:string ;
         dbo:area              644329 ;
         dbo:population        8260490 .
 
@@ -1787,7 +1786,7 @@
         foaf:name             "Sweden"@en ;
         frapo:hasCountryCode  "SWE"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/sweden/stockholm> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "SEK"^^xsd:string ;
         dbo:area              449964 ;
         dbo:population        9828655 .
 
@@ -1796,7 +1795,7 @@
         foaf:name             "Singapore"@en ;
         frapo:hasCountryCode  "SGP"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/singapore/singapore> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "SGD"^^xsd:string ;
         dbo:population        4701069 .
 
 <http://hrachjar.cz/country/africa/saint-helena>
@@ -1804,7 +1803,7 @@
         foaf:name             "Saint Helena"@en ;
         frapo:hasCountryCode  "SHN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/saint-helena/jamestown> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "SHP"^^xsd:string ;
         dbo:area              410 ;
         dbo:population        7460 .
 
@@ -1813,7 +1812,7 @@
         foaf:name             "Slovenia"@en ;
         frapo:hasCountryCode  "SVN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/slovenia/ljubljana> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              20273 ;
         dbo:population        2007000 .
 
@@ -1822,7 +1821,7 @@
         foaf:name             "Svalbard and Jan Mayen"@en ;
         frapo:hasCountryCode  "SJM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/svalbard-and-jan-mayen/longyearbyen> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "NOK"^^xsd:string ;
         dbo:area              62049 ;
         dbo:population        2550 .
 
@@ -1831,7 +1830,7 @@
         foaf:name             "Slovakia"@en ;
         frapo:hasCountryCode  "SVK"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/slovakia/bratislava> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              48845 ;
         dbo:population        5455000 .
 
@@ -1840,7 +1839,7 @@
         foaf:name             "Sierra Leone"@en ;
         frapo:hasCountryCode  "SLE"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/sierra-leone/freetown> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "SLL"^^xsd:string ;
         dbo:area              71740 ;
         dbo:population        5245695 .
 
@@ -1849,7 +1848,7 @@
         foaf:name             "San Marino"@en ;
         frapo:hasCountryCode  "SMR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/san-marino/san-marino> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:population        31477 .
 
 <http://hrachjar.cz/country/africa/senegal>
@@ -1857,7 +1856,7 @@
         foaf:name             "Senegal"@en ;
         frapo:hasCountryCode  "SEN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/senegal/dakar> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "XOF"^^xsd:string ;
         dbo:area              196190 ;
         dbo:population        12323252 .
 
@@ -1866,7 +1865,7 @@
         foaf:name             "Somalia"@en ;
         frapo:hasCountryCode  "SOM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/somalia/mogadishu> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "SOS"^^xsd:string ;
         dbo:area              637657 ;
         dbo:population        10112453 .
 
@@ -1875,7 +1874,7 @@
         foaf:name             "Suriname"@en ;
         frapo:hasCountryCode  "SUR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/south-america/suriname/paramaribo> ;
-        gr:hasCurrency        "SA"^^xsd:string ;
+        gr:hasCurrency        "SRD"^^xsd:string ;
         dbo:area              163270 ;
         dbo:population        492829 .
 
@@ -1884,7 +1883,7 @@
         foaf:name             "Sao Tome and Principe"@en ;
         frapo:hasCountryCode  "STP"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/sao-tome-and-principe/sao-tome> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "STD"^^xsd:string ;
         dbo:area              1001 ;
         dbo:population        175808 .
 
@@ -1893,7 +1892,7 @@
         foaf:name             "El Salvador"@en ;
         frapo:hasCountryCode  "SLV"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/el-salvador/san-salvador> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "USD"^^xsd:string ;
         dbo:area              21040 ;
         dbo:population        6052064 .
 
@@ -1902,7 +1901,7 @@
         foaf:name             "Sint Maarten"@en ;
         frapo:hasCountryCode  "SXM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/sint-maarten/philipsburg> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "ANG"^^xsd:string ;
         dbo:area              21 ;
         dbo:population        37429 .
 
@@ -1911,7 +1910,7 @@
         foaf:name             "Syria"@en ;
         frapo:hasCountryCode  "SYR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/syria/damascus> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "SYP"^^xsd:string ;
         dbo:area              185180 ;
         dbo:population        22198110 .
 
@@ -1920,7 +1919,7 @@
         foaf:name             "Swaziland"@en ;
         frapo:hasCountryCode  "SWZ"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/swaziland/mbabane> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "SZL"^^xsd:string ;
         dbo:area              17363 ;
         dbo:population        1354051 .
 
@@ -1929,7 +1928,7 @@
         foaf:name             "Turks and Caicos Islands"@en ;
         frapo:hasCountryCode  "TCA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/turks-and-caicos-islands/cockburn-town> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "USD"^^xsd:string ;
         dbo:area              430 ;
         dbo:population        20556 .
 
@@ -1938,7 +1937,7 @@
         foaf:name             "Chad"@en ;
         frapo:hasCountryCode  "TCD"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/chad/ndjamena> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "XAF"^^xsd:string ;
         dbo:area              1284000 ;
         dbo:population        10543464 .
 
@@ -1947,7 +1946,7 @@
         foaf:name             "French Southern Territories"@en ;
         frapo:hasCountryCode  "ATF"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/antarctica/french-southern-territories/port-aux-francais> ;
-        gr:hasCurrency        "AN"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              7829 ;
         dbo:population        140 .
 
@@ -1956,7 +1955,7 @@
         foaf:name             "Togo"@en ;
         frapo:hasCountryCode  "TGO"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/togo/lome> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "XOF"^^xsd:string ;
         dbo:area              56785 ;
         dbo:population        6587239 .
 
@@ -1965,7 +1964,7 @@
         foaf:name             "Thailand"@en ;
         frapo:hasCountryCode  "THA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/thailand/bangkok> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "THB"^^xsd:string ;
         dbo:area              514000 ;
         dbo:population        67089500 .
 
@@ -1974,7 +1973,7 @@
         foaf:name             "Tajikistan"@en ;
         frapo:hasCountryCode  "TJK"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/tajikistan/dushanbe> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "TJS"^^xsd:string ;
         dbo:area              143100 ;
         dbo:population        7487489 .
 
@@ -1982,7 +1981,7 @@
         rdf:type              country:Country ;
         foaf:name             "Tokelau"@en ;
         frapo:hasCountryCode  "TKL"^^xsd:string ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "NZD"^^xsd:string ;
         dbo:area              10 ;
         dbo:population        1466 .
 
@@ -1991,7 +1990,7 @@
         foaf:name             "East Timor"@en ;
         frapo:hasCountryCode  "TLS"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/east-timor/dili> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "USD"^^xsd:string ;
         dbo:area              15007 ;
         dbo:population        1154625 .
 
@@ -2000,7 +1999,7 @@
         foaf:name             "Turkmenistan"@en ;
         frapo:hasCountryCode  "TKM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/turkmenistan/ashgabat> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "TMT"^^xsd:string ;
         dbo:area              488100 ;
         dbo:population        4940916 .
 
@@ -2009,7 +2008,7 @@
         foaf:name             "Tunisia"@en ;
         frapo:hasCountryCode  "TUN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/tunisia/tunis> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "TND"^^xsd:string ;
         dbo:area              163610 ;
         dbo:population        10589025 .
 
@@ -2018,7 +2017,7 @@
         foaf:name             "Tonga"@en ;
         frapo:hasCountryCode  "TON"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/tonga/nukualofa> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "TOP"^^xsd:string ;
         dbo:area              748 ;
         dbo:population        122580 .
 
@@ -2027,7 +2026,7 @@
         foaf:name             "Turkey"@en ;
         frapo:hasCountryCode  "TUR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/turkey/ankara> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "TRY"^^xsd:string ;
         dbo:area              780580 ;
         dbo:population        77804122 .
 
@@ -2036,7 +2035,7 @@
         foaf:name             "Trinidad and Tobago"@en ;
         frapo:hasCountryCode  "TTO"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/trinidad-and-tobago/port-of-spain> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "TTD"^^xsd:string ;
         dbo:area              5128 ;
         dbo:population        1228691 .
 
@@ -2045,7 +2044,7 @@
         foaf:name             "Tuvalu"@en ;
         frapo:hasCountryCode  "TUV"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/tuvalu/funafuti> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "AUD"^^xsd:string ;
         dbo:area              26 ;
         dbo:population        10472 .
 
@@ -2054,7 +2053,7 @@
         foaf:name             "Taiwan"@en ;
         frapo:hasCountryCode  "TWN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/taiwan/taipei> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "TWD"^^xsd:string ;
         dbo:area              35980 ;
         dbo:population        22894384 .
 
@@ -2063,7 +2062,7 @@
         foaf:name             "Tanzania"@en ;
         frapo:hasCountryCode  "TZA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/tanzania/dodoma> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "TZS"^^xsd:string ;
         dbo:area              945087 ;
         dbo:population        41892895 .
 
@@ -2072,7 +2071,7 @@
         foaf:name             "Ukraine"@en ;
         frapo:hasCountryCode  "UKR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/ukraine/kiev> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "UAH"^^xsd:string ;
         dbo:area              603700 ;
         dbo:population        45415596 .
 
@@ -2081,7 +2080,7 @@
         foaf:name             "Uganda"@en ;
         frapo:hasCountryCode  "UGA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/uganda/kampala> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "UGX"^^xsd:string ;
         dbo:area              236040 ;
         dbo:population        33398682 .
 
@@ -2089,7 +2088,7 @@
         rdf:type              country:Country ;
         foaf:name             "United States Minor Outlying Islands"@en ;
         frapo:hasCountryCode  "UMI"^^xsd:string ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "USD"^^xsd:string ;
         dbo:area              0 ;
         dbo:population        0 .
 
@@ -2098,7 +2097,7 @@
         foaf:name             "United States"@en ;
         frapo:hasCountryCode  "USA"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/united-states/washington> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "USD"^^xsd:string ;
         dbo:area              9629091 ;
         dbo:population        310232863 .
 
@@ -2107,7 +2106,7 @@
         foaf:name             "Uruguay"@en ;
         frapo:hasCountryCode  "URY"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/south-america/uruguay/montevideo> ;
-        gr:hasCurrency        "SA"^^xsd:string ;
+        gr:hasCurrency        "UYU"^^xsd:string ;
         dbo:area              176220 ;
         dbo:population        3477000 .
 
@@ -2116,7 +2115,7 @@
         foaf:name             "Uzbekistan"@en ;
         frapo:hasCountryCode  "UZB"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/uzbekistan/tashkent> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "UZS"^^xsd:string ;
         dbo:area              447400 ;
         dbo:population        27865738 .
 
@@ -2125,7 +2124,7 @@
         foaf:name             "Vatican"@en ;
         frapo:hasCountryCode  "VAT"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/vatican/vatican-city> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:population        921 .
 
 <http://hrachjar.cz/country/north-america/saint-vincent-and-the-grenadines>
@@ -2133,7 +2132,7 @@
         foaf:name             "Saint Vincent and the Grenadines"@en ;
         frapo:hasCountryCode  "VCT"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/saint-vincent-and-the-grenadines/kingstown> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "XCD"^^xsd:string ;
         dbo:area              389 ;
         dbo:population        104217 .
 
@@ -2142,7 +2141,7 @@
         foaf:name             "Venezuela"@en ;
         frapo:hasCountryCode  "VEN"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/south-america/venezuela/caracas> ;
-        gr:hasCurrency        "SA"^^xsd:string ;
+        gr:hasCurrency        "VEF"^^xsd:string ;
         dbo:area              912050 ;
         dbo:population        27223228 .
 
@@ -2151,7 +2150,7 @@
         foaf:name             "British Virgin Islands"@en ;
         frapo:hasCountryCode  "VGB"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/british-virgin-islands/road-town> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "USD"^^xsd:string ;
         dbo:area              153 ;
         dbo:population        21730 .
 
@@ -2160,7 +2159,7 @@
         foaf:name             "U.S. Virgin Islands"@en ;
         frapo:hasCountryCode  "VIR"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/u.s.-virgin-islands/charlotte-amalie> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "USD"^^xsd:string ;
         dbo:area              352 ;
         dbo:population        108708 .
 
@@ -2169,7 +2168,7 @@
         foaf:name             "Vietnam"@en ;
         frapo:hasCountryCode  "VNM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/vietnam/hanoi> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "VND"^^xsd:string ;
         dbo:area              329560 ;
         dbo:population        89571130 .
 
@@ -2178,7 +2177,7 @@
         foaf:name             "Vanuatu"@en ;
         frapo:hasCountryCode  "VUT"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/vanuatu/port-vila> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "VUV"^^xsd:string ;
         dbo:area              12200 ;
         dbo:population        221552 .
 
@@ -2187,7 +2186,7 @@
         foaf:name             "Wallis and Futuna"@en ;
         frapo:hasCountryCode  "WLF"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/wallis-and-futuna/mata-utu> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "XPF"^^xsd:string ;
         dbo:area              274 ;
         dbo:population        16025 .
 
@@ -2196,7 +2195,7 @@
         foaf:name             "Samoa"@en ;
         frapo:hasCountryCode  "WSM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/australia/samoa/apia> ;
-        gr:hasCurrency        "OC"^^xsd:string ;
+        gr:hasCurrency        "WST"^^xsd:string ;
         dbo:area              2944 ;
         dbo:population        192001 .
 
@@ -2205,7 +2204,7 @@
         foaf:name             "Yemen"@en ;
         frapo:hasCountryCode  "YEM"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/asia/yemen/sanaa> ;
-        gr:hasCurrency        "AS"^^xsd:string ;
+        gr:hasCurrency        "YER"^^xsd:string ;
         dbo:area              527970 ;
         dbo:population        23495361 .
 
@@ -2214,7 +2213,7 @@
         foaf:name             "Mayotte"@en ;
         frapo:hasCountryCode  "MYT"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/mayotte/mamoudzou> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "EUR"^^xsd:string ;
         dbo:area              374 ;
         dbo:population        159042 .
 
@@ -2223,7 +2222,7 @@
         foaf:name             "South Africa"@en ;
         frapo:hasCountryCode  "ZAF"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/south-africa/pretoria> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "ZAR"^^xsd:string ;
         dbo:area              1219912 ;
         dbo:population        49000000 .
 
@@ -2232,7 +2231,7 @@
         foaf:name             "Zambia"@en ;
         frapo:hasCountryCode  "ZMB"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/zambia/lusaka> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "ZMW"^^xsd:string ;
         dbo:area              752614 ;
         dbo:population        13460305 .
 
@@ -2241,7 +2240,7 @@
         foaf:name             "Zimbabwe"@en ;
         frapo:hasCountryCode  "ZWE"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/africa/zimbabwe/harare> ;
-        gr:hasCurrency        "AF"^^xsd:string ;
+        gr:hasCurrency        "ZWL"^^xsd:string ;
         dbo:area              390580 ;
         dbo:population        13061000 .
 
@@ -2250,7 +2249,7 @@
         foaf:name             "Serbia and Montenegro"@en ;
         frapo:hasCountryCode  "SCG"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/europe/serbia-and-montenegro/belgrade> ;
-        gr:hasCurrency        "EU"^^xsd:string ;
+        gr:hasCurrency        "RSD"^^xsd:string ;
         dbo:area              102350 ;
         dbo:population        10829175 .
 
@@ -2259,6 +2258,6 @@
         foaf:name             "Netherlands Antilles"@en ;
         frapo:hasCountryCode  "ANT"^^xsd:string ;
         dbo:capital           <http://hrachjar.cz/country/north-america/netherlands-antilles/willemstad> ;
-        gr:hasCurrency        "NA"^^xsd:string ;
+        gr:hasCurrency        "ANG"^^xsd:string ;
         dbo:area              960 ;
         dbo:population        300000 .
