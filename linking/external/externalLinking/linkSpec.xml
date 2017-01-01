@@ -1,0 +1,27 @@
+<Interlink id="externalLinking">
+        <SourceDataset dataSource="dbpedia" var="a" typeUri="http://dbpedia.org/ontology/Country">
+        <RestrictTo>
+          ?a a &lt;http://dbpedia.org/ontology/Country&gt; .
+        </RestrictTo>
+      </SourceDataset>
+        <TargetDataset dataSource="countries" var="b" typeUri="http://hrachjar.cz/country/#Country">
+        <RestrictTo>
+          
+        </RestrictTo>
+      </TargetDataset>
+        <LinkageRule linkType="&lt;http://www.w3.org/2002/07/owl#sameAs&gt;">
+        <Compare id="levenshteinDistance1" required="false" weight="1" metric="levenshteinDistance" threshold="0.0" indexing="true">
+            <TransformInput id="lowerCase1" function="lowerCase">
+            <Input id="sourcePath1" path="/&lt;http://dbpedia.org/property/commonName&gt;"/>
+            
+          </TransformInput><TransformInput id="lowerCase2" function="lowerCase">
+            <Input id="targetPath1" path="/&lt;http://xmlns.com/foaf/0.1/#name&gt;"/>
+            
+          </TransformInput><Param name="minChar" value="0"/><Param name="maxChar" value="z"/>
+          </Compare>
+        <Filter limit="1"/>
+      </LinkageRule>
+        <Outputs>
+          <Output id="externalOutput"></Output>
+        </Outputs>
+      </Interlink>

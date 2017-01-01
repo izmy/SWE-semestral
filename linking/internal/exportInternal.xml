@@ -1,0 +1,49 @@
+<Silk>
+        <Prefixes>
+      <Prefix id="economy" namespace="http://hrachjar.cz/economy/#"/><Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/><Prefix id="dbo" namespace="http://dbpedia.org/ontology/"/><Prefix id="gr" namespace="http://purl.org/goodrelations/v1#"/><Prefix id="country" namespace="http://hrachjar.cz/country/#"/><Prefix id="sector" namespace="http://hrachjar.cz/sector/#"/><Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/><Prefix id="company" namespace="http://hrachjar.cz/company/#"/><Prefix id="eg" namespace="http://example.org/ns#"/><Prefix id="skos" namespace="http://www.w3.org/2004/02/skos/core#"/><Prefix id="foaf" namespace="http://xmlns.com/foaf/0.1/#"/><Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/><Prefix id="xsd" namespace="http://www.w3.org/2001/XMLSchema#"/><Prefix id="qb" namespace="http://purl.org/linked-data/cube#"/>
+    </Prefixes>
+        <DataSources>
+          <Dataset id="countries" type="file">
+            <Param name="file" value="countries.ttl"/><Param name="format" value="turtle"/><Param name="graph" value=""/>
+          </Dataset><Dataset id="economy" type="file">
+            <Param name="file" value="economy.ttl"/><Param name="format" value="turtle"/><Param name="graph" value=""/>
+          </Dataset>
+        </DataSources>
+        <Interlinks>
+          <Interlink id="linkingCountries">
+        <SourceDataset dataSource="countries" var="a" typeUri="http://hrachjar.cz/country/#Country">
+        <RestrictTo>
+          
+        </RestrictTo>
+      </SourceDataset>
+        <TargetDataset dataSource="economy" var="b" typeUri="http://hrachjar.cz/economy/#Economy">
+        <RestrictTo>
+          
+        </RestrictTo>
+      </TargetDataset>
+        <LinkageRule linkType="owl:sameAs">
+        <Compare id="levenshteinDistance1" required="false" weight="1" metric="levenshteinDistance" threshold="0.0" indexing="true">
+            <TransformInput id="lowerCase1" function="lowerCase">
+            <Input id="sourcePath1" path="/foaf:name"/>
+            
+          </TransformInput><TransformInput id="lowerCase2" function="lowerCase">
+            <Input id="targetPath1" path="/foaf:name"/>
+            
+          </TransformInput><Param name="minChar" value="0"/><Param name="maxChar" value="z"/>
+          </Compare>
+        <Filter/>
+      </LinkageRule>
+        <Outputs>
+          <Output id="internalOutput"></Output>
+        </Outputs>
+      </Interlink>
+        </Interlinks>
+        <Transforms>
+          
+        </Transforms>
+        <Outputs>
+          <Dataset id="internalOutput" type="file">
+            <Param name="file" value="internalOutput.ttl"/><Param name="format" value="ntriples"/><Param name="graph" value=""/>
+          </Dataset>
+        </Outputs>
+      </Silk>

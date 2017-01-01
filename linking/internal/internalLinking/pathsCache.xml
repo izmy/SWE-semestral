@@ -1,0 +1,30 @@
+<Pair>
+  <Source>
+    <EntityDescription>
+      <Type>http://hrachjar.cz/country/#Country</Type>
+      <Restriction></Restriction>
+      <Paths>
+        <Path>/&lt;http://xmlns.com/foaf/0.1/#name&gt;</Path>
+        <Path>/&lt;http://dbpedia.org/ontology/#population&gt;</Path>
+        <Path>/&lt;http://purl.org/cerif/frapo/#hasCountryCode&gt;</Path>
+        <Path>/&lt;http://purl.org/goodrelations/v1#hasCurrency&gt;</Path>
+        <Path>/&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</Path>
+        <Path>/&lt;http://xmlns.com/foaf/0.1/#name&gt;</Path>
+        <Path>/&lt;http://dbpedia.org/ontology/#capital&gt;</Path>
+        <Path>/&lt;http://dbpedia.org/ontology/#area&gt;</Path>
+      </Paths>
+    </EntityDescription>
+  </Source>
+  <Target>
+    <EntityDescription>
+      <Type>http://hrachjar.cz/economy/#Economy</Type>
+      <Restriction></Restriction>
+      <Paths>
+        <Path>/&lt;http://xmlns.com/foaf/0.1/#name&gt;</Path>
+        <Path>/&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</Path>
+        <Path>/&lt;http://xmlns.com/foaf/0.1/#name&gt;</Path>
+        <Path>\&lt;http://example.org/ns#refArea&gt;</Path>
+      </Paths>
+    </EntityDescription>
+  </Target>
+</Pair>
