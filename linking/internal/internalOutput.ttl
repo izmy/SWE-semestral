@@ -183,3 +183,4 @@
 <http://hrachjar.cz/country/asia/tajikistan>  <http://www.w3.org/2002/07/owl#sameAs>  <http://hrachjar.cz/economy/tajikistan> .
 <http://hrachjar.cz/country/europe/ireland>  <http://www.w3.org/2002/07/owl#sameAs>  <http://hrachjar.cz/economy/ireland> .
 <http://hrachjar.cz/country/asia/bhutan>  <http://www.w3.org/2002/07/owl#sameAs>  <http://hrachjar.cz/economy/bhutan> .
+<http://hrachjar.cz/country/europe/czechia>  <http://www.w3.org/2002/07/owl#sameAs>  <http://hrachjar.cz/economy/czech-republic> .
