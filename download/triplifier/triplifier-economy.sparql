@@ -13,10 +13,10 @@ PREFIX sdmx-dimension:  <http://purl.org/linked-data/sdmx/2009/dimension#>
 CONSTRUCT {
     ?aUri a economy:Economy;
           foaf:name ?country;
-          economy:gdb ?gdb;
-          economy:gdbGrowth ?gdbGrowth;
-          economy:gdpPerCapita ?gdbPC;
-          economy:gdbPerCapitaGrowth ?gdbPCGrowth;
+          economy:gdp ?gdp;
+          economy:gdpGrowth ?gdpGrowth;
+          economy:gdpPerCapita ?gdpPC;
+          economy:gdpPerCapitaGrowth ?gdpPCGrowth;
           economy:inflationGDP ?inflationGDP;
           economy:inflationPPI ?inflationPPI;
           economy:unemployment ?unemployment;
@@ -25,10 +25,10 @@ CONSTRUCT {
 WHERE {
   BIND(IRI(CONCAT('http://hrachjar.cz/economy/', LCASE(REPLACE(?c, " ", "-")))) AS ?aUri)
   BIND(STRLANG(xsd:string(?c), "en") AS ?country)
-  BIND(xsd:double(?e) AS ?gdb)
-  BIND(xsd:double(?f) AS ?gdbGrowth)
-  BIND(xsd:double(?g) AS ?gdbPC)
-  BIND(xsd:double(?h) AS ?gdbPCGrowth)
+  BIND(xsd:double(?e) AS ?gdp)
+  BIND(xsd:double(?f) AS ?gdpGrowth)
+  BIND(xsd:double(?g) AS ?gdpPC)
+  BIND(xsd:double(?h) AS ?gdpPCGrowth)
   BIND(xsd:double(?i) AS ?inflationGDP)
   BIND(xsd:double(?j) AS ?inflationPPI)
   BIND(xsd:double(?k) AS ?unemployment)
