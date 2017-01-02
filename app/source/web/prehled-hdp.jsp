@@ -22,13 +22,17 @@
         Gson gsonObj = new Gson();
         Map<Object,Object> map = null;
         List<Map<Object,Object>> list = new ArrayList<Map<Object,Object>>();
+        List<Map<Object,Object>> list2 = new ArrayList<Map<Object,Object>>();
 
         List<GDP> items = (List) request.getAttribute("listGDP");
-        Integer i = 0;
+        Integer i = 10;
         for(GDP listGDP : items) {
-            map = new HashMap<Object,Object>(); map.put("y", Float.parseFloat(listGDP.getGDPValue()));  map.put("label", listGDP.getCountryName()); list.add(map);
-            i++;
-            if(i == 10) break;
+            map = new HashMap<Object,Object>(); 
+            map.put("y", Float.parseFloat(listGDP.getGDPValue()));  
+            map.put("label", listGDP.getCountryName()); 
+            list.add(0, map);
+            i--;
+            if(i == 0) break;
         }
         String dataPoints1 = gsonObj.toJson(list);
         %>
