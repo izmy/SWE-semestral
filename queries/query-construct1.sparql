@@ -1,0 +1,20 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+PREFIX economy: <http://hrachjar.cz/economy/#>
+PREFIX country: <http://hrachjar.cz/country/#>
+PREFIX dbo: <http://dbpedia.org/ontology/#>
+
+construct {
+  ?economy a economy:Economy;
+    foaf:name ?name ;
+    dbo:area ?area ;
+    economy:gdp ?gdp ;
+    economy:gdpPerLand ?gdpPerLand ;	
+} where {
+  ?country a country:Country ;
+    dbo:area ?area .
+    ?country owl:sameAs ?economy .
+    ?economy a economy:Economy ;
+    foaf:name ?name ;
+    economy:gdp  ?gdp  .
+    BIND( ( ?gdp/?area ) AS ?gdpPerLand ) .
+}

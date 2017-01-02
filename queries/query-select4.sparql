@@ -1,0 +1,17 @@
+# Seznam zemí, kde se platí měnami EUR, USD a GBP
+
+PREFIX country: <http://hrachjar.cz/country/#>
+PREFIX economy: <http://hrachjar.cz/economy/#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+PREFIX gr: <http://purl.org/goodrelations/v1#>
+
+select ?name ?currency ?unemployment {
+  ?country a country:Country ;
+    foaf:name ?name ;
+    gr:hasCurrency ?currency .
+  ?country owl:sameAs ?economy .
+  optional {
+	  ?economy economy:unemployment ?unemployment
+  }
+  values ?currency { "EUR" "USD" "GBP" }
+}

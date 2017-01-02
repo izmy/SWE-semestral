@@ -1,0 +1,16 @@
+# Seřazený seznam zemí podle populace, kde byl růst HDP záporný
+
+PREFIX country: <http://hrachjar.cz/country/#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+PREFIX dbo: <http://dbpedia.org/ontology/#>
+PREFIX economy: <http://hrachjar.cz/economy/#>
+
+select ?name ?population ?gdpGrowth where {
+  ?country a country:Country ;
+    dbo:population ?population .
+    ?country owl:sameAs ?economy .
+    ?economy a economy:Economy ;
+    foaf:name ?name ;
+    economy:gdpGrowth ?gdpGrowth .
+    filter( ?gdpGrowth < 0  ) 
+} order by DESC(?population)

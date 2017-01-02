@@ -1,0 +1,23 @@
+PREFIX country: <http://hrachjar.cz/country/#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+PREFIX company: <http://hrachjar.cz/company/#>
+PREFIX economy: <http://hrachjar.cz/economy/#>
+PREFIX dbo: <http://dbpedia.org/ontology/#>
+
+construct {
+  ?country a country:Country;
+  foaf:name ?countryName;
+  economy:potentialEmployees ?potentialEmployees;
+}
+where {
+  ?company a company:Company ;
+    foaf:name ?companyName .
+  ?company country:country ?country .
+    ?country foaf:name ?countryName ;
+      		dbo:population ?population .
+    ?country owl:sameAs ?economy .
+  ?economy economy:unemployment ?unemployment ;
+    BIND( (floor(?unemployment)  ) AS ?unem).
+    BIND( (floor(?population / 100) ) AS ?populationOne).
+	BIND( (?unem * ?populationOne) AS ?potentialEmployees).
+}

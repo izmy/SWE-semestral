@@ -1,0 +1,13 @@
+# Seřazený počet společností ve státech
+
+PREFIX country: <http://hrachjar.cz/country/#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+PREFIX company: <http://hrachjar.cz/company/#>
+
+select ?countryName (count(?name) as ?countCompany) where {
+  ?company a company:Company ;
+    foaf:name ?name ;
+  country:country ?country .
+  ?country foaf:name ?countryName 
+} group by ?countryName
+order by DESC(?countCompany)

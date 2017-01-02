@@ -1,0 +1,10 @@
+# Informace o entitě země podle kódu
+
+PREFIX country: <http://hrachjar.cz/country/#>
+PREFIX frapo: <http://purl.org/cerif/frapo/#>
+
+describe ?country {
+  ?country a country:Country;
+	frapo:hasCountryCode ?countryCode
+    filter (str(?countryCode) = "CZE")
+}

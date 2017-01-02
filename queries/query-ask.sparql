@@ -1,0 +1,13 @@
+# Existuje v Czechii alespoň jedna společnost z žebříčku TOP 2000?
+
+PREFIX country: <http://hrachjar.cz/country/#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+PREFIX company: <http://hrachjar.cz/company/#>
+
+ask {
+  ?company a company:Company ;
+    foaf:name ?name ;
+  country:country ?country .
+  ?country foaf:name ?countryName 
+  filter ( str(?countryName) = "Czechia" )
+}
