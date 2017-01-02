@@ -1,0 +1,30 @@
+body {
+  padding-bottom: 2rem;
+}
+
+.main {
+	margin: 50px 0;
+	text-align: center;
+}
+
+.main h1 {
+	font-size: 40px;
+        margin-bottom: 60px;
+}
+
+.main h2 {
+	font-size: 24px;
+	padding: 50px 0 20px;
+	font-weight: normal;
+}
+
+table {
+    text-align: left;
+    width: 100%;
+    max-width: 800px;
+}
+
+.claim {
+    margin: auto;
+    max-width: 600px;
+}
