@@ -1,27 +1,32 @@
-# SWE-semestral
+# Přehled největších společností a ekonomická data za rok 2014 
 
-The result of the semestral work is three datasets and at least two linksets linking them, all according to the Linked Data Principles, using commonly used vocabularies.
+## Semestrální práce 
 
-Pick three datasets from similar problem domains so that there is an overlap and you can demonstrate integration of data from various data sources with different data representations. The result should form at least 1000 triples of raw data (before linking)
+* Jaroslav Hrách
+* MI-SWE
 
-Download/Extract/Scrape the datasets (or their parts). Use a script that you can re-run easily when the source data changes.
+## Popis
 
-Identify commonly used vocabularies to be reused
+Ve své semestrální práci jsem se zabýval seznamem největších společností na světě za rok 2014 společně s ekonomickými daty (HDP, inflace a nezaměstnanost) a pozoroval různé závislosti.
 
-Supplement your own vocabulary if necessary
+## Datasety
 
-Triplify (convert to RDF according to Linked Data principles - 5* open data)
+* Seznam největších společnosti za rok 2014 podle Forbesu
+* Dataset všech zemí na světě
+* Ekonomická data za rok 2014 (HDP, inflace, nezaměstnanost)
 
-Store
+## Použité nástroje
 
-Link (internally, externally)
+* Tarql
+* Microsoft Excel
+* Silk
+* Java
+* CanvasJS
 
-Query
+## Aplikace
 
-Publish (RDF dump)
+![Apliace](https://github.com/izmy/SWE-semestral/tree/master/presentation/swe01.png)
 
-Catalog (DCAT-AP)
+![Apliace](https://github.com/izmy/SWE-semestral/tree/master/presentation/swe02.png)
 
-Use – in a demo application
-
-Present – on one of the last lectures
+![Apliace](https://github.com/izmy/SWE-semestral/tree/master/presentation/swe03.png)
