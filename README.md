@@ -25,8 +25,8 @@ Ve své semestrální práci jsem se zabýval seznamem největších společnost
 
 ## Aplikace
 
-![Apliace](https://github.com/izmy/SWE-semestral/tree/master/presentation/swe01.png)
+![Aplikace](https://github.com/izmy/SWE-semestral/blob/master/presentation/swe01.png)
 
-![Apliace](https://github.com/izmy/SWE-semestral/tree/master/presentation/swe02.png)
+![Aplikace](https://github.com/izmy/SWE-semestral/blob/master/presentation/swe02.png)
 
-![Apliace](https://github.com/izmy/SWE-semestral/tree/master/presentation/swe03.png)
+![Aplikace](https://github.com/izmy/SWE-semestral/blob/master/presentation/swe03.png)
